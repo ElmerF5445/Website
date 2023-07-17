@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Album Viewer</title>
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_UI.css" />
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Gallery.css" />
+    <!-- <link rel="stylesheet" href="Scripts/ES_Stylesheet.css"> -->
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Animations.css" />
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Reference.css" />
+    <link
+      rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+  </head>
+  <script src="Scripts/ES_Javascript.js"></script>
+  <script src="Scripts/ES_Javascript_UI.js"></script>
+  <script src="Scripts/ES_Javascript_Gallery.js"></script>
+  <body id="pageElement_Body" onload="Load_Template('Template_UI'), Gallery_IndexFinder()">
+    <div class="Main_Subwindows_Container" id="pageElement_Subwindows" style="display: none">
+      <div class="Gallery_ImageView" id="subwindow_ImageView">
+        <div class="Gallery_ImageView_Top">
+          <h1 class="Gallery_ImageView_Top_Title" id="Gallery_Album_ImageView_Title">
+            Loading album...
+          </h1>
+          <img class="Gallery_ImageView_Top_Close" src="Assets/Icons/icon_close.png" onclick="Subwindows_Close('ImageView')"/>
+        </div>
+        <div class="Gallery_ImageView_Preview">
+          <div class="Gallery_ImageView_Preview_Image" loading="lazy" id="Gallery_ImageView_Image"></div>
+        </div>
+      </div>
+    </div>
+    <div class="Main_Content_Container">
+      <div class="Page_BackButton">
+        <img src="Assets/Icons/icon_leftArrow.png" class="Page_BackButton_Icon"/>
+        <p class="Page_BackButton_Text">
+          Back to previous page
+        </p>
+      </div>
+      <h1 class="Gallery_Title" id="Gallery_Album_Title">
+        Loading album...
+      </h1>
+      <p class="Gallery_Description" id="Gallery_Album_Description">
+        Please wait...
+      </p>
+      <div class="Gallery_Information" id="Gallery_Album_Information">
+        <!-- <div class="Gallery_Information_Item" id="Gallery_Album_Information_1">
+          <p class="Gallery_Information_Item_Title">
+            Date taken: 
+          </p>
+          <p class="Gallery_Information_Item_Value">
+            2 July 2023
+          </p>
+        </div> -->
+      </div>
+      <div class="Gallery_Album" id="Gallery_Album">
+        <!-- <div class="Gallery_Album_Item" onclick="Subwindows_Open('ImageView')"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div>
+        <div class="Gallery_Album_Item"></div> -->
+      </div>
+      <div class="Gallery_Album_Loader" id="Gallery_Album_Loader" onclick="Gallery_Generate_Album()">
+        Load more images
+      </div>
+    </div>
+  </body>
+</html>

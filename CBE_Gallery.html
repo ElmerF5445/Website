@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Gallery and Documentations</title>
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_UI.css" />
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Article.css" />
+    <!-- <link rel="stylesheet" href="Scripts/ES_Stylesheet.css"> -->
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Animations.css" />
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_Reference.css" />
+    <link rel="stylesheet" href="Scripts/ES_Stylesheet_BranchNavigation.css" />
+    <link
+      rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+  </head>
+  <script src="Scripts/ES_Javascript.js"></script>
+  <script src="Scripts/ES_Javascript_UI.js"></script>
+  <script src="Scripts/ES_Javascript_BranchNavigation.js"></script>
+  <body id="pageElement_Body" onload="Load_Template('Template_UI'), BranchNavigation_Generate_List_Gallery()">
+    <div class="Main_Content_Container">
+      <h1 class="Branch_Title">
+        Gallery
+      </h1>
+      <div class="Branch_Content">
+        <div class="Branch_Featured">
+          <h1 class="Branch_Content_Title">
+            Featured
+          </h1>
+          <p class="Branch_Content_Paragraph">
+            Sorry, I'm on my 14-hour lunch break. This section will have content once I get a hold of actual album stuff to feature here. In the mean time, pretend this section doesn't exist.
+          </p>
+        </div>
+        <div class="Branch_Navigation">
+          <h1 class="Branch_Content_Title">
+            All albums
+          </h1>
+          <div class="Branch_Navigation_Search">
+            <input type="text" class="Branch_Navigation_Search_Input" placeholder="Search for titles, authors, or categories" id="BranchNavigation_Search_Query" oninput="BranchNavigation_Search_Articles(this.value)"/>
+            <img src="Assets/Icons/icon_search.png" class="Branch_Navigation_Search_Button" onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)"/>
+          </div>
+          <div class="Branch_Navigation_Status" id="Branch_Navigation_Status_Container">
+            <h3 class="Branch_Navigation_Status_Text" id="Branch_Navigation_Status">
+              Loading album list. Please wait...
+            </h3>
+          </div>
+          <div class="Branch_Navigation_Grid" id="Branch_Navigation_Main">
+            <!--<div class="Branch_Navigation_Grid_Item">
+              <div class="Branch_Navigation_Grid_Item_Thumbnail"></div>
+              <h2 class="Branch_Navigation_Grid_Item_Title">
+                Test Title
+              </h2>
+              <div class="Branch_Navigation_Grid_Item_Details">
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Jemma Regalados
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Test Category
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  July 13, 2023
+                </div>
+              </div>
+            </div>
+            <div class="Branch_Navigation_Grid_Item">
+              <div class="Branch_Navigation_Grid_Item_Thumbnail"></div>
+              <h2 class="Branch_Navigation_Grid_Item_Title">
+                Test Title 2
+              </h2>
+              <div class="Branch_Navigation_Grid_Item_Details">
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Jemma Regalados
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Test Category
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  July 13, 2023
+                </div>
+              </div>
+            </div>
+            <div class="Branch_Navigation_Grid_Item">
+              <div class="Branch_Navigation_Grid_Item_Thumbnail"></div>
+              <h2 class="Branch_Navigation_Grid_Item_Title">
+                Test Title 3
+                Test Title 3
+                Test Title 3
+                Test Title 3
+                Test Title 3
+              </h2>
+              <div class="Branch_Navigation_Grid_Item_Details">
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Jemma Regalados
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  Test Category
+                </div>
+                <div class="Branch_Navigation_Grid_Item_Details_Item">
+                  July 13, 2023
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

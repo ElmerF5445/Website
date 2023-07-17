@@ -1,0 +1,91 @@
+.Timeline_Calendar{
+	display: flex;
+    flex-direction: row;
+    height: calc(100%-50px);
+    /* background-color: red; */
+    margin-top: 50px;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+
+.Timeline_Calendar_Item{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 10px;
+	padding: 10px;
+	transition: var(--Element-Transition-Delay);
+	user-select: none;
+	cursor: pointer;
+}
+
+.Timeline_Calendar_Item:hover{
+	transform: scale(1.05);
+	box-shadow: var(--Element-BoxShadow);
+}
+
+.Timeline_Calendar_Item:nth-child(1){
+	background: rgb(152,150,240);
+	background: linear-gradient(180deg, rgba(152,150,240,1) 0%, rgba(251,200,213,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(2){
+	background: rgb(113,197,238);
+	background: linear-gradient(180deg, rgba(113,197,238,1) 0%, rgba(2,80,145,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(3){
+	background: rgb(251,238,151);
+	background: linear-gradient(180deg, rgba(251,238,151,1) 0%, rgba(173,237,213,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(4){
+	background: rgb(255,112,130);
+	background: linear-gradient(180deg, rgba(255,112,130,1) 0%, rgba(192,233,255,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(5){
+	background: rgb(188,197,206);
+	background: linear-gradient(180deg, rgba(188,197,206,1) 0%, rgba(147,159,174,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(6){
+	background: rgb(253,252,251);
+	background: linear-gradient(180deg, rgba(253,252,251,1) 0%, rgba(227,210,196,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(7){
+	background: rgb(98,98,98);
+	background: linear-gradient(180deg, rgba(98,98,98,1) 0%, rgba(155,195,195,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(8){
+	background: rgb(219,213,237);
+	background: linear-gradient(180deg, rgba(219,213,237,1) 0%, rgba(243,231,234,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(9){
+	background: rgb(25,22,84);
+	background: linear-gradient(180deg, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+}
+
+.Timeline_Calendar_Item:nth-child(10){
+	background: rgb(255,136,106);
+	background: linear-gradient(180deg, rgba(255,136,106,1) 0%, rgba(252,246,207,1) 100%);
+}
+
+.Timeline_Calendar_Item_Title{
+	font-family: Hansief;
+	color: black;
+	margin: 0;
+}
+
+.Timeline_Section{
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+}
