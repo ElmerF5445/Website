@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>
+			Test_Page
+		</title>
+		<link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+		<style>
+			body{
+				margin: 70px;
+				margin-top: 10px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.Error_Title{
+				font-family: Raleway;
+				font-size: 40;
+				margin: 0;
+			}
+			.Error_Subtitle{
+				font-family: Roboto;
+				margin: 0;
+				text-align: justify;
+			}
+			.Error_Icon{
+				width: 100px;
+				height: 100px;
+				filter: brightness(0);
+				align-self: center;
+				padding-bottom: 20px;
+			}
+		</style>
+	</head>
+	<script src="Scripts/ES_Javascript.js"></script>
+	<script src="Scripts/ES_Error404.js"></script>
+	<body onload="Generator_ErrorMessage_PrintTitle()">
+		<img class="Error_Icon" id="pageElement_Error_Icon" src="Assets/Icons/icon_WIP_black.png"></img>
+		<div style="overflow: auto; word-wrap: normal; padding: 10px; height: 70%;
+		">
+			<h1 class="Error_Title" id="pageElement_Error_Title">
+				Error 404: The page you're looking for can't be found. 
+			</h1>
+			<h2 class="Error_Subtitle" id="pageElement_Error_Subtitle">
+				Have you tried turning it off and on again?
+			</h2>
+		</div>
+		
+		<h3 class="Error_Subtitle" id="pageElement_Error_Subtitle">
+			The page you're accessing is under construction or does not exist.
+		</h3>
+		<h4 class="Error_Subtitle" id="pageElement_Error_Subtitle">
+			Refresh this page to get another random message.
+		</h4>
+		<h4 class="Error_Subtitle" id="pageElement_Error_Subtitle" onclick="window.history.back()" style="cursor: pointer">
+			<u>Go back</u>
+		</h4>
+	</body>
+</html>

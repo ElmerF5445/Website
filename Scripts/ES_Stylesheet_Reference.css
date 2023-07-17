@@ -1,0 +1,103 @@
+/*
+	DL_Stylesheet_Reference.css
+	This file contains all the default css variable configurations for Doodle Launcher
+*/
+
+:root{
+	--Debug-ElementOutline: none;
+	/* Root values. This will be loaded when loadSettings() is triggered. */
+	--BGColor: rgb(255, 255, 255);
+	--Header-Thumbnail-Fade-Color: rgba(255,255,255,100);
+	--Header-Title-Color: #171717;
+	--Header-Details-Color: #171717;
+	--Header-Content-Text-Color: #171717;
+	--Article-BGColor: #ffffff;
+	/*--BG-WallpaperImg: url(../Assets/Background/default_New.png);*/
+	--BG-WallpaperImg: none;
+	
+	--Element-Transition-Delay: 0.3s; /*Delay on transition */
+	--Element-BoxShadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgb( 0, 0, 0, 0.50); /*Box shadow property */
+	--Element-Icon-Brightness: brightness(1);
+	--Element-Icon-Brightness-Focus: brightness(0);
+	--Element-BackdropBlur: blur(10px);
+	
+	--Text-Color: white; /* Global text color */
+	--Text-Font-Primary: Raleway; /* Titles */
+	--Text-Font-Secondary: Roboto; /* Paragraphs, list items */
+	--Text-Font-Paragraph: Roboto;
+	--Text-Font-Numbers: Roboto; /* For elements mostly composed of numbers */
+	
+	
+	--Accent-Color: #2a9d8f; /* Page's accent color Old: #9f4f52*/ 
+	--Accent-Color-Hover: #a03d13; /* Accent color when hovered Old: #9f4f52*/
+	--BGColor-General: #171010; /* BG color for everything that does not fall on the categories below */
+	--BGColor-Hover: #242424; /* BG color for hovered items */
+	--BGColor-Menus: #171010; /* Sidebar, Header */
+	--BGColor-Subwindows: #292929; /* Add item, wallpaper selection */
+	--BGColor-Dropdowns: #171010; /* Page Navigation, internet status, dropdown inputs */
+	--BGColor-Opacitated: rgba(2, 48, 166, 0.5); /* For elements with blur effects */
+	--BGColor-ShortcutButtons: #1E1E24; /* Shortcut buttons */
+	--BGColor-Buttons: #1E1E24; /* General buttons, subwindow buttons */
+	--BGColor-Input: #121212; /* Input textboxes, dropdowns */
+	--Color-Dividers: #282830; /* Divider colors */
+}
+
+:darkmode{
+	/* Root values. This will be loaded when loadSettings() is triggered. */
+	--BG-WallpaperImg: url(../Assets/Background/gardenofwords.jpg);
+	--Element-BackdropBlur: blur(10px);
+	--Element-Transition-Delay: 0.3s; /*Delay on transition */
+	--Element-BoxShadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgb( 0, 0, 0, 0.50); /*Box shadow property */
+	--Element-Icon-Brightness: brightness(1);
+	--Element-Icon-Brightness-Focus: brightness(0);
+	
+	--Text-Color: white; /* Global text color */
+	--Text-Font-Primary: Raleway; /* Titles */
+	--Text-Font-Secondary: Roboto; /* Paragraphs, list items */
+	--Text-Font-Numbers: Roboto; /* For elements mostly composed of numbers */
+	
+	
+	
+	--Accent-Color: #9f4f52; /* Page's accent color */
+	--Accent-Color-Hover: #9f4f52; /* Accent color when hovered */
+	--BGColor-General: #171010; /* BG color for everything that does not fall on the categories below */
+	--BGColor-Hover: #242424; /* BG color for hovered items */
+	--BGColor-Menus: #171010; /* Sidebar, Header */
+	--BGColor-Subwindows: #292929; /* Add item, wallpaper selection */
+	--BGColor-Dropdowns: #171010; /* Page Navigation, internet status, dropdown inputs */
+	--BGColor-Opacitated: rgba(28, 28, 28, 0.5); /* For elements with blur effects */
+	--BGColor-ShortcutButtons: #1E1E24; /* Shortcut buttons */
+	--BGColor-Buttons: #1E1E24; /* General buttons, subwindow buttons */
+	--BGColor-Input: #121212; /* Input textboxes, dropdowns */
+	--Color-Dividers: #282830; /* Divider colors */
+}
+
+:lightmode{
+	/* Root values. This will be loaded when loadSettings() is triggered. */
+	/*--BG-WallpaperImg: url(../Assets/Background/lightmode.jpg);*/
+	
+	--Element-Transition-Delay: 0.3s; /*Delay on transition */
+	--Element-BoxShadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgb( 0, 0, 0, 0.50); /*Box shadow property */
+	--Element-Icon-Brightness: brightness(1);
+	--Element-Icon-Brightness-Focus: brightness(0);
+	--Element-BackdropBlur: blur(10px);
+	--Text-Color: white; /* Global text color */
+	--Text-Font-Primary: Raleway; /* Titles */
+	--Text-Font-Secondary: Roboto; /* Paragraphs, list items */
+	--Text-Font-Numbers: Roboto; /* For elements mostly composed of numbers */
+	
+	
+	
+	--Accent-Color: #4287f5; /* Page's accent color */
+	--Accent-Color-Hover: #4287f5; /* Accent color when hovered */
+	--BGColor-General: #9ec3ff; /* BG color for everything that does not fall on the categories below */
+	--BGColor-Hover: #80b0ff; /* BG color for hovered items */
+	--BGColor-Menus: #f5f5f5; /* Sidebar, Header */
+	--BGColor-Subwindows: #6a89bd; /* Add item, wallpaper selection */
+	--BGColor-Dropdowns: #6e6e6e; /* Page Navigation, internet status, dropdown inputs */
+	--BGColor-Opacitated: rgba(122, 157, 214, 0.5); /* For elements with blur effects */
+	--BGColor-ShortcutButtons: #629af5; /* Shortcut buttons */
+	--BGColor-Buttons: #629af5; /* General buttons, subwindow buttons */
+	--BGColor-Input: #445b80; /* Input textboxes, dropdowns */
+	--Color-Dividers: #454545; /* Divider colors */
+}

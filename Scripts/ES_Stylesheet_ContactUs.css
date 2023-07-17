@@ -1,0 +1,94 @@
+.Socials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: 1fr;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    grid-gap: 10px;
+    width: calc(100% - 20%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Socials_Item{
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+}
+
+.Socials_Item_Images{
+    background-position: center;
+    background-size: cover;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+.Socials_Item_Images:nth-child(1){
+    background-image: url("../Assets/Images/Articles/Placeholder.png");
+}
+
+.Socials_Item_Images_Profile{
+    width: 125px;
+    height: 125px;
+    aspect-ratio: 1/1;
+    /* background-color:aqua; */
+    position: relative;
+    top: 115px;
+}
+
+.Socials_Item_Information{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.Socials_Item_Information_Name{
+    font-family: Raleway;
+    color: #264653;
+    margin: 0;
+    padding: 0;
+}
+
+.Socials_Item_Information_Platform{
+    font-family: Roboto;
+    color: #264653;
+    margin: 0;
+}
+
+.Socials_Item_Information > a {
+    width: 100%;
+}
+
+.Socials_Item_Information_Link{
+    background-color: #d6d4d4;
+    padding: 10px;
+    font-family: Roboto;
+    color: #264653;
+    text-align: center;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    user-select: none;
+    cursor: pointer;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Socials_Item_Information_Link:hover{
+    background-color: #264653;
+    color: white;
+    box-shadow: var(--Element-BoxShadow);
+    letter-spacing: 2px;
+}
+
+.Socials_Item_Information_EMail{
+    font-family: Roboto;
+    color: #264653;
+    text-align: center;
+    margin: 0;
+}

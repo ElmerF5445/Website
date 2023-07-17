@@ -1,0 +1,684 @@
+/*
+	DL_Stylesheet.css
+	This file contains all the styling for Doodle Launcher
+*/
+*{
+	outline: var(--Debug-ElementOutline);
+}
+
+.ErrorScreen_CSSFileMissing{
+	display: none;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: var(--BGColor);
+	display: flex;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	position: absolute;
+	height: auto;
+    margin-top: 50px;
+    width: 100%;
+    left: 0;
+    background-color: #343434;
+}
+
+.Footer_1{
+	height: 100px;
+	background-color: #0448f7;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.Footer_1_Committees{
+	width: auto;
+	height: 90px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 5px;
+}
+.Footer_1_Logo{
+	width: 90px;
+	height: 90px;
+}
+
+.Footer_1_Link{
+	height: 80px;
+	width: auto;
+	max-width: 80px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: var(--Element-Transition-Delay);
+}
+
+.Footer_1_Link:hover{
+	max-width: 200px;
+	width: auto;
+}
+
+.Footer_1_Link:hover > .Footer_1_Link_Text{
+	opacity: 100%;
+	transform: translateY(-10px);
+}
+
+.Footer_1_Link:hover > .Footer_1_Link_Icon{
+	transform: translateY(-5px);
+}
+
+.Footer_1_Link_Icon{
+	width: 70px;
+	height: 70px;
+	transform: translateY(5px);
+	transition: var(--Element-Transition-Delay);
+}
+
+.Footer_1_Link_Text{
+	font-family: Roboto;
+	text-align: center;
+	color: white;
+	opacity: 0%;
+	transition: var(--Element-Transition-Delay);
+	margin: 0;
+	transform: translateY(0px);
+}
+
+.Footer_1_LinkList{
+	display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 90px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.Footer_1_LinkList_Item{
+	margin-left: 20px;
+	min-width: 100px;
+	cursor: pointer;
+}
+
+.Footer_1_LinkList_Item:hover{
+	background-color: #0340de;
+}
+
+.Footer_1_LinkList_Item_Text{
+	font-family: Roboto;
+	color: white;
+	margin: 5px;
+}
+
+.Footer_Text{
+	font-family: Roboto;
+	color: white;
+	text-align: center;
+}
+
+.Footer_Logo{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	height: auto;
+	padding: 10px;
+	align-items: center;
+}
+
+.Footer_Logo_Image{
+	width: 50px;
+}
+
+.Footer_Logo_Title{
+	font-family: Roboto;
+	color: white;
+	margin: 0;
+	margin-left: 10px;
+}
+
+.Footer_Links{
+	width: 1fr;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.Footer_Links_Text{
+	font-family: Roboto;
+	color: white;
+}
+
+.Footer_Copyright{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Footer_Copyright_Text{
+	font-family: Roboto;
+	color: white;
+}
+
+.Body_Top_Gradient{
+	position: fixed;
+	height: 200px;
+	width: 100%;
+	
+}
+
+.Body_Top_Gradient_Image{
+	width: 100%;
+	background-image: url(../Assets/Images/CBE_Header_Pattern.png);
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	content: "";
+}
+
+.Body_Top_Gradient_Fade{
+	
+	background: linear-gradient(178deg, rgba(0,0,0,0) 0%, rgba(0,0,0,100) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	content: "";
+}
+
+.Body_Content{
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	align-self: center;
+	z-index: 1;
+	padding: 20px;
+	background-color: var(--Article-BGColor);
+	box-shadow: var(--Element-BoxShadow);
+}
+
+.Logo_Container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.Logo{
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+.Gradient_Bottom{
+	background: linear-gradient(178deg, rgba(0,0,0,0) 0%, rgba(0,0,0,100) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	border-radius: 8px;
+}
+
+.Gradient_Top{
+	background: linear-gradient(178deg, rgba(0,0,0,100) 0%, rgba(0,0,0,0) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.Featured{
+	height: 300px;
+	width: 100%;
+	background-image: url(../Assets/Images/Featured/Featured_Background.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	position: relative;
+}
+
+.Featured:after{
+	padding: 10px;
+}
+
+.Featured_Title{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	z-index: 1;
+}
+
+.Featured_Featured{
+	font-family: Roboto;
+	color: white;
+	margin: 0;
+	z-index: 1;
+}
+
+.Featured_Text{
+	font-family: Raleway;
+	color: white;
+	margin: 0;
+	z-index: 1;
+	font-size: 50;
+}
+
+.SectionSelector{
+	height: 300px;
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+	grid-gap: 15px;
+}
+
+.SectionSelector_Item{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #520f80;
+}
+
+.SectionSelector_Item_Text{
+	font-family: Raleway;
+	color: #04fcff;
+	margin: 0;
+	font-size: 50;
+}
+
+.Division_By2{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.Section{
+	position: relative;
+	background-color: #520f80;
+	background-image: url(../Assets/Images/Section_Backgrounds/Placeholder.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: local;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.Section_Title{
+	width: 100%;
+	margin: 0;
+	z-index: 1;
+	position: absolute;
+	padding: 15px;
+}
+
+.Section_Title_Text{
+	
+	font-family: Raleway;
+	color: white;
+	margin: 0;
+	font-size: 35;
+}
+
+.Section_BackgroundImage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.Section_BackgroundImage_Photo{
+	z-index: 0;
+	width: 100%;
+	bottom: 0;
+}
+
+.Section_Photos{
+	background-image: none
+}
+
+.Section_GraphicDesigns{
+	background-image: url(../Assets/Images/Section_Backgrounds/GraphicDesigns.png);
+}
+
+.Section_Projects{
+	background-image: url(../Assets/Images/Section_Backgrounds/Projects.png);
+}
+
+.Section_SocialMediaPosts{
+	background-image: url(../Assets/Images/Section_Backgrounds/SocialMediaPosts.png);
+}
+
+.Section_Reviewers{
+	background-image: url(../Assets/Images/Section_Backgrounds/Reviewers.png);
+}
+
+.Section_Minecraft{
+	background-image: url(../Assets/Images/Section_Backgrounds/Minecraft.png);
+}
+
+/* Header */
+.Header{	
+	/* background-color: var(--BGColor-Opacitated); */
+	background-color: #0448f7;
+	width: 100%;
+	height: 50px;
+	/* backdrop-filter: var(--Element-BackdropBlur); */
+	box-shadow: var(--Element-BoxShadow);
+	display: grid;
+	grid-template-columns: auto 1fr auto auto auto;
+	grid-template-rows: 50px 92%;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+	align-items: center;
+	position: fixed;
+	transition: var(--Element-Transition-Delay);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	user-select: none;
+	z-index: 50;
+	/* transform: translateY(-70px); */
+	
+}
+
+.Header_Menu{
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	top: 50px;
+	background-color: #0230a6;
+	z-index: 50;
+	display: flex;
+	flex-direction: row;
+	user-select: none;
+}
+
+.Header_Menu_Item{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.Header_Menu_Item:hover{
+	background-color: #022a90;
+}
+
+.Header_Menu_Item_Text{
+	font-family: Roboto;
+	color: white;
+	margin: 0;
+}
+
+.Header_HeadSpace{
+	margin-top: 60px;
+}
+
+.Header_HeadSpace_2x{
+	margin-top: 200px;
+}
+
+.Header_Logo{
+	width: 35px;
+	padding: 7px;
+}
+
+.Header_PageTitle{
+	font-family: Raleway;
+	color: white;
+	margin: 0;
+	
+	transition: var(--Element-Transition-Delay);
+}
+
+.Header_CopyLink{
+	background-color: #0448f7;
+	width: auto;
+	padding: 10px;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 30px 1fr;
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.Header_CopyLink:hover{
+	background-color: #0230a6;
+}
+
+.Header_CopyLink_Icon{
+	width: 30px;
+}
+
+.Header_CopyLink_Text{
+	font-family: Roboto;
+	color: white;
+}
+
+/* .Header_PageTitle:hover{
+	display: none;
+	}
+	
+	.Header_PageTitle:hover > .Header_Breadcrumbs{
+	display: flex;
+} */
+
+.Header_Breadcrumbs{
+	display: none;
+	align-items: center;
+}
+
+.Header_Breadcrumbs_Item{
+	height: 35px;
+	display: grid;
+	grid-template-columns: 1fr 25px;
+	transition: var(--Element-Transition-Delay);
+	padding: 5px;
+}
+
+.Header_Breadcrumbs_Item:hover{
+	background-color: var(--BGColor-Hover);
+	cursor: pointer;
+}
+
+.Header_Breadcrumbs_Item_Text{
+	font-family: Raleway;
+	color: white;
+	margin: 0;
+}
+
+.Header_Breadcrumbs_Item_Arrow{
+	width: 20px;
+	margin: auto;
+}
+
+.Header_Thumbnail{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	overflow: hidden;
+	top: 50px;
+	user-select: none;
+}
+
+.Header_Thumbnail_Image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+.Header_Thumbnail_Fade{
+	background: linear-gradient(178deg, rgba(0,0,0,0) 25%, var(--Header-Thumbnail-Fade-Color) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	border-radius: 8px;
+}
+
+.Article_Header_Title{
+	font-family: var(--Text-Font-Primary);
+	color: var(--Header-Title-Color);
+	font-size: 60px;
+	margin: 0;
+}
+
+.Article_Header_Thumbnail{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+.Article_Header_Details{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.Article_Header_Details_Text_Author{
+	font-family: var(--Text-Font-Secondary);
+	color: var(--Header-Title-Color);
+	margin: 0;
+	margin-right: 30px;
+}
+
+.Article_Header_Details_Text{
+	font-family: var(--Text-Font-Secondary);
+	color: var(--Header-Title-Color);
+	margin: 0;
+	margin-right: 10px;
+}
+
+
+.Article_Content{
+	width: 100%;
+}
+
+.Article_Content_Text{
+	font-family: var(--Text-Font-Paragraph);
+	color: var(--Header-Content-Text-Color);
+	text-align: justify;
+}
+
+.Article_Content_Image{
+	width: 100%;
+}
+
+.Article_Content_Image_Image{
+	width: 100%;
+	border-radius: 7px;
+}
+
+.Article_Content_Image_Details{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.Article_Content_Image_Details_Text{
+	font-family: var(--Text-Font-Paragraph);
+	color: var(--Header-Content-Text-Color);
+	margin-right: 40px;
+}
+
+.Article_Content_Quote{
+	
+}
+
+.Article_Content_Quote_Mark{
+	font-family: var(--Text-Font-Primary);
+	color: var(--Header-Content-Text-Color);
+	margin: 0;
+}
+
+.Article_Content_Quote_Text{
+	font-family: var(--Text-Font-Primary);
+	color: var(--Header-Content-Text-Color);
+	margin: 0;
+}
+
+.Article_Content_Quote_Credit{
+	font-family: var(--Text-Font-Secondary);
+	color: var(--Header-Content-Text-Color);
+	margin: 0;
+}
+
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	border-radius: 10px;
+	z-index: 75;
+	transition: var(--Element-Transition-Delay);
+}
+::-webkit-scrollbar:hover{
+	width: 10px;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: var(--BGColor-Menus);
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background-color: var(--Accent-Color);
+	border-radius: 10px;
+	
+	transition: var(--Element-Transition-Delay);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--Accent-Color-Hover);
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+}
+/* Selection color */
+::selection{
+	background-color: var(--Accent-Color);
+}
+
