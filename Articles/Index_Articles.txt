@@ -1,0 +1,94 @@
+==================
+Index_Articles.txt
+This text file contains the records of the articles that is currently up. ES_Articles.html will use this file to generate the article list.
+To add a record, follow the format for one line: Article Name%&Article Author%&Article Category%&Date Published%&URL of the article file%&Thumbnail image
+Scanning starts at line 7. 
+==================
+Looking for an article that actually links to something? Click this one!%&Padilla Padua%&Testing Purposes%&16 July 2023%&ES_Template_Articles.html%&Assets/Images/Articles/Placeholder.png
+AMAKABOGERA Bodega? Star Magic Star Maymay Entrata Reveals a new selling opportunity%&Jemma Regalados%&Showbiz%&22 May 2023%&Article_URL_1.html%&Assets/Images/Articles/Placeholder.png
+What's up danger - Man challenges local crevice to a jump-off, falls nearly to his death%&Andrew Maglangit%&Local%&21 May 2023%&Article_URL_1.html%&Assets/Images/Articles/Placeholder.png
+Onion prices soar to new heights; now competes with the price of the latest iPhones%&Andrew Maglangit%&Local%&27 May 2023%&Article_URL_1.html%&Assets/Images/Articles/Placeholder.png
+Why dark mode is superior%&Jemma Regalados%&Opinion%&28 May 2023%&Article_URL_1.html%&Assets/Images/Articles/Placeholder.png
+15 reasons why this website is made using unconventional methods%&Padilla Padua%& Website Updates%& 29 May 2023%&Article_URL_2.html%&Assets/Images/Articles/Placeholder.png
+There's a slight chance this will get taken down after a year%&Christopher Ramos%&Gossip%&30 May 2023%&Article_URL_3.html%&Assets/Images/Articles/Placeholder.png
+Scientists Discover Groundbreaking Technology: Square Wheels for Improved Transportation%&Dr. Chuckleberry%&Science%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Man Sets World Record for Longest Time Spent Untangling Earphones%&Barry Bungleton%&Achievements%&2019%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Man Discovers Groundbreaking Technology for Communicating with Squirrels%&Dr. Nutty McSquirrel%&Science%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Local Grandma Sets World Record for Knitting Gigantic Sweaters%&Granny Woolsworth%&Achievements%&2024%&Article4.html%&Assets/Images/Articles/Placeholder.png
+New Trend Alert: People Now Paying to Get Slapped in the Face with a Fish%&Fishy McSlapstick%&Lifestyle%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Area Man Grows World's Largest Mustache, Creates Wind Turbine Alternative%&Mustachio McGrower%&Inventions%&2016%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Survey Finds That 9 out of 10 Dinosaurs Prefer Pizza over Plants%&Dino Delight%&Food%&2025%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Woman Discovers the Secret to Never Losing Socks in the Laundry%&Sock Seeker%&Life Hacks%&2014%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Ultimate Guide to Growing a Beard of Glitter and Rainbows%&Glitterbeard%&Fashion%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Town Invents Time Machine, Decides to Skip Mondays%&Dr. Chrono%&Technology%&2030%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Shocking Revelation: Unicorns Are Actually Just Really Hairy Rhinos%&Rhino Whisperer%&Animals%&2019%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Exclusive Interview with a Dancing Potato: The Spud Who Can Boogie%&Potato Pizzazz%&Entertainment%&2024%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Study Finds Eating Ice Cream for Breakfast Increases Productivity by 500% %&Dr. Scoop%&Health%&2020%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Great Tomato Rebellion: Vegetables Unite Against Salad Oppression%&Tomato Warrior%&Politics%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Unusual Hobby Alert: Woman Collects and Catalogs Bellybutton Lint%&Lint Enthusiast%&Hobbies%&2017%&Article4.html%&Assets/Images/Articles/Placeholder.png
+World's Oldest Couch Potato Celebrates 100th Year of Couch Sitting%&Couch King%&Achievements%&2025%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Dog Becomes Mayor, Implements "Biscuits for All" Policy%&Mayor Woofington%&Politics%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Canine Cuisine: Chef Poodle Creates Gourmet Dog Food That Outshines Human Meals%&Chef Barkingham%&Food%&2018%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Exclusive: Man Discovers That the Sound of Opening a Bag of Chips Cures Insomnia%&Chip Cracker%&Health%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Woman Discovers Secret to Time Travel: Rewinding VCR Tapes%&Retro Enthusiast%&Technology%&2016%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Great Sock Conspiracy: Dryer Found Guilty of Sock-napping%&Agent Lintcatcher%&Mystery%&2020%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Penguins Found Rollerblading in Antarctica%&Penguin Pals%&Animals%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Dos and Don'ts of Wearing Pineapple as a Hat%&Fruit Fashionista%&Fashion%&2019%&Article4.html%&Assets/Images/Articles/Placeholder.png
+World's Largest Pancake Causes Tectonic Shift, Creates New Landmass%&Pancake Maestro%&Oddities%&2024%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Ultimate Guide to Talking to Houseplants: Conversations That Blossom%&Plant Whisperer%&Lifestyle%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Town Elects Cat as Mayor, Promises Universal Catnip Distribution%&Mayor Whiskers%&Politics%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Study Shows That Singing in the Shower Boosts Vocal Skills by 1000% %&Dr. Serenade%&Science%&2018%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Boring Meeting Turns Exciting When Conference Room Transforms into Ball Pit%&Conference Clown%&Oddities%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Exclusive Interview: Cat Claims to Have Mastered Human-Speak, Demands Bigger Litter Box%&Feline Funnybone%&Pets%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Study Reveals Shocking Link Between Laziness and Couch Potato Genes%&Dr. Slackerstein%&Health%&2018%&Article4.html%&Assets/Images/Articles/Placeholder.png
+World's First Talking Plant Calls for Equal Rights and Access to Sunlight%&Flora Gabber%&Environment%&2020%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Unbelievable Feat: Local Grandma Solves Rubik's Cube While Skydiving%&Gadget Granny%&Entertainment%&2017%&Article4.html%&Assets/Images/Articles/Placeholder.png
+New Trend Alert: People Now Paying to Get Slapped in the Face with a Fish%&Slapstick Enthusiast%&Lifestyle%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Area Man Grows World's Largest Mustache, Creates Wind Turbine Alternative%&Harry Whiskers%&Inventions%&2016%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Survey Finds That 9 out of 10 Dinosaurs Prefer Pizza over Plants%&Dr. Rex Roarsome%&Food%&2025%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Woman Discovers the Secret to Never Losing Socks in the Laundry%&Sock Sorceress%&Life Hacks%&2014%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Ultimate Guide to Growing a Beard of Glitter and Rainbows%&Sparklebeard%&Fashion%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Town Invents Time Machine, Decides to Skip Mondays%&Dr. Clocksworth%&Technology%&2030%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Shocking Revelation: Unicorns Are Actually Just Really Hairy Rhinos%&Mythical Mane%&Animals%&2019%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Exclusive Interview with a Dancing Potato: The Spud Who Can Boogie%&Tater Tapper%&Entertainment%&2024%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Study Finds Eating Ice Cream for Breakfast Increases Productivity by 500% %&Dr. Sundae%&Health%&2020%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Great Tomato Rebellion: Vegetables Unite Against Salad Oppression%&Tommy Tomatohead%&Politics%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Unusual Hobby Alert: Woman Collects and Catalogs Bellybutton Lint%&Navel Gazer%&Hobbies%&2017%&Article4.html%&Assets/Images/Articles/Placeholder.png
+World's Oldest Couch Potato Celebrates 100th Year of Couch Sitting%&Grandmaster Lazeebones%&Achievements%&2025%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Dog Becomes Mayor, Implements "Biscuits for All" Policy%&Rover Ruffington%&Politics%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Canine Cuisine: Chef Poodle Creates Gourmet Dog Food That Outshines Human Meals%&Chef Barkington%&Food%&2018%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Exclusive: Man Discovers That the Sound of Opening a Bag of Chips Cures Insomnia%&Crunchmaster%&Health%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Woman Discovers Secret to Time Travel: Rewinding VCR Tapes%&Retro Renegade%&Technology%&2016%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Great Sock Conspiracy: Dryer Found Guilty of Sock-napping%&Agent Lintcatcher%&Mystery%&2020%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Penguins Found Rollerblading in Antarctica%&Slippery Sliders%&Animals%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Dos and Don'ts of Wearing Pineapple as a Hat%&Fruit Fashionista%&Fashion%&2019%&Article4.html%&Assets/Images/Articles/Placeholder.png
+World's Largest Pancake Causes Tectonic Shift, Creates New Landmass%&Flapjack Master%&Oddities%&2024%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Ultimate Guide to Talking to Houseplants: Conversations That Blossom%&Dr. Greenthumb%&Lifestyle%&2021%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Local Town Elects Cat as Mayor, Promises Universal Catnip Distribution%&Whiskers McMeow%&Politics%&2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Study Shows That Singing in the Shower Boosts Vocal Skills by 1000% %&Dr. Serenade%&Science%&2018%&Article4.html%&Assets/Images/Articles/Placeholder.png
+Breaking News: Boring Meeting Turns Exciting When Conference Room Transforms into Ball Pit%&Bouncy McConference%&Oddities%&2022%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Art of Storytelling%&John Smith%&Writing%&May 15, 2023%&Article1.html%&Assets/Images/Articles/Placeholder.png
+Laughing Through Life%&Sarah Johnson%&Humor%&June 2, 2023%&Article2.html%&Assets/Images/Articles/Placeholder.png
+Discovering Hidden Gems%&Emily Davis%&Travel%&July 10, 2023%&Article3.html%&Assets/Images/Articles/Placeholder.png
+Unraveling the Mystery%&Michael Thompson%&Crime%&April 20, 2023%&Article4.html%&Assets/Images/Articles/Placeholder.png
+The Power of Positivity%&Sophia Lee%&Self-Help%&August 5, 2023%&Article5.html%&Assets/Images/Articles/Placeholder.png
+Tackling Time Management%&David Wilson%&Productivity%&June 25, 2023%&Article6.html%&Assets/Images/Articles/Placeholder.png
+The Flavors of Summer%&Oliver Brown%&Food%&July 1, 2023%&Article7.html%&Assets/Images/Articles/Placeholder.png
+Unlocking Creativity%&Emma Thompson%&Art%&August 18, 2023%&Article8.html%&Assets/Images/Articles/Placeholder.png
+Tech Innovations on the Horizon%&Christopher Ramos%&Technology%&May 28, 2023%&Article9.html%&Assets/Images/Articles/Placeholder.png
+Exploring the Mind%&Jane Roberts%&Psychology%&July 15, 2023%&Article10.html%&Assets/Images/Articles/Placeholder.png
+The Misadventures of Pancake Pizzazz%&Hiroshi Fernandez%&Comedy%&October 1, 2023%&Article26.html%&Assets/Images/Articles/Placeholder.png
+The Quirky Chronicles of Mr. Whiskers%&Gabriela Ramirez%&Humor%&September 20, 2023%&Article27.html%&Assets/Images/Articles/Placeholder.png
+The Zen Art of Bacon Meditation%&Ryota Santos%&Satire%&October 8, 2023%&Article28.html%&Assets/Images/Articles/Placeholder.png
+The Epic Quest for the Perfect Socks%&Carlos Fernandez%&Comedy%&September 25, 2023%&Article29.html%&Assets/Images/Articles/Placeholder.png
+The Unbelievable Tales of a Coffee Addict%&Aiko Nakamura%&Humor%&October 5, 2023%&Article30.html%&Assets/Images/Articles/Placeholder.png
+The Extraordinary Adventures of Captain Awkward%&Sebastian Lopez%&Satire%&September 28, 2023%&Article31.html%&Assets/Images/Articles/Placeholder.png
+The Secret Life of Dancing Teapots%&Luna Herrera%&Comedy%&October 12, 2023%&Article32.html%&Assets/Images/Articles/Placeholder.png
+The Curious Case of the Flying Spaghetti Monster%&Miguel Martinez%&Humor%&October 3, 2023%&Article33.html%&Assets/Images/Articles/Placeholder.png
+The Hilarious Adventures of Sir Clumsy Pants%&Emilio Dela Cruz%&Satire%&October 10, 2023%&Article34.html%&Assets/Images/Articles/Placeholder.png
+The Unexpected Wonders of Duct Tape%&Mayumi Suzuki%&Comedy%&October 6, 2023%&Article35.html%&Assets/Images/Articles/Placeholder.png
+The Unconventional Guide to Carrot Juggling%&Javier Rodriguez%&Humor%&September 29, 2023%&Article36.html%&Assets/Images/Articles/Placeholder.png
+The Mysterious Case of the Vanishing Left Sock%&Rafaela Santos%&Satire%&October 9, 2023%&Article37.html%&Assets/Images/Articles/Placeholder.png
+The Whimsical World of Bubble Wrap Orchestra%&Yumi Tanaka%&Comedy%&October 2, 2023%&Article38.html%&Assets/Images/Articles/Placeholder.png
+The Epic Tales of Sir Biscuit the Brave%&Lorenzo Hernandez%&Humor%&October 7, 2023%&Article39.html%&Assets/Images/Articles/Placeholder.png
+The Fantastical Adventures of Professor Quirk%&Antonia Del Rosario%&Satire%&October 11, 2023%&Article40.html%&Assets/Images/Articles/Placeholder.png
