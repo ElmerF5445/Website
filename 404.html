@@ -16,6 +16,14 @@
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
+				height: calc(100% - 80px);
+			}
+
+			.Error{
+				overflow: auto; 
+				word-wrap: normal; 
+				padding: 10px; 
+				height: 70%
 			}
 			.Error_Title{
 				font-family: Raleway;
@@ -34,14 +42,19 @@
 				align-self: center;
 				padding-bottom: 20px;
 			}
+
+			@media only screen and (max-width: 750px){
+				body{
+					margin: 10px;
+				}
+			}
 		</style>
 	</head>
-	<script src="Scripts/ES_Javascript.js"></script>
-	<script src="Scripts/ES_Error404.js"></script>
+	<script src="Scripts/CBE_Javascript.js"></script>
+	<script src="Scripts/CBE_Error404.js"></script>
 	<body onload="Generator_ErrorMessage_PrintTitle()">
 		<img class="Error_Icon" id="pageElement_Error_Icon" src="Assets/Icons/icon_WIP_black.png"></img>
-		<div style="overflow: auto; word-wrap: normal; padding: 10px; height: 70%;
-		">
+		<div class="Error">
 			<h1 class="Error_Title" id="pageElement_Error_Title">
 				Error 404: The page you're looking for can't be found. 
 			</h1>
