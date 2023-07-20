@@ -1,0 +1,75 @@
+.Reviewers_Books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+}
+
+.Reviewers_Books_Item{
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.Reviewers_Books_Item_Cover{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reviewers_Books_Item_Cover_Image{
+    width: 250px;
+    height: 350px;
+    background-color: green;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_1{
+    box-shadow: 10px 10px 0px 0px #830101, -10px -10px 0px 0px #a10101;
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_1:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #830101, -20px -20px 0px 0px #a10101;
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_2{
+    box-shadow: 10px 10px 0px 0px #01520f, -10px -10px 0px 0px #026112;
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_2:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #01520f, -20px -20px 0px 0px #026112;
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_3{
+    box-shadow: 10px 10px 0px 0px #491b85, -10px -10px 0px 0px #58269b;
+}
+
+.Reviewers_Books_Item_Cover_Image#Book_3:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #491b85, -20px -20px 0px 0px #58269b;
+}
+
+.Reviewers_Books_Item_Title{
+    font-family: Raleway;
+    color: white;
+    margin: 0;
+}
+
+.Reviewers_Books_Item_Description{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+}

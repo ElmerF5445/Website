@@ -4,6 +4,29 @@
 */
 
 :root{
+	--ColorProfile-BGImage: url(../Assets/Backgrounds/Background_Noise_Landscape_1.png);
+	--ColorProfile-Text-Color: #9600ff;
+	--ColorProfile-BGColor-Level1: #460475;
+	--ColorProfile-BGColor-Level2: #38035e;
+	--ColorProfile-BGColor-Level3: #23023a;
+	--ColorProfile-BGColor-Level4: #170127;
+	--ColorProfile-BGColor-Level5: #0d0016;
+	--Element-Margin-Left: 10%;
+	--Element-Margin-Right: 10%;
+	--Element-Padding: 10px;
+	@media only screen and (max-width: 750px){
+		--Element-Margin-Left: 10px;
+		--Element-Margin-Right: 10px;
+	}
+	--Neon-Color-1: #9600ff;
+	--Neon-Color-2: #00ff6c;
+	--Neon-Color-3: #00d7ff;
+	--Neon-Color-4: #ff00d7;
+	--Neon-Color-5: #fffc00;
+	--Neon-Color-6: #ff8800;
+	--CBE-UI-BGColor-Level1: #460475;
+	--CBE-UI-BGColor-Level2: #38035e;
+	--CBE-UI-BGColor-Level3: #23023a;
 	--Debug-ElementOutline: none;
 	/* Root values. This will be loaded when loadSettings() is triggered. */
 	--BGColor: rgb(255, 255, 255);

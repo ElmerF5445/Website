@@ -3,7 +3,7 @@
 */
 
 function Load_Template(templateId) {
-  fetch("ES_Template_4.html")
+  fetch("CBE_Template_UIOverlay.html")
     .then((response) => response.text())
     .then((template) => {
       const templateElement = document.createElement("div");
@@ -117,4 +117,46 @@ function scrollToPosition(direction){
     console.log("Top");
 		document.querySelectorAll("Main_Content_Container").scrollTop = 0;
 	}
+}
+
+var UI_ColorProfile;
+var UI_ColorProfile_Preset_1 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_1.png)", "#9600ff", "#460475", "#38035e", "#23023a", "#170127", "#0d0016"];
+var UI_ColorProfile_Preset_2 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_2.png)", "#00ff6c", "#018639", "#005c26", "#014b20", "#013517", "#01220f"];
+var UI_ColorProfile_Preset_3 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_5.png)", "#00d7ff", "#0188a0", "#037386", "#025766", "#01434e", "#00343d"];
+var UI_ColorProfile_Preset_4 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_4.png)", "#ff00d7", "#a7008e", "#850171", "#6d005d", "#58014b", "#3f0036"];
+var UI_ColorProfile_Preset_5 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_3.png)", "#fffc00", "#ad7600", "#996900", "#855b00", "#744f00", "#664600"];
+var UI_ColorProfile_ToLoad = [];
+
+function Load_ColorProfile(){
+  var UI_DocumentBody = document.getElementById("pageElement_Body");
+  UI_ColorProfile = UI_DocumentBody.getAttribute('data-id');
+  if (UI_ColorProfile != null){
+    switch (UI_ColorProfile){
+      case "Preset_1":
+        UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_1;
+        break;
+        case "Preset_2":
+          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_2;
+          break;
+        case "Preset_3":
+          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_3;
+          break;
+        case "Preset_4":
+          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_4;
+          break;
+        case "Preset_5":
+          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_5;
+          break;
+    }
+    var UI_Root = document.documentElement;
+    UI_Root.style.setProperty('--ColorProfile-BGImage', UI_ColorProfile_ToLoad[0]);
+    UI_Root.style.setProperty('--ColorProfile-Text-Color', UI_ColorProfile_ToLoad[1]);
+    UI_Root.style.setProperty('--ColorProfile-BGColor-Level1', UI_ColorProfile_ToLoad[2]);
+    UI_Root.style.setProperty('--ColorProfile-BGColor-Level2', UI_ColorProfile_ToLoad[3]);
+    UI_Root.style.setProperty('--ColorProfile-BGColor-Level3', UI_ColorProfile_ToLoad[4]);
+    UI_Root.style.setProperty('--ColorProfile-BGColor-Level4', UI_ColorProfile_ToLoad[5]);
+    UI_Root.style.setProperty('--ColorProfile-BGColor-Level5', UI_ColorProfile_ToLoad[6]);
+  }
+
+  
 }

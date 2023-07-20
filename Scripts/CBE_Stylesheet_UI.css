@@ -69,6 +69,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: rgb(22, 22, 22);
 }
 
 a{
@@ -90,7 +91,7 @@ a{
 }
 
 .UI_Header{
-	background-color: #264653;
+	background-color: var(--ColorProfile-BGColor-Level1);
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -112,7 +113,7 @@ a{
 }
 
 .UI_Header_Hamburger:hover{
-	background-color: #2a9d8f;
+	background-color: var(--ColorProfile-BGColor-Level2);
 	cursor: pointer;
 }
 
@@ -125,6 +126,14 @@ a{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+.UI_Header_Title_Logo_Big{
+	height: 50px;
+}
+
+.UI_Header_Title_Logo_Small{
+	height: 40px;
+	display: none;
 }
 
 .UI_Header_Title_Text{
@@ -147,7 +156,7 @@ a{
 }
 
 .UI_Header_Share:hover{
-	background-color: #2a9d8f;
+	background-color: var(--ColorProfile-BGColor-Level2);
 	cursor: pointer;
 }
 
@@ -156,7 +165,7 @@ a{
 }
 
 .UI_Header_Share_Toast{
-	background-color: #264653;
+	background-color: var(--ColorProfile-BGColor-Level2);
 	margin-top: 50px;
 	width: 100px;
 	padding: 5px;
@@ -172,12 +181,39 @@ a{
 	text-align: center;
 }
 
+.UI_Header_ColorOverlay{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	user-select: none;
+	height: 450px;
+	background-image: url("../Assets/Backgrounds/Background_Header_Fade_1.png");
+	background-position: center;
+	background-size: cover;
+	display: none;
+}
+
+.UI_Header_BlurredEffect{
+	width: 80%;
+	height: 500px;
+	/* background-color: var(--ColorProfile-BGColor-Level3); */
+	background-image: var(--ColorProfile-BGImage);
+	border-radius: 50%;
+	filter: blur(200px);
+	position: absolute;
+	top: -250px;
+	z-index: -1;
+	opacity: 20%;
+}
+
+
 .UI_Sidebar{
 	position: fixed;
 	height: calc(100% - 50px);
 	top: 50px;
 	width: 300px;
-	background-color: #264653;
+	background-color: var(--ColorProfile-BGColor-Level2);
 	padding: 10px;
 	padding-right: 20px;
 	display: grid;
@@ -203,12 +239,12 @@ a{
 	align-items: center;
 	margin: 0;
 	padding: 5px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	transition: var(--Element-Transition-Delay);
 }
 
 .UI_Sidebar_Main_Item:hover{
-	background-color: #2a9d8f;
+	background-color: var(--ColorProfile-BGColor-Level3);
 }
 
 .UI_Sidebar_Main_Item_Text{
@@ -235,12 +271,12 @@ a{
 	align-items: center;
 	margin: 0;
 	padding: 5px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	transition: var(--Element-Transition-Delay);
 }
 
 .UI_Sidebar_Secondary_Item:hover{
-	background-color: #2a9d8f;
+	background-color: var(--ColorProfile-BGColor-Level3);
 }
 
 .UI_Sidebar_Secondary_Item_Text{
@@ -267,7 +303,7 @@ a{
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	z-index: 150;
+	z-index: 99;
 	pointer-events: none;
 }
 
@@ -290,27 +326,44 @@ a{
 }
 
 .CornerButtons_Button{
-	z-index: 98;
+	z-index: 100;
 	filter: var(--Element-Icon-Brightness);
-	background-color: var(--BGColor-Menus);
+	background-color: var(--ColorProfile-BGColor-Level1);
 	padding: 7px;
-	border-radius: 7px;
-	border-bottom-style: solid;
-	border-bottom-color: var(--BGColor-General);
-	border-bottom-width: 3px;
-	box-shadow: var(--Element-BoxShadow);
+	/* border-radius: 7px; */
+	/* border-bottom-style: solid; */
+	/* border-bottom-color: var(--BGColor-General); */
+	/* border-bottom-width: 3px; */
+	box-shadow: 5px 5px 0px 0px var(--ColorProfile-BGColor-Level2);
 	width: 30px;
 	height: 30px;
 	margin-left: 10px;
+	user-select: none;
 	transition: var(--Element-Transition-Delay);
 }
 
 .CornerButtons_Button:hover{
-	background-color: var(--BGColor-Hover);
+	background-color: var(--ColorProfile-BGColor-Level2);
 	transform: scale(1.05);
-	box-shadow: var(--BoxShadow-Hover);
+	box-shadow: 10px 10px 0px 0px var(--ColorProfile-BGColor-Level3);
 	cursor: pointer;
 }
+
+.CornerButtons_Button:active{
+	translate: 5px 5px; 
+	box-shadow: 0px 0px 0px 0px var(--ColorProfile-BGColor-Level3);
+    /* animation: UI_Button_Click 1s forwards; */
+	/* animation-fill-mode: forwards; */
+}
+
+@keyframes UI_Button_Click{
+    25% {translate: 5px 5px; box-shadow: 0px 0px 0px 0px var(--ColorProfile-BGColor-Level3);}
+    55% {translate: -3px -3px; box-shadow: 25px 25px 0px 0px var(--ColorProfile-BGColor-Level3);}
+    80% {translate: 0px 0px; box-shadow: 10px 10px 0px 0px var(--ColorProfile-BGColor-Level3);}
+    100% {translate: 0px 0px; box-shadow: 10px 10px 0px 0px var(--ColorProfile-BGColor-Level3);}
+}
+
+
 .CornerButtons_Button > img {
 	filter: var(--Element-Icon-Brightness);
 }
@@ -324,7 +377,6 @@ a{
 	/* padding: 20px; */
 	padding-top: 0px;
 }
-
 
 .Main_Subwindows_Container{
 	width: calc(100%);
@@ -352,28 +404,26 @@ a{
 
 /* Track */
 ::-webkit-scrollbar-track {
-	
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background-color: var(--Accent-Color);
-	border-radius: 10px;
-	
+	background-color: var(--ColorProfile-BGColor-Level1);
+	/* border-radius: 10px; */
 	transition: var(--Element-Transition-Delay);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--Accent-Color-Hover);
-	border-radius: 10px;
+	background-color: var(--ColorProfile-BGColor-Level2);
+	/* border-radius: 10px; */
 	width: 50px;
 	height: 50px;
 }
 /* Selection color */
 ::selection{
-	background-color: var(--Accent-Color);
+	background-color: var(--ColorProfile-BGColor-Level4);
 }
 
 .ComingSoon{
@@ -438,4 +488,63 @@ a{
 	font-family: Roboto;
 	color: white;
 	text-wrap: nowrap;
+}
+
+.Page_Text_Title{
+	font-family: VX Rocket;
+	color: var(--ColorProfile-Text-Color);
+	font-size: 100px;
+	margin: 0;
+	letter-spacing: 3px;
+	margin-left: var(--Element-Margin-Left);
+	padding: var(--Element-Padding);
+	padding-left: 0;
+	word-wrap: break-word;
+}
+
+.Page_Text_Description{
+	font-family: Raleway;
+	color: var(--ColorProfile-Text-Color);
+	/* font-size: 100px; */
+	margin: 0;
+	/* letter-spacing: 3px; */
+	margin-left: var(--Element-Margin-Left);
+	padding: var(--Element-Padding);
+	padding-left: 0;
+	padding-top: 0;
+}
+
+.General_Button{
+	background-color: var(--ColorProfile-BGColor-Level3);
+	font-family: Raleway;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px;
+	box-shadow: 5px 5px 0px 0px var(--ColorProfile-BGColor-Level4);
+	transition: var(--Element-Transition-Delay);
+}
+
+.General_Button:hover{
+	translate: -5px -5px;
+	background-color: var(--ColorProfile-BGColor-Level4);
+	box-shadow: 15px 15px 0px 0px var(--ColorProfile-BGColor-Level5);
+}
+
+.General_Button:active{
+	translate: 0px 0px;
+	box-shadow: 0px 0px 0px 0px var(--ColorProfile-BGColor-Level5);
+}
+
+.General_Title{
+	font-family: Raleway;
+	color: white;
+	margin-left: var(--Element-Margin-Left);
+	margin-right: var(--Element-Margin-Right);
+}
+
+.General_List{
+	font-family: Roboto;
+	color: white;
+	margin-left: var(--Element-Margin-Left);
+	margin-right: var(--Element-Margin-Right);
 }
