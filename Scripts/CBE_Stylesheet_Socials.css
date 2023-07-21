@@ -1,0 +1,65 @@
+.Socials{
+    width: calc(100% - var(--Element-Margin-Left) - var(--Element-Margin-Right));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+}
+
+.Socials_Item{
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    background-color: var(--ColorProfile-BGColor-Level2);
+}
+
+.Socials_Item_Images{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--ColorProfile-BGImage);
+    background-position: center;
+    background-size: cover;
+}
+
+.Socials_Item_Images_Profile{
+    width: 100px;
+    height: 100px;
+    /* background-color: black; */
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+    border-style: solid;
+    border-color: var(--ColorProfile-BGColor-Level2);
+}
+
+.Socials_Item_Information{
+    width: calc(400px - 20px);
+    height: 150px;
+    /* background-color: aqua; */
+    padding: 10px;
+    text-align: center;
+}
+
+.Socials_Item_Information_Name{
+    font-family: Raleway;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.Socials_Item_Information_Platform{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+}
+
+.Socials_Item_Information > a{
+    padding: 10px;
+}

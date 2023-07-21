@@ -1,6 +1,32 @@
 /*
 	UI
 */
+var path = window.location.pathname;
+var UI_PageName = path.split("/").pop();
+var UI_PageTitle;
+var UI_PageSuffix= "Content By ElmerF";
+function Load_PageTitle(){
+  switch(UI_PageName){
+    case "CBE_Reviewers.html":
+      UI_PageTitle = "Reviewers";
+      break;
+      case "CBE_Reviewers_Grade10.html":
+        UI_PageTitle = "Grade 10 Reviewer";
+        break;
+      case "CBE_Reviewers_Grade11.html":
+        UI_PageTitle = "Grade 11 Reviewer";
+        break;
+      case "CBE_Reviewers_Grade12.html":
+        UI_PageTitle = "Grade 12 Reviewer";
+        break;
+      case "CBE_Socials.html":
+        UI_PageTitle = "Socials";
+        break;
+  }
+  if (document.getElementById("pageElement_Title")){
+    document.getElementById("pageElement_Title").innerHTML = UI_PageTitle + " | " + UI_PageSuffix;
+  }
+}
 
 function Load_Template(templateId) {
   fetch("CBE_Template_UIOverlay.html")
@@ -15,6 +41,7 @@ function Load_Template(templateId) {
       bodyElement.appendChild(templateContent);
     })
     .catch((error) => console.log(error));
+  Load_PageTitle();
 }
 
 var UI_Sidebar_isOpen = false;
@@ -35,7 +62,7 @@ function scrollToPosition(direction) {
       .getElementById("pageElement_Content")
       .scrollTo(0, document.getElementById("pageElement_Content").scrollHeight);
   } else if (direction == "top") {
-    document.getElementById("pageElement_Content").scrollTop = 0;
+    document.querySelectorAll(".Main_Content_container")[0].scrollTop = 0;
   }
 }
 
@@ -112,24 +139,24 @@ function Subwindows_Close(ID){
 function scrollToPosition(direction){
 	if (direction == "bottom"){
     console.log("Bottom");
-		document.querySelectorAll("Main_Content_Container").scrollTo(0, document.getElementById("pageElement_Content").scrollHeight);
+		document.querySelectorAll(".Main_Content_Container")[0].scrollTo(0, document.querySelectorAll(".Main_Content_Container")[0].scrollHeight);
 	} else if (direction == "top"){
     console.log("Top");
-		document.querySelectorAll("Main_Content_Container").scrollTop = 0;
+		document.querySelectorAll(".Main_Content_Container")[0].scrollTop = 0;
 	}
 }
 
 var UI_ColorProfile;
-var UI_ColorProfile_Preset_1 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_1.png)", "#9600ff", "#460475", "#38035e", "#23023a", "#170127", "#0d0016"];
-var UI_ColorProfile_Preset_2 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_2.png)", "#00ff6c", "#018639", "#005c26", "#014b20", "#013517", "#01220f"];
-var UI_ColorProfile_Preset_3 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_5.png)", "#00d7ff", "#0188a0", "#037386", "#025766", "#01434e", "#00343d"];
-var UI_ColorProfile_Preset_4 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_4.png)", "#ff00d7", "#a7008e", "#850171", "#6d005d", "#58014b", "#3f0036"];
-var UI_ColorProfile_Preset_5 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_3.png)", "#fffc00", "#ad7600", "#996900", "#855b00", "#744f00", "#664600"];
+var UI_ColorProfile_Preset_1 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_1.png)", "#9600ff", "#460475", "#38035e", "#23023a", "#170127", "#0d0016"];
+var UI_ColorProfile_Preset_2 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_2.png)", "#00ff6c", "#018639", "#005c26", "#014b20", "#013517", "#01220f"];
+var UI_ColorProfile_Preset_3 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_5.png)", "#00d7ff", "#0188a0", "#037386", "#025766", "#01434e", "#00343d"];
+var UI_ColorProfile_Preset_4 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_4.png)", "#ff00d7", "#a7008e", "#850171", "#6d005d", "#58014b", "#3f0036"];
+var UI_ColorProfile_Preset_5 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_3.png)", "#fffc00", "#ad7600", "#996900", "#855b00", "#744f00", "#664600"];
 var UI_ColorProfile_ToLoad = [];
 
-function Load_ColorProfile(){
-  var UI_DocumentBody = document.getElementById("pageElement_Body");
-  UI_ColorProfile = UI_DocumentBody.getAttribute('data-id');
+function Load_ColorProfile(UI_ColorProfile){
+  //var UI_DocumentBody = document.getElementById("pageElement_Body");
+  //UI_ColorProfile = UI_DocumentBody.getAttribute('data-id');
   if (UI_ColorProfile != null){
     switch (UI_ColorProfile){
       case "Preset_1":
@@ -156,7 +183,15 @@ function Load_ColorProfile(){
     UI_Root.style.setProperty('--ColorProfile-BGColor-Level3', UI_ColorProfile_ToLoad[4]);
     UI_Root.style.setProperty('--ColorProfile-BGColor-Level4', UI_ColorProfile_ToLoad[5]);
     UI_Root.style.setProperty('--ColorProfile-BGColor-Level5', UI_ColorProfile_ToLoad[6]);
-  }
-
-  
+  }  
 }
+
+/*function Load_TitleLayout(UI_TitleLayout){
+  setTimeout(function(){
+    if (UI_TitleLayout == "Subpage"){
+        document.querySelectorAll(".Subpage_Text_ParentPage_Title")[0].style.fontSize = "30px";
+        document.querySelectorAll(".Subpage_Text_CurrentPage_Title")[0].style.fontSize = "100px";
+      }
+    }
+  , 1000);
+}*/

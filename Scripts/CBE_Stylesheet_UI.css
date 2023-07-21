@@ -376,6 +376,8 @@ a{
 	overflow-y: auto;
 	/* padding: 20px; */
 	padding-top: 0px;
+	padding-bottom: 50px;
+	scroll-behavior: smooth;
 }
 
 .Main_Subwindows_Container{
@@ -397,7 +399,7 @@ a{
 	transition: var(--Element-Transition-Delay);
 }
 ::-webkit-scrollbar:hover{
-	width: 10px;
+	width: 40px;
 }
 
 
@@ -502,6 +504,72 @@ a{
 	word-wrap: break-word;
 }
 
+.Subpage_Text_CurrentPage_Container{
+	width: auto;
+}
+
+.Subpage_Text_ParentPage_Title{
+	font-family: VX Rocket;
+	color: var(--ColorProfile-Text-Color);
+	font-size: 100px;
+	margin: 0;
+	letter-spacing: 3px;
+	margin-left: var(--Element-Margin-Left);
+	padding: var(--Element-Padding);
+	padding-left: 0;
+	word-wrap: break-word;
+	/* transition: 1s; */
+	translate: 0px 30px;
+	width: calc(100% - var(--Element-Margin-Left) - var(--Element-Padding) - 230px);
+	animation-name: Subpage_Animate_ParentPage_Title;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.3s;
+	white-space: nowrap;
+}
+
+@keyframes Subpage_Animate_ParentPage_Title {
+	0% {
+		font-size: 100px;
+		white-space: nowrap;
+	}
+	99% {
+		font-size: 30px;
+	}
+	100% {
+		font-size: 30px;
+		white-space: unset;
+	}
+}
+
+.Subpage_Text_CurrentPage_Title{
+	font-family: Hauser;
+	color: var(--ColorProfile-Text-Color);
+	font-size: 30px;
+	margin: 0;
+	letter-spacing: 3px;
+	margin-left: var(--Element-Margin-Left);
+	padding: var(--Element-Padding);
+	padding-left: 0;
+	word-wrap: break-word;
+	/* transition: 1s; */
+	animation-name: Subpage_Animate_CurrentPage_Title;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.3s;
+}
+
+@keyframes Subpage_Animate_CurrentPage_Title {
+	from {
+		font-size: 30px;
+		white-space: nowrap;
+	}
+	to {
+		font-size: 100px;
+		white-space: unset;
+	}
+}
+
 .Page_Text_Description{
 	font-family: Raleway;
 	color: var(--ColorProfile-Text-Color);
@@ -522,6 +590,7 @@ a{
 	padding: 10px;
 	box-shadow: 5px 5px 0px 0px var(--ColorProfile-BGColor-Level4);
 	transition: var(--Element-Transition-Delay);
+	text-align: center;
 }
 
 .General_Button:hover{
@@ -537,6 +606,13 @@ a{
 
 .General_Title{
 	font-family: Raleway;
+	color: white;
+	margin-left: var(--Element-Margin-Left);
+	margin-right: var(--Element-Margin-Right);
+}
+
+.General_Paragraph{
+	font-family: Roboto;
 	color: white;
 	margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right);

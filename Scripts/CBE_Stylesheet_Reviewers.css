@@ -73,3 +73,94 @@
     margin: 0;
     padding-bottom: 10px;
 }
+
+.Reviewers_Information{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+    padding: var(--Element-Padding);
+}
+
+.Reviewers_Information_Cover{
+    /* background-color: #491b85; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Reviewers_Information_Cover_Image{
+    width: 300px;
+    height: 400px;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Reviewers_Information_Cover_Image#Book_1{
+    box-shadow: 10px 10px 0px 0px #830101, -10px -10px 0px 0px #a10101;
+}
+
+.Reviewers_Information_Cover_Image#Book_1:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #830101, -20px -20px 0px 0px #a10101;
+}
+
+.Reviewers_Information_Cover_Image#Book_2{
+    box-shadow: 10px 10px 0px 0px #01520f, -10px -10px 0px 0px #026112;
+}
+
+.Reviewers_Information_Cover_Image#Book_2:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #01520f, -20px -20px 0px 0px #026112;
+}
+
+.Reviewers_Information_Cover_Image#Book_3{
+    box-shadow: 10px 10px 0px 0px #491b85, -10px -10px 0px 0px #58269b;
+}
+
+.Reviewers_Information_Cover_Image#Book_3:hover{
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px 0px #491b85, -20px -20px 0px 0px #58269b;
+}
+
+.Reviewers_Information_Title{
+	font-family: Raleway;
+	color: white;
+    margin: 0;
+}
+
+.Reviewers_Information_Paragraph{
+	font-family: Roboto;
+	color: white;
+}
+
+.Reviewers_Information_List{
+	font-family: Roboto;
+	color: white;
+}
+
+.Reviewers_Downloads{
+    display: flex;
+    flex-direction: column;
+}
+
+.Reviewers_Downloads_Item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-gap: 10px;
+}
+
+.Reviewers_Downloads_Item_Text{
+    font-family: Roboto;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    .Reviewers_Information{
+        grid-template-columns: unset;
+        grid-template-rows: auto 1fr;
+    }
+}
