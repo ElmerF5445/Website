@@ -29,6 +29,31 @@
     background-size: cover;
 }
 
+.Socials_Item_Images#Platform_FB{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_Facebook.png")
+}
+
+.Socials_Item_Images#Platform_Twitter{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_Twitter.png")
+}
+
+.Socials_Item_Images#Platform_Instagram{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_Instagram.png")
+}
+
+.Socials_Item_Images#Platform_YouTube{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_YouTube.png")
+}
+
+.Socials_Item_Images#Platform_Tumblr{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_Tumblr.png")
+}
+
+.Socials_Item_Images#Platform_Threads{
+    background-image: url("../Assets/Images/Socials/Socials_Banner_Threads.png")
+}
+
+
 .Socials_Item_Images_Profile{
     width: 100px;
     height: 100px;
