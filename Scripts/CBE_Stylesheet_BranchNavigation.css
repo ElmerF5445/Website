@@ -15,18 +15,19 @@
 }
 
 .Branch_Content_Title{
-    font-family: Hansief;
-    color: #264653;
+    font-family: VX Rocket;
+    color: var(--ColorProfile-Text-Color);
     margin: 0;
+    letter-spacing: 2px;
 }
 
 .Branch_Content_Paragraph{
     font-family: Roboto;
-    color: #1e3741;
+    color: white;
 }
 
 .Branch_Featured{
-    background-color: #f0f0f0;
+    background-color: var(--ColorProfile-BGColor-Level3);
     grid-area: 1 / 2 / 2 / 3;
     padding: 10px;
 }
@@ -70,7 +71,7 @@
 
 .Branch_Navigation_Status_Text{
     font-family: Raleway;
-    color: #1e3741;
+    color: white;
     margin: 0;
 }
 
@@ -81,7 +82,7 @@
 }
 
 .Branch_Navigation_Grid_Item{
-    background-color: #f0f0f0;
+    background-color: var(--ColorProfile-BGColor-Level2);
     display: flex;
     flex-direction: column;
     /* width: 300px; */
@@ -92,11 +93,11 @@
 .Branch_Navigation_Grid_Item:hover{
     transform: scale(1.02);
     box-shadow: var(--Element-BoxShadow);
-    background-color: #dddbdb;
+    background-color: var(--ColorProfile-BGColor-Level1);
 }
 
 .Branch_Navigation_Grid_Item_Thumbnail{
-    background-color: white;
+    background-color: var(--ColorProfile-BGColor-Level3);
     background-position: center;
     background-size: fit;
     height: 200px;
@@ -116,7 +117,7 @@
 
 .Branch_Navigation_Grid_Item_Title{
     font-family: Raleway;
-    color: #264653;
+    color: white;
     margin: 0;
     padding: 10px;
 }
@@ -131,10 +132,10 @@
 }
 
 .Branch_Navigation_Grid_Item_Details_Item{
-    background-color: #d6d4d4;
+    background-color: var(--ColorProfile-BGColor-Level3);
     padding: 10px;
     font-family: Roboto;
-    color: #264653;
+    color: white;
 }
 
 
@@ -143,15 +144,16 @@
     grid-template-columns: 1fr 50px;
     margin-bottom: 20px;
     height: 50px;
-    background-color: #264653;
+    background-color: var(--ColorProfile-BGColor-Level3);
     align-items: center;
     z-index: 50;
     top: 10px;
     position: sticky;
+    margin-top: 5px;
 }
 
 .Branch_Navigation_Search_Input{
-    background-color: #264653;
+    background-color: var(--ColorProfile-BGColor-Level2);
     color: white;
     font-family: Roboto;
     font-size: 15;
@@ -163,18 +165,18 @@
 }
 
 .Branch_Navigation_Search_Input:focus{
-    background-color: #1e3741;
+    background-color: var(--ColorProfile-BGColor-Level1);
 }
 
 .Branch_Navigation_Search_Button{
     width: 30px;
-    background-color: #264653;
+    background-color: var(--ColorProfile-BGColor-Level2);
     padding: 10px;
     cursor: pointer;
     transition: var(--Element-Transition-Delay);
 }
 
 .Branch_Navigation_Search_Button:hover{
-    background-color: #2a9d8f;    
+    background-color: var(--ColorProfile-BGColor-Level1);    
 }
 

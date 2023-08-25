@@ -22,6 +22,9 @@ function Load_PageTitle(){
       case "CBE_Socials.html":
         UI_PageTitle = "Socials";
         break;
+      case "CBE_Projects.html":
+        UI_PageTitle = "Projects";
+        break;
   }
   if (document.getElementById("pageElement_Title")){
     document.getElementById("pageElement_Title").innerHTML = UI_PageTitle + " | " + UI_PageSuffix;
@@ -49,9 +52,11 @@ function toggle_Sidebar() {
   var UI_Sidebar = document.getElementById("pageElement_Sidebar");
   if (UI_Sidebar_isOpen == false) {
     UI_Sidebar.style.transform = "translateX(0px)";
+    UI_Sidebar.style.opacity = "100%";
     UI_Sidebar_isOpen = true;
   } else {
-    UI_Sidebar.style.transform = "translateX(-100%)";
+    UI_Sidebar.style.transform = "translateX(-20%)";
+    UI_Sidebar.style.opacity = "0%";
     UI_Sidebar_isOpen = false;
   }
 }

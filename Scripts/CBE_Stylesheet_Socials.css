@@ -59,7 +59,7 @@
     height: 100px;
     /* background-color: black; */
     /* padding: 5px; */
-    /* border-radius: 5px; */
+    border-radius: 50%;
     border-style: solid;
     border-color: var(--ColorProfile-BGColor-Level2);
 }
@@ -87,4 +87,14 @@
 
 .Socials_Item_Information > a{
     padding: 10px;
+}
+
+.Socials_Item_Information_Platform_Inactive{
+    font-family: Roboto;
+    color: white;
+    background-color: var(--ColorProfile-BGColor-Level4);
+    padding: 5px;
+    margin: 0;
+    font-size: 14;
+    margin-left: 5px;
 }

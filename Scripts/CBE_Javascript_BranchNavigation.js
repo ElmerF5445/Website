@@ -42,7 +42,7 @@ function BranchNavigation_Generate_BranchList_Gallery(){
         console.log("Processing item " + a + "...");
         // Anchor
         var BranchList_Item_Anchor = document.createElement('a');
-        BranchList_Item_Anchor.setAttribute("href", "ES_AlbumViewer.html?albumName=" + BranchList_Album_IndexFileName[a]);
+        BranchList_Item_Anchor.setAttribute("href", "CBE_AlbumViewer.html?albumName=" + BranchList_Album_IndexFileName[a]);
         BranchList_Item_Anchor.setAttribute("id", "BranchList_Main_Item_Anchor_" + a);
         document.getElementById("Branch_Navigation_Main").appendChild(BranchList_Item_Anchor);
 

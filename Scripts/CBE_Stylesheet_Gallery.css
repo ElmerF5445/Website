@@ -1,6 +1,6 @@
 .Gallery_Title{
-    font-family: Hansief;
-    color: #264653;
+    font-family: Raleway;
+    color: var(--ColorProfile-Text-Color);
     text-transform: uppercase;
     margin-bottom: 0;
     margin-left: 10%;
@@ -12,7 +12,7 @@
     margin-left: 10%;
     margin-right: 10%;
     font-family: Roboto;
-    color: #264653;
+    color: white;
     text-align: justify;
 }
 
@@ -33,7 +33,7 @@
     flex-direction: row;
     grid-gap: 5px;
     padding: 10px;
-    background-color: #dbdbdb;
+    background-color: var(--ColorProfile-BGColor-Level2);
 }
 
 .Gallery_Information_Item > p{
@@ -43,12 +43,12 @@
 .Gallery_Information_Item_Title{
     font-weight: 700;
     font-family: Roboto;
-    color: #264653;
+    color: white;
 }
 
 .Gallery_Information_Item_Value{
     font-family: Roboto;
-    color: #264653;
+    color: white;
 }
 
 .Gallery_Album{
@@ -78,7 +78,7 @@
     /* background-color: aqua; */
     width: 100%;
     aspect-ratio: 1/1;
-    background-color: white;
+    background-color: var(--ColorProfile-BGColor-Level2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 190%;
@@ -164,6 +164,7 @@
 
 .Gallery_ImageView_Top_Title{
     font-family: Hansief;
+    visibility: hidden;
     color: white;
     text-transform: uppercase;
     margin: 0;
@@ -193,7 +194,7 @@
 }
 
 .Gallery_Album_Loader{
-    background-color: #264653;
+    background-color: var(--ColorProfile-BGColor-Level2);
     width: calc(100% - 20% - 20px);
     margin-left: 10%;
     margin-right: 10%;
