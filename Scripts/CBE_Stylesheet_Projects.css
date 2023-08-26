@@ -67,7 +67,7 @@
 }
 
 .Projects_AppPage_Banner_Image#WatermarkApplier{
-    background-image: url("../Projects/Assets/Banner/Banner_WatermarkApplier.jpg");
+    background-image: url("../Assets/Images/Projects/Banner/Banner_WatermarkApplier.jpg");
 }
 
 .Projects_AppPage_Banner_Fade{
@@ -80,27 +80,26 @@
     /* background-color: aliceblue; */
     font-size: 0;
 }
-
 .Projects_AppPage_Main{
-    /* background-color: aqua; */
-    z-index: 2;
-    position: sticky;
-    /* margin-left: var(--Element-Margin-Left);
-    margin-right: var(--Element-Margin-Right); */
     display: grid;
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 350px minmax( 100px, 1fr);
     grid-gap: 10px;
-    padding: 20px;
-    max-width: 100%;
+    /* background-color: aliceblue; */
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+    /* width: 100%; */
+    /* max-width: 75%; */
+    /* height: 100%;
+    overflow: auto; */
 }
 
 .Projects_AppPage_Main_Primary{
-    background-color: var(--ColorProfile-BGColor-Level3);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: var(--ColorProfile-BGColor-Level4);
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    
 }
 
 .Projects_AppPage_Main_Primary_Icon{
@@ -110,51 +109,114 @@
 .Projects_AppPage_Main_Primary_Title{
     font-family: Raleway;
     color: white;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .Projects_AppPage_Main_Primary_DownloadButton{
     font-family: Roboto;
     color: white;
-    margin: 0;
+    text-align: center;
+    user-select: none;
     padding: 10px;
-    background-color: var(--ColorProfile-BGColor-Level4);
+    width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--ColorProfile-BGColor-Level3);
     border: solid var(--ColorProfile-BGColor-Level5);
-    border-bottom: solid var(--ColorProfile-BGColor-Level5) 10px;
+    border-bottom: 10px solid var(--ColorProfile-BGColor-Level5);
+    cursor: pointer;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Projects_AppPage_Main_Primary_DownloadButton:hover{
+    background-color: var(--ColorProfile-BGColor-Level2);
+}
+
+.Projects_AppPage_Main_Primary_DownloadButton:active{
+    background-color: var(--ColorProfile-BGColor-Level2);
+    border-bottom: 3px solid var(--ColorProfile-BGColor-Level5);
+    transform: translateY(7px);
 }
 
 .Projects_AppPage_Main_Secondary{
-    justify-content: left;
+    /* background-color: aqua; */
+    /* max-width: 60%; */
 }
 
 .Projects_AppPage_Main_Secondary_Section{
-    margin-bottom: 15px;
-    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: solid var(--ColorProfile-BGColor-Level2);
+    padding-bottom: 10px;
 }
 
 .Projects_AppPage_Main_Secondary_Paragraph{
     font-family: Roboto;
     color: white;
     margin: 0;
+    text-align: justify;
 }
 
-.Projects_AppPage_Main_Secondary_SectionTitle{
+.Projects_AppPage_Main_Secondary_Title{
     font-family: Raleway;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots{
+    overflow: auto;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots_Item{
+    width: 200px;
+    margin: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots_Item:nth-child(1){
+    margin-left: 0;
+}
+
+.Projects_AppPage_Main_Secondary_List{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item:nth-child(1) > 
+.Projects_AppPage_Main_Secondary_Downloads_Item_Text{
+    font-weight: bold;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item_Text{
+    font-family: Roboto;
     color: white;
     margin: 0;
 }
 
-.Projects_AppPage_Main_Secondary_Screenshots{
-    height: 200px;
-    width: 50%;
-    background-color: aqua;
-    display: inline-flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-.Projects_AppPage_Main_Secondary_Screenshots_Item{
-    height: 180px;
-    margin: 10px;
-    border-radius: 10px;
-    /* display: inline-flex; */
+@media only screen and (max-width: 750px){
+    .Projects_AppPage_Main{
+        grid-template-columns: unset;
+        grid-template-rows: 350px 1fr;
+        width: minmax(100px, 1fr);
+    }
 }

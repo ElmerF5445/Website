@@ -222,7 +222,7 @@ a{
 	user-select: none;
 	overflow-y: auto;
 	z-index: 50;
-	transition: var(--Element-Transition-Delay);
+	transition: 0.35s;
 }
 
 .UI_Sidebar_Main{
