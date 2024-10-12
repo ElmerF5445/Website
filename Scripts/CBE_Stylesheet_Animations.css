@@ -195,3 +195,41 @@
 	from {transform: translateY(0px);}
 	to {transform: translateY(-65px);}
 }
+
+@keyframes LoadingScreen_Logo_Open{
+	0% {
+		transform: scale(0.60);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes LoadingScreen_Curtain_Open{
+	from {
+		transform: translateX(0px) translateY(25px) rotate(-15deg);
+	}
+	to {
+		transform: translateX(-175px) translateY(25px) rotate(-15deg);
+	}
+}
+
+@keyframes LoadingScreen_Close{
+	from {
+		opacity: 100%;
+		pointer-events: all;
+	}
+	to {
+		opacity: 0%;
+		pointer-events: none;
+	}
+}
+
+@keyframes Branch_Banner_Text_RiseUp{
+	from {
+		transform: translateY(400%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}

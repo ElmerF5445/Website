@@ -3,6 +3,54 @@
 	This file contains all the default css variable configurations for Doodle Launcher
 */
 
+@font-face {
+	font-family: "Hansief";
+	src: url('../Assets/Fonts/Hansief.otf') format("opentype");
+	/* src: url('https://drive.google.com/uc?id=1Ot9Xg1rVe2TlIOizCh2nk8oXFeA2eZ6q') format("opentype"); */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../Assets/Fonts/Raleway-ExtraBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../Assets/Fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "VX Rocket";
+	src: url("../Assets/Fonts/VxRocketRegular-9O87.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Hauser";
+	src: url("../Assets/Fonts/Hauser.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Hauser Condensed";
+	src: url("../Assets/Fonts/Hauser\ Condensed.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Franklin";
+	src: url("../Assets/Fonts/framd.ttf") format("truetype");
+}
+
 :root{
 	--ColorProfile-BGImage: url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_1.png);
 	--ColorProfile-Text-Color: #9600ff;
@@ -11,13 +59,45 @@
 	--ColorProfile-BGColor-Level3: #23023a;
 	--ColorProfile-BGColor-Level4: #170127;
 	--ColorProfile-BGColor-Level5: #0d0016;
-	--Element-Margin-Left: 10%;
-	--Element-Margin-Right: 10%;
-	--Element-Padding: 10px;
-	@media only screen and (max-width: 750px){
-		--Element-Margin-Left: 10px;
-		--Element-Margin-Right: 10px;
-	}
+
+	--Theme-Violet-Level-L3: #c86cff;
+	--Theme-Violet-Level-L2: #b435ff;
+	--Theme-Violet-Level-L1: #a20fff;
+	--Theme-Violet-Base: #9600ff;
+	--Theme-Violet-Level-D1: #7806c3;
+	--Theme-Violet-Level-D2: #63079c;
+	--Theme-Violet-Level-D3: #430076;
+	
+	--Theme-Green-Level-L3: #aeffd0;
+	--Theme-Green-Level-L2: #70ffae;
+	--Theme-Green-Level-L1: #2bfd84;
+	--Theme-Green-Base: #00ff6c;
+	--Theme-Green-Level-D1: #00c04d;
+	--Theme-Green-Level-D2: #00963f;
+	--Theme-Green-Level-D3: #067536;
+
+	--Theme-Orange-Level-L3: #ffd66d;
+	--Theme-Orange-Level-L2: #ffb832;
+	--Theme-Orange-Level-L1: #ffa00a;
+	--Theme-Orange-Base: #ff8800;
+	--Theme-Orange-Level-D1: #cc6402;
+	--Theme-Orange-Level-D2: #a14d0b;
+	--Theme-Orange-Level-D3: #82410c;
+
+	--Theme-Dynamic-Level-L3: var(--Theme-Violet-Level-L3);
+	--Theme-Dynamic-Level-L2: var(--Theme-Violet-Level-L2);
+	--Theme-Dynamic-Level-L1: var(--Theme-Violet-Level-L1);
+	--Theme-Dynamic-Base: var(--Theme-Violet-Base);
+	--Theme-Dynamic-Level-D1: var(--Theme-Violet-Level-D1);
+	--Theme-Dynamic-Level-D2: var(--Theme-Violet-Level-D2);
+	--Theme-Dynamic-Level-D3: var(--Theme-Violet-Level-D3);	
+
+
+	
+
+	
+
+
 	--Neon-Color-1: #9600ff;
 	--Neon-Color-2: #00ff6c;
 	--Neon-Color-3: #00d7ff;
@@ -29,7 +109,8 @@
 	--CBE-UI-BGColor-Level3: #23023a;
 	--Debug-ElementOutline: none;
 	/* Root values. This will be loaded when loadSettings() is triggered. */
-	--BGColor: rgb(255, 255, 255);
+	--BGColor: rgb(22, 22, 22);
+	--BGColor-Opacitated: rgba(22, 22, 22, 0.50);
 	--Header-Thumbnail-Fade-Color: rgba(255,255,255,100);
 	--Header-Title-Color: #171717;
 	--Header-Details-Color: #171717;
@@ -42,12 +123,18 @@
 	--Element-BoxShadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgb( 0, 0, 0, 0.50); /*Box shadow property */
 	--Element-Icon-Brightness: brightness(1);
 	--Element-Icon-Brightness-Focus: brightness(0);
-	--Element-BackdropBlur: blur(10px);
+	--Element-BackdropBlur: blur(25px);
 	
 	--Text-Color: white; /* Global text color */
-	--Text-Font-Primary: Raleway; /* Titles */
+	--Text-Font-Header-Title: Hauser Condensed;
+	--Text-Font-Header-Text: Franklin;
+	--Text-Font-Sidebar-Links: Franklin;
+	--Text-Font-Sidebar-Text: Roboto;
+	--Text-Font-Branch-Title: Hauser;
+	--Text-Font-Branch-Description: Franklin;
+	--Text-Font-Primary: Franklin; /* Titles */
 	--Text-Font-Secondary: Roboto; /* Paragraphs, list items */
-	--Text-Font-Paragraph: Roboto;
+	--Text-Font-List: Roboto;
 	--Text-Font-Numbers: Roboto; /* For elements mostly composed of numbers */
 	
 	
@@ -58,11 +145,19 @@
 	--BGColor-Menus: #171010; /* Sidebar, Header */
 	--BGColor-Subwindows: #292929; /* Add item, wallpaper selection */
 	--BGColor-Dropdowns: #171010; /* Page Navigation, internet status, dropdown inputs */
-	--BGColor-Opacitated: rgba(2, 48, 166, 0.5); /* For elements with blur effects */
+	/* --BGColor-Opacitated: rgba(2, 48, 166, 0.5); For elements with blur effects */
 	--BGColor-ShortcutButtons: #1E1E24; /* Shortcut buttons */
 	--BGColor-Buttons: #1E1E24; /* General buttons, subwindow buttons */
 	--BGColor-Input: #121212; /* Input textboxes, dropdowns */
 	--Color-Dividers: #282830; /* Divider colors */
+
+	--Element-Margin-Left: 10%;
+	--Element-Margin-Right: 10%;
+	--Element-Padding: 10px;
+	@media only screen and (max-width: 750px){
+		--Element-Margin-Left: 10px;
+		--Element-Margin-Right: 10px;
+	}
 }
 
 :darkmode{

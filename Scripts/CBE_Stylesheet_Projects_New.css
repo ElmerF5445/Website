@@ -1,0 +1,166 @@
+.Projects_List{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Projects_List_Item{
+    background-color: var(--Theme-Dynamic-Level-D1);
+    width: 300px;
+    height: 240px;
+    display: grid;
+    grid-template-rows: 150px auto;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 25px;
+    margin-left: 25px;
+    outline: solid 5px #00000000;
+    border: solid 5px #00000000;
+}
+
+.Projects_List_Item:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 0px 0px var(--Theme-Dynamic-Level-D3), -10px -10px 0px 0px var(--Theme-Dynamic-Level-D2);
+    outline: solid 5px var(--BGColor);
+}
+
+.Projects_List_Item_Background{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Projects_List_Item_Background_Image{
+    position: absolute;
+    height: fit-content;
+    height: 150%;
+    filter: brightness(75%) blur(2px) grayscale(1);
+}
+
+.Projects_List_Item:hover > .Projects_List_Item_Background > .Projects_List_Item_Background_Image{
+    filter: brightness(75%) blur(2px) grayscale(0);
+    height: 125%;
+}
+
+.Projects_List_Item_Background_Icon{
+    width: 75px;
+    position: absolute;
+}
+
+.Projects_List_Item:hover > .Projects_List_Item_Background > .Projects_List_Item_Background_Icon{
+    width: 100px;
+}
+
+
+.Projects_List_Item_Details{
+    padding: 10px;
+}
+
+.Projects_List_Item_Details_Title{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    color: var(--BGColor);
+}
+
+.Projects_List_Item_Details_Description{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    color: var(--BGColor);
+}
+
+.Projects_App_Banner{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Projects_App_Banner_Background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Projects_App_Banner_Background_Fade{
+    background: linear-gradient(180deg, rgba(22,22,22,0) 50%, var(--BGColor) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+}
+
+.Projects_App_Container{
+    width: 100%;
+    min-width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    /* background-color:aqua; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects_App{
+    width: auto;
+    min-width: 800px;
+    max-width: 1250px;
+    /* width: 750px; */
+    height: 500px;
+    padding: 20px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    background-color: var(--BGColor-Opacitated);
+    backdrop-filter: var(--Element-BackdropBlur);
+}
+
+.Projects_App_Title{
+    display: grid;
+    grid-template-columns: auto 1fr 200px;
+    grid-template-rows: 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas: 'Icon Title MainAction' 'Icon Description SecondaryAction';
+    align-items: normal;
+    padding: 20px;
+    border-bottom: solid var(--Theme-Dynamic-Level-D2);
+    margin-bottom: 20px;
+}
+
+.Projects_App_Title_Icon{
+    width: 80px;
+    grid-area: Icon;
+}
+
+.Projects_App_Title_Text{
+    grid-area: Title;
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+    margin: 0;
+    font-size: 40px;
+    align-self: end;
+}
+
+.Projects_App_Title_Description{
+    grid-area: Description;
+    font-family: var(--Text-Font-Secondary);
+    color: var(--Text-Color);
+    margin: 0;
+}
+
+.Projects_App_Title_MainAction{
+    grid-area: MainAction;
+    height: auto;
+    align-self: end;
+}
+
+.Projects_App_Title_SecondaryAction{
+    grid-area: SecondaryAction;
+}

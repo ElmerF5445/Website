@@ -1,3 +1,4 @@
+
 .Reviewers_Books{
     display: flex;
     flex-direction: row;
@@ -62,13 +63,13 @@
 }
 
 .Reviewers_Books_Item_Title{
-    font-family: Raleway;
+    font-family: var(--Text-Font-Primary);
     color: white;
     margin: 0;
 }
 
 .Reviewers_Books_Item_Description{
-    font-family: Roboto;
+    font-family: var(--Text-Font-Secondary);
     color: white;
     margin: 0;
     padding-bottom: 10px;
@@ -126,18 +127,18 @@
 }
 
 .Reviewers_Information_Title{
-	font-family: Raleway;
+	font-family: var(--Text-Font-Primary);
 	color: white;
     margin: 0;
 }
 
 .Reviewers_Information_Paragraph{
-	font-family: Roboto;
+	font-family: var(--Text-Font-Secondary);
 	color: white;
 }
 
 .Reviewers_Information_List{
-	font-family: Roboto;
+	font-family: var(--Text-Font-List);
 	color: white;
 }
 
@@ -154,7 +155,7 @@
 }
 
 .Reviewers_Downloads_Item_Text{
-    font-family: Roboto;
+    font-family: var(--Text-Font-Secondary);
     color: white;
 }
 

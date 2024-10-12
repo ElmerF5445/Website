@@ -26,9 +26,31 @@ function Load_PageTitle(){
         UI_PageTitle = "Projects";
         break;
   }
-  if (document.getElementById("pageElement_Title")){
+  if (document.getElementById("pageElement_Title") && UI_PageTitle != undefined){
     document.getElementById("pageElement_Title").innerHTML = UI_PageTitle + " | " + UI_PageSuffix;
   }
+}
+
+var Page_Property = {};
+
+function Load_Properties(){
+  var Page = document.getElementsByTagName('body');
+  Page_Property = {
+    "UI_Overlay": Element_Attribute_Get('pageElement_Body', 'UI_Overlay'),
+    "Color_Profile": Element_Attribute_Get('pageElement_Body', 'Color_Profile'),
+    "Header_AltPage_Title": Element_Attribute_Get('pageElement_Body', 'Header_AltPage_Title'),
+    "Header_AltPage_URL": Element_Attribute_Get('pageElement_Body', 'Header_AltPage_URL'),
+    "CopyLink_HasAltLink":  Element_Attribute_Get('pageElement_Body', 'CopyLink_HasAltLink')
+  }
+  if (Page_Property.UI_Overlay != null){
+    Load_Template(Page_Property.UI_Overlay);
+  }
+  if (Page_Property.Color_Profile != null){
+    Load_ColorProfile(Page_Property.Color_Profile);
+  } else {
+    Load_ColorProfile("Violet");
+  }
+  
 }
 
 function Load_Template(templateId) {
@@ -42,32 +64,38 @@ function Load_Template(templateId) {
         .content.cloneNode(true);
       const bodyElement = document.getElementById("pageElement_Body");
       bodyElement.appendChild(templateContent);
+      setTimeout(Load_Overlay_Properties, 200);
     })
     .catch((error) => console.log(error));
   Load_PageTitle();
 }
 
-var UI_Sidebar_isOpen = false;
-function toggle_Sidebar() {
-  var UI_Sidebar = document.getElementById("pageElement_Sidebar");
-  if (UI_Sidebar_isOpen == false) {
-    UI_Sidebar.style.transform = "translateX(0px)";
-    UI_Sidebar.style.opacity = "100%";
-    UI_Sidebar_isOpen = true;
-  } else {
-    UI_Sidebar.style.transform = "translateX(-100%)";
-    UI_Sidebar.style.opacity = "0%";
-    UI_Sidebar_isOpen = false;
+function Load_Overlay_Properties(){
+  if (Page_Property.Header_AltPage_Title != null){
+    document.getElementById('UI_Header_AltPage_Title').innerHTML = Page_Property.Header_AltPage_Title;
+    if (Page_Property.Header_AltPage_URL != null){
+      if (Page_Property.Header_AltPage_URL == "Top") {
+        Element_Attribute_Remove('UI_Header_AltPage_URL', 'href');
+        Element_Attribute_Set('UI_Header_AltPage_URL', 'onclick', "Scroll_ToPosition('top')");
+      } else {
+        Element_Attribute_Set('UI_Header_AltPage_URL', 'href', Page_Property.Header_AltPage_URL);
+      }
+    } else {
+      Element_Attribute_Remove('UI_Header_AltPage_URL', 'href');
+      Element_Attribute_Set('UI_Header_AltPage_URL', 'onclick', "Scroll_ToPosition('top')");
+    }
   }
 }
 
-function scrollToPosition(direction) {
-  if (direction == "bottom") {
-    document
-      .getElementById("pageElement_Content")
-      .scrollTo(0, document.getElementById("pageElement_Content").scrollHeight);
-  } else if (direction == "top") {
-    document.querySelectorAll(".Main_Content_container")[0].scrollTop = 0;
+
+function toggle_Sidebar() {
+  var UI_Sidebar_State = document.getElementById("pageElement_Sidebar").getAttribute("State");
+  if (UI_Sidebar_State == "Collapsed") {
+    document.getElementById("pageElement_Sidebar").setAttribute("State", "Expanded");
+    document.getElementById("pageElement_Curtain").setAttribute("State", "Expanded");
+  } else {
+    document.getElementById("pageElement_Sidebar").setAttribute("State", "Collapsed");
+    document.getElementById("pageElement_Curtain").setAttribute("State", "Collapsed");
   }
 }
 
@@ -141,14 +169,14 @@ function Subwindows_Close(ID){
   subwindow_activeSubwindow = "none";
 }
 
-function scrollToPosition(direction){
-	if (direction == "bottom"){
-    console.log("Bottom");
-		document.querySelectorAll(".Main_Content_Container")[0].scrollTo(0, document.querySelectorAll(".Main_Content_Container")[0].scrollHeight);
-	} else if (direction == "top"){
-    console.log("Top");
-		document.querySelectorAll(".Main_Content_Container")[0].scrollTop = 0;
-	}
+function Scroll_ToPosition(direction) {
+  if (direction == "bottom") {
+    document
+      .getElementById("pageElement_Body")
+      .scrollTo(0, document.getElementById("pageElement_Body").scrollHeight);
+  } else if (direction == "top") {
+    document.getElementById("pageElement_Body").scrollTop = 0;
+  }
 }
 
 var UI_ColorProfile;
@@ -159,36 +187,80 @@ var UI_ColorProfile_Preset_4 = ["url(../Assets/Backgrounds/Background_Noise_Land
 var UI_ColorProfile_Preset_5 = ["url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_3.png)", "#fffc00", "#ad7600", "#996900", "#855b00", "#744f00", "#664600"];
 var UI_ColorProfile_ToLoad = [];
 
+var UI_ColorProfiles = {
+  Violet: {
+    L3 : "#c86cff",
+    L2 : "#b435ff",
+    L1 : "#a20fff",
+    Base : "#9600ff",
+    D1: "#7806c3",
+    D2 : "#63079c",
+    D3 : "#430076"
+  },
+  Green: {
+    L3: "#aeffd0",
+    L2: "#70ffae",
+    L1: "#2bfd84",
+    Base: "#00ff6c",
+    D1: "#00c04d",
+    D2: "#00963f",
+    D3: "#067536"
+  },
+  Orange: {
+    L3: "#ffd66d",
+    L2: "#ffb832",
+    L1: "#ffa00a",
+    Base: "#ff8800",
+    D1: "#cc6402",
+    D2: "#a14d0b",
+    D3: "#82410c"
+  }
+}
+
 function Load_ColorProfile(UI_ColorProfile){
+  var UI_Root = document.documentElement;
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-L3', UI_ColorProfiles[UI_ColorProfile].L3);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-L2', UI_ColorProfiles[UI_ColorProfile].L2);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-L1', UI_ColorProfiles[UI_ColorProfile].L1);
+  UI_Root.style.setProperty('--Theme-Dynamic-Base', UI_ColorProfiles[UI_ColorProfile].Base);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-D1', UI_ColorProfiles[UI_ColorProfile].D1);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-D2', UI_ColorProfiles[UI_ColorProfile].D2);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-D3', UI_ColorProfiles[UI_ColorProfile].D3);
+  
   //var UI_DocumentBody = document.getElementById("pageElement_Body");
   //UI_ColorProfile = UI_DocumentBody.getAttribute('data-id');
-  if (UI_ColorProfile != null){
-    switch (UI_ColorProfile){
-      case "Preset_1":
-        UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_1;
-        break;
-        case "Preset_2":
-          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_2;
-          break;
-        case "Preset_3":
-          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_3;
-          break;
-        case "Preset_4":
-          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_4;
-          break;
-        case "Preset_5":
-          UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_5;
-          break;
-    }
-    var UI_Root = document.documentElement;
-    UI_Root.style.setProperty('--ColorProfile-BGImage', UI_ColorProfile_ToLoad[0]);
-    UI_Root.style.setProperty('--ColorProfile-Text-Color', UI_ColorProfile_ToLoad[1]);
-    UI_Root.style.setProperty('--ColorProfile-BGColor-Level1', UI_ColorProfile_ToLoad[2]);
-    UI_Root.style.setProperty('--ColorProfile-BGColor-Level2', UI_ColorProfile_ToLoad[3]);
-    UI_Root.style.setProperty('--ColorProfile-BGColor-Level3', UI_ColorProfile_ToLoad[4]);
-    UI_Root.style.setProperty('--ColorProfile-BGColor-Level4', UI_ColorProfile_ToLoad[5]);
-    UI_Root.style.setProperty('--ColorProfile-BGColor-Level5', UI_ColorProfile_ToLoad[6]);
-  }  
+  // if (UI_ColorProfile != null){
+  //   switch (UI_ColorProfile){
+  //     case "Purple":
+  //       UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_1;
+  //       break;
+  //       case "Green":
+  //         UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_2;
+  //         break;
+  //       case "Cyan":
+  //         UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_3;
+  //         break;
+  //       case "Pink":
+  //         UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_4;
+  //         break;
+  //       case "Orange":
+  //         UI_ColorProfile_ToLoad = UI_ColorProfile_Preset_5;
+  //         break;
+  //   
+
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level1', UI_ColorProfile_ToLoad[2]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level2', UI_ColorProfile_ToLoad[3]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level3', UI_ColorProfile_ToLoad[4]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level4', UI_ColorProfile_ToLoad[5]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level5', UI_ColorProfile_ToLoad[6]);
+
+    // UI_Root.style.setProperty('--ColorProfile-BGImage', UI_ColorProfile_ToLoad[0]);
+    // UI_Root.style.setProperty('--ColorProfile-Text-Color', UI_ColorProfile_ToLoad[1]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level1', UI_ColorProfile_ToLoad[2]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level2', UI_ColorProfile_ToLoad[3]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level3', UI_ColorProfile_ToLoad[4]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level4', UI_ColorProfile_ToLoad[5]);
+    // UI_Root.style.setProperty('--ColorProfile-BGColor-Level5', UI_ColorProfile_ToLoad[6]); 
 }
 
 /*function Load_TitleLayout(UI_TitleLayout){
@@ -200,3 +272,22 @@ function Load_ColorProfile(UI_ColorProfile){
     }
   , 1000);
 }*/
+
+document.addEventListener('DOMContentLoaded', function() {
+  var Main_Content_Container = document.getElementById("pageElement_Body");
+  Main_Content_Container.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    var Header_Title = document.getElementById("UI_Header_Title");
+    var Body = document.getElementById("pageElement_Body");
+    if (Page_Property.Header_AltPage_Title != null){
+      if (Main_Content_Container.scrollTop > 100) {
+        Header_Title.setAttribute("ActiveTitle", "AltPage");
+      } else {
+        Header_Title.setAttribute("ActiveTitle", "Home");
+      }
+    } else {
+      Header_Title.setAttribute("ActiveTitle", "Home");
+    }
+    
+  }
+});

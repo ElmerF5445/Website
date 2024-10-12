@@ -21,12 +21,17 @@
 <body>
 	<template id="Template_UI">
 		
-	<div class="UI_ElementContainer" id="pageElement_UI_ElementContainer">
+	<div class="UI_ElementContainer" id="pageElement_UI_ElementContainer" onload="Load_Overlay_Properties()">
 		<header id="pageElement_Header" class="UI_Header">
 		<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()"></img>
-		<div class="UI_Header_Title">
-			<a href="CBE_Main.html">
+		<div class="UI_Header_Title" id="UI_Header_Title" ActiveTitle="Home">
+			<a class="UI_Header_Logo" href="CBE_Main.html">
 				<img class="UI_Header_Title_Logo_Big" src="Assets/Images/General/Header_Title_2.png"/>
+			</a>
+			<a class="UI_Header_AltPage_URL" id="UI_Header_AltPage_URL" >
+				<h1 class="UI_Header_AltPage_Title" id="UI_Header_AltPage_Title">
+
+				</h1>
 			</a>
 		</div>
 		<img class="UI_Header_Share" src="Assets/Icons/icon_share.png" onclick="copyURLLink()"></img>
@@ -36,7 +41,21 @@
 			Link copied!
 		</h4>
 	</div>
-	<div id="pageElement_Sidebar" class="UI_Sidebar" style="transform: translateX(-100%); opacity: 0%">
+	<div class="UI_Curtain" id="pageElement_Curtain" State="Collapsed" onclick="toggle_Sidebar()">
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+		<span class="UI_Curtain_Item"></span>
+	</div>
+	<div class="UI_Sidebar" id="pageElement_Sidebar" State="Collapsed">
 		<div class="UI_Sidebar_Main">
 			<a href="CBE_Main.html">
 				<div class="UI_Sidebar_Main_Item">
@@ -52,14 +71,14 @@
 					</h2>
 				</div>
 			</a>
-			<a href="CBE_Reviewers.html">
+			<a href="Reviewers/CBE_Reviewers.html">
 				<div class="UI_Sidebar_Main_Item">
 					<h2 class="UI_Sidebar_Main_Item_Text">
 						Reviewers
 					</h2>
 				</div>
 			</a>
-			<a href="CBE_Projects.html">
+			<a href="Projects/CBE_Projects.html">
 				<div class="UI_Sidebar_Main_Item">
 					<h2 class="UI_Sidebar_Main_Item_Text">
 						Projects
@@ -70,13 +89,6 @@
 				<div class="UI_Sidebar_Main_Item">
 					<h2 class="UI_Sidebar_Main_Item_Text">
 						Minecraft
-					</h2>
-				</div>
-			</a>
-			<a href="404.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Services
 					</h2>
 				</div>
 			</a>
@@ -110,15 +122,15 @@
 				Powered by Github Pages
 			</p>
 			<p class="UI_Sidebar_Secondary_Footer">
-				Content By ElmerF 2023
+				Content By ElmerF 2024
 			</p>
 		</div>
 	</div>
 	<!-- <div class="TargetArea_CornerButtons"> -->
-		<div class="CornerButtons" id="pageElement_CornerButtons">
+		<!-- <div class="CornerButtons" id="pageElement_CornerButtons">
 			<img src="Assets/Icons/icon_downArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('bottom')" draggable="false"></img>
 			<img src="Assets/Icons/icon_upArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('top')" draggable="false"></img>
-		</div>
+		</div> -->
 	<!-- </div> -->
 </div>
 	</template>
