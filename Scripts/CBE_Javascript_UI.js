@@ -226,6 +226,7 @@ function Load_ColorProfile(UI_ColorProfile){
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D1', UI_ColorProfiles[UI_ColorProfile].D1);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D2', UI_ColorProfiles[UI_ColorProfile].D2);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D3', UI_ColorProfiles[UI_ColorProfile].D3);
+  UI_Root.style.setProperty('--Theme-Dynamic-Opacitated', UI_ColorProfiles[UI_ColorProfile].D3 + "ce");
   
   //var UI_DocumentBody = document.getElementById("pageElement_Body");
   //UI_ColorProfile = UI_DocumentBody.getAttribute('data-id');
@@ -291,3 +292,134 @@ document.addEventListener('DOMContentLoaded', function() {
     
   }
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+  Image_Preview_Add();
+})
+
+function Image_Preview_Add(){
+  var Items = document.getElementsByTagName("img");
+  for (a = 0; a < Items.length; a++){
+    var Item = Items[a];
+    Item.setAttribute("onclick", `Image_Preview_Open('${Item.getAttribute('src')}', ${Item.getAttribute('NoPreview')})`)
+  }
+}
+
+function Image_Preview_Open(Source, NoPreview){
+  if (NoPreview == null){
+    Element_Attribute_Set("UI_ImagePreview", "State", "Active");
+    Element_Attribute_Set("UI_ImagePreview_Image_Image", "src", "Assets/Images/Loading.png");
+    Element_Attribute_Set("pageElement_Curtain", "State", "Expanded");
+    Element_Attribute_Set("UI_ImagePreview_Image_Image", "src", Source);
+  }
+}
+
+function Image_Preview_Close(){
+  Element_Attribute_Set("UI_ImagePreview", "State", "Inactive");
+  Element_Attribute_Set("pageElement_Curtain", "State", "Collapsed");
+}
+
+function Image_Preview_OpenTab(){
+  var Source = Element_Attribute_Get("UI_ImagePreview_Image_Image", "src");
+  window.open(Source, '_blank').focus();
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  LoadingScreen_Grid_Generate();
+  setTimeout(LoadingScreen_Grid_Animate("BSD", "In"), 1000);
+  setTimeout(function(){
+    LoadingScreen_Hide()
+  }, 1700);
+  
+});
+
+function LoadingScreen_Show(){
+  Element_Get_ByQuery(".LoadingScreen").setAttribute("State", "Enabled");
+  LoadingScreen_Grid_Animate("BSD", "Out")
+}
+
+function LoadingScreen_Hide(){
+  LoadingScreen_Grid_Animate("BSD", "In");
+  setTimeout(Element_Get_ByQuery(".LoadingScreen").setAttribute("State", "Disabled"), 1000);
+}
+
+var LoadingScreen_Grid_Square_Size;
+function LoadingScreen_Grid_Generate(){
+  var Container = Element_Get_ByQuery(".LoadingScreen");
+  var Grid_Square_Size = 250;
+  var Container_Width = Container.offsetWidth;
+  var Container_Height = Container.offsetHeight;
+  console.log("Width: " + Container_Width + " | Height: " + Container_Height);
+  var Container_Count_Rows = Math.ceil(Container_Width / Grid_Square_Size);
+  var Container_Count_Columns = Math.ceil(Container_Height / Grid_Square_Size);
+  console.log("Rows: " + Container_Count_Rows + " | Columns: " + Container_Count_Columns);
+  console.log("Total squares: " + Container_Count_Columns * Container_Count_Rows);
+  for (a = 0; a <= Container_Count_Columns; a++){
+    for (b = 0; b <= Container_Count_Rows; b++){
+      var Grid_Square_InnerHTML = `
+        <div class="LoadingScreen_Grid_Item_Inner"></div>
+      `
+      var Grid_Square = document.createElement("div");
+      Grid_Square.innerHTML = Grid_Square_InnerHTML;
+      Grid_Square.setAttribute("class", "LoadingScreen_Grid_Item");
+      Grid_Square.style.width = `${Grid_Square_Size}px`;
+      Grid_Square.style.height = `${Grid_Square_Size}px`;
+      Container.appendChild(Grid_Square);
+    }
+    
+  }
+  LoadingScreen_Grid_Square_Size = Grid_Square_Size + "px";
+}
+
+function LoadingScreen_Grid_Animate(Animation, Type){
+  if (Animation == "BSD"){
+    if (Type == "In"){
+      var Squares_Inner = Element_Get_ByQuery_All(".LoadingScreen_Grid_Item_Inner");
+      for (a = 0; a <= Squares_Inner.length - 1; a++){
+        Squares_Inner[a].setAttribute("Animation", "BSD_In");
+      }
+      setTimeout(function(){
+        Element_Get_ByQuery(".LoadingScreen").setAttribute("Animation", "BSD_In");
+        var Squares = Element_Get_ByQuery_All(".LoadingScreen_Grid_Item");
+        for (b = 0; b <= Squares.length - 1; b++){
+          var OffsetX = Math.round(Randomize() * 10);
+          var OffsetY = Math.round(Randomize() * 10);
+          var State_End = `width: ${LoadingScreen_Grid_Square_Size}; height: ${LoadingScreen_Grid_Square_Size}; transform: translate(${OffsetX / 5}px, ${OffsetY / 5}px);`;
+          Squares[b].style = State_End;
+        }
+      }, 600);
+    }
+    if (Type == "Out"){
+      Element_Get_ByQuery(".LoadingScreen").setAttribute("Animation", "BSD_Out");
+        var Squares = Element_Get_ByQuery_All(".LoadingScreen_Grid_Item");
+        var Squares_Inner = Element_Get_ByQuery_All(".LoadingScreen_Grid_Item_Inner");
+        for (a = 0; a <= Squares_Inner.length - 1; a++){
+          Squares_Inner[a].setAttribute("Animation", "BSD_Out");
+        }
+        for (b = 0; b <= Squares.length - 1; b++){
+          var OffsetX = Math.round(Randomize() * 10);
+          var OffsetY = Math.round(Randomize() * 10);
+          var State_End = `width: ${LoadingScreen_Grid_Square_Size}; height: ${LoadingScreen_Grid_Square_Size}; transform: translate(0px, 0px);`;
+          Squares[b].style = State_End;
+        }
+    }
+  }
+}
+
+function Randomize(){
+  var Number = Math.ceil((Math.random() * 50));
+  if (Math.random() >= 0.50){
+      Number *= -1
+  } else {
+      Number *= 1
+  }
+  return Number;
+}
+
+async function Transition(){
+  console.log("Triggered");
+  LoadingScreen_Show()
+  return new Promise(resolve => 
+    setTimeout(resolve, 700)
+  );
+}

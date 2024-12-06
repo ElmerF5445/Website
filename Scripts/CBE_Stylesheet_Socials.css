@@ -98,3 +98,194 @@
     font-size: 14;
     margin-left: 5px;
 }
+
+.Socials_Grid{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 500px);
+    grid-gap: 10px;
+    width: auto;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Socials_Grid_Item{
+    /* width: 250px;
+    height: 250px; */
+    background-color: var(--Theme-Dynamic-Level-D3);
+    position: relative;
+}
+
+.Socials_Grid_Item_Title_1, .Socials_Grid_Item_Title_2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+
+.Socials_Grid_Item_Title_2{
+    transform: rotate(180deg);
+}
+
+.Socials_Grid_Item_Title{
+    user-select: none;
+    margin: 0;
+    font-family: VX Rocket;
+    color: var(--Theme-Dynamic-Level-D1);
+    font-size: 60px;
+    letter-spacing: 5px;
+    
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    bottom: -33;
+    left: 15;   
+}
+
+
+@keyframes Rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.Socials_Grid_Item_Container{
+    width: calc(100% - 26px);
+    height: calc(100% - 26px);
+    border: solid var(--Theme-Dynamic-Base) 3px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Socials_Grid_Item_Profile_Container{
+    margin-top: 100px;
+    /* background-color: red; */
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateY(-25px) rotate(-90deg);
+    /* transform: rotate(45deg); */
+    animation-name: Socials_Grid_Item_Profile_Frame_Opening_2;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
+}
+
+.Socials_Grid_Item_Profile_Frame_Container{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    height: 0px;
+    width: 0px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: Socials_Grid_Item_Profile_Frame_Opening_1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
+}
+
+@keyframes Socials_Grid_Item_Profile_Frame_Opening_1{
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@keyframes Socials_Grid_Item_Profile_Frame_Opening_2{
+    0%{
+        transform: translateY(-25px) rotate(-90deg);
+    }
+    100%{
+        transform: translateY(-25px) rotate(45deg);
+    }
+}
+
+.Socials_Grid_Item_Profile_Frame_Main, .Socials_Grid_Item_Profile_Frame_Corner{
+    border: solid var(--Theme-Dynamic-Base) 3px;
+    position: absolute;
+}
+
+.Socials_Grid_Item_Profile_Frame_Main{
+    width: 83%;
+    height: 83%;
+    /* background-color: aqua; */
+}
+
+.Socials_Grid_Item_Profile_Frame_Corner{
+    width: 20px;
+    height: 20px;
+}
+
+.Socials_Grid_Item_Profile_Frame_Corner:nth-child(1){
+    top: 0;
+    left: 0;
+}
+
+.Socials_Grid_Item_Profile_Frame_Corner:nth-child(2){
+    top: 0;
+    right: 0;
+}
+
+.Socials_Grid_Item_Profile_Frame_Corner:nth-child(3){
+    bottom: 0;
+    left: 0;
+}
+
+.Socials_Grid_Item_Profile_Frame_Corner:nth-child(4){
+    bottom: 0;
+    right: 0;
+}
+
+.Socials_Grid_Item_Profile_Image{
+    width: 30%;
+    aspect-ratio: 1/1;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    border: solid var(--Theme-Dynamic-Base) 3px;
+
+    transform: rotate(180deg) scale(0);
+    animation-name: Socials_Grid_Item_Profile_Frame_Opening_3;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
+}
+
+@keyframes Socials_Grid_Item_Profile_Frame_Opening_3{
+    0%{
+        transform: rotate(180deg) scale(0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1);
+    }
+}
+
+.Socials_Grid_Item_Profile_Platform{
+    font-family: Franklin;
+    color: var(--Theme-Dynamic-Level-L2);
+    text-align: center;
+}
+
+.General_Button{
+    border: unset;
+    min-width: 150px;
+    max-width: 150px;
+}

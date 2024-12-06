@@ -92,6 +92,8 @@
 	--Theme-Dynamic-Level-D2: var(--Theme-Violet-Level-D2);
 	--Theme-Dynamic-Level-D3: var(--Theme-Violet-Level-D3);	
 
+	--Theme-Dynamic-Opacitated: var(--Theme-Violet-Base);
+
 
 	
 
@@ -109,7 +111,7 @@
 	--CBE-UI-BGColor-Level3: #23023a;
 	--Debug-ElementOutline: none;
 	/* Root values. This will be loaded when loadSettings() is triggered. */
-	--BGColor: rgb(22, 22, 22);
+	--BGColor: rgb(39, 39, 39);
 	--BGColor-Opacitated: rgba(22, 22, 22, 0.50);
 	--Header-Thumbnail-Fade-Color: rgba(255,255,255,100);
 	--Header-Title-Color: #171717;
@@ -151,8 +153,8 @@
 	--BGColor-Input: #121212; /* Input textboxes, dropdowns */
 	--Color-Dividers: #282830; /* Divider colors */
 
-	--Element-Margin-Left: 10%;
-	--Element-Margin-Right: 10%;
+	--Element-Margin-Left: 15%;
+	--Element-Margin-Right: 15%;
 	--Element-Padding: 10px;
 	@media only screen and (max-width: 750px){
 		--Element-Margin-Left: 10px;

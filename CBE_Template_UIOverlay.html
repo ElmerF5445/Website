@@ -6,6 +6,7 @@
 	</title>
 	<link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css">
 	<!-- <link rel="stylesheet" href="Scripts/CBE_Stylesheet.css"> -->
+	<link rel="stylesheet" href="Scripts/CBE_Stylesheet_Article.css">
 	<link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css">
 	<link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css">
 	<link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96">
@@ -21,118 +22,138 @@
 <body>
 	<template id="Template_UI">
 		
-	<div class="UI_ElementContainer" id="pageElement_UI_ElementContainer" onload="Load_Overlay_Properties()">
-		<header id="pageElement_Header" class="UI_Header">
-		<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()"></img>
-		<div class="UI_Header_Title" id="UI_Header_Title" ActiveTitle="Home">
-			<a class="UI_Header_Logo" href="CBE_Main.html">
-				<img class="UI_Header_Title_Logo_Big" src="Assets/Images/General/Header_Title_2.png"/>
-			</a>
-			<a class="UI_Header_AltPage_URL" id="UI_Header_AltPage_URL" >
-				<h1 class="UI_Header_AltPage_Title" id="UI_Header_AltPage_Title">
+		<div class="UI_ElementContainer" id="pageElement_UI_ElementContainer" onload="Load_Overlay_Properties()">
+			<div class="UI_ImagePreview" id="UI_ImagePreview" State="Inactive">
+				<div class="UI_ImagePreview_Image" onclick="Image_Preview_Close()">
+					<img src="Assets/Images/Loading.png" class="UI_ImagePreview_Image_Image" draggable="false" loading="lazy" id="UI_ImagePreview_Image_Image"/>
+				</div>
+				<div class="UI_ImagePreview_Controls">
+					<button class="UI_ImagePreview_Controls_Button" onclick="Image_Preview_OpenTab()">
+						<img src="Assets/Icons/icon_expand.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy"/>
+					</button>
+					<button class="UI_ImagePreview_Controls_Button" onclick="Image_Preview_Close()">
+						<img src="Assets/Icons/icon_close.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy"/>
+					</button>
+				</div>
+			</div>
+			<header id="pageElement_Header" class="UI_Header">
+				<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()"></img>
+				<div class="UI_Header_Title" id="UI_Header_Title" ActiveTitle="Home">
+					<a class="UI_Header_Logo" href="CBE_Main.html">
+						<img class="UI_Header_Title_Logo_Big" src="Assets/Images/General/Header_Title_2.png"/>
+					</a>
+					<a class="UI_Header_AltPage_URL" id="UI_Header_AltPage_URL" >
+						<h1 class="UI_Header_AltPage_Title" id="UI_Header_AltPage_Title">
 
-				</h1>
-			</a>
+						</h1>
+					</a>
+				</div>
+				<img class="UI_Header_Share" src="Assets/Icons/icon_share.png" onclick="copyURLLink()"></img>
+			</header>
+			<div class="UI_Header_Share_Toast" id="Header_Toast_Share_Link">
+				<h4 class="UI_Header_Share_Toast_Text">
+					Link copied!
+				</h4>
+			</div>
+			<div class="UI_Curtain" id="pageElement_Curtain" State="Collapsed" onclick="toggle_Sidebar()">
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+				<span class="UI_Curtain_Item"></span>
+			</div>
+			<div class="UI_Sidebar" id="pageElement_Sidebar" State="Collapsed">
+				<div class="UI_Sidebar_Main">
+					<a href="CBE_Main.html">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								Home
+							</h2>
+						</div>
+					</a>
+					<a href="CBE_Gallery.html">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								Gallery
+							</h2>
+						</div>
+					</a>
+					<a href="Reviewers/CBE_Reviewers.html">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								Reviewers
+							</h2>
+						</div>
+					</a>
+					<a href="Projects/CBE_Projects.html">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								Projects
+							</h2>
+						</div>
+					</a>
+					<a href="404.html">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								Box of Stuffs
+							</h2>
+						</div>
+					</a>
+					<a href="GROUNDBREAKER/">
+						<div class="UI_Sidebar_Main_Item">
+							<h2 class="UI_Sidebar_Main_Item_Text">
+								GROUNDBREAKER
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="UI_Sidebar_Secondary">
+					<a href="Test.html">
+						<div class="UI_Sidebar_Secondary_Item">
+							<h2 class="UI_Sidebar_Secondary_Item_Text">
+								About Me
+							</h2>
+						</div>
+					</a>
+					<a href="CBE_Socials.html">
+						<div class="UI_Sidebar_Secondary_Item">
+							<h2 class="UI_Sidebar_Secondary_Item_Text">
+								Socials
+							</h2>
+						</div>
+					</a>
+					<a href="CBE_ContactUs.html">
+						<div class="UI_Sidebar_Secondary_Item">
+							<h2 class="UI_Sidebar_Secondary_Item_Text">
+								Feedback
+							</h2>
+						</div>
+					</a>
+					<p class="UI_Sidebar_Secondary_Footer">
+						Developed by Elmer Felisilda
+					</p>
+					<p class="UI_Sidebar_Secondary_Footer">
+						Powered by Github Pages
+					</p>
+					<p class="UI_Sidebar_Secondary_Footer">
+						Content By ElmerF 2024
+					</p>
+				</div>
+			</div>
+		<!-- <div class="TargetArea_CornerButtons"> -->
+			<!-- <div class="CornerButtons" id="pageElement_CornerButtons">
+				<img src="Assets/Icons/icon_downArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('bottom')" draggable="false"></img>
+				<img src="Assets/Icons/icon_upArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('top')" draggable="false"></img>
+			</div> -->
+		<!-- </div> -->
 		</div>
-		<img class="UI_Header_Share" src="Assets/Icons/icon_share.png" onclick="copyURLLink()"></img>
-	</header>
-	<div class="UI_Header_Share_Toast" id="Header_Toast_Share_Link">
-		<h4 class="UI_Header_Share_Toast_Text">
-			Link copied!
-		</h4>
-	</div>
-	<div class="UI_Curtain" id="pageElement_Curtain" State="Collapsed" onclick="toggle_Sidebar()">
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-		<span class="UI_Curtain_Item"></span>
-	</div>
-	<div class="UI_Sidebar" id="pageElement_Sidebar" State="Collapsed">
-		<div class="UI_Sidebar_Main">
-			<a href="CBE_Main.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Home
-					</h2>
-				</div>
-			</a>
-			<a href="CBE_Gallery.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Gallery
-					</h2>
-				</div>
-			</a>
-			<a href="Reviewers/CBE_Reviewers.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Reviewers
-					</h2>
-				</div>
-			</a>
-			<a href="Projects/CBE_Projects.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Projects
-					</h2>
-				</div>
-			</a>
-			<a href="404.html">
-				<div class="UI_Sidebar_Main_Item">
-					<h2 class="UI_Sidebar_Main_Item_Text">
-						Minecraft
-					</h2>
-				</div>
-			</a>
-		</div>
-		<div class="UI_Sidebar_Secondary">
-			<a href="Test.html">
-				<div class="UI_Sidebar_Secondary_Item">
-					<h2 class="UI_Sidebar_Secondary_Item_Text">
-						About Me
-					</h2>
-				</div>
-			</a>
-			<a href="CBE_Socials.html">
-				<div class="UI_Sidebar_Secondary_Item">
-					<h2 class="UI_Sidebar_Secondary_Item_Text">
-						Socials
-					</h2>
-				</div>
-			</a>
-			<a href="CBE_ContactUs.html">
-				<div class="UI_Sidebar_Secondary_Item">
-					<h2 class="UI_Sidebar_Secondary_Item_Text">
-						Feedback
-					</h2>
-				</div>
-			</a>
-			<p class="UI_Sidebar_Secondary_Footer">
-				Developed by Elmer Felisilda
-			</p>
-			<p class="UI_Sidebar_Secondary_Footer">
-				Powered by Github Pages
-			</p>
-			<p class="UI_Sidebar_Secondary_Footer">
-				Content By ElmerF 2024
-			</p>
-		</div>
-	</div>
-	<!-- <div class="TargetArea_CornerButtons"> -->
-		<!-- <div class="CornerButtons" id="pageElement_CornerButtons">
-			<img src="Assets/Icons/icon_downArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('bottom')" draggable="false"></img>
-			<img src="Assets/Icons/icon_upArrow.png" class="CornerButtons_Button" onclick="scrollToPosition('top')" draggable="false"></img>
-		</div> -->
-	<!-- </div> -->
-</div>
 	</template>
 </body>
 

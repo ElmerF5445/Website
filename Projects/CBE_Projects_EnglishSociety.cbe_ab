@@ -1,0 +1,82 @@
+{
+  "Metadata": {
+    "Article_Banner": "https://elmerf5445.github.io/Article-Builder/Assets/Background/Splash.png",
+    "Article_Title": "English Society",
+    "Article_Title_Height": "123px",
+    "Article_Author": "",
+    "Article_Category": "",
+    "Article_PublishingDate": ""
+  },
+  "Contents": [
+    {
+      "Type": "Primary_Title",
+      "Content": "A place for all things English Society"
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "This website is created for the student organization named \"The English Society\", based in STI College Marikina. It acts as a one-stop library of every content that the organization had made over the years. It contains a compilation of all the photo documentations of events taken by its members, a library of articles it had made, and more. It also has dedicated pages for events where the organization is directly involved in, providing information about it such as the time, setting, etc."
+    },
+    {
+      "Type": "Primary_Title",
+      "Content": "Home page"
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/41MjWxY.jpeg",
+      "Description": "",
+      "Credits": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The home page contains a brief overview of the latest events of the organization and the institution it's part of. Its design mimics the organization's current bulletin board design."
+    },
+    {
+      "Type": "Primary_Title",
+      "Content": "Library"
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/onVP8iC.jpeg",
+      "Description": "",
+      "Credits": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The library section (Articles and Gallery) displays cards for each item, which, in turn, redirects to its corresponding link. The list is searchable, allowing the user to search for a card containing a particular term easily using the search box. "
+    },
+    {
+      "Type": "Primary_Title",
+      "Content": "Articles"
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/0j6J8yY.jpeg",
+      "Description": "",
+      "Credits": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Every article hosted in the website is loaded using the article renderer, making use of my <i>Article Builder</i> and <i>Article Renderer</i> system that loaded this page as well. This makes it so that all articles in the site is loaded into a singular HTML page, and that the actual content is generated in it using the renderer. It makes it easier to update the design and structure of the article page in this manner, as only one file needs to be modified. The design, especially the header, takes inspiration on newspaper designs with bold lettering for the headline, driving home the idea that the publication is made by the journalism committee of the organization."
+    },
+    {
+      "Type": "Primary_Title",
+      "Content": "Registration"
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/z2eiazl.jpeg",
+      "Description": "",
+      "Credits": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The registration page of the website allows students to sign up to become a member of the organization. One can select a specific committee, and pick the topics they are interested in. Afterwards, it generates a unique code which is then pasted into the Microsoft Forms involved in the second step. "
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/R7rYKJY.jpeg",
+      "Description": "",
+      "Credits": ""
+    }
+  ]
+}

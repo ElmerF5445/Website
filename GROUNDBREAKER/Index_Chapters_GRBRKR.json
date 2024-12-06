@@ -1,0 +1,21 @@
+[
+    {
+        "Arc_Name": "Tulayan's Visitor",
+        "Arc_Contents": [
+            {
+                "Chapter_Number": 1,
+                "Chapter_Title": "Torment",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "4 September 2024",
+                "Chapter_File": "GRBRKR_Chapter_1"
+            },
+            {
+                "Chapter_Number": 2,
+                "Chapter_Title": "Neon Lights",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "29 September 2024",
+                "Chapter_File": "GRBRKR_Chapter_2"
+            }
+        ]
+    }
+]

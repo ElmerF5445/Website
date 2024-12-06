@@ -221,7 +221,7 @@ a{
 }
 
 .UI_Sidebar[State = "Collapsed"]{
-	transform: translateX(-100%);
+	transform: translateX(-101%);
 }
 
 .UI_Sidebar[State = "Expanded"]{
@@ -328,7 +328,7 @@ a{
 
 .UI_Curtain[State = "Collapsed"]{
 	pointer-events: none;
-	transform: rotate(160deg) translateX(-20px);
+	transform: rotate(160deg) translateX(-100px);
 }
 
 .UI_Curtain[State = "Expanded"]{
@@ -337,7 +337,7 @@ a{
 }
 
 .UI_Curtain_Item{
-	background-color: var(--Theme-Dynamic-Level-D3);
+	background-color: var(--Theme-Dynamic-Opacitated);
 	width: 0%;
 	opacity: 85%;
 }
@@ -345,6 +345,7 @@ a{
 .UI_Curtain[State = "Collapsed"] > .UI_Curtain_Item{
 	width: 0%;
 	opacity: 100%;
+	/* background-color: white; */
 }
 
 .UI_Curtain[State = "Expanded"] > .UI_Curtain_Item{
@@ -352,6 +353,80 @@ a{
 	opacity: 85%;
 }
 
+.UI_ImagePreview{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: var(--Theme-Dynamic-Opacitated);
+	/* opacity: 50%; */
+	z-index: 60;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.UI_ImagePreview[State = "Inactive"]{
+	pointer-events: none;
+	opacity: 0%;
+}
+
+.UI_ImagePreview[State = "Active"]{
+	pointer-events: all;
+	opacity: 100%;
+}
+
+.UI_ImagePreview[State = "Inactive"] > .UI_ImagePreview_Image{
+	transform: scale(0.9);
+}
+
+.UI_ImagePreview[State = "Active"] > .UI_ImagePreview_Image{
+	transform: scale(1);
+}
+
+.UI_ImagePreview_Image{
+	/* background-color: aliceblue; */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.UI_ImagePreview_Image_Image{
+	width: 90%;
+	height: 90%;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.UI_ImagePreview_Controls{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+}
+
+.UI_ImagePreview_Controls_Button{
+	width: 50px;
+	height: 50px;
+	outline: none;
+	border: unset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--Theme-Dynamic-Level-D2);
+}
+
+.UI_ImagePreview_Controls_Button_Icon{
+	width: 25px;
+}
+
+.UI_ImagePreview_Controls_Button:hover{
+	background-color: var(--Theme-Dynamic-Level-D1);
+	cursor: pointer;
+	/* transform: translateX(-10px) translateY(-10px); */
+	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D3), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D3),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D3), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D3);
+}
 
 .TargetArea_CornerButtons{
 	width: 300px;
@@ -640,29 +715,31 @@ a{
 }
 
 .General_Button{
-	background-color: var(--Theme-Dynamic-Level-D2);
+	background-color: var(--Theme-Dynamic-Level-D1);
 	font-family: Franklin;
 	text-transform: uppercase;
 	color: white;
 	padding: 10px;
 	/* box-shadow: 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3); */
-	box-shadow: 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3), 4px 4px 0px 0px var(--Theme-Dynamic-Level-D3), 3px 3px 0px 0px var(--Theme-Dynamic-Level-D3), 2px 2px 0px 0px var(--Theme-Dynamic-Level-D3), 1px 1px 0px 0px var(--Theme-Dynamic-Level-D3);
+	box-shadow: 5px 5px 0px 0px var(--Theme-Dynamic-Level-D2), 4px 4px 0px 0px var(--Theme-Dynamic-Level-D2), 3px 3px 0px 0px var(--Theme-Dynamic-Level-D2), 2px 2px 0px 0px var(--Theme-Dynamic-Level-D2), 1px 1px 0px 0px var(--Theme-Dynamic-Level-D2);
 	transform: translateX(-5px) translateY(-5px);
 	transition: var(--Element-Transition-Delay);
 	text-align: center;
 	user-select: none;
+	border: unset;
+	cursor: pointer;
 }
 
 .General_Button:hover{
 	translate: -5px -5px;
 	background-color: var(--Theme-Dynamic-Level-D1);
 	/* box-shadow: 10px 10px 0px 0px var(--Theme-Dynamic-Level-D2); */
-	box-shadow: 10px 10px 0px 0px var(--Theme-Dynamic-Level-D3), 9px 9px 0px 0px var(--Theme-Dynamic-Level-D3), 8px 8px 0px 0px var(--Theme-Dynamic-Level-D3), 7px 7px 0px 0px var(--Theme-Dynamic-Level-D3), 6px 6px 0px 0px var(--Theme-Dynamic-Level-D3), 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3), 4px 4px 0px 0px var(--Theme-Dynamic-Level-D3), 3px 3px 0px 0px var(--Theme-Dynamic-Level-D3), 2px 2px 0px 0px var(--Theme-Dynamic-Level-D3), 1px 1px 0px 0px var(--Theme-Dynamic-Level-D3);
+	box-shadow: 10px 10px 0px 0px var(--Theme-Dynamic-Level-D2), 9px 9px 0px 0px var(--Theme-Dynamic-Level-D2), 8px 8px 0px 0px var(--Theme-Dynamic-Level-D2), 7px 7px 0px 0px var(--Theme-Dynamic-Level-D2), 6px 6px 0px 0px var(--Theme-Dynamic-Level-D2), 5px 5px 0px 0px var(--Theme-Dynamic-Level-D2), 4px 4px 0px 0px var(--Theme-Dynamic-Level-D2), 3px 3px 0px 0px var(--Theme-Dynamic-Level-D2), 2px 2px 0px 0px var(--Theme-Dynamic-Level-D2), 1px 1px 0px 0px var(--Theme-Dynamic-Level-D2);
 }
 
 .General_Button:active{
 	translate: 5px 5px;
-	box-shadow: 0px 0px 0px 0px var(--Theme-Dynamic-Level-D3);
+	box-shadow: 0px 0px 0px 0px var(--Theme-Dynamic-Level-D2);
 }
 
 .General_Button[Secondary]{
@@ -816,19 +893,89 @@ body > *[NoMargins]{
 
 .LoadingScreen{
 	position: fixed;
-	width: 100%;
+	width: calc(100% + 250px);
 	height: 100%;
 	background-color: var(--BGColor);
 	top: 0;
 	z-index: 500;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+	overflow-x: hidden;
 	overflow-y: hidden;
-	animation-name: LoadingScreen_Close;
-	animation-duration: 0.25s;
-	animation-delay: 3s;
-	animation-timing-function: ease-out;
+	opacity: 100%;
+	pointer-events: all;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/* position: relative; */
+}
+
+.LoadingScreen[State = "Enabled"]{
+	opacity: 100%;
+	pointer-events: all;
+}
+
+.LoadingScreen[State = "Disabled"]{
+	opacity: 0%;
+	pointer-events: none;
+}
+
+.LoadingScreen[State = "Disabled"] > *{
+	opacity: 0%;
+}
+
+.LoadingScreen[Animation = "BSD_In"]{
+	animation-name: LoadingScreen_Animation_BSD_In;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 3;
+}
+
+.LoadingScreen[Animation = "BSD_Out"]{
+	animation-name: LoadingScreen_Animation_BSD_Out;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.LoadingScreen[Animation = "BSD_In"] > .LoadingScreen_Grid_Item{
+	transition-duration: 2s;
+}
+
+.LoadingScreen[Animation = "BSD_Out"] > .LoadingScreen_Grid_Item{
+	transition-duration: 1s;
+}
+
+
+.LoadingScreen_Grid_Item{
+	margin: 5px;
+	/* display: block; */
+	aspect-ratio: 1/1;
+	border: 3px dashed white;
+	box-sizing: border-box;
+	padding: 10px;
+	
+	transition-timing-function: cubic-bezier(0,1.01,.51,1.01);
+	/* position: absolute; */
+}
+
+.LoadingScreen_Grid_Item_Inner{
+	aspect-ratio: 1/1;
+	border: 2px solid white;
+	box-sizing: border-box;
+	
+}
+
+.LoadingScreen_Grid_Item_Inner[Animation = "BSD_In"]{
+	animation-name: LoadingScreen_Animation_BSD_Inner_In;
+	animation-duration: 0.5s;
+	/* animation-delay: 0.5s; */
+	animation-fill-mode: forwards;
+}
+
+.LoadingScreen_Grid_Item_Inner[Animation = "BSD_Out"]{
+	animation-name: LoadingScreen_Animation_BSD_Inner_Out;
+	animation-duration: 0.5s;
+	/* animation-delay: 0.5s; */
 	animation-fill-mode: forwards;
 }
 
@@ -836,7 +983,7 @@ body > *[NoMargins]{
 	width: 125px;
 	animation-name: LoadingScreen_Logo_Open;
 	animation-duration: 2s;
-	animation-delay: 0.75s;
+	/* animation-delay: 0.75s; */
 	/* animation-timing-function: ease-in; */
 	animation-fill-mode: forwards;
 }
@@ -852,4 +999,50 @@ body > *[NoMargins]{
 	animation-delay: 0.75s;
 	/* animation-timing-function: ease-in-out; */
 	animation-fill-mode: forwards;
+}
+
+@keyframes LoadingScreen_Animation_BSD_In{
+	0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes LoadingScreen_Animation_BSD_Inner_In{
+	0%{
+		transform: scale(1);
+		opacity: 100%;
+	}
+	100%{
+		transform: scale(0.85);
+		opacity: 0%;
+	}
+}
+
+@keyframes LoadingScreen_Animation_BSD_Out{
+	0% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes LoadingScreen_Animation_BSD_Inner_Out{
+	0%{
+		transform: scale(0.85);
+		opacity: 0%;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 100%;
+	}
 }

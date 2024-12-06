@@ -14,15 +14,18 @@
     rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
-<script src="Scripts/CBE_ERUMAUI_Core.js"></script>
+<script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
 <script src="Scripts/CBE_Javascript.js"></script>
 <script src="Scripts/CBE_Javascript_UI.js"></script>
 
 <body id="pageElement_Body" onload="Load_Properties()" UI_Overlay="Template_UI" Color_Profile="Green"
   Header_AltPage_URL="Top" Header_AltPage_Title="Reviewers" CopyLink_HasAltLink="true">
-  <div class="LoadingScreen" NoMargins>
+  <!-- <div class="LoadingScreen" NoMargins>
     <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div>
+  </div> -->
+  <div class="LoadingScreen" NoMargins>
+    
   </div>
   <div class="Branch_Banner" NoMargins>
     <h1 class="Branch_Banner_Title">
@@ -44,7 +47,7 @@
       <p class="Reviewers_Books_Item_Description">
         Updated last May 21, 2020
       </p>
-      <a href="Reviewers/CBE_Reviewers_Grade10.html">
+      <a onclick="Page_ChangePage('Reviewers/CBE_Reviewers_Grade10.html', Transition)">
         <div class="General_Button" id="Book_Button_1">
           Check it out
         </div>
@@ -61,7 +64,7 @@
       <p class="Reviewers_Books_Item_Description">
         Updated last July 17, 2021
       </p>
-      <a href="Reviewers/CBE_Reviewers_Grade11.html">
+      <a onclick="Page_ChangePage('Reviewers/CBE_Reviewers_Grade11.html', Transition)">
         <div class="General_Button" id="Book_Button_2">
           Check it out
         </div>
@@ -78,7 +81,7 @@
       <p class="Reviewers_Books_Item_Description">
         Updated last July 23, 2022
       </p>
-      <a href="Reviewers/CBE_Reviewers_Grade12.html">
+      <a onclick="Page_ChangePage('Reviewers/CBE_Reviewers_Grade12.html', Transition)">
         <div class="General_Button" id="Book_Button_3">
           Check it out
         </div>
