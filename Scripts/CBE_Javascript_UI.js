@@ -189,36 +189,63 @@ var UI_ColorProfile_ToLoad = [];
 
 var UI_ColorProfiles = {
   Violet: {
+    L5 : "#e2ffee",
+    L4 : "#c7fadc",
     L3 : "#c86cff",
     L2 : "#b435ff",
     L1 : "#a20fff",
     Base : "#9600ff",
     D1: "#7806c3",
     D2 : "#63079c",
-    D3 : "#430076"
+    D3 : "#430076",
+    D4 : "#370061",
+    D5 : "#2d0050"
   },
   Green: {
+    L5: "#e2ffee",
+    L4: "#c7fadc",
     L3: "#aeffd0",
     L2: "#70ffae",
     L1: "#2bfd84",
     Base: "#00ff6c",
     D1: "#00c04d",
     D2: "#00963f",
-    D3: "#067536"
+    D3: "#067536",
+    D4: "#014e23",
+    D5: "#02642d"
   },
   Orange: {
+    L5: "#ffe49e",
+    L4: "#ffdf8d",
     L3: "#ffd66d",
     L2: "#ffb832",
     L1: "#ffa00a",
     Base: "#ff8800",
     D1: "#cc6402",
     D2: "#a14d0b",
-    D3: "#82410c"
+    D3: "#82410c",
+    D4: "#442205",
+    D5: "#613007"
+  },
+  Pink: {
+    L5: "#fac3f2",
+    L4: "#ffa7f2",
+    L3: "#fa85e8",
+    L2: "#ff6be9",
+    L1: "#ff48e4",
+    Base: "#ff00d7",
+    D1: "#e000bf",
+    D2: "#c200a5",
+    D3: "#ad0193",
+    D4: "#94017e",
+    D5: "#70005f"
   }
 }
 
 function Load_ColorProfile(UI_ColorProfile){
   var UI_Root = document.documentElement;
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-L5', UI_ColorProfiles[UI_ColorProfile].L5);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-L4', UI_ColorProfiles[UI_ColorProfile].L4);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-L3', UI_ColorProfiles[UI_ColorProfile].L3);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-L2', UI_ColorProfiles[UI_ColorProfile].L2);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-L1', UI_ColorProfiles[UI_ColorProfile].L1);
@@ -226,6 +253,8 @@ function Load_ColorProfile(UI_ColorProfile){
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D1', UI_ColorProfiles[UI_ColorProfile].D1);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D2', UI_ColorProfiles[UI_ColorProfile].D2);
   UI_Root.style.setProperty('--Theme-Dynamic-Level-D3', UI_ColorProfiles[UI_ColorProfile].D3);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-D4', UI_ColorProfiles[UI_ColorProfile].D4);
+  UI_Root.style.setProperty('--Theme-Dynamic-Level-D5', UI_ColorProfiles[UI_ColorProfile].D5);
   UI_Root.style.setProperty('--Theme-Dynamic-Opacitated', UI_ColorProfiles[UI_ColorProfile].D3 + "ce");
   
   //var UI_DocumentBody = document.getElementById("pageElement_Body");
@@ -276,21 +305,24 @@ function Load_ColorProfile(UI_ColorProfile){
 
 document.addEventListener('DOMContentLoaded', function() {
   var Main_Content_Container = document.getElementById("pageElement_Body");
-  Main_Content_Container.onscroll = function() {scrollFunction()};
-  function scrollFunction() {
-    var Header_Title = document.getElementById("UI_Header_Title");
-    var Body = document.getElementById("pageElement_Body");
-    if (Page_Property.Header_AltPage_Title != null){
-      if (Main_Content_Container.scrollTop > 100) {
-        Header_Title.setAttribute("ActiveTitle", "AltPage");
+  if (Main_Content_Container != null){
+    Main_Content_Container.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      var Header_Title = document.getElementById("UI_Header_Title");
+      var Body = document.getElementById("pageElement_Body");
+      if (Page_Property.Header_AltPage_Title != null){
+        if (Main_Content_Container.scrollTop > 100) {
+          Header_Title.setAttribute("ActiveTitle", "AltPage");
+        } else {
+          Header_Title.setAttribute("ActiveTitle", "Home");
+        }
       } else {
         Header_Title.setAttribute("ActiveTitle", "Home");
       }
-    } else {
-      Header_Title.setAttribute("ActiveTitle", "Home");
+      
     }
-    
   }
+  
 });
 
 document.addEventListener('DOMContentLoaded', function(){

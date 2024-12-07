@@ -110,11 +110,33 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 1080px){
+    .Socials_Grid{
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 500px);
+    }
+}
+
+@media only screen and (max-width: 715px){
+    .Socials_Grid{
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(6, 500px);
+    }
+}
+
 .Socials_Grid_Item{
     /* width: 250px;
     height: 250px; */
     background-color: var(--Theme-Dynamic-Level-D3);
     position: relative;
+}
+
+.Socials_Grid_Item:nth-child(odd):hover{
+    transform: scale(1.05) rotate(2deg);
+}
+
+.Socials_Grid_Item:nth-child(even):hover{
+    transform: scale(1.05) rotate(-2deg);
 }
 
 .Socials_Grid_Item_Title_1, .Socials_Grid_Item_Title_2{
@@ -177,7 +199,7 @@
     /* transform: rotate(45deg); */
     animation-name: Socials_Grid_Item_Profile_Frame_Opening_2;
     animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    animation-delay: 2.3s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
 }
@@ -194,6 +216,7 @@
     align-items: center;
     animation-name: Socials_Grid_Item_Profile_Frame_Opening_1;
     animation-duration: 2s;
+    animation-delay: 1.9s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
 }
@@ -264,7 +287,7 @@
     transform: rotate(180deg) scale(0);
     animation-name: Socials_Grid_Item_Profile_Frame_Opening_3;
     animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(.18,.05,.04,1.07);
 }

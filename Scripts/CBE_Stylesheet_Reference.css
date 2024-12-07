@@ -60,6 +60,8 @@
 	--ColorProfile-BGColor-Level4: #170127;
 	--ColorProfile-BGColor-Level5: #0d0016;
 
+	--Theme-Violet-Level-L5: #dca3fd;
+	--Theme-Violet-Level-L4: #cf88f8;
 	--Theme-Violet-Level-L3: #c86cff;
 	--Theme-Violet-Level-L2: #b435ff;
 	--Theme-Violet-Level-L1: #a20fff;
@@ -67,7 +69,11 @@
 	--Theme-Violet-Level-D1: #7806c3;
 	--Theme-Violet-Level-D2: #63079c;
 	--Theme-Violet-Level-D3: #430076;
+	--Theme-Violet-Level-D4: #370061;
+	--Theme-Violet-Level-D5: #2d0050;
 	
+	--Theme-Green-Level-L5: #e2ffee;
+	--Theme-Green-Level-L4: #c7fadc;
 	--Theme-Green-Level-L3: #aeffd0;
 	--Theme-Green-Level-L2: #70ffae;
 	--Theme-Green-Level-L1: #2bfd84;
@@ -75,7 +81,11 @@
 	--Theme-Green-Level-D1: #00c04d;
 	--Theme-Green-Level-D2: #00963f;
 	--Theme-Green-Level-D3: #067536;
+	--Theme-Green-Level-D4: #014e23;
+	--Theme-Green-Level-D5: #02642d;
 
+	--Theme-Orange-Level-L5: #ffe49e;
+	--Theme-Orange-Level-L4: #ffdf8d;
 	--Theme-Orange-Level-L3: #ffd66d;
 	--Theme-Orange-Level-L2: #ffb832;
 	--Theme-Orange-Level-L1: #ffa00a;
@@ -83,7 +93,23 @@
 	--Theme-Orange-Level-D1: #cc6402;
 	--Theme-Orange-Level-D2: #a14d0b;
 	--Theme-Orange-Level-D3: #82410c;
+	--Theme-Orange-Level-D4: #442205;
+	--Theme-Orange-Level-D5: #613007;
 
+	--Theme-Pink-Level-L5: #fac3f2;
+	--Theme-Pink-Level-L4: #ffa7f2;
+	--Theme-Pink-Level-L3: #fa85e8;
+	--Theme-Pink-Level-L2: #ff6be9;
+	--Theme-Pink-Level-L1: #ff48e4;
+	--Theme-Pink-Base: #ff00d7;
+	--Theme-Pink-Level-D1: #e000bf;
+	--Theme-Pink-Level-D2: #c200a5;
+	--Theme-Pink-Level-D3: #ad0193;
+	--Theme-Pink-Level-D4: #94017e;
+	--Theme-Pink-Level-D5: #70005f;
+
+	--Theme-Dynamic-Level-L5: var(--Theme-Violet-Level-L5);
+	--Theme-Dynamic-Level-L4: var(--Theme-Violet-Level-L4);
 	--Theme-Dynamic-Level-L3: var(--Theme-Violet-Level-L3);
 	--Theme-Dynamic-Level-L2: var(--Theme-Violet-Level-L2);
 	--Theme-Dynamic-Level-L1: var(--Theme-Violet-Level-L1);
@@ -91,6 +117,8 @@
 	--Theme-Dynamic-Level-D1: var(--Theme-Violet-Level-D1);
 	--Theme-Dynamic-Level-D2: var(--Theme-Violet-Level-D2);
 	--Theme-Dynamic-Level-D3: var(--Theme-Violet-Level-D3);	
+	--Theme-Dynamic-Level-D4: var(--Theme-Violet-Level-D4);	
+	--Theme-Dynamic-Level-D5: var(--Theme-Violet-Level-D5);	
 
 	--Theme-Dynamic-Opacitated: var(--Theme-Violet-Base);
 
@@ -111,7 +139,7 @@
 	--CBE-UI-BGColor-Level3: #23023a;
 	--Debug-ElementOutline: none;
 	/* Root values. This will be loaded when loadSettings() is triggered. */
-	--BGColor: rgb(39, 39, 39);
+	--BGColor: rgb(43, 43, 43);
 	--BGColor-Opacitated: rgba(22, 22, 22, 0.50);
 	--Header-Thumbnail-Fade-Color: rgba(255,255,255,100);
 	--Header-Title-Color: #171717;

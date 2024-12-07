@@ -39,7 +39,7 @@
 			<header id="pageElement_Header" class="UI_Header">
 				<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()"></img>
 				<div class="UI_Header_Title" id="UI_Header_Title" ActiveTitle="Home">
-					<a class="UI_Header_Logo" href="CBE_Main.html">
+					<a class="UI_Header_Logo" onclick="Page_ChangePage('CBE_Main.html', Transition)">
 						<img class="UI_Header_Title_Logo_Big" src="Assets/Images/General/Header_Title_2.png"/>
 					</a>
 					<a class="UI_Header_AltPage_URL" id="UI_Header_AltPage_URL" >
@@ -71,42 +71,42 @@
 			</div>
 			<div class="UI_Sidebar" id="pageElement_Sidebar" State="Collapsed">
 				<div class="UI_Sidebar_Main">
-					<a href="CBE_Main.html">
+					<a onclick="Page_ChangePage('CBE_Main.html', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Home
 							</h2>
 						</div>
 					</a>
-					<a href="CBE_Gallery.html">
+					<a onclick="Page_ChangePage('Gallery/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Gallery
 							</h2>
 						</div>
 					</a>
-					<a href="Reviewers/CBE_Reviewers.html">
+					<a onclick="Page_ChangePage('Reviewers/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Reviewers
 							</h2>
 						</div>
 					</a>
-					<a href="Projects/CBE_Projects.html">
+					<a onclick="Page_ChangePage('Projects/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Projects
 							</h2>
 						</div>
 					</a>
-					<a href="404.html">
+					<a onclick="Page_ChangePage('Box_Of_Stuffs/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Box of Stuffs
 							</h2>
 						</div>
 					</a>
-					<a href="GROUNDBREAKER/">
+					<a onclick="Page_ChangePage('GROUNDBREAKER/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								GROUNDBREAKER
@@ -115,27 +115,27 @@
 					</a>
 				</div>
 				<div class="UI_Sidebar_Secondary">
-					<a href="Test.html">
+					<!-- <a href="Test.html">
 						<div class="UI_Sidebar_Secondary_Item">
 							<h2 class="UI_Sidebar_Secondary_Item_Text">
 								About Me
 							</h2>
 						</div>
-					</a>
-					<a href="CBE_Socials.html">
+					</a> -->
+					<a onclick="Page_ChangePage('CBE_Socials.html', Transition)">
 						<div class="UI_Sidebar_Secondary_Item">
 							<h2 class="UI_Sidebar_Secondary_Item_Text">
 								Socials
 							</h2>
 						</div>
 					</a>
-					<a href="CBE_ContactUs.html">
+					<!-- <a href="CBE_ContactUs.html">
 						<div class="UI_Sidebar_Secondary_Item">
 							<h2 class="UI_Sidebar_Secondary_Item_Text">
 								Feedback
 							</h2>
 						</div>
-					</a>
+					</a> -->
 					<p class="UI_Sidebar_Secondary_Footer">
 						Developed by Elmer Felisilda
 					</p>

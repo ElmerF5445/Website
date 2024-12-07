@@ -30,6 +30,7 @@ body{
 
 a{
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .UI_ElementContainer{
@@ -70,14 +71,13 @@ a{
 }
 
 .UI_Header_Hamburger:hover{
-	background-color: var(--Theme-Dynamic-Level-D1);
+	background-color: var(--Theme-Dynamic-Level-D3);
 	cursor: pointer;
-	/* transform: translateX(-10px) translateY(-10px); */
-	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D3), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D3),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D3), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D3);
+	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D4), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D4), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D4),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D4), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D4);
 }
 
 .UI_Header_Hamburger:active{
-	transform: scale(0.95);
+	box-shadow:  inset 8px 8px 0px 0px var(--Theme-Dynamic-Level-D4), inset 7px 7px 0px 0px var(--Theme-Dynamic-Level-D4), inset 6px 6px 0px 0px var(--Theme-Dynamic-Level-D4), inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D4), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D4), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D4),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D4), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D4);
 }
 
 .UI_Header_Title{
@@ -150,13 +150,13 @@ a{
 }
 
 .UI_Header_Share:hover{
-	background-color: var(--Theme-Dynamic-Level-D1);
+	background-color: var(--Theme-Dynamic-Level-D3);
 	cursor: pointer;
-	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D3), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D3), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D3),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D3), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D3);
+	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D4), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D4), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D4),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D4), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D4);
 }
 
 .UI_Header_Share:active{
-	transform: scale(0.95);
+	box-shadow:  inset 8px 8px 0px 0px var(--Theme-Dynamic-Level-D4), inset 7px 7px 0px 0px var(--Theme-Dynamic-Level-D4), inset 6px 6px 0px 0px var(--Theme-Dynamic-Level-D4), inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D4), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D4), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D4),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D4), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D4);
 }
 
 .UI_Header_Share_Toast{
@@ -804,7 +804,7 @@ body > *[NoMargins]{
 	transform: translateY(300%);
 	animation-name: Branch_Banner_Text_RiseUp;
 	animation-duration: 0.75s;
-	animation-delay: 3.2s;
+	animation-delay: 1.7s;
 	/* animation-timing-function: ease-out; */
 	animation-fill-mode: forwards;
 }
@@ -820,7 +820,7 @@ body > *[NoMargins]{
 	transform: translateY(300%);
 	animation-name: Branch_Banner_Text_RiseUp;
 	animation-duration: 0.75s;
-	animation-delay: 3.7s;
+	animation-delay: 2.3s;
 	/* animation-timing-function: ease-out; */
 	animation-fill-mode: forwards;
 }
@@ -844,7 +844,7 @@ body > *[NoMargins]{
 	margin: 0;
 	text-align: center;
 	text-transform: capitalize;
-
+	cursor: pointer;
 	transform: translateY(400%);
 	animation-name: Branch_Banner_Text_RiseUp;
 	animation-duration: 0.75s;
@@ -894,7 +894,7 @@ body > *[NoMargins]{
 .LoadingScreen{
 	position: fixed;
 	width: calc(100% + 250px);
-	height: 100%;
+	height: calc(100% + 250px);
 	background-color: var(--BGColor);
 	top: 0;
 	z-index: 500;
@@ -929,6 +929,10 @@ body > *[NoMargins]{
 	animation-duration: 0.1s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 3;
+}
+
+.LoadingScreen[Animation = "BSD_In"] > *{
+	border-color: var(--Theme-Dynamic-Level-L2);
 }
 
 .LoadingScreen[Animation = "BSD_Out"]{

@@ -105,15 +105,20 @@ body{
 .Home_Section_Content{
     padding: 20px;
     padding-left: 40px;
+    padding-right: 40px;
     position: absolute;
     z-index: 15;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 .Home_Section_Content_Title{
     font-family: Hauser;
     font-size: 90px;
     margin: 0;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .Home_Section_Content_Paragraph{
@@ -121,10 +126,11 @@ body{
     width: 50%;
     min-width: 200px;
     max-width: 350px;
+    margin-top: 0;
 }
 
-.Home_Section > .Home_Section_Content > .General_Button{
-    max-width: 150px;
+.Home_Section > .Home_Section_Content > a{
+    max-width: 175px;
 }
 
 .Home_Section[Theme="Violet"] > .Home_Section_Content > *{
@@ -140,4 +146,14 @@ body{
 .Home_Section[Theme="Orange"] > .Home_Section_Content > *{
     color: var(--Theme-Orange-Level-L1);
     width: 50%;
+}
+
+@media only screen and (max-width: 750px){
+    .Home_Cover_Logo{
+        width: 70vw
+    }
+
+    .Home_Section_Content_Title{
+        font-size: 15vw;
+    }
 }

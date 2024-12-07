@@ -26,11 +26,12 @@
   </head>
   <script src="Scripts/CBE_Javascript.js"></script>
   <script src="Scripts/CBE_Javascript_UI.js"></script>
-  <script src="Scripts/CBE_Javascript_Home.js"></script>
+  <!-- <script src="Scripts/CBE_Javascript_Home.js"></script> -->
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
   <body NoMargins_Top>
     <div class="LoadingScreen" NoMargins>
-      <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
-      <div class="LoadingScreen_Curtain"></div>
+      <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
+      <div class="LoadingScreen_Curtain"></div> -->
     </div>
     <div class="Home_Cover" NoMargins>
       <img class='Home_Cover_Logo' src='Assets/Images/General/Header_Title_2.png' draggable='false' loading='lazy'/>
@@ -53,9 +54,12 @@
         <h4 class="Home_Section_Content_Paragraph">
           A compilation of different kinds of photos, from graphic designs, photography, digital art, etc.
         </h4>
-        <div class="General_Button">
-          Check it out
-        </div>
+        <span></span>
+        <a onclick="Page_ChangePage('Gallery/', Transition)">
+          <div class="General_Button">
+            Check it out
+          </div>
+        </a>
       </div>
     </section>
     <section class="Home_Section" Theme="Green">
@@ -76,7 +80,8 @@
         <h4 class="Home_Section_Content_Paragraph">
           Helpful reviewer materials for incoming Grade 10 to 12 students.
         </h4>
-        <a href="Reviewers/CBE_Reviewers.html">
+        <span></span>
+        <a onclick="Page_ChangePage('Reviewers/', Transition)">
           <div class="General_Button">
             Check it out
           </div>
@@ -101,7 +106,8 @@
         <h4 class="Home_Section_Content_Paragraph">
           A compilation of my web-based projects, from websites like these to pages that act as programs.
         </h4>
-        <a href="Projects/CBE_Projects.html">
+        <span></span>
+        <a onclick="Page_ChangePage('Projects/', Transition)">
           <div class="General_Button">
             Check it out
           </div>
