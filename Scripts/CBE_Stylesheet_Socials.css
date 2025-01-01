@@ -131,6 +131,12 @@
     position: relative;
 }
 
+.Socials_Grid_Item:hover{
+    z-index: 49;
+    box-shadow: 7px 7px 0px 0px var(--Theme-Dynamic-Level-D1), -7px -7px 0px 0px var(--Theme-Dynamic-Level-D1), 14px 14px 0px 0px var(--Theme-Dynamic-Base), -14px -14px 0px 0px var(--Theme-Dynamic-Base);
+	transform: translateX(-5px) translateY(-5px);
+}
+
 .Socials_Grid_Item:nth-child(odd):hover{
     transform: scale(1.05) rotate(2deg);
 }

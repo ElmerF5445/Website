@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <base href="/">
+    <title>Playlists</title>
+    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
+    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Playlists.css" />
+    <!-- <link rel="stylesheet" href="Scripts/CBE_Stylesheet.css"> -->
+    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
+    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
+    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_BranchNavigation.css" />
+    <link
+      rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+  </head>
+  <script src="Scripts/CBE_Javascript.js"></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+  <script src="Scripts/CBE_Javascript_UI.js"></script>
+  <script src="Scripts/CBE_Javascript_BranchNavigation.js"></script>
+  <body id="pageElement_Body" onload="Load_Properties();" UI_Overlay="Template_UI" Color_Profile="Pink"
+  Header_AltPage_URL="Top" Header_AltPage_Title="Playlists" CopyLink_HasAltLink="true">
+    <div class="LoadingScreen" NoMargins>
+      <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
+      <div class="LoadingScreen_Curtain"></div> -->
+    </div>
+    <div class="Branch_Banner" NoMargins>
+      <h1 class="Branch_Banner_Title">
+        Playlists
+      </h1>
+      <h3 class="Branch_Banner_Description">
+        Videos and playlists
+      </h3>
+    </div>
+    
+    <div class="Playlist_Section">
+        <h1 class="General_Title">
+            My music playlists
+        </h1>
+        <div class="Playlist_Curation">
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbQlweIMa4eXi2bEUu_uTxZX', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/EP22.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Elmer's Playlist 2022
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbRmf1wpU4eoiZh1dQYtHZ5F', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/EP23.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Elmer's Playlist 2023
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbQIR2BB9Vd3ka43h9xbaeNL', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/EP24.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Elmer's Playlist 2024
+                </p>
+            </button>
+        </div>
+    </div>
+
+    <div class="Playlist_Section">
+        <h1 class="General_Title">
+            My video playlists
+        </h1>
+        <div class="Playlist_Curation">
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbSD1n7tEgDK7Hr-pbNOPY7K', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/Minecraft.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Minecraft Stuff
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbTNltK9fb8Mf54veJmKT-XO', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/SKL.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    SKL (Share Ko Lang)
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbRsEz0-BgjgSrIlt839UviX', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/Vlog.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Vlogs
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PL8JBYFckGmbTuIl_5SyONFV2llioefOre', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/Random.jpg" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Miscellaneous Stuff
+                </p>
+            </button>
+            <button class="Playlist_Curation_Item" onclick="Page_ChangePage('https://www.youtube.com/playlist?list=PLfZAmtzWachVbQEiWY9Y_FY1O_XbKVD48', null, 'New')">
+                <img class="Playlist_Curation_Item_Thumbnail" src="Assets/Images/Playlists/Minecraft_Livestreams.png" loading="lazy"/>
+                <p class="Playlist_Curation_Item_Title">
+                    Minecraft Livestreams
+                </p>
+            </button>
+        </div>
+    </div>
+  </body>
+</html>

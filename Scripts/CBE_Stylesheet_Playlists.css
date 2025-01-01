@@ -1,0 +1,26 @@
+.Playlist_Curation{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.Playlist_Curation_Item{
+    background-color: unset;
+    outline: unset;
+    border: unset;
+    /* width: 150px; */
+    user-select: none;
+    cursor: pointer;
+}
+
+.Playlist_Curation_Item_Thumbnail{
+    height: 250px;
+}
+
+.Playlist_Curation_Item_Title{
+    font-family: var(--Text-Font-Secondary);
+    color: var(--Text-Color);
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10px;
+}
