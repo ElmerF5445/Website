@@ -203,6 +203,39 @@ a{
 	opacity: 20%;
 }
 
+.UI_Header_BackToParent{
+	background-color: var(--Theme-Dynamic-Level-D2);
+	outline: unset;
+	border: unset;
+	position: fixed;
+	top: 50px;
+	margin: 0;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	align-items: center;
+	max-width: 50px;
+	overflow-x: hidden;
+	cursor: pointer;
+}
+
+.UI_Header_BackToParent:hover{
+	max-width: 1250px;
+	background-color: var(--Theme-Dynamic-Level-D3);
+	cursor: pointer;
+	box-shadow: inset 5px 5px 0px 0px var(--Theme-Dynamic-Level-D4), inset 4px 4px 0px 0px var(--Theme-Dynamic-Level-D4), inset   3px 3px 0px 0px var(--Theme-Dynamic-Level-D4),  inset 2px 2px 0px 0px var(--Theme-Dynamic-Level-D4), inset   1px 1px 0px 0px var(--Theme-Dynamic-Level-D4);
+}
+
+.UI_Header_BackToParent_Icon{
+	width: 30px;
+	height: 30px;
+}
+
+.UI_Header_BackToParent_Text{
+	margin: 0;
+	font-family: var(--Text-Font-Primary);
+	color: white;
+}
 
 .UI_Sidebar{
 	position: fixed;

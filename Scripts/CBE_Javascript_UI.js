@@ -29,6 +29,7 @@ function Load_PageTitle(){
   if (document.getElementById("pageElement_Title") && UI_PageTitle != undefined){
     document.getElementById("pageElement_Title").innerHTML = UI_PageTitle + " | " + UI_PageSuffix;
   }
+  
 }
 
 var Page_Property = {};
@@ -40,7 +41,10 @@ function Load_Properties(){
     "Color_Profile": Element_Attribute_Get('pageElement_Body', 'Color_Profile'),
     "Header_AltPage_Title": Element_Attribute_Get('pageElement_Body', 'Header_AltPage_Title'),
     "Header_AltPage_URL": Element_Attribute_Get('pageElement_Body', 'Header_AltPage_URL'),
-    "CopyLink_HasAltLink":  Element_Attribute_Get('pageElement_Body', 'CopyLink_HasAltLink')
+    "CopyLink_HasAltLink":  Element_Attribute_Get('pageElement_Body', 'CopyLink_HasAltLink'),
+    "BackToParent_HasParent": Element_Attribute_Get('pageElement_Body', 'BackToParent_HasParent'),
+    "BackToParent_Parent_URL": Element_Attribute_Get('pageElement_Body', 'BackToParent_Parent_URL'),
+    "BackToParent_Parent_Text": Element_Attribute_Get('pageElement_Body', 'BackToParent_Parent_Text')
   }
   if (Page_Property.UI_Overlay != null){
     Load_Template(Page_Property.UI_Overlay);
@@ -50,7 +54,15 @@ function Load_Properties(){
   } else {
     Load_ColorProfile("Violet");
   }
-  
+  // if (Page_Property.BackToParent_HasParent != null && Page_Property.BackToParent_HasParent == "true"){
+  //   Element_Get_ByID("UI_Header_BackToParent").setAttribute("onclick", `Page_ChangePage('${Page_Property.BackToParent_Parent_URL}', Transition)`)
+  //   if (Page_Property.BackToParent_Parent_Text != null || Page_Property.BackToParent_Parent_Text != ""){
+  //     Element_InnerHTML_Set("UI_Header_BackToParent_Text", `${Page_Property.BackToParent_Parent_Text}`)
+  //   } else {
+  //     Element_InnerHTML_Set("UI_Header_BackToParent_Text", `Back`)
+  //   }
+    
+  // }
 }
 
 function Load_Template(templateId) {
