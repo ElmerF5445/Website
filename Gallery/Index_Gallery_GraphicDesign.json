@@ -1,0 +1,408 @@
+{
+    "Album_Name": "Graphic Designs",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "Infographics",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "History of Science",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/History_of_Science.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Italian Renaissance",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Italian_Renaissance.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Science Industry",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Science_Industry.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "De-Develop",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/De-Develop.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Robotic Ethics",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Robotic_Ethics.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Alan Turing",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Alan_Turing.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "GMO",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/GMO.png",
+                    "Image_Full": "Same"
+                }  
+            ]
+        },
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Globalization",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Globalization.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Posters",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "English Day 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/ELISM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "TNTS",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/TNTS 2024 2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Talent Search 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Talent_Search_24.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Talent Search 2023",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Talent_Search_23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "English Day 2022",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Speech_Choir.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Rizal",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Rizal.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "February Sentiments",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/February_Sentiments.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Wag Lalabas",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Wag_Lalabas.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Typography / Thumbnails",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Voice Against Injustice",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Logo.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "The Compilation 2021",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/LogoFull.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Cheerdance",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Title Card 2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prelims 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Prelims_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prelims 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Midterms 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Midterms_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Midterms 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prefinals 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Prefinals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prefinals 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Finals",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Finals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "The English Lens",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Logo1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "ELISM 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/ELISM.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Japanese Music 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_JP_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Japanese Music 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_JP_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "English Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_English.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Aesthetic Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_Aesthetic.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Instrumental Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_Instrumental.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "OPM",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_OPM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2022",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP22.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2023",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP24.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Headers - Part I",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Finals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Headers - Part II",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Finals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Headers - Part III",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}
+
+
+

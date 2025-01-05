@@ -18,8 +18,9 @@
 *{
 	outline: var(--Debug-ElementOutline);
 	transition: var(--Element-Transition-Delay);
-	-webkit-tap-highlight-color: rgba(208, 208, 208, 0.63);
+	/* -webkit-tap-highlight-color: rgba(208, 208, 208, 0.63); */
 	scroll-behavior: smooth;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body{
@@ -1037,6 +1038,90 @@ body > *[NoMargins]{
 	animation-delay: 0.75s;
 	/* animation-timing-function: ease-in-out; */
 	animation-fill-mode: forwards;
+}
+
+.LoadingScreen_Loader_Container{
+	position: fixed;
+	width: 100%;
+	height: -webkit-fill-available;
+	z-index: 501;
+}
+
+.LoadingScreen_Loader{
+	position: fixed;
+	/* margin: 20px; */
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.LoadingScreen_Loader_Container[State = "Active"] > .LoadingScreen_Loader{
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.LoadingScreen_Loader_Container[State = "Inactive"] > .LoadingScreen_Loader{
+	height: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.LoadingScreen_Loader[Top]{
+	top: 0;
+}
+
+.LoadingScreen_Loader[Bottom]{
+	bottom: 0;
+}
+
+.LoadingScreen_Loader_Text{
+	font-family: var(--Text-Font-Primary);
+	color: var(--Text-Color);
+	margin: 0;
+	margin-top: 10px;
+}
+
+.LoadingScreen_Loader_Bar{
+	overflow: hidden;
+    width: 35%;
+    height: 5px;
+	margin-top: 15px;
+}
+
+.LoadingScreen_Loader_Bar_Accent{
+	width: 20%;
+    height: 100%;
+    background-color: var(--Theme-Dynamic-Level-D3);
+    animation-name: General_Loading_Bar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 750px){
+	.LoadingScreen_Grid_Item{
+		width: 150px !important;
+		height: 150px !important;
+	}
+}
+
+@keyframes General_Loading_Bar{
+    0% {
+        width: 0%; 
+        transform: translateX(0%);
+    }
+	50% {
+        width: 100%; 
+        transform: translateX(0%);
+    }
+	100% {
+        width: 100%; 
+        transform: translateX(100%);
+    }
 }
 
 @keyframes LoadingScreen_Animation_BSD_In{

@@ -1,302 +1,305 @@
-[
-    {
-        "Title": "Manger 1",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Manger_1.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Manger 2",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Manger_2.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Town Hall",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Town_Hall.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Bridge",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Bridge.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Sun",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sun.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Break Time",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Break_Time.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Bulbs",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Bulbs.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Philippines",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Philippines.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Rain Man",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Rain_Man.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Storm",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Storm.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Destination",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Destination.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Tired AF",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Tired_AF.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Eclipse",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Eclipse.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Peek",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Peek.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "OK",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/OK.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "That Meme",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/That_Meme.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Constellations",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Constellations.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Sunset",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sunset.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Lights 1",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Lights_1.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Lights 2",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Lights_2.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Decor",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Decor.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Fireworks",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fireworks.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Chances",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Chances.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Flowery",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Flowery.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Sky Slices",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sky_Slices.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Morning Run",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Morning_Run.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Morning Mountain",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Morning_Mountain.jpg",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Ranges",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Ranges.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Palm Trees",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Palm_Trees.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Plain Plains",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Plain_Plains.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Avoidance Measure",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Avoidance_Measure.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Neighborhood 1",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_1.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Neighborhood 2",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_2.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Neighborhood 3",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_3.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Neighborhood 4",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_4.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Neighborhood 5",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_5.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Walking",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Walking.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Fallen Water 1",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_1.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Waterway",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Waterway.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Fallen Water 2",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_2.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Fallen Water 3",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_3.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 1",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_1.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 2",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_2.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 3",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_3.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 4",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_4.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 5",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_6.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 6",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_6.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "City View 7",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_7.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Silver Lining",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Silver_Lining.JPG",
-        "Image_Full": "Same"
-    },
-    {
-        "Title": "Cookie",
-        "Description": "",
-        "Image_Thumbnail": "Assets/Images/Gallery/Photography/Cookie.JPG",
-        "Image_Full": "Same"
-    }
-]
+{
+    "Album_Name": "Photographerist",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Manger 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Manger_1.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Manger 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Manger_2.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Town Hall",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Town_Hall.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Bridge",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Bridge.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sun",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sun_1.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Break Time",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Break_Time.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Bulbs",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Bulbs.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Philippines",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Philippines.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Rain Man",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Rain_Man.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Storm",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Storm.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Destination",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Destination.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Tired AF",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Tired_AF.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Eclipse",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Eclipse.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Peek",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Peek.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "OK",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/OK.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "That Meme",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/That_Meme.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Constellations",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Constellations.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sunset",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sunset.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Lights 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Lights_1.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Lights 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Lights_2.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Decor",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Decor.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fireworks",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fireworks.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Chances",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Chances.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Flowery",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Flowery.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sky Slices",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Sky_Slices.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Morning Run",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Morning_Run.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Morning Mountain",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Morning_Mountain.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Ranges",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Ranges.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Palm Trees",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Palm_Trees.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Plain Plains",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Plain_Plains.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Avoidance Measure",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Avoidance_Measure.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Neighborhood 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_1.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Neighborhood 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_2.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Neighborhood 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_3.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Neighborhood 4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_4.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Neighborhood 5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Neighborhood_5.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Walking",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Walking.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fallen Water 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_1.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Waterway",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Waterway.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fallen Water 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_2.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fallen Water 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Fallen_Water_3.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "City View 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_1.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "City View 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_2.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "City View 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_3.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "City View 4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_4.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "City View 5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/City_View_6.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Silver Lining",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Silver_Lining.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Cookie",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Photography/Cookie.JPG",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}
+
+
+

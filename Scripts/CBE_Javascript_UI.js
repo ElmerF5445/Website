@@ -379,17 +379,20 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function LoadingScreen_Show(){
   Element_Get_ByQuery(".LoadingScreen").setAttribute("State", "Enabled");
-  LoadingScreen_Grid_Animate("BSD", "Out")
+  LoadingScreen_Grid_Animate("BSD", "Out");
+  Element_Attribute_Set("LoadingScreen_Loader_Container", "State", "Active");
 }
 
 function LoadingScreen_Hide(){
   LoadingScreen_Grid_Animate("BSD", "In");
   setTimeout(Element_Get_ByQuery(".LoadingScreen").setAttribute("State", "Disabled"), 1000);
+  Element_Attribute_Set("LoadingScreen_Loader_Container", "State", "Inactive");
 }
 
 var LoadingScreen_Grid_Square_Size;
 function LoadingScreen_Grid_Generate(){
   var Container = Element_Get_ByQuery(".LoadingScreen");
+  Container.setAttribute("onclick", "LoadingScreen_Hide()");
   var Grid_Square_Size = 250;
   var Container_Width = Container.offsetWidth;
   var Container_Height = Container.offsetHeight;
@@ -412,6 +415,24 @@ function LoadingScreen_Grid_Generate(){
     }
     
   }
+  var Loader = Element_Create('div');
+  Loader.innerHTML = `
+    <div class="LoadingScreen_Loader" Top>
+      
+    </div>
+    <div class="LoadingScreen_Loader" Bottom>
+      <h2 class="LoadingScreen_Loader_Text">
+        Loading...
+      </h2>
+      <div class="LoadingScreen_Loader_Bar">
+          <div class="LoadingScreen_Loader_Bar_Accent"></div>
+      </div>
+    </div>
+  `;
+  Loader.setAttribute("class", "LoadingScreen_Loader_Container");
+  Loader.setAttribute("id", "LoadingScreen_Loader_Container");
+  Loader.setAttribute("NoMargins", "");
+  Element_Get_ByQuery(".LoadingScreen").parentNode.appendChild(Loader);
   LoadingScreen_Grid_Square_Size = Grid_Square_Size + "px";
 }
 

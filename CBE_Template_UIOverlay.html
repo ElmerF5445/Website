@@ -29,15 +29,15 @@
 				</div>
 				<div class="UI_ImagePreview_Controls">
 					<button class="UI_ImagePreview_Controls_Button" onclick="Image_Preview_OpenTab()">
-						<img src="Assets/Icons/icon_expand.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy"/>
+						<img src="Assets/Icons/icon_expand.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy" NoPreview/>
 					</button>
 					<button class="UI_ImagePreview_Controls_Button" onclick="Image_Preview_Close()">
-						<img src="Assets/Icons/icon_close.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy"/>
+						<img src="Assets/Icons/icon_close.png" class="UI_ImagePreview_Controls_Button_Icon" draggable="false" loading="lazy" NoPreview/>
 					</button>
 				</div>
 			</div>
 			<header id="pageElement_Header" class="UI_Header">
-				<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()"></img>
+				<img class="UI_Header_Hamburger" src="Assets/Icons/icon_hamburgermenu.png" onclick="toggle_Sidebar()" NoPreview></img>
 				<div class="UI_Header_Title" id="UI_Header_Title" ActiveTitle="Home">
 					<a class="UI_Header_Logo" onclick="Page_ChangePage('CBE_Main.html', Transition)">
 						<img class="UI_Header_Title_Logo_Big" src="Assets/Images/General/Header_Title_2.png"/>
@@ -48,7 +48,7 @@
 						</h1>
 					</a>
 				</div>
-				<img class="UI_Header_Share" src="Assets/Icons/icon_share.png" onclick="copyURLLink()"></img>
+				<img class="UI_Header_Share" src="Assets/Icons/icon_share.png" onclick="copyURLLink()" NoPreview></img>
 			</header>
 			<div class="UI_Header_Share_Toast" id="Header_Toast_Share_Link">
 				<h4 class="UI_Header_Share_Toast_Text">
@@ -98,13 +98,13 @@
 							</h2>
 						</div>
 					</a>
-					<a onclick="Page_ChangePage('Projects/', Transition)">
+					<!-- <a onclick="Page_ChangePage('Projects/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
 								Projects
 							</h2>
 						</div>
-					</a>
+					</a> -->
 					<a onclick="Page_ChangePage('Playlists/', Transition)">
 						<div class="UI_Sidebar_Main_Item">
 							<h2 class="UI_Sidebar_Main_Item_Text">
