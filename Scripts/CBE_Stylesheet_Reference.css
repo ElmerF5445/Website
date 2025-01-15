@@ -81,8 +81,8 @@
 	--Theme-Green-Level-D1: #00c04d;
 	--Theme-Green-Level-D2: #00963f;
 	--Theme-Green-Level-D3: #067536;
-	--Theme-Green-Level-D4: #014e23;
-	--Theme-Green-Level-D5: #02642d;
+	--Theme-Green-Level-D4: #02642d;
+	--Theme-Green-Level-D5: #014e23;
 
 	--Theme-Orange-Level-L5: #ffe49e;
 	--Theme-Orange-Level-L4: #ffdf8d;
@@ -140,6 +140,7 @@
 	--Debug-ElementOutline: none;
 	/* Root values. This will be loaded when loadSettings() is triggered. */
 	--BGColor: rgb(43, 43, 43);
+	/* --BGColor: rgb(255, 255, 255); */
 	--BGColor-Opacitated: rgba(22, 22, 22, 0.50);
 	--Header-Thumbnail-Fade-Color: rgba(255,255,255,100);
 	--Header-Title-Color: #171717;

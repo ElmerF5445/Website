@@ -64,13 +64,13 @@
 
 .Reviewers_Books_Item_Title{
     font-family: var(--Text-Font-Primary);
-    color: white;
+    color: var(--Text-Color);
     margin: 0;
 }
 
 .Reviewers_Books_Item_Description{
     font-family: var(--Text-Font-Secondary);
-    color: white;
+    color: var(--Text-Color);
     margin: 0;
     padding-bottom: 10px;
 }
@@ -128,18 +128,18 @@
 
 .Reviewers_Information_Title{
 	font-family: var(--Text-Font-Primary);
-	color: white;
+	color: var(--Text-Color);
     margin: 0;
 }
 
 .Reviewers_Information_Paragraph{
 	font-family: var(--Text-Font-Secondary);
-	color: white;
+	color: var(--Text-Color);
 }
 
 .Reviewers_Information_List{
 	font-family: var(--Text-Font-List);
-	color: white;
+	color: var(--Text-Color);
 }
 
 .Reviewers_Downloads{
@@ -156,7 +156,7 @@
 
 .Reviewers_Downloads_Item_Text{
     font-family: var(--Text-Font-Secondary);
-    color: white;
+    color: var(--Text-Color);
 }
 
 @media only screen and (max-width: 1000px){

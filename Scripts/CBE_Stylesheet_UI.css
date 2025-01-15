@@ -813,51 +813,130 @@ body > *[NoMargins]{
 }
 
 .Branch_Banner{
-    background-color: var(--Theme-Dynamic-Level-D3);
+    /* background-color: var(--Theme-Dynamic-Level-D3); */
     width: 100%;
-    height: auto;
+    height: 202px;
     margin-left: unset;
 	margin-right: unset;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr auto 1fr 1fr 1fr;
 	user-select: none;
-	padding: 10px;
+	/* padding: 10px; */
 	overflow-y: hidden;
 }
 
+.Branch_Banner_Content{
+	background-color: var(--Theme-Dynamic-Level-D3);
+	width: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.Branch_Banner_Decoration{
+	background-color: var(--Theme-Dynamic-Level-D5);
+	animation-duration: 240s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.Branch_Banner_Decoration[Distance = "1"]{
+	background-color: var(--Theme-Dynamic-Level-D3);
+	animation-name: Branch_Banner_Decoration_Distance_1;
+}
+
+.Branch_Banner_Decoration[Distance = "2"]{
+	background-color: var(--Theme-Dynamic-Level-D4);
+	animation-name: Branch_Banner_Decoration_Distance_2;
+}
+
+.Branch_Banner_Decoration[Distance = "3"]{
+	background-color: var(--Theme-Dynamic-Level-D5);
+	animation-name: Branch_Banner_Decoration_Distance_3;
+}
+
+
+@keyframes Branch_Banner_Decoration_Distance_1{
+	0% {
+		background-color: var(--Theme-Dynamic-Level-D3);
+	}
+	25% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	50% {
+		background-color: var(--Theme-Dynamic-Level-D5);
+	}
+	75% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	100% {
+		background-color: var(--Theme-Dynamic-Level-D3);
+	}
+}
+
+@keyframes Branch_Banner_Decoration_Distance_2{
+	0% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	25% {
+		background-color: var(--Theme-Dynamic-Level-D5);
+	}
+	50% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	75% {
+		background-color: var(--Theme-Dynamic-Level-D3);
+	}
+	100% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+}
+
+@keyframes Branch_Banner_Decoration_Distance_3{
+	0% {
+		background-color: var(--Theme-Dynamic-Level-D5);
+	}
+	25% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	50% {
+		background-color: var(--Theme-Dynamic-Level-D3);
+	}
+	75% {
+		background-color: var(--Theme-Dynamic-Level-D4);
+	}
+	100% {
+		background-color: var(--Theme-Dynamic-Level-D5);
+	}
+}
 .Branch_Banner_Title{
     font-family: var(--Text-Font-Branch-Title);
     font-size: 7vw;
     color: var(--Theme-Dynamic-Base);
     letter-spacing: 2px;
 	margin: 0;
+	/* margin-left: 20px; */
 	text-align: center;
 	text-transform: uppercase;
-
-	transform: translateY(300%);
-	animation-name: Branch_Banner_Text_RiseUp;
-	animation-duration: 0.75s;
-	animation-delay: 1.7s;
-	/* animation-timing-function: ease-out; */
-	animation-fill-mode: forwards;
 }
-
 .Branch_Banner_Description{
     font-family: var(--Text-Font-Branch-Description);
     color: var(--Theme-Dynamic-Base);
 	text-align: center;
     /* letter-spacing: 5px; */
 	margin: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+	/* margin-left: 17px; */
 
-	transform: translateY(300%);
+	/* transform: translateY(300%);
 	animation-name: Branch_Banner_Text_RiseUp;
-	animation-duration: 0.75s;
-	animation-delay: 2.3s;
+	animation-duration: 0.75s; */
+	/* animation-delay: 2.3s; */
 	/* animation-timing-function: ease-out; */
-	animation-fill-mode: forwards;
+	/* animation-fill-mode: forwards; */
 }
 
 .Subpage_Banner{
@@ -907,21 +986,21 @@ body > *[NoMargins]{
 
 .General_Title{
 	font-family: var(--Text-Font-Primary);
-	color: white;
+	color: var(--Text-Color);
 	/* margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right); */
 }
 
 .General_Paragraph{
 	font-family: var(--Text-Font-Secondary);
-	color: white;
+	color: var(--Text-Color);
 	/* margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right); */
 }
 
 .General_List{
 	font-family: var(--Text-Font-Secondary);
-	color: white;
+	color: var(--Text-Color);
 	/* margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right); */
 }
@@ -1168,4 +1247,105 @@ body > *[NoMargins]{
 		transform: scale(1);
 		opacity: 100%;
 	}
+}
+
+.Arrow{
+	position: relative;
+	/* margin: 10px; */
+	min-width: 20px;
+	min-height: 20px;
+	/* width: 50px;
+	height: 50px;
+	border: solid var(--Theme-Dynamic-Level-L2) 2px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Arrow[Left]{
+	transform: rotate(-90deg);
+}
+
+.Arrow[Right]{
+	transform: rotate(90deg);
+}
+
+.Arrow[Top]{
+	transform: rotate(0deg);
+}
+
+.Arrow[Bottom]{
+	transform: rotate(-180deg);
+}
+.Arrow_Container{
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	/* background-color: red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(-2px);
+}
+
+.Arrow_Container > *{
+	position: absolute;
+	width: 2px;
+	background-color: var(--Theme-Dynamic-Level-L2);
+}
+
+.Arrow_Base{
+	height: 20px;
+}
+
+.Arrow_Base_Dot{
+	height: 2px;
+	transform: translateY(15px);
+}
+
+.Arrow_Left{
+	height: 10px;
+	transform: rotate(45deg) translateX(-7.5px) translateY(-3px);
+}
+
+.Arrow_Right{
+	height: 10px;
+	transform: rotate(-45deg) translateX(7.5px) translateY(-3px);
+}
+
+.Arrow:hover > .Arrow_Container > .Arrow_Base{
+	height: 17px;
+	transform: translateY(3px);
+}
+
+.Arrow:hover > .Arrow_Container > .Arrow_Left{
+	height: 13px;
+	transform: rotate(45deg) translateX(-3.5px) translateY(2px);
+}
+
+.Arrow:hover > .Arrow_Container > .Arrow_Right{
+	height: 13px;
+	transform: rotate(-45deg) translateX(3.5px) translateY(2px);
+}
+
+.Arrow:active > .Arrow_Container > .Arrow_Base{
+	height: 2px;
+	transform: translateY(-3px);
+}
+
+.Arrow:active > .Arrow_Container > .Arrow_Left{
+	height: 13px;
+	transform: rotate(45deg) translateX(-8.5px) translateY(-2.5px);
+}
+
+.Arrow:active > .Arrow_Container > .Arrow_Right{
+	height: 13px;
+	transform: rotate(-45deg) translateX(8.5px) translateY(-2.5px);
+}
+
+.Arrow:active > .Arrow_Container > .Arrow_Base_Dot{
+	transform: translateY(3px);
+}
+
+.Arrow:active > .Arrow_Container{
+	transform: translateY(-5px);
 }
