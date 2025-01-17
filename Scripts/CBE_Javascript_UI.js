@@ -1,6 +1,8 @@
 /*
 	UI
 */
+var App_Property = null;
+
 var path = window.location.pathname;
 var UI_PageName = path.split("/").pop();
 var UI_PageTitle;

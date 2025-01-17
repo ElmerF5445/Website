@@ -1312,40 +1312,40 @@ body > *[NoMargins]{
 	transform: rotate(-45deg) translateX(7.5px) translateY(-3px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Base{
+.Arrow:hover > .Arrow_Container > .Arrow_Base, div:hover > .Arrow > .Arrow_Container > .Arrow_Base{
 	height: 17px;
 	transform: translateY(3px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Left{
+.Arrow:hover > .Arrow_Container > .Arrow_Left, div:hover > .Arrow > .Arrow_Container > .Arrow_Left{
 	height: 13px;
 	transform: rotate(45deg) translateX(-3.5px) translateY(2px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Right{
+.Arrow:hover > .Arrow_Container > .Arrow_Right, div:hover > .Arrow > .Arrow_Container > .Arrow_Right{
 	height: 13px;
 	transform: rotate(-45deg) translateX(3.5px) translateY(2px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Base{
+.Arrow:active > .Arrow_Container > .Arrow_Base, div:active > .Arrow > .Arrow_Container > .Arrow_Base{
 	height: 2px;
 	transform: translateY(-3px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Left{
+.Arrow:active > .Arrow_Container > .Arrow_Left, div:active > .Arrow > .Arrow_Container > .Arrow_Left{
 	height: 13px;
 	transform: rotate(45deg) translateX(-8.5px) translateY(-2.5px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Right{
+.Arrow:active > .Arrow_Container > .Arrow_Right, div:active > .Arrow > .Arrow_Container > .Arrow_Right{
 	height: 13px;
 	transform: rotate(-45deg) translateX(8.5px) translateY(-2.5px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Base_Dot{
+.Arrow:active > .Arrow_Container > .Arrow_Base_Dot, div:active > .Arrow > .Arrow_Container > .Arrow_Base_Dot{
 	transform: translateY(3px);
 }
 
-.Arrow:active > .Arrow_Container{
+.Arrow:active > .Arrow_Container, div:active > .Arrow > .Arrow_Container{
 	transform: translateY(-5px);
 }

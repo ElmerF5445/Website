@@ -1,9 +1,11 @@
 <html>
   <head>
     <title>Content By ElmerF</title>
+    <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_UI.css" />
+    <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Animations.css" />
     <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
     <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Article.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet.css">
+    <!-- <link rel="stylesheet" href="Scripts/CBE_Stylesheet.css"> -->
     <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
     <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
     <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Home2.css" />
@@ -24,10 +26,12 @@
       content="width=device-width, initial-scale=1, minimum-scale=1"
     />
   </head>
-  <script src="Scripts/CBE_Javascript.js"></script>
-  <script src="Scripts/CBE_Javascript_UI.js"></script>
-  <!-- <script src="Scripts/CBE_Javascript_Home.js"></script> -->
-  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js" defer></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js" defer></script>
+  <script src="Scripts/CBE_Javascript.js" defer></script>
+  <script src="Scripts/CBE_Javascript_UI.js" defer></script>
+  <script src="Scripts/CBE_Javascript_Home.js" defer></script>
+  
   <body NoMargins_Top>
     <div class="LoadingScreen" NoMargins>
       <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
@@ -50,11 +54,12 @@
         <h4 class="Home_Section_Content_Description">
           Compilation of photos, designs, digital arts, etc.
         </h4>
-        <div class="Home_Section_Content_Featured">
-          <button class="Home_Section_Content_Featured_Item">
-            <div class="Home_Section_Content_Featured_Item_Background"></div>
+        <div class="Home_Section_Content_Featured" id="Home_Section_Content_Featured_1">
+          <button class="Home_Section_Content_Featured_Item" onclick="Tabs_ChangeTab(this.id, 'Vertical'), Slideshow_Interrupt(0)" id="Home_Section_Content_Featured_Button_1" Tabs_Tab_Title = "" Tabs_Tab_Target_Container = "Home_Section_Cover" Tabs_Tab_Target_Tab = "Home_Section_Cover_Item_1" State="Selected">
+            
             <div class="Home_Section_Content_Featured_Item_Diamond"></div>
             <div class="Home_Section_Content_Featured_Item_Content">
+              <div class="Home_Section_Content_Featured_Item_Background"></div>
               <h4 class="Home_Section_Content_Featured_Item_Content_Subtitle">
                 Figures
               </h4>
@@ -63,10 +68,11 @@
               </h2>
             </div>
           </button>
-          <button class="Home_Section_Content_Featured_Item">
-            <div class="Home_Section_Content_Featured_Item_Background"></div>
+          <button class="Home_Section_Content_Featured_Item" onclick="Tabs_ChangeTab(this.id, 'Vertical'), Slideshow_Interrupt(1)" id="Home_Section_Content_Featured_Button_2" Tabs_Tab_Title = "" Tabs_Tab_Target_Container = "Home_Section_Cover" Tabs_Tab_Target_Tab = "Home_Section_Cover_Item_2">
+            
             <div class="Home_Section_Content_Featured_Item_Diamond"></div>
             <div class="Home_Section_Content_Featured_Item_Content">
+              <div class="Home_Section_Content_Featured_Item_Background"></div>
               <h4 class="Home_Section_Content_Featured_Item_Content_Subtitle">
                 Figures
               </h4>
@@ -75,10 +81,11 @@
               </h2>
             </div>
           </button>
-          <button class="Home_Section_Content_Featured_Item">
-            <div class="Home_Section_Content_Featured_Item_Background"></div>
+          <button class="Home_Section_Content_Featured_Item" onclick="Tabs_ChangeTab(this.id, 'Vertical'), Slideshow_Interrupt(2)" id="Home_Section_Content_Featured_Button_3" Tabs_Tab_Title = "" Tabs_Tab_Target_Container = "Home_Section_Cover" Tabs_Tab_Target_Tab = "Home_Section_Cover_Item_3">
+            
             <div class="Home_Section_Content_Featured_Item_Diamond"></div>
             <div class="Home_Section_Content_Featured_Item_Content">
+              <div class="Home_Section_Content_Featured_Item_Background"></div>
               <h4 class="Home_Section_Content_Featured_Item_Content_Subtitle">
                 Arteest
               </h4>
@@ -87,10 +94,11 @@
               </h2>
             </div>
           </button>
-          <button class="Home_Section_Content_Featured_Item">
-            <div class="Home_Section_Content_Featured_Item_Background"></div>
+          <button class="Home_Section_Content_Featured_Item" onclick="Tabs_ChangeTab(this.id, 'Vertical'), Slideshow_Interrupt(3)" id="Home_Section_Content_Featured_Button_4" Tabs_Tab_Title = "" Tabs_Tab_Target_Container = "Home_Section_Cover" Tabs_Tab_Target_Tab = "Home_Section_Cover_Item_4">
+            
             <div class="Home_Section_Content_Featured_Item_Diamond"></div>
             <div class="Home_Section_Content_Featured_Item_Content">
+              <div class="Home_Section_Content_Featured_Item_Background"></div>
               <h4 class="Home_Section_Content_Featured_Item_Content_Subtitle">
                 Arteest
               </h4>
@@ -99,10 +107,11 @@
               </h2>
             </div>
           </button>
-          <button class="Home_Section_Content_Featured_Item">
-            <div class="Home_Section_Content_Featured_Item_Background"></div>
+          <button class="Home_Section_Content_Featured_Item" onclick="Tabs_ChangeTab(this.id, 'Vertical'), Slideshow_Interrupt(4)" id="Home_Section_Content_Featured_Button_5" Tabs_Tab_Title = "" Tabs_Tab_Target_Container = "Home_Section_Cover" Tabs_Tab_Target_Tab = "Home_Section_Cover_Item_5">
+            
             <div class="Home_Section_Content_Featured_Item_Diamond"></div>
             <div class="Home_Section_Content_Featured_Item_Content">
+              <div class="Home_Section_Content_Featured_Item_Background"></div>
               <h4 class="Home_Section_Content_Featured_Item_Content_Subtitle">
                 Graphic Design
               </h4>
@@ -118,29 +127,88 @@
             <h2 class="Home_Section_Content_Link_Content_Title">
               See more
             </h2>
-            <div class="Arrow" Right>
-              <div class="Arrow_Container">
-                <span class="Arrow_Base_Dot"></span>
-                <span class="Arrow_Base"></span>
-                <span class="Arrow_Left"></span>
-                <span class="Arrow_Right"></span>
+            <div class="Home_Section_Content_Link_Content_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
               </div>
             </div>
+            
           </div>
         </button>
       </div>
-      <div class="Home_Section_Cover">
-        <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Figures/Gojo_1.JPG" Full loading="lazy" draggable="false"/>
-        <div class="Home_Section_Cover_Gradient" Down></div>
-        <div class="Home_Section_Cover_Content">
-          <h4 class="Home_Section_Cover_Content_Category">
-            Figures
-          </h4>
-          <h1 class="Home_Section_Cover_Content_Title">
-            GOJO SATORU
-          </h1>
+      <div class="Home_Section_Cover" id="Home_Section_Cover" Tabs_CurrentTab = "">
+        <div class="Tab_Container_Content_Item Home_Section_Cover_Item" id="Home_Section_Cover_Item_1">
+          <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Figures/Gojo_1.JPG" Full loading="lazy" draggable="false"/>
+          <div class="Home_Section_Cover_Gradient" Up></div>
+          <div class="Home_Section_Cover_Gradient" Down></div>
+          <div class="Home_Section_Cover_Content">
+            <h4 class="Home_Section_Cover_Content_Category">
+              Figures
+            </h4>
+            <h1 class="Home_Section_Cover_Content_Title">
+              GOJO SATORU
+            </h1>
+          </div>
+        </div>
+        <div class="Tab_Container_Content_Item Home_Section_Cover_Item" id="Home_Section_Cover_Item_2">
+          <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Figures/Tanjiro1.png" Full loading="lazy" draggable="false"/>
+          <div class="Home_Section_Cover_Gradient" Up></div>
+          <div class="Home_Section_Cover_Gradient" Down></div>
+          <div class="Home_Section_Cover_Content">
+            <h4 class="Home_Section_Cover_Content_Category">
+              Figures
+            </h4>
+            <h1 class="Home_Section_Cover_Content_Title">
+              Tanjiro Kamado
+            </h1>
+          </div>
+        </div>
+        <div class="Tab_Container_Content_Item Home_Section_Cover_Item" id="Home_Section_Cover_Item_3">
+          <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Arteest/Teru_1.png" Full loading="lazy" draggable="false"/>
+          <div class="Home_Section_Cover_Gradient" Up></div>
+          <div class="Home_Section_Cover_Gradient" Down></div>
+          <div class="Home_Section_Cover_Content">
+            <h4 class="Home_Section_Cover_Content_Category">
+              Arteest
+            </h4>
+            <h1 class="Home_Section_Cover_Content_Title">
+              Hanazawa Teruki
+            </h1>
+          </div>
+        </div>
+        <div class="Tab_Container_Content_Item Home_Section_Cover_Item" id="Home_Section_Cover_Item_4">
+          <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Arteest/Vash_2.png" Full loading="lazy" draggable="false"/>
+          <div class="Home_Section_Cover_Gradient" Up></div>
+          <div class="Home_Section_Cover_Gradient" Down></div>
+          <div class="Home_Section_Cover_Content">
+            <h4 class="Home_Section_Cover_Content_Category">
+              Arteest
+            </h4>
+            <h1 class="Home_Section_Cover_Content_Title">
+              Vash the Stampede
+            </h1>
+          </div>
+        </div>
+        <div class="Tab_Container_Content_Item Home_Section_Cover_Item" id="Home_Section_Cover_Item_5">
+          <img class="Home_Section_Cover_Image" src="Assets/Images/Gallery/Graphic_Design/Posters/Clean.png" Full loading="lazy" draggable="false"/>
+          <div class="Home_Section_Cover_Gradient" Up></div>
+          <div class="Home_Section_Cover_Gradient" Down></div>
+          <div class="Home_Section_Cover_Content">
+            <h4 class="Home_Section_Cover_Content_Category">
+              Graphic Design
+            </h4>
+            <h1 class="Home_Section_Cover_Content_Title">
+              ELISM Poster
+            </h1>
+          </div>
         </div>
       </div>
     </section>
+    
   </body>
 </html>
