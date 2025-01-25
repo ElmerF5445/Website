@@ -1,5 +1,5 @@
 
-.Reviewers_Books{
+.Reviewers_Books_Old{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     margin-right: var(--Element-Margin-Right);
 }
 
-.Reviewers_Books_Item{
+.Reviewers_Books_Old_Item{
     width: 300px;
     height: 500px;
     display: grid;
@@ -20,7 +20,7 @@
     padding: 10px;
 }
 
-.Reviewers_Books_Item_Cover{
+.Reviewers_Books_Old_Item_Cover{
     width: 300px;
     height: 400px;
     display: flex;
@@ -28,51 +28,173 @@
     align-items: center;
 }
 
-.Reviewers_Books_Item_Cover_Image{
+.Reviewers_Books_Old_Item_Cover_Image{
     width: 250px;
     height: 350px;
     background-color: green;
     transition: var(--Element-Transition-Delay);
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_1{
+.Reviewers_Books_Old_Item_Cover_Image#Book_1{
     box-shadow: 10px 10px 0px 0px #830101, -10px -10px 0px 0px #a10101;
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_1:hover{
+.Reviewers_Books_Old_Item_Cover_Image#Book_1:hover{
     transform: scale(1.02);
     box-shadow: 20px 20px 0px 0px #830101, -20px -20px 0px 0px #a10101;
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_2{
+.Reviewers_Books_Old_Item_Cover_Image#Book_2{
     box-shadow: 10px 10px 0px 0px #01520f, -10px -10px 0px 0px #026112;
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_2:hover{
+.Reviewers_Books_Old_Item_Cover_Image#Book_2:hover{
     transform: scale(1.02);
     box-shadow: 20px 20px 0px 0px #01520f, -20px -20px 0px 0px #026112;
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_3{
+.Reviewers_Books_Old_Item_Cover_Image#Book_3{
     box-shadow: 10px 10px 0px 0px #491b85, -10px -10px 0px 0px #58269b;
 }
 
-.Reviewers_Books_Item_Cover_Image#Book_3:hover{
+.Reviewers_Books_Old_Item_Cover_Image#Book_3:hover{
     transform: scale(1.02);
     box-shadow: 20px 20px 0px 0px #491b85, -20px -20px 0px 0px #58269b;
 }
 
-.Reviewers_Books_Item_Title{
+.Reviewers_Books_Old_Item_Title{
     font-family: var(--Text-Font-Primary);
     color: var(--Text-Color);
     margin: 0;
 }
 
-.Reviewers_Books_Item_Description{
+.Reviewers_Books_Old_Item_Description{
     font-family: var(--Text-Font-Secondary);
     color: var(--Text-Color);
     margin: 0;
     padding-bottom: 10px;
+}
+
+.Reviewers_Books{
+    margin-top: 50px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.Reviewers_Books_Item{
+    /* width: 500px; */
+    /* background-color: #01520f; */
+}
+
+.Reviewers_Books_Item:hover{
+    transform: rotate(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.Reviewers_Books_Item:active{
+    transform: rotate(5deg) scale(1.02);
+    cursor: pointer;
+}
+
+.Reviewers_Books_Item_Cover{
+    /* background-color: #491b85; */
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Border{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border: solid var(--Theme-Dynamic-Level-L3) 2px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Corner{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--BGColor);
+    border: solid var(--Theme-Dynamic-Level-L3) 2px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Left"]{
+    top: -10px;
+    left: -10px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Right"]{
+    top: -10px;
+    right: -10px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Left"]{
+    bottom: -10px;
+    left: -10px;
+}
+
+.Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Right"]{
+    bottom: -10px;
+    right: -10px;
+}
+
+.Reviewers_Books_Item:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Left"]{
+    width: 250px;
+}
+
+.Reviewers_Books_Item:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Right"]{
+    height: 335px;
+}
+
+.Reviewers_Books_Item:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Left"]{
+    height: 335px;
+}
+
+.Reviewers_Books_Item:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Right"]{
+    width: 250px;
+}
+
+.Reviewers_Books_Item:active > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Left"]{
+    left: 275px;
+    width: 25px;
+}
+
+.Reviewers_Books_Item:active > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Right"]{
+    top: 357px;
+    height: 25px;
+}
+
+.Reviewers_Books_Item:active > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Left"]{
+    bottom: 357px;
+    height: 25px;
+}
+
+.Reviewers_Books_Item:active > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Right"]{
+    right: 275px;
+    width: 25px;
+}
+
+.Reviewers_Books_Item_Cover_Image{
+    overflow: hidden;
+    outline: solid var(--Theme-Dynamic-Level-L3) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reviewers_Books_Item_Cover_Image_Image{
+    width: 275px;
 }
 
 .Reviewers_Information{

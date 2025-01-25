@@ -127,6 +127,8 @@ body{
     width: 100%;
 }
 
+
+
 .Home_Section_Content_Featured_Item[State = "Selected"] > .Home_Section_Content_Featured_Item_Content > .Home_Section_Content_Featured_Item_Content_Subtitle, .Home_Section_Content_Featured_Item[State = "Selected"] > .Home_Section_Content_Featured_Item_Content > .Home_Section_Content_Featured_Item_Content_Title{
     color: var(--Theme-Dynamic-Level-D2)
 }
@@ -184,6 +186,13 @@ body{
     letter-spacing: 3px;
     z-index: 5;
     position: relative;
+    pointer-events: none;
+}
+
+.Home_Section_Content_Featured_Item[State = "Selected"] > .Home_Section_Content_Featured_Item_Content > .Home_Section_Content_Featured_Item_Content_Title{
+    text-decoration: underline;
+    cursor: pointer;
+    pointer-events: all;
 }
 
 .Home_Section_Content_Description, .Home_Section_Cover_Content_Category{

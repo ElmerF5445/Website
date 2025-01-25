@@ -27,6 +27,11 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: var(--BGColor);
+	background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.1) 5%, transparent 10%);
+	background-position: 8px 8px;
+	background-size: 16px 16px;
+	background-color: var(--BGColor);
 }
 
 a{
@@ -826,7 +831,7 @@ body > *[NoMargins]{
 	grid-template-columns: 1fr 1fr 1fr auto 1fr 1fr 1fr;
 	user-select: none;
 	/* padding: 10px; */
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 }
 
 .Branch_Banner_Content{
@@ -841,19 +846,25 @@ body > *[NoMargins]{
 	animation-duration: 240s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+	/* height: calc(100% + 250px); */
+	/* margin-left: 20px;
+	margin-right: 20px; */
 }
 
 .Branch_Banner_Decoration[Distance = "1"]{
+	/* transform: translateY(-150px); */
 	background-color: var(--Theme-Dynamic-Level-D3);
 	animation-name: Branch_Banner_Decoration_Distance_1;
 }
 
 .Branch_Banner_Decoration[Distance = "2"]{
+	/* transform: translateY(-50px); */
 	background-color: var(--Theme-Dynamic-Level-D4);
 	animation-name: Branch_Banner_Decoration_Distance_2;
 }
 
 .Branch_Banner_Decoration[Distance = "3"]{
+	/* transform: translateY(50px); */
 	background-color: var(--Theme-Dynamic-Level-D5);
 	animation-name: Branch_Banner_Decoration_Distance_3;
 }
@@ -937,6 +948,26 @@ body > *[NoMargins]{
 	/* animation-delay: 2.3s; */
 	/* animation-timing-function: ease-out; */
 	/* animation-fill-mode: forwards; */
+}
+
+.Branch_Banner_Divider{
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: var(--Theme-Dynamic-Base);
+	top: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+.Branch_Banner_Divider_Diamond{
+	width: 20px;
+	height: 20px;
+	background-color: var(--BGColor);
+	position: absolute;
+	top: -10px;
+	border: solid var(--Theme-Dynamic-Base) 2px;
+	transform: rotate(45deg);
 }
 
 .Subpage_Banner{

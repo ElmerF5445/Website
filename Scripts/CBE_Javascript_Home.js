@@ -1,5 +1,5 @@
 var Slideshow_SlideNumber = 0;
-var Slideshow_Speed = 3500;
+var Slideshow_Speed = 5000;
 var AutoStart_Slideshow = true;
 var Slideshow_isPaused = false;
 
@@ -7,6 +7,7 @@ var Slideshow_isPaused = false;
 window.addEventListener('load', function(){
     if (AutoStart_Slideshow == true){
         Slideshow_Start();
+        Slideshow_Loop();
     }
 })
 
@@ -25,8 +26,8 @@ function Slideshow_Interrupt(ClickedSlide){
     }
     setTimeout(function(){
         Slideshow_isPaused = false
-    }, 3000);
-    console.log("Slideshow interrupted");
+    }, 5000);
+    // console.log("Slideshow interrupted");
 }
 
 function Slideshow_Stop(){
@@ -35,7 +36,7 @@ function Slideshow_Stop(){
 var Slideshow_TotalSlides;
 function Slideshow_Loop(){
     if (Slideshow_isPaused == false){
-        console.log(Slideshow_SlideNumber);
+        // console.log(Slideshow_SlideNumber);
     //console.log("Slide number: " + Slideshow_SlideNumber);
     Tabs_ChangeTab_Specific(Slideshow_SlideNumber, "Home_Section_Content_Featured_1");
     if (Slideshow_SlideNumber >= Slideshow_TotalSlides - 1){
@@ -44,8 +45,6 @@ function Slideshow_Loop(){
         Slideshow_SlideNumber++;
     }
     }
-    
-    
 } 
 
 function Slideshow_Reset(){
