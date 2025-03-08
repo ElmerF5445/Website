@@ -421,7 +421,7 @@
 .Gallery_Home_Section_Content_Title{
     font-family: Hauser;
     text-transform: uppercase;
-    word-break:break-all;
+    /* word-break:break-all; */
     hyphens:auto;
     color: var(--Theme-Dynamic-Level-L3);
     font-size: 50px;
