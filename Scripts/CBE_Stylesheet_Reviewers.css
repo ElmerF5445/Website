@@ -284,6 +284,10 @@
     box-shadow: 20px 20px 0px 0px #491b85, -20px -20px 0px 0px #58269b;
 }
 
+.Reviewers_Information_Content{
+    margin-top: 20px;
+}
+
 .Reviewers_Information_Text, .Reviewers_Information_Content{
     border: solid var(--Theme-Dynamic-Level-L3) 2px;
     position: relative;
