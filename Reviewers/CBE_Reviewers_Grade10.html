@@ -29,55 +29,209 @@
   <body
     id="pageElement_Body"
     onload="Load_Properties()" UI_Overlay="Template_UI" Color_Profile="Green" Header_AltPage_URL="Reviewers/CBE_Reviewers.html" Header_AltPage_Title="Reviewers" CopyLink_HasAltLink="true" BackToParent_HasParent="true" BackToParent_Parent_URL="Reviewers/CBE_Reviewers.html" BackToParent_Parent_Text="Back to Reviewers"
+    Margin_Type="SubBranch"
   >
   <div class="LoadingScreen" NoMargins>
     <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div> -->
   </div>
     <div class="Subpage_Banner" NoMargins>
-      <a onclick="Page_ChangePage('Reviewers/', Transition)">
-        <h1 class="Subpage_Banner_Branch">
-          Reviewers
-        </h1>
-      </a>
-      <h1 class="Subpage_Banner_Title">
-        Grade 10
-      </h1>
+      <div class="Subpage_Banner_Decoration" Position="Left">
+        <div class="Subpage_Banner_Decoration_Diamond" Position="Top"></div>
+        <div class="Subpage_Banner_Decoration_Diamond" Position="Bottom"></div>
+        <button class="Subpage_Banner_Decoration_Diamond" Position="Middle" onclick="Page_ChangePage('Reviewers/index.html', Transition)">
+          <div class="Arrow" Left>
+            <div class="Arrow_Container">
+              <span class="Arrow_Base_Dot"></span>
+              <span class="Arrow_Base"></span>
+              <span class="Arrow_Left"></span>
+              <span class="Arrow_Right"></span>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div class="Subpage_Banner_Content">
+        <!-- <div class="Subpage_Banner_Branch_Icon">
+          <div class="Subpage_Banner_Branch_Icon_Decoration" Position="Top"></div>
+          <div class="Subpage_Banner_Branch_Icon_Content">
+            
+          </div>
+          <div class="Subpage_Banner_Branch_Icon_Decoration" Position="Bottom"></div>
+        </div> -->
+        <div class="Subpage_Banner_Branch_Content">
+          <div class="Subpage_Banner_Branch_Text">
+            <h1 class="Subpage_Banner_Branch_Text_Title">
+              Grade 10 Reviewers
+            </h1> 
+          </div>
+          <!-- <div class="Subpage_Banner_Branch_Decoration" Position="Bottom">
+            <div class="Subpage_Banner_Branch_Decoration_Component" Length="Short"></div> 
+            <div class="Subpage_Banner_Branch_Decoration_Component" Length="Long"></div> 
+            <div class="Subpage_Banner_Branch_Decoration_Component" Length="Short"></div> 
+            <div class="Subpage_Banner_Branch_Decoration_Component" Length="Dot"></div> 
+            <div class="Subpage_Banner_Branch_Decoration_Diamond">
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="Subpage_Banner_Decoration" Position="Right">
+        <div class="Subpage_Banner_Decoration_Diamond" Position="Top"></div>
+        <div class="Subpage_Banner_Decoration_Diamond" Position="Bottom"></div>
+        <div class="Subpage_Banner_Decoration_Diamond" Position="Middle"></div>
+      </div>
     </div>
     <div class="Reviewers_Information">
       <div class="Reviewers_Information_Cover">
-        <img
-          src="Assets/Images/Reviewers/Grade10_LQ_1.png"
-          class="Reviewers_Information_Cover_Image"
-          id="Book_1"
-          loading="lazy"
-        />
-      </div>
-      <div class="Reviewers_Information_Text">
-        <h1 class="Reviewers_Information_Title">Included subjects</h1>
-        <ul class="Reviewers_Information_List">
-          <li>
-            Mathematics, Science, English, Filipino, Araling Panlipunan,
-            Christian Living Education, MAPEH, Programming, Computer, Statistics
-          </li>
-        </ul>
-        <h1 class="Reviewers_Information_Title">Downloads</h1>
-        <div class="Reviewers_Downloads">
-          <div class="Reviewers_Downloads_Item">
-            <p class="Reviewers_Downloads_Item_Text">Grade 10 Reviewer Full</p>
-            <p class="Reviewers_Downloads_Item_Text">May 21, 2020</p>
-            <a
-              href="https://docs.google.com/uc?export=download&id=1xTml-FXSkSTMWQLq-iMBUWGXCfYFer7p"
-            >
-              <div class="General_Button">Download</div>
-            </a>
+        <div class="Reviewers_Books_Item" Locked>
+          <div class="Reviewers_Books_Item_Cover">
+            <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Top_Left"></div>
+            <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Top_Right"></div><div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Bottom_Left"></div>
+            <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Bottom_Right"></div>
+            <div class="Reviewers_Books_Item_Cover_Decoration_Border"></div>
+            <div class="Reviewers_Books_Item_Cover_Image">
+              <img class="Reviewers_Books_Item_Cover_Image_Image" src="Assets/Images/Reviewers/Grade10_LQ_1.png" draggable="false" loading="lazy"/>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="Reviewers_Information_Content">
+        <div class="Reviewers_Information_Decoration" Position="Top">
+          <span class="Reviewers_Information_Decoration_Component" Length="Short"></span>
+          <span class="Reviewers_Information_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Reviewers_Information_Decoration" Position="Bottom">
+          <span class="Reviewers_Information_Decoration_Component" Length="Short"></span>
+          <span class="Reviewers_Information_Decoration_Component" Length="Long"></span>
+        </div>
+        <section class="Reviewer_Information_Section">
+          <h1 class="Reviewers_Information_Title">Included subjects</h1>
+          <ul class="Reviewers_Information_List">
+            <li>
+              Mathematics, Science, English, Filipino, Araling Panlipunan,
+              Christian Living Education, MAPEH, Programming, Computer, Statistics
+            </li>
+          </ul>
+        </section>
+        <section class="Reviewer_Information_Section">
+          <h1 class="Reviewers_Information_Title">Downloads</h1>
+          <div class="Reviewers_Downloads">
+            <div class="Reviewers_Downloads_Item">
+              <p class="Reviewers_Downloads_Item_Text">Grade 10 Reviewer Full</p>
+              <p class="Reviewers_Downloads_Item_Text">May 21, 2020</p>
+              <a
+                href="https://docs.google.com/uc?export=download&id=1xTml-FXSkSTMWQLq-iMBUWGXCfYFer7p"
+              >
+                <div class="General_Button">Download</div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="Reviewer_Information_Section">
+          <h1 class="Reviewers_Information_Title">
+            Table of Contents
+          </h1>
+          <div class="Reviewers_Information_TableOfContents">
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Mathematics
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                2
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Science
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                14
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                English
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                22
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Filipino
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                31
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Araling Panlipunan
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                47
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Christian Living Education
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                53
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Music, Arts, Physical Education, Health
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                63
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Computer Programming (Java)
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                71
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Computer
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                75
+              </p>
+            </span>
+            <span class="Reviewers_Information_TableOfContents_Item">
+              <p class="Reviewers_Downloads_Item_Text">
+                Statistics
+              </p>
+              <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+              <p class="Reviewers_Downloads_Item_Text">
+                79
+              </p>
+            </span>
+          </div>
+        </section>
+        <section class="Reviewer_Information_Section">
           <h1 class="Reviewers_Information_Title">Contact</h1>
           <p class="Reviewers_Information_Paragraph">
             For concerns and corrections, please email me at
             <u> contentbyelmerf@gmail.com </u>
           </p>
-        </div>
+        </section>
+        
+          
       </div>
     </div>
   </body>

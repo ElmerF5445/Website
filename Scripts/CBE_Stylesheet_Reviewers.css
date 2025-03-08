@@ -86,6 +86,7 @@
     justify-items: center;
     align-items: center;
     overflow-x: auto;
+    user-select: none;
 }
 
 .Reviewers_Books_Item{
@@ -100,6 +101,11 @@
 
 .Reviewers_Books_Item:active{
     transform: rotate(5deg) scale(1.02);
+    cursor: pointer;
+}
+
+.Reviewers_Books_Item[Locked]:hover{
+    transform: unset;
     cursor: pointer;
 }
 
@@ -185,6 +191,36 @@
     width: 25px;
 }
 
+.Reviewers_Books_Item[Locked] > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Left"]{
+    top: -10px;
+    left: -10px;
+    width: 250px;
+}
+
+.Reviewers_Books_Item[Locked] > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Right"]{
+    top: -10px;
+    right: -10px;
+}
+
+.Reviewers_Books_Item[Locked] > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Left"]{
+    bottom: -10px;
+    left: -10px;
+}
+
+.Reviewers_Books_Item[Locked] > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Right"]{
+    bottom: -10px;
+    right: -10px;
+    width: 250px;
+}
+
+.Reviewers_Books_Item[Locked]:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Top_Right"]{
+    height: 25px;
+}
+
+.Reviewers_Books_Item[Locked]:hover > .Reviewers_Books_Item_Cover > .Reviewers_Books_Item_Cover_Decoration_Corner[Corner = "Bottom_Left"]{
+    height: 25px;
+}
+
 .Reviewers_Books_Item_Cover_Image{
     overflow: hidden;
     outline: solid var(--Theme-Dynamic-Level-L3) 2px;
@@ -248,10 +284,18 @@
     box-shadow: 20px 20px 0px 0px #491b85, -20px -20px 0px 0px #58269b;
 }
 
+.Reviewers_Information_Text, .Reviewers_Information_Content{
+    border: solid var(--Theme-Dynamic-Level-L3) 2px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .Reviewers_Information_Title{
 	font-family: var(--Text-Font-Primary);
 	color: var(--Text-Color);
     margin: 0;
+    /* margin-top: 20px; */
 }
 
 .Reviewers_Information_Paragraph{
@@ -286,4 +330,69 @@
         grid-template-columns: unset;
         grid-template-rows: auto 1fr;
     }
+}
+
+.Reviewers_Information_Decoration{
+    position: absolute;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Reviewers_Information_Decoration[Position = "Top"]{
+    top: -13px;
+    left: -13px;
+}
+
+.Reviewers_Information_Decoration[Position = "Bottom"]{
+    bottom: -13px;
+    right: -25px;
+    flex-direction: row-reverse;
+}
+
+.Reviewers_Information_Decoration_Component{
+    border: solid var(--Theme-Dynamic-Level-L3) 2px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.Reviewers_Information_Decoration[Position = "Top"] > .Reviewers_Information_Decoration_Component:not(:nth-child(1)){
+    margin-left: 12px;
+    margin-right: 0px;
+}
+
+.Reviewers_Information_Decoration[Position = "Bottom"] > .Reviewers_Information_Decoration_Component:not(:nth-child(1)){
+    margin-left: 0px;
+    margin-right: 12px;
+}
+
+.Reviewers_Information_Decoration_Component[Length = "Short"]{
+    width: 25px;
+}
+
+.Reviewers_Information_Decoration_Component[Length = "Long"]{
+    width: -webkit-fill-available;
+    max-width: 500px;;
+}
+
+.Reviewer_Information_Section{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Reviewer_Information_Section:not(:last-child){
+    border-bottom: solid var(--Theme-Dynamic-Level-L3) 2px;
+}
+
+.Reviewers_Information_TableOfContents_Item{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.Reviewers_Information_TableOfContents_Guideline{
+    border: dashed var(--Theme-Dynamic-Level-L3) 1px;
 }

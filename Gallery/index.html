@@ -28,7 +28,7 @@
   <script src="Scripts/CBE_Javascript_UI.js"></script>
   <script src="Scripts/CBE_Javascript_BranchNavigation.js"></script>
   <body id="pageElement_Body" onload="Load_Properties();" UI_Overlay="Template_UI" Color_Profile="Violet"
-  Header_AltPage_URL="Top" Header_AltPage_Title="Gallery" CopyLink_HasAltLink="true">
+  Header_AltPage_URL="Top" Header_AltPage_Title="Gallery" CopyLink_HasAltLink="true" Margin_Type="Branch">
     <div class="LoadingScreen" NoMargins>
       <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
       <div class="LoadingScreen_Curtain"></div> -->
@@ -38,18 +38,27 @@
       <span class="Branch_Banner_Decoration" Distance="2"></span>
       <span class="Branch_Banner_Decoration" Distance="1"></span>
       <div class="Branch_Banner_Content">
+        <span class="Branch_Banner_Content_Diamond" Position="Left"></span>
+        <span class="Branch_Banner_Content_Diamond" Position="Right"></span>
         <h1 class="Branch_Banner_Title">
           Gallery
         </h1>
         <h3 class="Branch_Banner_Description">
           Curated photos and stuff
         </h3>
+        
       </div>
       <span class="Branch_Banner_Decoration" Distance="1"></span>
       <span class="Branch_Banner_Decoration" Distance="2"></span>
       <span class="Branch_Banner_Decoration" Distance="3"></span>
+      <div class="Branch_Banner_Divider" Position="Top">
+        <span class="Branch_Banner_Divider_Diamond"></span>
+      </div>
+      <div class="Branch_Banner_Divider" Position="Bottom">
+        <span class="Branch_Banner_Divider_Diamond"></span>
+      </div>
     </div>
-    <div class="Gallery_Section">
+    <!-- <div class="Gallery_Section">
       <div class="Gallery_Section_Content">
         <h1 class="Gallery_Section_Content_Title">
           Photography
@@ -77,36 +86,225 @@
           Check it out
         </div>
       </div>
-    </div>
-
-    <!-- <div class="Gallery_Section">
-      <div class="Gallery_Section_Content">
-        <h1 class="Gallery_Section_Content_Title">
-          Builder Diary
-        </h1>
-        <h4 class="Gallery_Section_Content_Paragraph">
-          Minecraft
-        </h4>
-        <span></span>
-        <div onclick="Page_ChangePage('Reviewers/CBE_Reviewers.html', Transition)" class="General_Button">
-          Check it out
-        </div>
-      </div>
-    </div>
-
-    <div class="Gallery_Section">
-      <div class="Gallery_Section_Content">
-        <h1 class="Gallery_Section_Content_Title">
-          Traveler's Travels
-        </h1>
-        <h4 class="Gallery_Section_Content_Paragraph">
-          Genshin Impact
-        </h4>
-        <span></span>
-        <div onclick="Page_ChangePage('Reviewers/CBE_Reviewers.html', Transition)" class="General_Button">
-          Check it out
-        </div>
-      </div>
     </div> -->
+
+    <div class="Gallery_Home">
+      <!-- Photography -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Photography/Cookie.JPG" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_1/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Photography
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Straight out of camera photos with little to no editing.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button" onclick="Page_ChangePage('Gallery/CBE_Gallery.html?Album=Photography', Transition)">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Figures -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Figures/Gojo_1.JPG" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_2/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Figures
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Photos I took with the anime figures we have lying around the house.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Graphic Design -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Graphic_Design/Posters/Clean.png" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_3/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Graphic Design
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Posters, cards, infographics.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button" onclick="Page_ChangePage('Gallery/CBE_Gallery.html?Album=GraphicDesign', Transition)">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Arteest -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Arteest/Teru_1.png" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_4/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Arteest
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Drawings I made when I was bored.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Builders' Guild -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Minecraft/Cave.png" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_5/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Builders' Guild
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Minecraft builds and old renders.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Traveler's Travels -->
+      <div class="Gallery_Home_Section">
+        <div class="Gallery_Home_Section_Decoration" Position="Top">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+          <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+        </div>
+        <div class="Gallery_Home_Section_Decoration_Border"></div>
+        
+        <div class="Gallery_Home_Section_Preview">
+          <img src="Assets/Images/Gallery/Genshin/Mondstadt/Mondstadt_1.png" loading="lazy" class="Gallery_Home_Section_Preview_Image" Item_6/>
+        </div>
+        <div class="Gallery_Home_Section_Content">
+          <h1 class="Gallery_Home_Section_Content_Title">
+            Traveler's Travels
+          </h1>
+          <h4 class="Gallery_Home_Section_Content_Description">
+            Sceneries I took from Genshin Impact.
+          </h4>
+          <button class="Gallery_Home_Section_Content_Button">
+            Check it out
+            <div class="Gallery_Home_Section_Content_Button_Arrow">
+              <div class="Arrow" Right>
+                <div class="Arrow_Container">
+                  <span class="Arrow_Base_Dot"></span>
+                  <span class="Arrow_Base"></span>
+                  <span class="Arrow_Left"></span>
+                  <span class="Arrow_Right"></span>
+                </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

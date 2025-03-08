@@ -55,7 +55,6 @@ a{
 }
 
 .UI_Header{
-	background-color: var(--Theme-Dynamic-Level-D2);
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -69,6 +68,18 @@ a{
 	z-index: 50;
 	overflow-y: hidden;
 }
+
+.UI_Header[Color = "Fill"]{
+	background-color: var(--Theme-Dynamic-Level-D2);
+}
+
+.UI_Header[Color = "Transparent"]{
+	background-color: transparent;
+}
+/* 
+.UI_Header[Color = "Transparent"] > .UI_Header_Title > .UI_Header_Logo > .UI_Header_Title_Logo_Big{
+	height: 75px;
+} */
 
 .UI_Header_Hamburger{
 	width: 30px;
@@ -799,6 +810,14 @@ body{
 	overflow-y: auto;
 	margin-top: 50px;
 }
+
+body[Margin_Type = "Branch"]{
+	margin-top: 70px;
+}
+
+body[Margin_Type = "SubBranch"]{
+	margin-top: 80px;
+}
 body > *{
 	margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right);
@@ -817,6 +836,10 @@ body > *[NoMargins]{
 	margin-right: unset;
 }
 
+body > *[NoMargins_All]{
+	margin: 0;
+}
+
 .Branch_Banner{
     /* background-color: var(--Theme-Dynamic-Level-D3); */
     width: 100%;
@@ -831,14 +854,53 @@ body > *[NoMargins]{
 	grid-template-columns: 1fr 1fr 1fr auto 1fr 1fr 1fr;
 	user-select: none;
 	/* padding: 10px; */
-	/* overflow-y: hidden; */
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position: relative;
 }
 
 .Branch_Banner_Content{
 	background-color: var(--Theme-Dynamic-Level-D3);
 	width: auto;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 75px;
+	padding-right: 75px;
+	border: solid var(--Theme-Dynamic-Level-L2) 2px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Branch_Banner_Content{
+	/* background-color: #264653; */
+	/* overflow: hidden; */
+}
+
+.Branch_Banner_Content_Decoration{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: -webkit-fill-available;
+}
+
+.Branch_Banner_Content_Diamond{
+	width: 20px;
+	height: 20px;
+	background-color: var(--BGColor);
+	position: absolute;
+	border: solid var(--Theme-Dynamic-Level-L2) 2px;
+	transform: rotate(45deg);
+}
+
+.Branch_Banner_Content_Diamond[Position = "Left"]{
+	left: -13px;
+	top: calc(50% - 15px);
+	/* bottom: 50%; */
+}
+
+.Branch_Banner_Content_Diamond[Position = "Right"]{
+	right: -13px;
+	top: calc(50% - 15px);
 }
 
 .Branch_Banner_Decoration{
@@ -854,12 +916,14 @@ body > *[NoMargins]{
 .Branch_Banner_Decoration[Distance = "1"]{
 	/* transform: translateY(-150px); */
 	background-color: var(--Theme-Dynamic-Level-D3);
+	/* background: linear-gradient(90deg, var(--Theme-Dynamic-Level-D3) 0%, rgba(9,9,121,0) 50%, var(--Theme-Dynamic-Level-D3) 100%); */
 	animation-name: Branch_Banner_Decoration_Distance_1;
 }
 
 .Branch_Banner_Decoration[Distance = "2"]{
 	/* transform: translateY(-50px); */
 	background-color: var(--Theme-Dynamic-Level-D4);
+	/* background: linear-gradient(90deg, var(--Theme-Dynamic-Level-L1) 0%, rgba(9,9,121,0) 50%, var(--Theme-Dynamic-Level-L1) 100%); */
 	animation-name: Branch_Banner_Decoration_Distance_2;
 }
 
@@ -923,15 +987,35 @@ body > *[NoMargins]{
 		background-color: var(--Theme-Dynamic-Level-D5);
 	}
 }
+
+.Branch_Banner_Decoration_Circle{
+	position: absolute;
+	border: dotted var(--Theme-Dynamic-Level-L3) 2px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	opacity: 50%;
+	transform: scale(2);
+}
+
+.Branch_Banner_Decoration_Circle[Position = "Left"]{
+	left: 50px;
+}
+
+.Branch_Banner_Decoration_Circle[Position = "Right"]{
+	right: 50px;
+}
+
 .Branch_Banner_Title{
     font-family: var(--Text-Font-Branch-Title);
-    font-size: 7vw;
+    font-size: 80px;
     color: var(--Theme-Dynamic-Base);
     letter-spacing: 2px;
 	margin: 0;
 	/* margin-left: 20px; */
 	text-align: center;
 	text-transform: uppercase;
+	-webkit-text-stroke: solid var(--Theme-Dynamic-Level-D2) 2px;
 }
 .Branch_Banner_Description{
     font-family: var(--Text-Font-Branch-Description);
@@ -955,31 +1039,287 @@ body > *[NoMargins]{
 	width: 100%;
 	height: 2px;
 	background-color: var(--Theme-Dynamic-Base);
-	top: 250px;
 	display: flex;
 	justify-content: center;
 }
+
+.Branch_Banner_Divider[Position = "Top"]{
+	top: 70px;
+	top: 0px;
+}
+
+.Branch_Banner_Divider[Position = "Bottom"]{
+	/* top: 270px; */
+	bottom: 0px;
+}
+
 
 .Branch_Banner_Divider_Diamond{
 	width: 20px;
 	height: 20px;
 	background-color: var(--BGColor);
 	position: absolute;
-	top: -10px;
 	border: solid var(--Theme-Dynamic-Base) 2px;
 	transform: rotate(45deg);
 }
 
+.Branch_Banner_Divider[Position = "Top"] > .Branch_Banner_Divider_Diamond{
+	top: -12px;
+}
+
+.Branch_Banner_Divider[Position = "Bottom"] > .Branch_Banner_Divider_Diamond{
+	top: -9px;
+}
+
 .Subpage_Banner{
 	width: 100%;
-	height: 100px;
-	background-color: var(--Theme-Dynamic-Level-D3);
+	height: 150px;
+	/* background-color: var(--Theme-Dynamic-Level-D4); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	user-select: none;
+	overflow-x: hidden;
 	overflow-y: hidden;
+	/* padding: 25px; */
+	/* background-color: blue; */
+	
+	position: relative;
+}
+
+.Subpage_Banner_Content{
+	/* background-color: red; */
+	/* width: auto; */
+	/* max-width: 1000px; */
+	width: 100%;
+	height: -webkit-fill-available;
+	margin-left: var(--Element-Margin-Left);
+	margin-right: var(--Element-Margin-Right);
+	/* display: grid;
+	grid-template-columns: 1fr; */
+	/* background-color: red; */
+	/* position: absolute; */
+	border-top: solid var(--Theme-Dynamic-Level-L3) 2px;
+	border-bottom: solid var(--Theme-Dynamic-Level-L3) 2px;
+}
+
+.Subpage_Banner_Decoration{
+	height: -webkit-fill-available;
+	width: 150px;
+	/* background-color: blue; */
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Subpage_Banner_Decoration[Position = "Left"]{
+	left: 150px;
+}
+
+.Subpage_Banner_Decoration[Position = "Right"]{
+	right: 150px;
+}
+
+.Subpage_Banner_Decoration_Diamond{
+	outline: unset;
+}
+
+.Subpage_Banner_Decoration_Diamond[Position = "Top"], .Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+	width: 150px;
+	height: 150px;
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	transform: rotate(45deg);
+	position: absolute;
+	background-color: var(--BGColor);
+}
+
+.Subpage_Banner_Decoration_Diamond[Position = "Top"]{
+	top: -77px;
+}
+
+.Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+	bottom: -77px;
+}
+
+.Subpage_Banner_Decoration_Diamond[Position = "Middle"]{
+	width: 45px;
+	height: 45px;
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	outline: none;
+	transform: rotate(45deg);
+	position: absolute;
+	background-color: var(--BGColor);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Subpage_Banner_Decoration_Diamond > .Arrow{
+	transform: rotate(225deg) !important;
+}
+
+.Subpage_Banner_Branch_Decoration_Inner{
+	height: -webkit-fill-available;
+	width: 50px;
+	/* background-color: blue; */
+	/* position: absolute; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Subpage_Banner_Branch_Decoration_Inner_Diamond{
+	background-color: var(--BGColor);
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	transform: rotate(45deg);
+	position: absolute;
+	height: 25px;
+	width: 25px;
+}
+
+.Subpage_Banner_Branch_Decoration_Inner_Diamond[Position = "Top"]{
+	top: 25px;
+}
+
+.Subpage_Banner_Branch_Icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.Subpage_Banner_Branch_Icon_Decoration{
+	width: 60px;
+	height: 60px;
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	transform: rotate(45deg);
+	position: absolute;
+	/* left: 15px; */
+	opacity: 5%;
+}
+
+.Subpage_Banner_Branch_Icon_Decoration[Position = "Top"]{
+	top: -25px;
+}
+
+.Subpage_Banner_Branch_Icon_Decoration[Position = "Bottom"]{
+	bottom: -25px;
+}
+
+.Subpage_Banner_Branch_Icon_Content{
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(45deg);
+}
+
+.Subpage_Banner_Branch_Content{
+	/* padding: 10px; */
+	/* background-color: red; */
+	/* width: calc(auto + 50px); */
+	width: 100%;
+	height: 100%;
+	/* margin-left: 10px; */
+	display: flex;
+	justify-content: center;
+}
+
+.Subpage_Banner_Branch_Back{
+	background-color: unset;
+	outline: unset;
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	transform: rotate(45deg) scale(0.9);
+	width: 35px;
+	height: 35px;
+	margin-right: 7px;
+}
+
+.Subpage_Banner_Branch_Back:focus{
+	border: dashed var(--Theme-Dynamic-Level-L3) 2px;
+}
+
+.Subpage_Banner_Branch_Back > .Arrow{
+	transform: rotate(225deg) !important;
+}
+
+.Subpage_Banner_Branch_Decoration{
+	display: flex;
+	align-items: center;
+	width: auto;
+	display: grid;
+	grid-gap: 7px;
+}
+
+.Subpage_Banner_Branch_Decoration[Position = "Top"]{
+	/* flex-direction: row; */
+	grid-template-columns: auto auto auto 1fr auto;
+}
+
+.Subpage_Banner_Branch_Decoration[Position = "Bottom"]{
+	/* flex-direction: row-reverse; */
+	grid-template-columns: auto 1fr auto auto auto;
+	padding-top: 10px;
+	padding-top: 10px;
+}
+
+.Subpage_Banner_Branch_Decoration_Diamond{
+	border: solid var(--Theme-Dynamic-Level-L3) 2px;
+	transform: rotate(45deg) scale(0.9);
+	width: 35px;
+	height: 35px;
+	/* margin-right: 7px; */
+}
+
+.Subpage_Banner_Branch_Decoration_Component[Length = "Dot"]{
+	background-color: var(--Theme-Dynamic-Level-L3);
+	width: 2px;
+	height: 2px;
+	/* margin-left: 5px; */
+}
+
+.Subpage_Banner_Branch_Decoration_Component[Length = "Long"]{
+	background-color: var(--Theme-Dynamic-Level-L3);
+	width: -webkit-fill-available;
+	height: 2px;
+	/* margin-left: 5px; */
+}
+
+.Subpage_Banner_Branch_Decoration_Component[Length = "Short"]{
+	background-color: var(--Theme-Dynamic-Level-L3);
+	width: 20px;
+	height: 2px;
+	/* margin-left: 5px; */
+}
+
+.Subpage_Banner_Branch_Text{
+	/* padding-left: 46px; */
+	padding-left: 50px;
+	padding-right: 50px;
+	height: -webkit-fill-available;
+	display: flex;
+	align-items: center;
+	max-width: 1500px;
+}
+
+.Subpage_Banner_Branch_Text_Title, .Subpage_Banner_Title{
+	font-family: var(--Text-Font-Branch-Title);
+    font-size: 50px;
+    color: var(--Theme-Dynamic-Base);
+    letter-spacing: 2px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+
+	/* transform: translateY(300%); */
+	/* animation-name: Branch_Banner_Text_RiseUp;
+	animation-duration: 0.75s;
+	animation-delay: 3.3s; */
+	/* animation-timing-function: ease-out; */
+	animation-fill-mode: forwards;
 }
 
 .Subpage_Banner_Branch{
@@ -998,22 +1338,65 @@ body > *[NoMargins]{
 	animation-fill-mode: forwards;
 }
 
-.Subpage_Banner_Title{
-	font-family: var(--Text-Font-Branch-Title);
-    font-size: 50px;
-    color: var(--Theme-Dynamic-Base);
-    letter-spacing: 2px;
-	margin: 0;
-	text-align: center;
-	text-transform: uppercase;
+@media only screen and (max-width: 1120px) {
+	
 
-	transform: translateY(300%);
-	animation-name: Branch_Banner_Text_RiseUp;
-	animation-duration: 0.75s;
-	animation-delay: 3.3s;
-	/* animation-timing-function: ease-out; */
-	animation-fill-mode: forwards;
+	.Subpage_Banner_Decoration[Position = "Left"]{
+		left: 35px;
+	}
+	.Subpage_Banner_Decoration[Position = "Right"]{
+		right: 35px;
+	}
+	.Subpage_Banner_Decoration_Diamond[Position = "Top"], .Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+		width: 25px;
+		height: 25px;
+	}
+	.Subpage_Banner_Decoration_Diamond[Position = "Top"]{
+		top: -14px;
+	}
+	
+	.Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+		bottom: -14px;
+	}
 }
+
+@media only screen and (max-width: 610px) {
+	.Branch_Banner_Title{
+		font-size: 50px;
+	}
+	.Subpage_Banner{
+		overflow-y: hidden;
+	}
+	.Subpage_Banner_Decoration{
+		overflow-y: unset;
+	}
+	.Subpage_Banner_Decoration[Position = "Left"]{
+		left: 27px;
+		width: auto;
+	}
+	.Subpage_Banner_Decoration[Position = "Right"]{
+		right: 27px;
+		width: auto;
+	}
+	.Subpage_Banner_Decoration_Diamond[Position = "Top"], .Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+		width: 25px;
+		height: 25px;
+	}
+	.Subpage_Banner_Decoration_Diamond[Position = "Top"]{
+		top: -14px;
+	}
+	
+	.Subpage_Banner_Decoration_Diamond[Position = "Bottom"]{
+		bottom: -14px;
+	}
+
+	.Subpage_Banner_Decoration_Diamond[Position = "Middle"]{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+
 
 .General_Title{
 	font-family: var(--Text-Font-Primary);
@@ -1343,40 +1726,40 @@ body > *[NoMargins]{
 	transform: rotate(-45deg) translateX(7.5px) translateY(-3px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Base, div:hover > .Arrow > .Arrow_Container > .Arrow_Base{
+.Arrow:hover > .Arrow_Container > .Arrow_Base, div:hover > .Arrow > .Arrow_Container > .Arrow_Base, button:hover > .Arrow > .Arrow_Container > .Arrow_Base, button:focus > .Arrow > .Arrow_Container > .Arrow_Base{
 	height: 17px;
 	transform: translateY(3px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Left, div:hover > .Arrow > .Arrow_Container > .Arrow_Left{
+.Arrow:hover > .Arrow_Container > .Arrow_Left, div:hover > .Arrow > .Arrow_Container > .Arrow_Left, button:hover > .Arrow > .Arrow_Container > .Arrow_Left, button:focus > .Arrow > .Arrow_Container > .Arrow_Left{
 	height: 13px;
 	transform: rotate(45deg) translateX(-3.5px) translateY(2px);
 }
 
-.Arrow:hover > .Arrow_Container > .Arrow_Right, div:hover > .Arrow > .Arrow_Container > .Arrow_Right{
+.Arrow:hover > .Arrow_Container > .Arrow_Right, div:hover > .Arrow > .Arrow_Container > .Arrow_Right, button:hover > .Arrow > .Arrow_Container > .Arrow_Right, button:focus > .Arrow > .Arrow_Container > .Arrow_Right{
 	height: 13px;
 	transform: rotate(-45deg) translateX(3.5px) translateY(2px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Base, div:active > .Arrow > .Arrow_Container > .Arrow_Base{
+.Arrow:active > .Arrow_Container > .Arrow_Base, div:active > .Arrow > .Arrow_Container > .Arrow_Base, button:active > .Arrow > .Arrow_Container > .Arrow_Base{
 	height: 2px;
 	transform: translateY(-3px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Left, div:active > .Arrow > .Arrow_Container > .Arrow_Left{
+.Arrow:active > .Arrow_Container > .Arrow_Left, div:active > .Arrow > .Arrow_Container > .Arrow_Left, button:active > .Arrow > .Arrow_Container > .Arrow_Left{
 	height: 13px;
 	transform: rotate(45deg) translateX(-8.5px) translateY(-2.5px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Right, div:active > .Arrow > .Arrow_Container > .Arrow_Right{
+.Arrow:active > .Arrow_Container > .Arrow_Right, div:active > .Arrow > .Arrow_Container > .Arrow_Right, button:active > .Arrow > .Arrow_Container > .Arrow_Right{
 	height: 13px;
 	transform: rotate(-45deg) translateX(8.5px) translateY(-2.5px);
 }
 
-.Arrow:active > .Arrow_Container > .Arrow_Base_Dot, div:active > .Arrow > .Arrow_Container > .Arrow_Base_Dot{
+.Arrow:active > .Arrow_Container > .Arrow_Base_Dot, div:active > .Arrow > .Arrow_Container > .Arrow_Base_Dot, button:active > .Arrow > .Arrow_Container > .Arrow_Base_Dot{
 	transform: translateY(3px);
 }
 
-.Arrow:active > .Arrow_Container, div:active > .Arrow > .Arrow_Container{
+.Arrow:active > .Arrow_Container, div:active > .Arrow > .Arrow_Container, button:active > .Arrow > .Arrow_Container{
 	transform: translateY(-5px);
 }

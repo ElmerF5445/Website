@@ -1,89 +1,131 @@
 <html>
-  <head>
-    <base href="../" />
-    <title id="pageElement_Title">Reviewers</title>
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reviewers.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="Assets/Icons/ContentByElmerF.png"
-      sizes="96x96"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1"
-    />
-  </head>
-  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
-  <script src="Scripts/CBE_Javascript.js"></script>
-  <script src="Scripts/CBE_Javascript_UI.js"></script>
-  <body
-    id="pageElement_Body"
-    onload="Load_Properties()"
-    UI_Overlay="Template_UI"
-    Color_Profile="Green"
-    Header_AltPage_URL="Reviewers/CBE_Reviewers.html"
-    Header_AltPage_Title="Reviewers"
-    CopyLink_HasAltLink="true"
-  >
+
+<head>
+  <base href="../" />
+  <title id="pageElement_Title">Reviewers</title>
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reviewers.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
+  <link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+<script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+<script src="Scripts/CBE_Javascript.js"></script>
+<script src="Scripts/CBE_Javascript_UI.js"></script>
+
+<body id="pageElement_Body" onload="Load_Properties()" UI_Overlay="Template_UI" Color_Profile="Green"
+  Header_AltPage_URL="Reviewers/CBE_Reviewers.html" Header_AltPage_Title="Reviewers" CopyLink_HasAltLink="true"
+  Margin_Type="SubBranch">
   <div class="LoadingScreen" NoMargins>
     <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div> -->
   </div>
-    <div class="Subpage_Banner" NoMargins>
-      <a onclick="Page_ChangePage('Reviewers/', Transition)">
-        <h1 class="Subpage_Banner_Branch">Reviewers</h1>
-      </a>
-      <h1 class="Subpage_Banner_Title">Grade 12</h1>
+  <div class="Subpage_Banner" NoMargins>
+    <div class="Subpage_Banner_Decoration" Position="Left">
+      <div class="Subpage_Banner_Decoration_Diamond" Position="Top"></div>
+      <div class="Subpage_Banner_Decoration_Diamond" Position="Bottom"></div>
+      <button class="Subpage_Banner_Decoration_Diamond" Position="Middle"
+        onclick="Page_ChangePage('Reviewers/index.html', Transition)">
+        <div class="Arrow" Left>
+          <div class="Arrow_Container">
+            <span class="Arrow_Base_Dot"></span>
+            <span class="Arrow_Base"></span>
+            <span class="Arrow_Left"></span>
+            <span class="Arrow_Right"></span>
+          </div>
+        </div>
+      </button>
     </div>
-    <div class="Reviewers_Information">
-      <div class="Reviewers_Information_Cover">
-        <img
-          src="Assets/Images/Reviewers/Grade12_LQ_1.png"
-          class="Reviewers_Information_Cover_Image"
-          id="Book_3"
-          loading="lazy"
-        />
+    <div class="Subpage_Banner_Content">
+      <!-- <div class="Subpage_Banner_Branch_Icon">
+        <div class="Subpage_Banner_Branch_Icon_Decoration" Position="Top"></div>
+        <div class="Subpage_Banner_Branch_Icon_Content">
+          
+        </div>
+        <div class="Subpage_Banner_Branch_Icon_Decoration" Position="Bottom"></div>
+      </div> -->
+      <div class="Subpage_Banner_Branch_Content">
+        <div class="Subpage_Banner_Branch_Text">
+          <h1 class="Subpage_Banner_Branch_Text_Title">
+            Grade 12 Reviewers
+          </h1>
+        </div>
+        <!-- <div class="Subpage_Banner_Branch_Decoration" Position="Bottom">
+          <div class="Subpage_Banner_Branch_Decoration_Component" Length="Short"></div> 
+          <div class="Subpage_Banner_Branch_Decoration_Component" Length="Long"></div> 
+          <div class="Subpage_Banner_Branch_Decoration_Component" Length="Short"></div> 
+          <div class="Subpage_Banner_Branch_Decoration_Component" Length="Dot"></div> 
+          <div class="Subpage_Banner_Branch_Decoration_Diamond">
+          </div>
+        </div> -->
       </div>
-      <div class="Reviewers_Information_Text">
+    </div>
+    <div class="Subpage_Banner_Decoration" Position="Right">
+      <div class="Subpage_Banner_Decoration_Diamond" Position="Top"></div>
+      <div class="Subpage_Banner_Decoration_Diamond" Position="Bottom"></div>
+      <div class="Subpage_Banner_Decoration_Diamond" Position="Middle"></div>
+    </div>
+  </div>
+  <div class="Reviewers_Information">
+    <div class="Reviewers_Information_Cover">
+      <div class="Reviewers_Books_Item" Locked>
+        <div class="Reviewers_Books_Item_Cover">
+          <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Top_Left"></div>
+          <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Top_Right"></div>
+          <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Bottom_Left"></div>
+          <div class="Reviewers_Books_Item_Cover_Decoration_Corner" Corner="Bottom_Right"></div>
+          <div class="Reviewers_Books_Item_Cover_Decoration_Border"></div>
+          <div class="Reviewers_Books_Item_Cover_Image">
+            <img class="Reviewers_Books_Item_Cover_Image_Image" src="Assets/Images/Reviewers/Grade12_LQ_1.png"
+              draggable="false" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Reviewers_Information_Content">
+      <div class="Reviewers_Information_Decoration" Position="Top">
+        <span class="Reviewers_Information_Decoration_Component" Length="Short"></span>
+        <span class="Reviewers_Information_Decoration_Component" Length="Long"></span>
+      </div>
+      <div class="Reviewers_Information_Decoration" Position="Bottom">
+        <span class="Reviewers_Information_Decoration_Component" Length="Short"></span>
+        <span class="Reviewers_Information_Decoration_Component" Length="Long"></span>
+      </div>
+      <section class="Reviewer_Information_Section">
         <h1 class="Reviewers_Information_Title">Included subjects</h1>
         <p class="Reviewers_Information_Paragraph">Part 1: First Semester</p>
         <ul class="Reviewers_Information_List">
           <li>
-            General Chemistry 1, General Physics 1, Contemporary Philippine Arts
-            from the Regions, English for Academic and Professional Purposes,
-            Research in Daily Life, Entrepreneurship, Understanding Culture,
-            Society, and Politics, PE & Health 3, Christian Living Education 3
+            21st Century Literature from the Philippines and the World, Earth
+            Science, General Biology 1, Komunikasyon at Pananaliksik sa Wika at
+            Kulturang Filipino, Oral Communication, PE & Health 1, Pagsulat sa
+            Filipino at Piling Larangan (Akademik), Practical Research
           </li>
         </ul>
         <p class="Reviewers_Information_Paragraph">Part 2: Second Semester</p>
         <ul class="Reviewers_Information_List">
           <li>
-            General Chemistry 2, General Physics 2, Media and Information
-            Literacy, Introduction to Philosophy of the Human Person, Disaster
-            Readiness and Risk Reduction, PE & Health 4, Christian Living
-            Education 4
+            Basic Calculus, Christian Living Education, Empowerment
+            Technologies, General Biology 2, Pagbasa at Pagsusuri ng Iba't Ibang
+            Teksto tungo sa Pananaliksik, PE & Health 2, Personal Development,
+            Reading and Writing, Statistics and Probability
           </li>
         </ul>
+      </section>
+      <section class="Reviewer_Information_Section">
         <h1 class="Reviewers_Information_Title">Downloads</h1>
         <div class="Reviewers_Downloads">
           <div class="Reviewers_Downloads_Item">
             <p class="Reviewers_Downloads_Item_Text">
               Grade 12 Reviewer - Part 1 - Light Version
             </p>
-            <p class="Reviewers_Downloads_Item_Text">July 23, 2022</p>
-            <a
-              href="https://docs.google.com/uc?export=download&id=1YIqNuNf4hc1CxbqbCAaWgRrnrZeI9i6a"
-            >
+            <p class="Reviewers_Downloads_Item_Text">July 17, 2021</p>
+            <a href="https://docs.google.com/uc?export=download&id=1YIqNuNf4hc1CxbqbCAaWgRrnrZeI9i6a">
               <div class="General_Button">Download</div>
             </a>
           </div>
@@ -91,10 +133,8 @@
             <p class="Reviewers_Downloads_Item_Text">
               Grade 12 Reviewer - Part 2 - Light Version
             </p>
-            <p class="Reviewers_Downloads_Item_Text">July 23, 2022</p>
-            <a
-              href="https://docs.google.com/uc?export=download&id=1KtN4yO0hBfAH8cQqEuD0DNSov8iYeTGN"
-            >
+            <p class="Reviewers_Downloads_Item_Text">July 17, 2021</p>
+            <a href="https://docs.google.com/uc?export=download&id=1KtN4yO0hBfAH8cQqEuD0DNSov8iYeTGN">
               <div class="General_Button">Download</div>
             </a>
           </div>
@@ -102,10 +142,8 @@
             <p class="Reviewers_Downloads_Item_Text">
               Grade 12 Reviewer - Part 1 - Dark Version
             </p>
-            <p class="Reviewers_Downloads_Item_Text">July 23, 2022</p>
-            <a
-              href="https://docs.google.com/uc?export=download&id=1EwK8PtDtiSGFYpW6u1SPc6_c9N2Fu2bd"
-            >
+            <p class="Reviewers_Downloads_Item_Text">July 17, 2021</p>
+            <a href="https://docs.google.com/uc?export=download&id=1EwK8PtDtiSGFYpW6u1SPc6_c9N2Fu2bd">
               <div class="General_Button">Download</div>
             </a>
           </div>
@@ -113,20 +151,209 @@
             <p class="Reviewers_Downloads_Item_Text">
               Grade 12 Reviewer - Part 2 - Dark Version
             </p>
-            <p class="Reviewers_Downloads_Item_Text">July 23, 2022</p>
-            <a
-              href="https://docs.google.com/uc?export=download&id=1Ml2JZMfM7bD7EUn-c5K17kVHnllFXzDh"
-            >
+            <p class="Reviewers_Downloads_Item_Text">July 17, 2021</p>
+            <a href="https://docs.google.com/uc?export=download&id=1Ml2JZMfM7bD7EUn-c5K17kVHnllFXzDh">
               <div class="General_Button">Download</div>
             </a>
           </div>
-          <h1 class="Reviewers_Information_Title">Contact</h1>
-          <p class="Reviewers_Information_Paragraph">
-            For concerns and corrections, please email me at
-            <u> contentbyelmerf@gmail.com </u>
-          </p>
         </div>
-      </div>
+      </section>
+      <section class="Reviewer_Information_Section">
+        <h1 class="Reviewers_Information_Title">
+          Table of Contents - Part 1
+        </h1>
+        <div class="Reviewers_Information_TableOfContents">
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              General Chemistry 1
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              15
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              General Physics 1
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              81
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              General Biology
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              68
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Contemporary Philippine Arts from the Regions
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              129
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              English for Academic and Professional Purposes
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              152
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Research in Daily Life
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              171
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Entrepreneurship
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              192
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Understanding Culture, Society, and Politics
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              204
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Physical Education 3
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              231
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Christian Living Education
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              245
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              References and External Links
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              255
+            </p>
+          </span>
+        </div>
+      </section>
+      <section class="Reviewer_Information_Section">
+        <h1 class="Reviewers_Information_Title">
+          Table of Contents - Part 2
+        </h1>
+        <div class="Reviewers_Information_TableOfContents">
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              General Chemistry 2
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              8
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              General Physics 2
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              27
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Media and Information Literacy
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              57
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Introduction to Philosophy of the Human Person
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              74
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Disaster Readiness and Risk Reduction
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              96
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Physical Education 4
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              99
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              Christian Living Education
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              108
+            </p>
+          </span>
+          <span class="Reviewers_Information_TableOfContents_Item">
+            <p class="Reviewers_Downloads_Item_Text">
+              References and External Links
+            </p>
+            <div class="Reviewers_Information_TableOfContents_Guideline"></div>
+            <p class="Reviewers_Downloads_Item_Text">
+              120
+            </p>
+          </span>
+        </div>
+      </section>
+      <section class="Reviewer_Information_Section">
+        <h1 class="Reviewers_Information_Title">Contact</h1>
+        <p class="Reviewers_Information_Paragraph">
+          For concerns and corrections, please email me at
+          <u> contentbyelmerf@gmail.com </u>
+        </p>
+      </section>
+
+
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

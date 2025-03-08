@@ -322,6 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (Main_Content_Container != null){
     Main_Content_Container.onscroll = function() {scrollFunction()};
     function scrollFunction() {
+      var Header = document.getElementById("pageElement_Header");
       var Header_Title = document.getElementById("UI_Header_Title");
       var Body = document.getElementById("pageElement_Body");
       if (Page_Property.Header_AltPage_Title != null){
@@ -333,7 +334,11 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         Header_Title.setAttribute("ActiveTitle", "Home");
       }
-      
+      if (Main_Content_Container.scrollTop > 100) {
+        Header.setAttribute("Color", "Fill");
+      } else {
+        Header.setAttribute("Color", "Transparent");
+      }
     }
   }
   
