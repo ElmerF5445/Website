@@ -30,7 +30,7 @@ function List_Generate(FileURL){
             Chapter_Button.setAttribute("class", "GRBRKR_Chapters_Item");
             Chapter_Button.setAttribute("id", `GRBRKR_${a}_${b}`);
             Chapter_Button.setAttribute("Search_Terms", `${Arc_Name}_${Chapter_Number}_${Chapter_Title_Full.toUpperCase()}`);
-            Chapter_Button.setAttribute("onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?chapter=${Chapter_File}')`);
+            Chapter_Button.setAttribute("onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter_File}&Arc=${a}&Index=${b}', Transition)`);
             Chapter_Button.innerHTML = Chapter_InnerHTML;
             document.getElementById("GRBRKR_Chapters").appendChild(Chapter_Button);
         }
@@ -48,5 +48,37 @@ function Search_Query(Query){
         if (Buttons[b].getAttribute("Search_Terms").includes(Query.toUpperCase())){
             Buttons[b].style.display = "unset";
         }
+    }
+}
+
+function Load_File(){
+    AB_Renderer_Article_Render(Data_Import_FromPath("GROUNDBREAKER/GRBRKR_Chapter_" + UF_Parameter_Get("Chapter") + ".cbe_sb"));
+
+    // Gets its index
+    var Arc = UF_Parameter_Get("Arc");
+    var Chapter = Number(UF_Parameter_Get("Chapter"));
+    var Chapter_Manifest = Data_Import_FromPath("GROUNDBREAKER/Index_Chapters_GRBRKR.json");
+    var Chapter_Array;
+    var Chapter_Index = Number(UF_Parameter_Get("Index"));
+    Chapter_Array = Chapter_Manifest[Arc].Arc_Contents;
+
+    // Previous
+    if (Chapter_Array[Chapter_Index - 1] == null || Chapter_Array[Chapter_Index - 1] == undefined){
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Previous", "State", "Inactive");
+        console.log("Undefined");
+    } else {
+        Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Previous_Chapter", `Chapter ${Chapter - 1}:`);
+        Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Previous_Title", Chapter_Array[Chapter_Index - 1].Chapter_Title);
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Previous", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter - 1}&Arc=${Arc}&Index=${Chapter_Index - 1}')`);
+    }
+
+    // Next
+    if (Chapter_Array[Chapter_Index + 1] == null || Chapter_Array[Chapter_Index + 1] == undefined){
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Next", "State", "Inactive");
+        console.log("Undefined");
+    } else {
+        Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Next_Chapter", `Chapter ${Chapter + 1}:`);
+        Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Next_Title", Chapter_Array[Chapter_Index + 1].Chapter_Title);
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Next", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter + 1}&Arc=${Arc}&Index=${Chapter_Index + 1}')`);
     }
 }

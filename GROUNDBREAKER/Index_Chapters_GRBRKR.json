@@ -7,14 +7,28 @@
                 "Chapter_Title": "Torment",
                 "Chapter_Authors": ["ElmerF5445"],
                 "Chapter_PublishingDate": "4 September 2024",
-                "Chapter_File": "GRBRKR_Chapter_1"
+                "Chapter_File": "1"
             },
             {
                 "Chapter_Number": 2,
                 "Chapter_Title": "Neon Lights",
                 "Chapter_Authors": ["ElmerF5445"],
                 "Chapter_PublishingDate": "29 September 2024",
-                "Chapter_File": "GRBRKR_Chapter_2"
+                "Chapter_File": "2"
+            },
+            {
+                "Chapter_Number": 3,
+                "Chapter_Title": "Hospitable at Best",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "8 November 2024",
+                "Chapter_File": "3"
+            },
+            {
+                "Chapter_Number": 4,
+                "Chapter_Title": "Mad World",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "20 September 2024",
+                "Chapter_File": "4"
             }
         ]
     }

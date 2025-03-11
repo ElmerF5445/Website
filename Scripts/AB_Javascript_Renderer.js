@@ -3,13 +3,15 @@ function AB_Renderer_Article_Render(Data){
     // Header
     // document.getElementById("AB_Renderer_Banner_Image").style.display = "block";
     // document.getElementById("AB_Renderer_Banner_Image").src = Article_Data.Metadata.Article_Banner;
-    document.getElementById("Projects_App_Title_Text").innerHTML = Article_Data.Metadata.Article_Title;
-    // document.getElementById("AB_Renderer_Header_Details_Author").innerHTML = Article_Data.Metadata.Article_Author;
-    // document.getElementById("AB_Renderer_Header_Details_Category").innerHTML = Article_Data.Metadata.Article_Category;
-    // document.getElementById("AB_Renderer_Header_Details_PublishingDate").innerHTML = Article_Data.Metadata.Article_PublishingDate;
+    document.getElementById("GRBRKR_Story_Header_Chapter").innerHTML = "Chapter " + Article_Data.Metadata.Article_Category + ":";
+    document.getElementById("GRBRKR_Story_Footer_Current_Chapter").innerHTML = "Chapter " + Article_Data.Metadata.Article_Category + ":";
+    document.getElementById("GRBRKR_Story_Header_Title").innerHTML = Article_Data.Metadata.Article_Title;
+    document.getElementById("GRBRKR_Story_Footer_Current_Title").innerHTML = Article_Data.Metadata.Article_Title;
+    document.getElementById("GRBRKR_Story_Header_Details_Author").innerHTML = Article_Data.Metadata.Article_Author;
+    document.getElementById("GRBRKR_Story_Header_Details_PublishingDate").innerHTML = Article_Data.Metadata.Article_PublishingDate;
     // Contents
 
-    document.getElementById("Projects_App_Description").innerHTML = "";
+    // document.getElementById("GRBRKR_Story_Content").innerHTML = "";
 
     var Content = Article_Data.Contents;
     for (a = 0; a < Content.length; a++){
@@ -23,7 +25,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Secondary_Title"){
             Element_InnerHTML = `
@@ -33,7 +35,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Tertiary_Title"){
             Element_InnerHTML = `
@@ -43,7 +45,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Paragraph"){
             Element_InnerHTML = `
@@ -53,7 +55,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Numbered_List"){
             Element_InnerHTML = `
@@ -69,7 +71,7 @@ function AB_Renderer_Article_Render(Data){
 
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
 
             var Element_Subdata = Content_Data.Content.split(/\r?\n|\r|\n/g);
             for (b = 0; b < Element_Subdata.length; b++){
@@ -93,7 +95,7 @@ function AB_Renderer_Article_Render(Data){
 
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
 
             var Element_Subdata = Content_Data.Content.split(/\r?\n|\r|\n/g);
             for (b = 0; b < Element_Subdata.length; b++){
@@ -122,7 +124,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Image"){
             Element_InnerHTML = `
@@ -140,7 +142,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Video"){
             Element_InnerHTML = `
@@ -150,7 +152,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("Projects_App_Description").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
         if (Content_Data.Type == "Dialog"){
             Element_InnerHTML = `
@@ -168,7 +170,7 @@ function AB_Renderer_Article_Render(Data){
             `;
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
-            document.getElementById("AB_Renderer_Contents").appendChild(Element);
+            document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
     }
     Image_Preview_Add();

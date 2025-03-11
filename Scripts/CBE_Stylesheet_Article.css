@@ -262,7 +262,7 @@
 
 .AB_Renderer_Dialog{
     display: grid;
-    grid-template-columns: 150px 10px 1fr;
+    grid-template-columns: 100px 10px 1fr;
     grid-gap: 5px;
     /* padding: 5px; */
     margin-top: 10px;
@@ -274,7 +274,8 @@
     font-family: var(--Text-Font-Secondary);
     color: var(--Text-Color);
     margin: 0;
-    font-style: italic;
+    font-weight: bold;
+    /* font-style: italic; */
     text-align: right;
     
 }

@@ -20,31 +20,81 @@
 <script src="Scripts/CBE_Javascript_UI.js"></script>
 <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
 <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+<script src="Scripts/AB_Javascript_Renderer.js"></script>
 <script src="Scripts/CBE_Javascript_GROUNDBREAKER.js"></script>
 
-<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json')" UI_Overlay="Template_UI" Color_Profile="Violet"
+<body id="pageElement_Body" onload="Load_Properties(); Load_File();" UI_Overlay="Template_UI" Color_Profile="Violet"
   Header_AltPage_URL="Top" Header_AltPage_Title="GROUNDBREAKER" CopyLink_HasAltLink="true">
   <!-- <div class="LoadingScreen" NoMargins>
     <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div>
   </div> -->
+  <!-- <div class="LoadingScreen" id="LoadingScreen" NoMargins>
+  </div> -->
   <div class="GRBRKR_Story_Container">
     <div class="GRBRKR_Story_Header">
-        <h3 class="GRBRKR_Story_Header_Chapter">
+        <h3 class="GRBRKR_Story_Header_Chapter" id="GRBRKR_Story_Header_Chapter">
             Chapter 1:
         </h3>
-        <h1 class="GRBRKR_Story_Header_Title">
+        <h1 class="GRBRKR_Story_Header_Title" id="GRBRKR_Story_Header_Title">
             Torment
         </h1>
         <div class="GRBRKR_Story_Header_Details">
-            <p class="GRBRKR_Story_Header_Details_Author">
+            <p class="GRBRKR_Story_Header_Details_Author" id="GRBRKR_Story_Header_Details_Author">
                 ElmerF5445
             </p>
-            <p class="GRBRKR_Story_Header_Details_PublishingDate">
+            <p class="GRBRKR_Story_Header_Details_PublishingDate" id="GRBRKR_Story_Header_Details_PublishingDate">
                 4 September 2024
             </p>
         </div>
     </div>
+    <div class="GRBRKR_Story_Content" id="GRBRKR_Story_Content">
+      
+    </div>
+  </div>
+  <div class="GRBRKR_Story_Footer">
+    <button class="GRBRKR_Story_Footer_Button" Previous id="GRBRKR_Story_Footer_Button_Previous">
+        <p class="GRBRKR_Story_Footer_Button_Chapter" id="GRBRKR_Story_Footer_Button_Previous_Chapter">
+          Chapter 1:
+        </p>
+        <h2 class="GRBRKR_Story_Footer_Button_Title" id="GRBRKR_Story_Footer_Button_Previous_Title">
+          Torment
+        </h2>
+        <div class="GRBRKR_Story_Footer_Button_Arrow">
+          <div class="Arrow" Left>
+            <div class="Arrow_Container">
+              <span class="Arrow_Base_Dot"></span>
+              <span class="Arrow_Base"></span>
+              <span class="Arrow_Left"></span>
+              <span class="Arrow_Right"></span>
+            </div>
+        </div>
+    </button>
+    <div class="GRBRKR_Story_Footer_Current">
+      <p class="GRBRKR_Story_Footer_Current_Chapter" id="GRBRKR_Story_Footer_Current_Chapter">
+        Chapter 1:
+      </p>
+      <h2 class="GRBRKR_Story_Footer_Current_Title" id="GRBRKR_Story_Footer_Current_Title">
+        Torment
+      </h2>
+    </div>
+    <button class="GRBRKR_Story_Footer_Button" Next id="GRBRKR_Story_Footer_Button_Next">
+      <p class="GRBRKR_Story_Footer_Button_Chapter" id="GRBRKR_Story_Footer_Button_Next_Chapter">
+        Chapter 2:
+      </p>
+      <h2 class="GRBRKR_Story_Footer_Button_Title" id="GRBRKR_Story_Footer_Button_Next_Title">
+        Torment
+      </h2>
+      <div class="GRBRKR_Story_Footer_Button_Arrow">
+        <div class="Arrow" Right>
+          <div class="Arrow_Container">
+            <span class="Arrow_Base_Dot"></span>
+            <span class="Arrow_Base"></span>
+            <span class="Arrow_Left"></span>
+            <span class="Arrow_Right"></span>
+          </div>
+      </div>
+  </button>
   </div>
 </body>
 </html>

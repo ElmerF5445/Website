@@ -22,51 +22,76 @@
 <script src="Scripts/CBE_Javascript_GROUNDBREAKER.js"></script>
 <script src="Scripts/CBE_Javascript_UI.js"></script>
 
-<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json')" UI_Overlay="Template_UI" Color_Profile="Violet"
-  Header_AltPage_URL="Top" Header_AltPage_Title="Reviewers" CopyLink_HasAltLink="true">
+<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json')"
+  UI_Overlay="Template_UI"
+  Color_Profile="Violet"
+  Header_AltPage_URL="Top"
+  Header_AltPage_Title="Reviewers"
+  CopyLink_HasAltLink="true"
+  Margin_Type="Branch">
   <div class="LoadingScreen" NoMargins>
     <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div> -->
   </div>
   <div class="Branch_Banner" NoMargins>
-    <h1 class="Branch_Banner_Title">
-      GROUNDBREAKER
-    </h1>
-    <h3 class="Branch_Banner_Description">
-      Fictional story I made on a whim.
-    </h3>
+    <span class="Branch_Banner_Decoration" Distance="3"></span>
+    <span class="Branch_Banner_Decoration" Distance="2"></span>
+    <span class="Branch_Banner_Decoration" Distance="1"></span>
+    <div class="Branch_Banner_Content">
+      <span class="Branch_Banner_Content_Diamond" Position="Left"></span>
+      <span class="Branch_Banner_Content_Diamond" Position="Right"></span>
+      <h1 class="Branch_Banner_Title">
+        GROUNDBREAKER
+      </h1>
+      <!-- <h3 class="Branch_Banner_Description">
+        Reviewers I made compiled into PDF files that is free for everyone to download.
+      </h3> -->
+
+    </div>
+    <span class="Branch_Banner_Decoration" Distance="1"></span>
+    <span class="Branch_Banner_Decoration" Distance="2"></span>
+    <span class="Branch_Banner_Decoration" Distance="3"></span>
+    <div class="Branch_Banner_Divider" Position="Top">
+      <span class="Branch_Banner_Divider_Diamond"></span>
+    </div>
+    <div class="Branch_Banner_Divider" Position="Bottom">
+      <span class="Branch_Banner_Divider_Diamond"></span>
+    </div>
   </div>
   <div class="GRBRKR_Search">
-	<input type="text" class="GRBRKR_Search_Input" placeholder="Search for titles, authors, or categories" id="GRBRKR_Search_Input" oninput="Search_Query(this.value)"/>
-	<button class="GRBRKR_Search_Button">
-		<img src="Assets/Icons/icon_search.png" class="GRBRKR_Search_Button_Icon" onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)"/>
-	</button>
+    <input type="text" class="GRBRKR_Search_Input" placeholder="Search for titles, authors, or categories"
+      id="GRBRKR_Search_Input" oninput="Search_Query(this.value)" />
+    <button class="GRBRKR_Search_Button">
+      <img src="Assets/Icons/icon_search.png" class="GRBRKR_Search_Button_Icon"
+        onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)" />
+    </button>
   </div>
   <div class="GRBRKR_Chapters" id="GRBRKR_Chapters">
-	<button class="GRBRKR_Chapters_Item">
-		<h2 class="GRBRKR_Chapters_Item_Title">
-			Title
-		</h2>
-		<p class="GRBRKR_Chapters_Item_Subtitle">
-			Arc
-		</p>
-	</button>
-	<button class="GRBRKR_Chapters_Item">
-		<h2 class="GRBRKR_Chapters_Item_Title">
-			Title
-		</h2>
-		<p class="GRBRKR_Chapters_Item_Subtitle">
-			Arc
-		</p>
-	</button>
-	<button class="GRBRKR_Chapters_Item">
-		<h2 class="GRBRKR_Chapters_Item_Title">
-			Title
-		</h2>
-		<p class="GRBRKR_Chapters_Item_Subtitle">
-			Arc
-		</p>
-	</button>
+    <button class="GRBRKR_Chapters_Item">
+      <h2 class="GRBRKR_Chapters_Item_Title">
+        Title
+      </h2>
+      <p class="GRBRKR_Chapters_Item_Subtitle">
+        Arc
+      </p>
+    </button>
+    <button class="GRBRKR_Chapters_Item">
+      <h2 class="GRBRKR_Chapters_Item_Title">
+        Title
+      </h2>
+      <p class="GRBRKR_Chapters_Item_Subtitle">
+        Arc
+      </p>
+    </button>
+    <button class="GRBRKR_Chapters_Item">
+      <h2 class="GRBRKR_Chapters_Item_Title">
+        Title
+      </h2>
+      <p class="GRBRKR_Chapters_Item_Subtitle">
+        Arc
+      </p>
+    </button>
   </div>
 </body>
+
 </html>
