@@ -9,9 +9,11 @@
 .Playlist_Curation{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     overflow-x: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
 }
 
 .Playlist_Curation_Item{
@@ -21,29 +23,83 @@
     /* width: 150px; */
     user-select: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 20px;
     border: solid transparent 3px;
-    margin: 3px;
+    border: solid var(--Theme-Dynamic-Base) 2px;
+    margin: 14px;
+    position: relative;
+    /* background-color: red; */
 }
 
-.Playlist_Curation_Item:hover{
-    border: solid var(--Theme-Dynamic-Base) 3px;
+.Playlist_Curation_Item:hover > .Playlist_Curation_Item_Decoration > .Playlist_Curation_Item_Decoration_Component[Length = "Long"]{
+    width: 65%;
 }
 
 .Playlist_Curation_Item:focus{
-    border: solid var(--Theme-Dynamic-Base) 3px;
+    border: solid var(--Theme-Dynamic-Base) 2px;
 }
 
 .Playlist_Curation_Item_Thumbnail{
     height: 250px;
+    padding-bottom: 15px;
+    border-bottom: solid var(--Theme-Dynamic-Level-L1) 2px;
 }
+
 
 .Playlist_Curation_Item_Title{
     font-family: var(--Text-Font-Secondary);
     color: var(--Text-Color);
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     margin: 0;
     margin-top: 10px;
+}
 
+.Playlist_Curation_Item_Decoration{
+    position: absolute;
+    /* border: solid var(--Theme-Dynamic-Level-L1) 2px; */
+    /* background-color: aliceblue; */
+    width: calc(100% + 20px);
+    height: 20px;
+    /* top: -4px; */
+    /* left: -10px;
+    right: -10px; */
+    display: flex;
+}
+
+.Playlist_Curation_Item_Decoration[Top]{
+    top: -12px;
+    left: -12px;
+    flex-direction: row;
+}
+
+.Playlist_Curation_Item_Decoration[Bottom]{
+    bottom: -8px;
+    left: -8px;
+    flex-direction: row-reverse;
+}
+
+.Playlist_Curation_Item_Decoration_Component{
+    border: solid var(--Theme-Dynamic-Level-L1) 2px;
+    height: 20px;
+}
+
+.Playlist_Curation_Item_Decoration_Component:not(:first-child){
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Playlist_Curation_Item_Decoration_Component[Length = "Long"]{
+    width: 40%;
+}
+
+.Playlist_Curation_Item_Decoration_Component[Length = "Short"]{
+    width: 20px;
+}
+
+@media only screen and (max-width: 650px){
+	.Playlist_Curation_Item_Thumbnail{
+		height: unset;
+        width: 75%;
+	}
 }

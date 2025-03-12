@@ -1,0 +1,217 @@
+body{
+    background-color: var(--BGColor);
+    background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.1) 5%, transparent 10%);
+    background-position: 8px 8px;
+	background-size: 16px 16px;
+    margin: 50px;
+    margin-top: unset;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 60%;
+}
+
+.Error{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    /* background-color: aliceblue; */
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+.Error_404{
+    font-family: var(--Text-Font-Branch-Title);
+    color: var(--Theme-Dynamic-Level-L3);
+    font-size: 200px;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+.Error_Title{
+    font-family: var(--Text-Font-Primary);
+    color: var(--Theme-Dynamic-Level-L3);
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.Error_Subtitle{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    color: var(--Text-Color);
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Error_Footer{
+    border-top: solid var(--Theme-Dynamic-Level-L3) 2px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Error_Footer_Text{
+    font-family: var(--Text-Font-Secondary);
+    color: var(--Text-Color);
+    margin: 0;
+}
+
+.Error_Decoration{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    transform: translateX(100px) translateY(100px);
+    z-index: -1;
+}
+
+.Error_Decoration_Squares{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+}
+
+.Error_Decoration_Squares[Size = "Small"]{
+    transform: scale(0.5) rotate(155deg);
+}
+
+.Error_Decoration_Component_Square{
+    width: 550px;
+    height: 550px;
+    border: solid var(--Theme-Dynamic-Level-D2) 2px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+.Error_Decoration_Component_Square:nth-child(1){
+    transform: rotate(0deg);
+    animation-name: Error_Decoration_Component_Square_1;
+    animation-duration: 60s;
+}
+
+@keyframes Error_Decoration_Component_Square_1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.Error_Decoration_Component_Square:nth-child(2){
+    transform: rotate(15deg);
+    animation-name: Error_Decoration_Component_Square_2;
+    animation-duration: 50s;
+}
+
+@keyframes Error_Decoration_Component_Square_2 {
+    0%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(-345deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(3){
+    transform: rotate(30deg);
+    animation-name: Error_Decoration_Component_Square_3;
+    animation-duration: 90s;
+}
+
+@keyframes Error_Decoration_Component_Square_3 {
+    0%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(390deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(4){
+    transform: rotate(45deg);
+    animation-name: Error_Decoration_Component_Square_4;
+    animation-duration: 70s;
+}
+
+@keyframes Error_Decoration_Component_Square_4 {
+    0%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(-315deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(5){
+    transform: rotate(60deg);
+    animation-name: Error_Decoration_Component_Square_5;
+    animation-duration: 30s;
+}
+
+@keyframes Error_Decoration_Component_Square_5 {
+    0%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(420deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(6){
+    transform: rotate(105deg);
+    animation-name: Error_Decoration_Component_Square_6;
+    animation-duration: 40s;
+}
+
+@keyframes Error_Decoration_Component_Square_6 {
+    0%{
+        transform: rotate(105deg);
+    }
+    100%{
+        transform: rotate(-255deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(7){
+    transform: rotate(120deg);
+    animation-name: Error_Decoration_Component_Square_7;
+    animation-duration: 70s;
+}
+
+@keyframes Error_Decoration_Component_Square_7 {
+    0%{
+        transform: rotate(120deg);
+    }
+    100%{
+        transform: rotate(480deg);
+    }
+}
+.Error_Decoration_Component_Square:nth-child(8){
+    transform: rotate(135deg);
+    animation-name: Error_Decoration_Component_Square_8;
+    animation-duration: 20s;
+}
+
+@keyframes Error_Decoration_Component_Square_8 {
+    0%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(-225deg);
+    }
+}
+
+
+@media only screen and (max-width: 1350px) {
+    body{
+        width: calc(100% - 40px);
+        margin: 20px;
+        margin-top: unset;
+    }
+    
+    .Error_Decoration{
+        opacity: 50%;
+    }
+}

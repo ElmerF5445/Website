@@ -149,7 +149,7 @@ a{
 
 .UI_Header_AltPage_Title{
 	font-family: var(--Text-Font-Header-Title);
-	color: var(--Theme-Dynamic-Base);
+	color: var(--Theme-Dynamic-Level-L2);
 	text-transform: uppercase;
 	margin: 0;
 	font-size: 40px;
@@ -1009,7 +1009,7 @@ body > *[NoMargins_All]{
 .Branch_Banner_Title{
     font-family: var(--Text-Font-Branch-Title);
     font-size: 80px;
-    color: var(--Theme-Dynamic-Base);
+    color: var(--Theme-Dynamic-Level-L2);
     letter-spacing: 2px;
 	margin: 0;
 	/* margin-left: 20px; */
@@ -1019,7 +1019,7 @@ body > *[NoMargins_All]{
 }
 .Branch_Banner_Description{
     font-family: var(--Text-Font-Branch-Description);
-    color: var(--Theme-Dynamic-Base);
+    color: var(--Theme-Dynamic-Level-L2);
 	text-align: center;
     /* letter-spacing: 5px; */
 	margin: 0px;

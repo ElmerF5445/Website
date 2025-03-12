@@ -192,11 +192,11 @@
     justify-content: right;
 }
 
-.Arrow[Left]{
+.GRBRKR_Story_Footer_Button_Arrow > .Arrow[Left]{
     transform:  translateX(-40px) rotate(-45deg);
 }
 
-.Arrow[Left] > .Arrow_Container{
+.GRBRKR_Story_Footer_Button_Arrow > .Arrow[Left] > .Arrow_Container{
     transform: rotate(-45deg);
 }
 
@@ -204,11 +204,11 @@
     transform: rotate(-45deg);
 }
 
-.Arrow[Right]{
+.GRBRKR_Story_Footer_Button_Arrow > .Arrow[Right]{
     transform:  rotate(45deg);
 }
 
-.Arrow[Right] > .Arrow_Container{
+.GRBRKR_Story_Footer_Button_Arrow > .Arrow[Right] > .Arrow_Container{
     transform: rotate(45deg);
 }
 

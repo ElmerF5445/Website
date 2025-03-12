@@ -92,7 +92,7 @@ function Load_Overlay_Properties(){
         Element_Attribute_Remove('UI_Header_AltPage_URL', 'href');
         Element_Attribute_Set('UI_Header_AltPage_URL', 'onclick', "Scroll_ToPosition('top')");
       } else {
-        Element_Attribute_Set('UI_Header_AltPage_URL', 'href', Page_Property.Header_AltPage_URL);
+        Element_Attribute_Set('UI_Header_AltPage_URL', 'onclick', "Page_ChangePage('" + Page_Property.Header_AltPage_URL + "', Transition)");
       }
     } else {
       Element_Attribute_Remove('UI_Header_AltPage_URL', 'href');

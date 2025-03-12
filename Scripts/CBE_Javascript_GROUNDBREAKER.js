@@ -69,7 +69,7 @@ function Load_File(){
     } else {
         Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Previous_Chapter", `Chapter ${Chapter - 1}:`);
         Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Previous_Title", Chapter_Array[Chapter_Index - 1].Chapter_Title);
-        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Previous", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter - 1}&Arc=${Arc}&Index=${Chapter_Index - 1}')`);
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Previous", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter - 1}&Arc=${Arc}&Index=${Chapter_Index - 1}', Transition)`);
     }
 
     // Next
@@ -79,6 +79,6 @@ function Load_File(){
     } else {
         Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Next_Chapter", `Chapter ${Chapter + 1}:`);
         Element_InnerHTML_Set("GRBRKR_Story_Footer_Button_Next_Title", Chapter_Array[Chapter_Index + 1].Chapter_Title);
-        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Next", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter + 1}&Arc=${Arc}&Index=${Chapter_Index + 1}')`);
+        Element_Attribute_Set("GRBRKR_Story_Footer_Button_Next", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Chapter + 1}&Arc=${Arc}&Index=${Chapter_Index + 1}', Transition)`);
     }
 }

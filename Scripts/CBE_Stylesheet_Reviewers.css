@@ -400,3 +400,21 @@
 .Reviewers_Information_TableOfContents_Guideline{
     border: dashed var(--Theme-Dynamic-Level-L3) 1px;
 }
+
+@media only screen and (max-width: 650px){
+    .Reviewers_Downloads_Item{
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 1fr;
+        border-bottom: solid var(--Theme-Dynamic-Level-L3) 2px;
+        padding-bottom: 10px;
+    }
+
+    .Reviewers_Downloads_Item > a{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .Reviewers_Downloads_Item:last-child{
+        border-bottom: unset;
+    }
+}

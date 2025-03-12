@@ -1,0 +1,17 @@
+[
+    {
+        "Faction_Name": "Tulayan / Pahinata Crew",
+        "Faction_Contents": [
+            {
+                "Character_Name": "Liam Akiyama Ryu",
+                "Character_Authors": ["ElmerF5445"],
+                "Character_File": "GRBRKR_CH_Liam"
+            },
+            {
+                "Character_Name": "Ryo Takayama",
+                "Character_Authors": ["ElmerF5445"],
+                "Character_File": "GRBRKR_CH_Liam"
+            }
+        ]
+    }
+]

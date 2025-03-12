@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "Article_Banner": "",
-    "Article_Title": "Torment",
+    "Article_Title": "Outlander",
     "Article_Title_Height": "122px",
     "Article_Author": "ElmerF5445",
     "Article_Category": "1",
@@ -14,7 +14,7 @@
     },
     {
       "Type": "Paragraph",
-      "Content": "It has been 6 months since his escape. Liam Akiyama Ryu, a 17-year-old, living off from scraps of food, for the past 6 months. The bustling region of Northern Manila is populated by cities of tall and imposing buildings. The grandiosity of these architectural marvels does little to provide someone like Liam, an escapee, with food nor shelter. But this town is different. After days of walking, he stumbles upon the humble town of Tulayan, right by the edge of Northern Manila, and bordered by the Tanglaw river. The town was a breath of fresh air from the tall cities of the region, with its humble middle-class environment. It's a grounding place. However, to Liam, there's no time to gawk at the peace of this town. He's hungry, and he needs to find food to scavenge fast."
+      "Content": "It has been 6 months since his escape. Liam Akiyama Ryu, a 17-year-old, living off from scraps of food, for the past 6 months. The bustling region of Northern Lumina is populated by cities of tall and imposing buildings. The grandiosity of these architectural marvels does little to provide someone like Liam, an escapee, with food nor shelter. But this town is different. After days of walking, he stumbles upon the humble town of Tulayan, right by the edge of Northern Lumina, and bordered by the Tanglaw river. The town was a breath of fresh air from the tall cities of the region, with its humble middle-class environment. It's a grounding place. However, to Liam, there's no time to gawk at the peace of this town. He's hungry, and he needs to find food to scavenge fast."
     },
     {
       "Type": "Paragraph",
@@ -31,7 +31,7 @@
     {
       "Type": "Dialog",
       "Character": "Liam",
-      "Dialog": "Jollibee...",
+      "Dialog": "Chicken...",
       "Tags": ""
     },
     {
@@ -405,7 +405,7 @@
     {
       "Type": "Dialog",
       "Character": "Minato",
-      "Dialog": "You could say that again. Thankfully this kid distracted him before Ryo found us- wait, where did he go?",
+      "Dialog": "Thankfully this kid distracted him before Ryo found us- wait, where did he go?",
       "Tags": ""
     },
     {

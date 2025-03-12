@@ -1,15 +1,18 @@
 <html>
 	<head>
 		<title>
-			Test_Page
+			404
 		</title>
 		<link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap" rel="stylesheet">
+		<link href="Scripts/CBE_Stylesheet_Reference.css" rel="stylesheet">
+		<link href="Scripts/CBE_Stylesheet_UI.css" rel="stylesheet">
+		<link href="Scripts/CBE_Stylesheet_Error404.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
 		<style>
-			body{
+			/* body{
 				margin: 70px;
 				margin-top: 10px;
 				display: flex;
@@ -41,7 +44,7 @@
 				filter: brightness(0);
 				align-self: center;
 				padding-bottom: 20px;
-			}
+			} */
 
 			@media only screen and (max-width: 750px){
 				body{
@@ -53,8 +56,11 @@
 	<script src="Scripts/CBE_Javascript.js"></script>
 	<script src="Scripts/CBE_Error404.js"></script>
 	<body onload="Generator_ErrorMessage_PrintTitle()">
-		<img class="Error_Icon" id="pageElement_Error_Icon" src="Assets/Icons/icon_WIP_black.png"></img>
-		<div class="Error">
+		<!-- <img class="Error_Icon" id="pageElement_Error_Icon" src="Assets/Icons/icon_WIP_black.png"></img> -->
+		<h1 class="Error_404">
+			404
+		</h1>
+		<div class="Error" NoMargins>
 			<h1 class="Error_Title" id="pageElement_Error_Title">
 				Error 404: The page you're looking for can't be found. 
 			</h1>
@@ -63,14 +69,38 @@
 			</h2>
 		</div>
 		
-		<h3 class="Error_Subtitle" id="pageElement_Error_Subtitle">
-			The page you're accessing is under construction or does not exist.
-		</h3>
-		<h4 class="Error_Subtitle" id="pageElement_Error_Subtitle">
-			Refresh this page to get another random message.
-		</h4>
-		<h4 class="Error_Subtitle" id="pageElement_Error_Subtitle" onclick="window.history.back()" style="cursor: pointer">
-			<u>Go back</u>
-		</h4>
+		<div class="Error_Footer" NoMargins>
+			<h3 class="Error_Footer_Text" id="pageElement_Error_Subtitle">
+				The page you're accessing is under construction or does not exist.
+				Refresh this page to get another random message.
+			</h3>
+			<h4 class="Error_Subtitle" id="pageElement_Error_Subtitle" onclick="window.history.back()" style="cursor: pointer">
+				<u>Go back</u>
+			</h4>
+		</div>
+		
+		<div class="Error_Decoration" NoMargins>
+			<div class="Error_Decoration_Squares" Size="Normal">
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+			</div>
+			<div class="Error_Decoration_Squares" Size="Small">
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+				<div class="Error_Decoration_Component_Square"></div>
+			</div>
+			
+		</div>
 	</body>
 </html>
