@@ -1,7 +1,102 @@
 document.addEventListener('DOMContentLoaded', function(){
-    Gallery_Generate();
-    GetDynamicBatchSize();
+    if (UI_PageName == "CBE_Gallery.html"){
+        Gallery_Generate();
+        GetDynamicBatchSize();
+    }
+    if (path == "/Gallery/"){
+        Gallery_Home_Sections_Generate();
+    }
 });
+
+var Home_Data;
+function Gallery_Home_Sections_Generate(){
+    Home_Data = Data_Import_FromPath(`Gallery/Index_Gallery.json`, 'JSON');
+    Element_Clear("Gallery_Home");
+    for (a = 0; a <= Home_Data.length; a++){
+        var Item = Home_Data[a];
+        console.log(Item.Section_Thumbnail);
+        var Item_InnerHTML = ``;
+        if (Item.Section_StraightToRenderer == true){
+            Item_InnerHTML = `
+                <div class="Gallery_Home_Section_Decoration" Position="Top">
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+                </div>
+                <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+                </div>
+                <div class="Gallery_Home_Section_Decoration_Border"></div>
+                
+                <div class="Gallery_Home_Section_Preview">
+                    <img src="${Item.Section_Thumbnail}" loading="lazy" class="Gallery_Home_Section_Preview_Image"/>
+                </div>
+                <div class="Gallery_Home_Section_Content">
+                <h1 class="Gallery_Home_Section_Content_Title">
+                    ${Item.Section_Name}
+                </h1>
+                <h4 class="Gallery_Home_Section_Content_Description">
+                    ${Item.Section_Description}
+                </h4>
+                <button class="Gallery_Home_Section_Content_Button" onclick="Page_ChangePage('Gallery/CBE_Gallery.html?Album=${Item.Section_StraightToRenderer_Album}', Transition)">
+                    Check it out
+                    <div class="Gallery_Home_Section_Content_Button_Arrow">
+                    <div class="Arrow" Right>
+                        <div class="Arrow_Container">
+                        <span class="Arrow_Base_Dot"></span>
+                        <span class="Arrow_Base"></span>
+                        <span class="Arrow_Left"></span>
+                        <span class="Arrow_Right"></span>
+                        </div>
+                    </div>
+                </button>
+                </div>
+            `;
+        } else {
+            Item_InnerHTML = `
+                <div class="Gallery_Home_Section_Decoration" Position="Top">
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+                </div>
+                <div class="Gallery_Home_Section_Decoration" Position="Bottom">
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
+                    <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
+                </div>
+                <div class="Gallery_Home_Section_Decoration_Border"></div>
+                
+                <div class="Gallery_Home_Section_Preview">
+                    <img src="${Item.Section_Thumbnail}" loading="lazy" class="Gallery_Home_Section_Preview_Image"/>
+                </div>
+                <div class="Gallery_Home_Section_Content">
+                <h1 class="Gallery_Home_Section_Content_Title">
+                    ${Item.Section_Name}
+                </h1>
+                <h4 class="Gallery_Home_Section_Content_Description">
+                    ${Item.Section_Description}
+                </h4>
+                <button class="Gallery_Home_Section_Content_Button" onclick="Gallery_Home_Albums_Generate(${a})">
+                    Check it out
+                    <div class="Gallery_Home_Section_Content_Button_Arrow">
+                    <div class="Arrow" Right>
+                        <div class="Arrow_Container">
+                        <span class="Arrow_Base_Dot"></span>
+                        <span class="Arrow_Base"></span>
+                        <span class="Arrow_Left"></span>
+                        <span class="Arrow_Right"></span>
+                        </div>
+                    </div>
+                </button>
+                </div>
+            `;
+        }
+        
+        var Item_Element = Element_Create("div");
+        Item_Element.setAttribute("class", "Gallery_Home_Section");
+        Item_Element.innerHTML = Item_InnerHTML;
+        Element_Append("Gallery_Home", Item_Element);
+    }
+    console.log("Done")
+}
 
 var Album_Parameter;
 var Album_File;

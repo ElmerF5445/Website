@@ -818,6 +818,10 @@ body[Margin_Type = "Branch"]{
 body[Margin_Type = "SubBranch"]{
 	margin-top: 80px;
 }
+
+body[Margin_Type = "None"]{
+	margin-top: 0px;
+}
 body > *{
 	margin-left: var(--Element-Margin-Left);
 	margin-right: var(--Element-Margin-Right);

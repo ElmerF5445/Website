@@ -352,7 +352,10 @@ function Image_Preview_Add(){
   var Items = document.getElementsByTagName("img");
   for (a = 0; a < Items.length; a++){
     var Item = Items[a];
-    Item.setAttribute("onclick", `Image_Preview_Open('${Item.getAttribute('src')}', ${Item.getAttribute('NoPreview')})`)
+    if (Item.getAttribute("NoPreview") == null){
+      Item.setAttribute("onclick", `Image_Preview_Open('${Item.getAttribute('src')}', ${Item.getAttribute('NoPreview')})`);
+    }
+    
   }
 }
 

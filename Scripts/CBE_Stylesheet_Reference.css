@@ -163,6 +163,10 @@
 	--Text-Font-Sidebar-Text: Roboto;
 	--Text-Font-Branch-Title: Hauser;
 	--Text-Font-Branch-Description: Franklin;
+	--Text-Font-Title-Primary: Hauser;
+	--Text-Font-Title-Primary-Slim: Hauser Condensed;
+	--Text-Font-Title-Secondary: Franklin;
+	--Text-Font-Title-Secondary-Slim: Franklin;
 	--Text-Font-Primary: Franklin; /* Titles */
 	--Text-Font-Secondary: Roboto; /* Paragraphs, list items */
 	--Text-Font-List: Roboto;

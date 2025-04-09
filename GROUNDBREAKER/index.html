@@ -22,18 +22,28 @@
 <script src="Scripts/CBE_Javascript_GROUNDBREAKER.js"></script>
 <script src="Scripts/CBE_Javascript_UI.js"></script>
 
-<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json')"
+<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json'); GRBRKR_Logo_Entrance()"
   UI_Overlay="Template_UI"
   Color_Profile="Violet"
   Header_AltPage_URL="Top"
   Header_AltPage_Title="Reviewers"
   CopyLink_HasAltLink="true"
-  Margin_Type="Branch">
+  Margin_Type="None">
   <div class="LoadingScreen" NoMargins>
     <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div> -->
   </div>
-  <div class="Branch_Banner" NoMargins>
+  <div class="GRBRKR_Landing" NoMargins>
+    <div class="GRBRKR_Title">
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_1.png" Type="Filled" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_2.png" Type="Filled"  loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_3.png" Type="Filled"  loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_1.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_2.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_3.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+    </div>
+  </div>
+  <!-- <div class="Branch_Banner" NoMargins>
     <span class="Branch_Banner_Decoration" Distance="3"></span>
     <span class="Branch_Banner_Decoration" Distance="2"></span>
     <span class="Branch_Banner_Decoration" Distance="1"></span>
@@ -43,10 +53,6 @@
       <h1 class="Branch_Banner_Title">
         GROUNDBREAKER
       </h1>
-      <!-- <h3 class="Branch_Banner_Description">
-        Reviewers I made compiled into PDF files that is free for everyone to download.
-      </h3> -->
-
     </div>
     <span class="Branch_Banner_Decoration" Distance="1"></span>
     <span class="Branch_Banner_Decoration" Distance="2"></span>
@@ -57,13 +63,13 @@
     <div class="Branch_Banner_Divider" Position="Bottom">
       <span class="Branch_Banner_Divider_Diamond"></span>
     </div>
-  </div>
+  </div> -->
   <div class="GRBRKR_Search">
     <input type="text" class="GRBRKR_Search_Input" placeholder="Search for titles, authors, or categories"
       id="GRBRKR_Search_Input" oninput="Search_Query(this.value)" />
     <button class="GRBRKR_Search_Button">
       <img src="Assets/Icons/icon_search.png" class="GRBRKR_Search_Button_Icon"
-        onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)" />
+        onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)" NoPreview />
     </button>
   </div>
   <div class="GRBRKR_Chapters" id="GRBRKR_Chapters">

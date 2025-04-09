@@ -1,0 +1,196 @@
+[
+    {
+        "Section_Name": "Photography",
+        "Section_Description": "Straight out of camera with little to no editing.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Photography/Cookie.JPG",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": true,
+        "Section_StraightToRenderer_Album": "Photography",
+        "Section_Albums": [
+
+        ]
+    },
+    {
+        "Section_Name": "Figures",
+        "Section_Description": "Photos I took with the anime figures we have lying around the house.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_1.JPG",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": false,
+        "Section_StraightToRenderer_Album": "",
+        "Section_Albums": [
+            {
+                "Album_Name": "Gojo Satoru",
+                "Album_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_1.JPG",
+                "Album_Link": "FG_Gojo"
+            },
+            {
+                "Album_Name": "Tanjiro Kamado",
+                "Album_Thumbnail": "Assets/Images/Gallery/Figures/Tanjiro_1.png",
+                "Album_Link": "FG_Tanjiro"
+            }
+        ]
+    },
+    {
+        "Section_Name": "Graphic Design",
+        "Section_Description": "College-era designs I made in Adobe Photoshop.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Clean.png",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": false,
+        "Section_StraightToRenderer_Album": "",
+        "Section_Albums": [
+            {
+                "Album_Name": "Infographics",
+                "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Science_Industry.png",
+                "Album_Link": "GD_Infographics"
+            },
+            {
+                "Album_Name": "Posters",
+                "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/ELISM.png",
+                "Album_Link": "GD_Posters"
+            },
+            {
+                "Album_Name": "Thumbnails",
+                "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Title Card 2.png",
+                "Album_Link": "GD_Thumbnails"
+            },
+            {
+                "Album_Name": "Headers",
+                "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/1.png",
+                "Album_Link": "GD_Headers"
+            }
+        ]
+    },
+    {
+        "Section_Name": "Arteest",
+        "Section_Description": "Drawings I made when I'm bored.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_1.png",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": false,
+        "Section_StraightToRenderer_Album": "",
+        "Section_Albums": [
+            {
+                "Album_Name": "Hanazawa Teruki",
+                "Album_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_1.png",
+                "Album_Link": "AT_Teru"
+            },
+            {
+                "Album_Name": "Vash the Stampede",
+                "Album_Thumbnail": "Assets/Images/Gallery/Arteest/Vash_1.png",
+                "Album_Link": "AT_Vash"
+            },
+            {
+                "Album_Name": "Saiki K.",
+                "Album_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_1.png",
+                "Album_Link": "AT_Saiki"
+            },
+            {
+                "Album_Name": "Edward Elric",
+                "Album_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_1.png",
+                "Album_Link": "AT_Edward"
+            },
+            {
+                "Album_Name": "Espers",
+                "Album_Thumbnail": "Assets/Images/Gallery/Arteest/MP100_B_1.png",
+                "Album_Link": "AT_MP100_Espers"
+            }
+        ]
+    },
+    {
+        "Section_Name": "Builders' Guild",
+        "Section_Description": "Minecraft builds and old renders.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Minecraft/Cave.png",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": false,
+        "Section_StraightToRenderer_Album": "",
+        "Section_Albums": [
+            {
+                "Album_Name": "Erumachi City",
+                "Album_Thumbnail": "Assets/Images/Gallery/Minecraft/Placeholder.png",
+                "Album_Link": "BG_Erumachi"
+            },
+            {
+                "Album_Name": "PocketPinas",
+                "Album_Thumbnail": "Assets/Images/Gallery/Minecraft/PCPBanner_Towny.png",
+                "Album_Link": "BG_PocketPinas"
+            },
+            {
+                "Album_Name": "World Explorers",
+                "Album_Thumbnail": "Assets/Images/Gallery/Minecraft/Cave.png",
+                "Album_Link": "BG_WorldExplorers"
+            },
+            {
+                "Album_Name": "IRL",
+                "Album_Thumbnail": "Assets/Images/Gallery/Minecraft/Wrong_Dimension.png",
+                "Album_Link": "BG_IRL"
+            }
+        ]
+    },
+    {
+        "Section_Name": "Traveler's Travels",
+        "Section_Description": "Sceneries I took from Genshin Impact.",
+        "Section_Thumbnail": "Assets/Images/Gallery/Genshin/Mondstadt/Mondstadt_1.png",
+        "Section_Thumbnail_Positioning": {
+            "Position_Normal": "",
+            "Position_Small": ""
+        },
+        "Section_StraightToRenderer": false,
+        "Section_StraightToRenderer_Album": "",
+        "Section_Albums": [
+            {
+                "Album_Name": "Characters",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Characters/Characters_1.png",
+                "Album_Link": "TT_Characters"
+            },
+            {
+                "Album_Name": "Mondstadt",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Mondstadt/Mondstadt_1.png",
+                "Album_Link": "TT_Mondstadt"
+            },
+            {
+                "Album_Name": "Liyue",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Liyue/Liyue_1.png",
+                "Album_Link": "TT_Liyue"
+            },
+            {
+                "Album_Name": "Inazuma",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_1.png",
+                "Album_Link": "TT_Inazuma"
+            },
+            {
+                "Album_Name": "Sumeru",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_1.png",
+                "Album_Link": "TT_Sumeru"
+            },
+            {
+                "Album_Name": "Fontaine",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_1.png",
+                "Album_Link": "TT_Fontaine"
+            },
+            {
+                "Album_Name": "Natlan",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Natlan/Natlan_1.png",
+                "Album_Link": "TT_Natlan"
+            },
+            {
+                "Album_Name": "Video Thumbnails",
+                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_1.png",
+                "Album_Link": "TT_Thumbnails"
+            }
+        ]
+    }
+]

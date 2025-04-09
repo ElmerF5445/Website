@@ -27,6 +27,7 @@
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
   <script src="Scripts/CBE_Javascript_UI.js"></script>
   <script src="Scripts/CBE_Javascript_BranchNavigation.js"></script>
+  <script src="Scripts/CBE_Javascript_Gallery.js"></script>
   <body id="pageElement_Body" onload="Load_Properties();" UI_Overlay="Template_UI" Color_Profile="Violet"
   Header_AltPage_URL="Top" Header_AltPage_Title="Gallery" CopyLink_HasAltLink="true" Margin_Type="Branch">
     <div class="LoadingScreen" NoMargins>
@@ -86,7 +87,7 @@
       </div>
     </div> -->
 
-    <div class="Gallery_Home">
+    <div class="Gallery_Home" id="Gallery_Home">
       <!-- Photography -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
@@ -304,5 +305,47 @@
         </div>
       </div>
     </div>
+    <!-- Albums -->
+    <div class="Gallery_Albums">
+      <div class="Gallery_Album_Item">
+        <div class="Gallery_Album_Item_Decorations" Corner="TopRight">
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+        </div>
+        <div class="Gallery_Album_Item_Decorations" Corner="BottomLeft">
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+        </div>
+        <div class="Gallery_Album_Item_Decoration_Border"></div>
+        <div class="Gallery_Album_Item_Thumbnail">
+          <img src="Assets/Images/Gallery/Genshin/Natlan/Natlan_1.png" class="Gallery_Album_Item_Thumbnail_Image" draggable="false" loading="lazy"/>
+        </div>
+        <div class="Gallery_Album_Item_Content">
+          <h3 class="Gallery_Album_Item_Content_Title">
+            Natlan Region
+          </h3>
+        </div>
+      </div>
+      <div class="Gallery_Album_Item">
+        <div class="Gallery_Album_Item_Decorations" Corner="TopRight">
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+        </div>
+        <div class="Gallery_Album_Item_Decorations" Corner="BottomLeft">
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+          <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+        </div>
+        <div class="Gallery_Album_Item_Decoration_Border"></div>
+        <div class="Gallery_Album_Item_Thumbnail">
+          <img src="Assets/Images/Gallery/Genshin/Natlan/Natlan_1.png" class="Gallery_Album_Item_Thumbnail_Image" draggable="false" loading="lazy"/>
+        </div>
+        <div class="Gallery_Album_Item_Content">
+          <h3 class="Gallery_Album_Item_Content_Title">
+            Natlan Region
+          </h3>
+        </div>
+      </div>
+    </div>
+    
   </body>
 </html>

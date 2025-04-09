@@ -1,3 +1,24 @@
+function GRBRKR_Logo_Entrance(){
+    setTimeout(function(){
+        var Elements = document.querySelectorAll(".GRBRKR_Title_Layer");
+        for (a = 0; a < Elements.length; a++){
+            if (Elements[a].getAttribute("Type") == "Outline"){
+                Elements[a].setAttribute("State", "Entrance_Outline");
+            }
+        }
+        
+    }, 2000);
+    setTimeout(function(){
+        var Elements = document.querySelectorAll(".GRBRKR_Title_Layer");
+        for (a = 0; a < Elements.length; a++){
+            if (Elements[a].getAttribute("Type") == "Filled"){
+                Elements[a].setAttribute("State", "Entrance_Filled");  
+            }
+        }
+    }, 4000);
+    
+}
+
 function List_Generate(FileURL){
     const request = new XMLHttpRequest();
     request.open("GET", FileURL, false);
