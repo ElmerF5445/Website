@@ -1,0 +1,255 @@
+{
+    "Album_Name": "Sumeru",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Sumeru_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Land of Knowledge and Wisdom",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Sumeru_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_6",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_6.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_7",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_7.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_8",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_8.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_9",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_9.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_10",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_10.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_11",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_11.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_12",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_12.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_13",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_13.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_14",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_14.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_15",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_15.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_16",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_16.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_17",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_17.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_18",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_18.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_19",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_19.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_20",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_20.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_21",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_21.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_22",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_22.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_23",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_24",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_24.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_25",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_25.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_26",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_26.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_27",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_27.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_28",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_28.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_29",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_29.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_30",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_30.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_31",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_31.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_32",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_32.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_33",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_33.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_34",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_34.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_35",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_35.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_36",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_36.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_37",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_37.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_38",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_38.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sumeru_39",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Sumeru/Sumeru_39.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

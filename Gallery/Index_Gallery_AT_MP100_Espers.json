@@ -1,0 +1,33 @@
+{
+    "Album_Name": "Edward Elric",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Espers Main",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/MP100_B_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Other versions",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Espers Alt 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/MP100_B_2.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

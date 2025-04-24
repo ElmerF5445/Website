@@ -86,10 +86,28 @@
         </div>
       </div>
     </div> -->
-
-    <div class="Gallery_Home" id="Gallery_Home">
-      <!-- Photography -->
-      <div class="Gallery_Home_Section">
+    <div class="Gallery_Home_Header" id="Gallery_Home_Header" State="Inactive" NoMargins>
+      <button class="Gallery_Home_Header_Back" onclick="Gallery_Home_Sections_Generate()">
+        Back
+        <div class="Gallery_Home_Header_Back_Arrow">
+          <div class="Arrow" Left>
+            <div class="Arrow_Container">
+              <span class="Arrow_Base_Dot"></span>
+              <span class="Arrow_Base"></span>
+              <span class="Arrow_Left"></span>
+              <span class="Arrow_Right"></span>
+            </div>
+        </div>
+      </button>
+      <h1 class="Gallery_Home_Header_Title" id="Gallery_Home_Header_Title">
+        Name
+      </h1>
+      <p class="Gallery_Home_Header_Description" id="Gallery_Home_Header_Description">
+        Description
+      </p>
+    </div>
+    <div class="Gallery_Home" id="Gallery_Home" State="Active">
+      <!-- <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
           <span class="Gallery_Home_Section_Decoration_Component" Length="Long"></span>
@@ -124,7 +142,6 @@
           </button>
         </div>
       </div>
-      <!-- Figures -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
@@ -160,7 +177,6 @@
           </button>
         </div>
       </div>
-      <!-- Graphic Design -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
@@ -196,7 +212,6 @@
           </button>
         </div>
       </div>
-      <!-- Arteest -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
@@ -232,7 +247,6 @@
           </button>
         </div>
       </div>
-      <!-- Builders' Guild -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
@@ -268,7 +282,6 @@
           </button>
         </div>
       </div>
-      <!-- Traveler's Travels -->
       <div class="Gallery_Home_Section">
         <div class="Gallery_Home_Section_Decoration" Position="Top">
           <span class="Gallery_Home_Section_Decoration_Component" Length="Short"></span>
@@ -303,10 +316,10 @@
             </div>
           </button>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- Albums -->
-    <div class="Gallery_Albums">
+    <div class="Gallery_Albums" id="Gallery_Albums" State="Inactive">
       <div class="Gallery_Album_Item">
         <div class="Gallery_Album_Item_Decorations" Corner="TopRight">
           <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>

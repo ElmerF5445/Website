@@ -1,0 +1,45 @@
+{
+    "Album_Name": "Hanazawa Teruki",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Teru Main",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Other versions",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Teru Alt 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Teru Alt 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Teru Alt 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Teru_4.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

@@ -151,11 +151,7 @@
         "Section_StraightToRenderer": false,
         "Section_StraightToRenderer_Album": "",
         "Section_Albums": [
-            {
-                "Album_Name": "Characters",
-                "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Characters/Characters_1.png",
-                "Album_Link": "TT_Characters"
-            },
+            
             {
                 "Album_Name": "Mondstadt",
                 "Album_Thumbnail": "Assets/Images/Gallery/Genshin/Mondstadt/Mondstadt_1.png",

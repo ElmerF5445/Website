@@ -1,0 +1,45 @@
+{
+    "Album_Name": "Gojo Satoru",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Gojo_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_1.JPG",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Other angles",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Gojo_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_2.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Gojo_3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_3.JPG",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Gojo_4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Figures/Gojo_4.JPG",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

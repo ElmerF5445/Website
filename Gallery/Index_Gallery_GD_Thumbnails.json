@@ -1,0 +1,140 @@
+{
+    "Album_Name": "Typography / Thumbnails",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Voice Against Injustice",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Logo.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "The Compilation 2021",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/LogoFull.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Cheerdance",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Title Card 2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prelims 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Prelims_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prelims 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Midterms 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Midterms_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Midterms 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prefinals 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/OLD_Thumbnail_Prefinals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Prefinals 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Finals",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Thumbnail_Finals_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "The English Lens",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Logo1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "ELISM 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/ELISM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Japanese Music 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_JP_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Japanese Music 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_JP_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "English Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_English.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Aesthetic Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_Aesthetic.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Instrumental Music",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_Instrumental.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "OPM",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Thumbnails/Music_OPM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2022",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP22.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2023",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Elmer's Playlist 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Playlists/EP24.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

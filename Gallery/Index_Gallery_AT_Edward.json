@@ -1,0 +1,57 @@
+{
+    "Album_Name": "Edward Elric",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Edward Main",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Other versions",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Edward Alt 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Edward Alt 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Edward Alt 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Edward Alt 4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Edward Alt 5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Edward_6.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

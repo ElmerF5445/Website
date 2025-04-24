@@ -1,0 +1,69 @@
+{
+    "Album_Name": "Infographics",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "History of Science",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/History_of_Science.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Italian Renaissance",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Italian_Renaissance.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Science Industry",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Science_Industry.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "De-Develop",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/De-Develop.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Robotic Ethics",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Robotic_Ethics.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Alan Turing",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Alan_Turing.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "GMO",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/GMO.png",
+                    "Image_Full": "Same"
+                }  
+            ]
+        },
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Globalization",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Globalization.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

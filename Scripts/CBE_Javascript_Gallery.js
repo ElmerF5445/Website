@@ -3,15 +3,19 @@ document.addEventListener('DOMContentLoaded', function(){
         Gallery_Generate();
         GetDynamicBatchSize();
     }
-    if (path == "/Gallery/"){
+    if (path == "/Gallery/index.html" || path == "/Gallery/"){
         Gallery_Home_Sections_Generate();
     }
 });
 
 var Home_Data;
 function Gallery_Home_Sections_Generate(){
+    Scroll_ToPosition('top');
     Home_Data = Data_Import_FromPath(`Gallery/Index_Gallery.json`, 'JSON');
     Element_Clear("Gallery_Home");
+    Element_Attribute_Set("Gallery_Home_Header", "State", "Inactive");
+    Element_Attribute_Set("Gallery_Home", "State", "Active");
+    Element_Attribute_Set("Gallery_Albums", "State", "Inactive");
     for (a = 0; a <= Home_Data.length; a++){
         var Item = Home_Data[a];
         console.log(Item.Section_Thumbnail);
@@ -95,7 +99,46 @@ function Gallery_Home_Sections_Generate(){
         Item_Element.innerHTML = Item_InnerHTML;
         Element_Append("Gallery_Home", Item_Element);
     }
-    console.log("Done")
+    
+}
+
+function Gallery_Home_Albums_Generate(ID){
+    Scroll_ToPosition('top')
+    Element_Attribute_Set("Gallery_Home_Header", "State", "Active");
+    Element_Attribute_Set("Gallery_Home", "State", "Inactive");
+    Element_Attribute_Set("Gallery_Albums", "State", "Active");
+    Element_Clear("Gallery_Albums");
+    var Album_Data = Home_Data[ID].Section_Albums;
+    console.log(Album_Data);
+    Element_InnerHTML_Set("Gallery_Home_Header_Title", Home_Data[ID].Section_Name);
+    Element_InnerHTML_Set("Gallery_Home_Header_Description", Home_Data[ID].Section_Description);
+    for (a = 0; a <= Album_Data.length; a++){
+        var Item = Album_Data[a];
+        var Item_InnerHTML = `
+            <div class="Gallery_Album_Item_Decorations" Corner="TopRight">
+                <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+                <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+            </div>
+            <div class="Gallery_Album_Item_Decorations" Corner="BottomLeft">
+                <span class="Gallery_Album_Item_Decoration_Component" Size="Short"></span>
+                <span class="Gallery_Album_Item_Decoration_Component" Size="Long"></span>
+            </div>
+            <div class="Gallery_Album_Item_Decoration_Border"></div>
+            <div class="Gallery_Album_Item_Thumbnail">
+                <img src="${Item.Album_Thumbnail}" class="Gallery_Album_Item_Thumbnail_Image" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Gallery_Album_Item_Content">
+                <h3 class="Gallery_Album_Item_Content_Title">
+                    ${Item.Album_Name}
+                </h3>
+            </div>
+        `;
+        var Item_Element = Element_Create("div");
+        Item_Element.innerHTML = Item_InnerHTML;
+        Item_Element.setAttribute("class", "Gallery_Album_Item");
+        Item_Element.setAttribute("onclick", `Page_ChangePage('Gallery/CBE_Gallery.html?Album=${Item.Album_Link}', Transition)`);
+        Element_Append("Gallery_Albums", Item_Element);
+    }
 }
 
 var Album_Parameter;

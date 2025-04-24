@@ -303,12 +303,89 @@
     }
 }
 
+.Gallery_Home_Header_Back{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    border: solid var(--Theme-Dynamic-Level-L1) 2px;
+    background-color: var(--Theme-Dynamic-Level-D3);
+    font-family: var(--Text-Font-Primary);
+    color: var(--Theme-Dynamic-Level-L1);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.Gallery_Home_Header_Back:focus{
+    border-style: dotted;
+}
+
+.Gallery_Home_Header_Back_Arrow{
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: -1px;
+    left: -30px;
+}
+
+.Gallery_Home_Header{
+    background-color: var(--Theme-Dynamic-Level-D3);
+    border-top: solid var(--Theme-Dynamic-Level-L1) 2px;
+    border-bottom: solid var(--Theme-Dynamic-Level-L1) 2px;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: var(--Element-Margin-Left);
+    padding-right: var(--Element-Margin-Right);
+    overflow-y: hidden;
+}
+
+.Gallery_Home_Header[State = "Active"]{
+    /* display: block; */
+    max-height: 500px;
+}
+.Gallery_Home_Header[State = "Inactive"]{
+    /* display: none; */
+    max-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0%;
+    pointer-events: none;
+}
+
+.Gallery_Home_Header_Title{
+    font-family: var(--Text-Font-Title-Primary);
+    color: var(--Theme-Dynamic-Level-L3);
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 0;
+}
+
+.Gallery_Home_Header_Description{
+    font-family: var(--Text-Font-Title-Secondary);
+    color: var(--Theme-Dynamic-Level-L3);
+    margin: 0;
+}
+
 .Gallery_Home{
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
     margin-top: 50px;
     justify-content: center;
+}
+
+.Gallery_Home[State = "Active"]{
+    display: flex;
+}
+.Gallery_Home[State = "Inactive"]{
+    display: none;
 }
 
 .Gallery_Home_Section{
@@ -536,9 +613,16 @@
 .Gallery_Albums{
     /* background-color: blue; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.Gallery_Albums[State = "Active"]{
+    display: flex;
+}
+.Gallery_Albums[State = "Inactive"]{
+    display: none;
 }
 
 .Gallery_Album_Item{
@@ -587,7 +671,7 @@
 .Gallery_Album_Item_Content_Title{
     font-family: var(--Text-Font-Title-Primary);
     color: var(--Theme-Dynamic-Level-L3);
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: left;

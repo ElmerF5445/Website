@@ -1,0 +1,117 @@
+{
+    "Album_Name": "Video Thumbnails",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Historia_Antiqua_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_2.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Moments Frozen in Time",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "IOR_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "IOR_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "BaptistHarassment",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_BaptistHarassment.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Astrolabos",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Astrolabos.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "PyroRegisvine",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_PyroRegisvine.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "AQ_4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_AQ_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "MrKrabs",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MrKrabs_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Suanni",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Suanni.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "CryoRegisvine",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_CryoRegisvine.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Historia_Antiqua_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Historia_Antiqua_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "ElectroRegisvine",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_ElectroRegisvine.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Alatus",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Alatus.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "MRM",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MRM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "TGB",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_TGB.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

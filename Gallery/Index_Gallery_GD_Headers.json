@@ -1,0 +1,148 @@
+{
+    "Album_Name": "Headers",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "Headers - Part I",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S1_Finals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C1/C1_S2_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Headers - Part II",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S1_Finals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C2/C2_S2_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Headers - Part III",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

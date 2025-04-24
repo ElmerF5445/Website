@@ -1334,10 +1334,10 @@ body > *[NoMargins_All]{
 	text-align: center;
 	text-transform: capitalize;
 	cursor: pointer;
-	transform: translateY(400%);
+	/* transform: translateY(400%);
 	animation-name: Branch_Banner_Text_RiseUp;
 	animation-duration: 0.75s;
-	animation-delay: 3.2s;
+	animation-delay: 3.2s; */
 	/* animation-timing-function: ease-out; */
 	animation-fill-mode: forwards;
 }

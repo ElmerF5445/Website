@@ -1,0 +1,62 @@
+{
+    "Album_Name": "Posters",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "English Day 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/ELISM.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "TNTS",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/TNTS 2024 2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Talent Search 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Talent_Search_24.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Talent Search 2023",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Talent_Search_23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "English Day 2022",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Speech_Choir.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Rizal",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Rizal.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "February Sentiments",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/February_Sentiments.jpg",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Wag Lalabas",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Wag_Lalabas.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

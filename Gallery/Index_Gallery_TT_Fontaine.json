@@ -1,0 +1,165 @@
+{
+    "Album_Name": "Fontaine",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Fontaine_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Land of Justice",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Fontaine_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_6",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_6.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_7",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_7.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_8",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_8.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_9",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_9.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_10",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_10.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_11",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_11.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_12",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_12.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_13",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_13.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_14",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_14.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_15",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_15.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_16",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_16.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_17",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_17.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_18",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_18.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_19",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_19.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_20",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_20.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_21",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_21.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_22",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_22.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_23",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Fontaine_24",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Fontaine/Fontaine_24.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "Album_Name": "Inazuma",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Inazuma_1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Land of Eternity",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Inazuma_2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_6",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_6.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_7",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_7.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_8",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_8.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_9",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_9.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_10",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_10.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_11",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_11.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_12",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_12.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_13",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_13.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_14",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_14.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_15",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_15.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_16",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_16.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_17",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_17.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_18",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_18.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_19",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_19.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_20",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_20.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_21",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_21.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_22",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_22.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_23",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_23.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_24",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_24.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_25",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_25.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_26",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_26.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_27",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_27.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_28",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_28.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_29",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_29.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_30",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_30.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inazuma_31",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Inazuma/Inazuma_31.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}

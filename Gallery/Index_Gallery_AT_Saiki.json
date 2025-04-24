@@ -1,0 +1,57 @@
+{
+    "Album_Name": "Saiki K.",
+    "Album_Description": "",
+    "Album_Date": "",
+    "Album_Contents": [
+        {
+            "Section_Name": "",
+            "Section_Description": "",
+            "Section_Mode": "Full",
+            "Section_Contents": [
+                {
+                    "Title": "Saiki Main",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_1.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Other versions",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Saiki Alt 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Saiki Alt 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Saiki Alt 3",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Saiki Alt 4",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Saiki Alt 5",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Arteest/Saiki_6.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}
