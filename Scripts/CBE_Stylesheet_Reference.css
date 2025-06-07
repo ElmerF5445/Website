@@ -51,6 +51,11 @@
 	src: url("../Assets/Fonts/framd.ttf") format("truetype");
 }
 
+@font-face{
+	font-family: "Kemlyn";
+	src: url("../Assets/Fonts/Kemlyn.ttf") format("truetype");
+}
+
 :root{
 	--ColorProfile-BGImage: url(../Assets/Backgrounds/Background_Noise_Landscape_LQ_1.png);
 	--ColorProfile-Text-Color: #9600ff;

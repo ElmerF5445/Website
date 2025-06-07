@@ -22,93 +22,135 @@
             "Section_Mode": "Grid_Full",
             "Section_Contents": [
                 {
-                    "Title": "IOR_1",
+                    "Title": "Incandescent Ode of Resurrection Part 1",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_1.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "IOR_2",
+                    "Title": "Incandescent Ode of Resurrection Part 2",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_2.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "BaptistHarassment",
+                    "Title": "Foreign Descender harasses defenseless man for 10 minutes straight",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_BaptistHarassment.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "Astrolabos",
+                    "Title": "Astrolabos: Beyond this World's Stars",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Astrolabos.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "PyroRegisvine",
+                    "Title": "Inazuman detective throws fists with a smoking hot flower",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_PyroRegisvine.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "AQ_4",
+                    "Title": "Ascension Quest 4",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_AQ_4.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "MrKrabs",
+                    "Title": "Throwing fists with Mr. Krabs",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MrKrabs_1.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "Suanni",
+                    "Title": "Gaslighting myself that I can throw fists with the Suanni",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Suanni.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "CryoRegisvine",
+                    "Title": "Cryo Regisvine's Solitude Interrupted by Rowdy Foreigners",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_CryoRegisvine.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "Historia_Antiqua_1",
+                    "Title": "Historia Antiqua Act 1: Sal Flore",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_1.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "Historia_Antiqua_2",
+                    "Title": "Historia Antiqua Act 2: No Mere Stone",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_2.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "ElectroRegisvine",
+                    "Title": "Electrifying Regisvining Farming Materializing or Whatevering",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_ElectroRegisvine.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "Alatus",
+                    "Title": "Alatus: Butterfly's Dream",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Alatus.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "MRM",
+                    "Title": "Mushroom Realm Mystery",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MRM.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "TGB",
+                    "Title": "Tournament of Glory in Bloom",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_TGB.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Sinae Unicornis: Sea of Clouds, Sea of People",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_SinaeUnicornis.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Shocking Experiment Generates Field Distortions",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_FieldGenerator.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Inhaling harmful irritants from the Terrorshroom",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Terrorshroom.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Paralogism 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Paralogism_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Paralogism 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Paralogism_2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Whirling Waltz Part 1",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_WW_1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Whirling Waltz Part 2",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_WW_2.png",
                     "Image_Full": "Same"
                 }
             ]
