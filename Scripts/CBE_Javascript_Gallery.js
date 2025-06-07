@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
         Gallery_Generate();
         GetDynamicBatchSize();
     }
-    if (path == "/Gallery/index.html" || path == "/Gallery/"){
+    if ((path == "/Gallery/index.html" || path == "/Gallery/") || (path == "/Website/Gallery/index.html" || path == "/Website/Gallery/")){
         Gallery_Home_Sections_Generate();
     }
 });
