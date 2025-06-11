@@ -208,6 +208,7 @@ function LoadNextBatch() {
         }
 
         let Image_Source = Album_Section_Contents[Album_Generation_Section_Images].Image_Thumbnail;
+        let Image_Title = Album_Section_Contents[Album_Generation_Section_Images].Title;
         let Image_InnerHTML = `
             <img class="Gallery_Album_Section_Item_Image" src="${Image_Source}" loading="lazy"
                 onload="this.setAttribute('Loaded', 'True'), this.parentNode.setAttribute('Loaded', 'True')" draggable="false"/>
@@ -216,7 +217,7 @@ function LoadNextBatch() {
         let Image_Item = Element_Create('button');
         Image_Item.setAttribute("class", "Gallery_Album_Section_Item");
         Image_Item.setAttribute("id", `Album_Section_${Album_Generation_Section}_${Album_Generation_Section_Images}`);
-        Image_Item.setAttribute("onclick", `Image_Preview_Open('${Image_Source}', null)`);
+        Image_Item.setAttribute("onclick", `Image_Preview_Open('${Image_Source}', null, "${Image_Title}")`);
         Image_Item.innerHTML = Image_InnerHTML;
         sectionElement.appendChild(Image_Item);
 

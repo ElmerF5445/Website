@@ -216,6 +216,19 @@
     grid-gap: 10px;
 }
 
+.Gallery_Album_Section[Type = "Grid_Full_Gapless"]{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 10px; */
+}
+
+.Gallery_Album_Section[Type = "Grid_Full_Gapless"] > .Gallery_Album_Section_Item{
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: unset !important;
+}
+
 .Gallery_Album_Section[Type = "Full"]{
     display: flex;
     flex-direction: column;

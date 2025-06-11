@@ -9,21 +9,63 @@
             "Section_Mode": "Grid_Full",
             "Section_Contents": [
                 {
+                    "Title": "SHS Expo 2025 Feature Article",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Expo 2025 2d.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "SHS Expo 2025 Broadcasting",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Expo 2025 2c.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "SHS Expo 2025 Videography",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Expo 2025 2b.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "SHS Expo 2025 Photography",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Expo 2025 2a.png",
+                    "Image_Full": "Same"
+                },
+                {
                     "Title": "English Day 2024",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/ELISM.png",
                     "Image_Full": "Same"
                 },
                 {
-                    "Title": "TNTS",
+                    "Title": "Easter Event 2025 B",
                     "Description": "",
-                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/TNTS 2024 2.png",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Easter Event 2025 1c.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Easter Event 2025 A",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Easter Event 2025 1b.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "TNTS 2025",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/TNTS 2025 2.png",
                     "Image_Full": "Same"
                 },
                 {
                     "Title": "Talent Search 2024",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/Talent_Search_24.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "TNTS 2024",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Posters/TNTS 2024 2.png",
                     "Image_Full": "Same"
                 },
                 {

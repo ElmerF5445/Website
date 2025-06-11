@@ -439,6 +439,7 @@ a{
 	width: 100%;
 	height: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -448,6 +449,15 @@ a{
 	height: 90%;
 	object-fit: contain;
 	cursor: pointer;
+}
+
+.UI_ImagePreview_Image_Title{
+	font-family: var(--Text-Font-Secondary);
+	color: var(--Theme-Dynamic-Level-L3);
+}
+
+.UI_ImagePreview_Image_Title[State = "Inactive"]{
+	display: none;
 }
 
 .UI_ImagePreview_Controls{

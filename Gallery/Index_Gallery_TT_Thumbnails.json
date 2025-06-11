@@ -152,6 +152,12 @@
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_WW_2.png",
                     "Image_Full": "Same"
+                },
+                {
+                    "Title": "Global Warming causes Lava Statue to become even hotter",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_LavaStatue.png",
+                    "Image_Full": "Same"
                 }
             ]
         }

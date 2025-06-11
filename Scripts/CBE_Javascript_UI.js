@@ -359,12 +359,18 @@ function Image_Preview_Add(){
   }
 }
 
-function Image_Preview_Open(Source, NoPreview){
+function Image_Preview_Open(Source, NoPreview, Title){
   if (NoPreview == null){
     Element_Attribute_Set("UI_ImagePreview", "State", "Active");
     Element_Attribute_Set("UI_ImagePreview_Image_Image", "src", "Assets/Images/Loading.png");
     Element_Attribute_Set("pageElement_Curtain", "State", "Expanded");
     Element_Attribute_Set("UI_ImagePreview_Image_Image", "src", Source);
+  }
+  if (Title != null){
+    Element_Attribute_Set("UI_ImagePreview_Image_Title", "State", "Active");
+    Element_InnerHTML_Set("UI_ImagePreview_Image_Title", Title);
+  } else {
+    Element_Attribute_Set("UI_ImagePreview_Image_Title", "State", "Inactive");
   }
 }
 

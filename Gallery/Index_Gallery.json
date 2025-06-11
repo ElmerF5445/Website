@@ -48,6 +48,11 @@
         "Section_StraightToRenderer_Album": "",
         "Section_Albums": [
             {
+                "Album_Name": "Pubmats",
+                "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Pubmats/Hello 2nd Semester 2025.png",
+                "Album_Link": "GD_Pubmats"
+            },
+            {
                 "Album_Name": "Infographics",
                 "Album_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Infographics/Science_Industry.png",
                 "Album_Link": "GD_Infographics"
