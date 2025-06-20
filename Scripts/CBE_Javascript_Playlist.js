@@ -19,7 +19,7 @@ function Playlist_Load() {
 
     Element_Clear("Player_Playlist");
     console.log(Playlist_Data.List);
-    for (a = 0; a <= Playlist_Data.List.length; a++) {
+    for (a = Playlist_Data.List.length - 1; a >= 0; a--) {
         var Button_Data = Playlist_Data.List[a];
         var Button_InnerHTML = `
             <div class="Player_Playlist_Item_Decoration"></div>
