@@ -103,3 +103,184 @@
         width: 75%;
 	}
 }
+
+.Player{
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    /* height: -webkit-fill-available; */
+    min-height: 100vh;
+}
+
+.Player_Playlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: solid var(--Theme-Dynamic-Level-L2) 2px;
+    padding: 10px;
+    padding-right: 0;
+    /* overflow-y: auto; */
+    /* overflow-y: auto; */
+    /* max-height: 100vh; */
+}
+
+.Player_Playlist_Item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "Thumbnail AltTitle"
+        "Thumbnail Title"
+    ;
+    gap: 10px;
+    align-items: center;
+    border: solid transparent 2px;
+    border: solid var(--Theme-Dynamic-Level-L2) 2px;
+    background-color: unset;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 30px;
+    height: auto;
+    min-height: 124px;
+}
+
+.Player_Playlist_Item:hover{
+    border: solid var(--Theme-Dynamic-Level-L2) 2px;
+    cursor: pointer;
+}
+
+.Player_Playlist_Item[State = "Active"]{
+    margin-left: 25px;
+    margin-right: -2px;
+    border-right-color: transparent;
+    padding-left: 50px;
+}
+
+.Player_Playlist_Item:focus, .Player_Playlist_Item:active{
+    /* border: dotted var(--Theme-Dynamic-Level-L2) 2px; */
+    cursor: pointer;
+}
+
+.Player_Playlist_Item_Decoration{
+    position: absolute;
+    /* top: 0; */
+    left: -16px;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+    border: solid var(--Theme-Dynamic-Level-L2) 2px;
+    background-color: var(--BGColor);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.Player_Playlist_Item[State = "Active"] > .Player_Playlist_Item_Decoration{
+    left: 4px;
+    border-left-color: var(--Theme-Dynamic-Level-L2);
+    border-bottom-color: var(--Theme-Dynamic-Level-L2);
+}
+
+.Player_Playlist_Item_Background{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: var(--Theme-Dynamic-Level-D5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Player_Playlist_Item[State = "Active"] > .Player_Playlist_Item_Background{
+    width: 100%;
+}
+
+.Player_Playlist_Item_Thumbnail{
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: dotted var(--Theme-Dynamic-Level-D2) 2px; */
+    grid-area: Thumbnail;
+}
+
+.Player_Playlist_Item_Thumbnail_Image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Player_Playlist_Item_Title_Alt {
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+    grid-area: AltTitle;
+    width: auto;
+    padding: 5px;
+    margin-right: 10px;
+    border-bottom: solid var(--Theme-Dynamic-Level-D3) 2px;
+}
+
+.Player_Playlist_Item_Title{
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+    text-align: left;
+    margin: 0;
+    grid-area: Title;
+    padding: 5px;
+    padding-top: unset;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.Player_Playlist_Item[State="Active"] > .Player_Playlist_Item_Title_Alt, .Player_Playlist_Item[State="Active"]>.Player_Playlist_Item_Title{
+    color: var(--Theme-Dynamic-Level-L5);
+}
+
+.Player_Content{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    position: sticky;
+    top: 50px;
+    align-self: start;
+    height: fit-content;
+}
+
+.Player_Content_Frame{
+    width: -webkit-fill-available;
+    height: auto;
+    border-bottom: solid var(--Theme-Dynamic-Level-L2) 2px;
+    border-right: solid var(--Theme-Dynamic-Level-L2) 2px;
+}
+
+.Player_Content_Video{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.Player_Content_Details{
+    padding: 20px;
+}
+
+.Player_Content_Details_Title_Alt{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    color: var(--Text-Color);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid var(--Theme-Dynamic-Level-L2) 2px;
+}
+
+.Player_Content_Details_Title{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    color: var(--Text-Color);
+    margin-bottom: 10px;
+}
+
+.Player_Content_Details_Description{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    color: var(--Text-Color);
+    text-align: justify;
+}

@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <base href="../">
+  <title>Playlists</title>
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Playlists.css" />
+  <!-- <link rel="stylesheet" href="Scripts/CBE_Stylesheet.css"> -->
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Gallery.css" />
+  <link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+<script src="Scripts/CBE_Javascript.js"></script>
+<script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+<script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+<script src="Scripts/CBE_Javascript_UI.js"></script>
+<script src="Scripts/CBE_Javascript_Playlist.js"></script>
+
+<body id="pageElement_Body" onload="Load_Properties();" UI_Overlay="Template_UI" Color_Profile="Pink"
+  Header_AltPage_URL="Top" Header_AltPage_Title="Playlists" CopyLink_HasAltLink="true" Margin_Type="Branch">
+  <div class="LoadingScreen" NoMargins>
+    <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
+      <div class="LoadingScreen_Curtain"></div> -->
+  </div>
+  <div class="Gallery_Home_Header" id="Gallery_Home_Header" State="Active" NoMargins>
+    <button class="Gallery_Home_Header_Back" onclick="Page_ChangePage('Playlists/index.html', Transition)">
+      Back
+      <div class="Gallery_Home_Header_Back_Arrow">
+        <div class="Arrow" Left>
+          <div class="Arrow_Container">
+            <span class="Arrow_Base_Dot"></span>
+            <span class="Arrow_Base"></span>
+            <span class="Arrow_Left"></span>
+            <span class="Arrow_Right"></span>
+          </div>
+        </div>
+    </button>
+    <h1 class="Gallery_Home_Header_Title" id="Playlist_Title">
+      Name
+    </h1>
+    <p class="Gallery_Home_Header_Description" id="Playlist_Description">
+      Description
+    </p>
+  </div>
+  <div class="Player">
+    <div class="Player_Playlist" id="Player_Playlist">
+      <button class="Player_Playlist_Item">
+        <div class="Player_Playlist_Item_Decoration"></div>
+        <div class="Player_Playlist_Item_Background"></div>
+        <div class="Player_Playlist_Item_Thumbnail">
+          <img class="Player_Playlist_Item_Thumbnail_Image" src="Assets/Images/Loading.png" draggable="false"
+            loading="lazy" />
+        </div>
+        <p class="Player_Playlist_Item_Title_Alt">
+          Alternate title
+        </p>
+        <h2 class="Player_Playlist_Item_Title">
+          Title
+        </h2>
+      </button>
+      <button class="Player_Playlist_Item" State="Active">
+        <div class="Player_Playlist_Item_Decoration"></div>
+        <div class="Player_Playlist_Item_Background"></div>
+        <div class="Player_Playlist_Item_Thumbnail">
+          <img class="Player_Playlist_Item_Thumbnail_Image" src="Assets/Images/Loading.png" draggable="false"
+            loading="lazy" />
+        </div>
+        <p class="Player_Playlist_Item_Title_Alt">
+          Alternate title
+        </p>
+        <h2 class="Player_Playlist_Item_Title">
+          Title
+        </h2>
+      </button>
+    </div>
+    <div class="Player_Content">
+      <div class="Player_Content_Frame">
+        <iframe class="Player_Content_Video" id="Player_Content_Video" src="https://www.youtube.com/embed/Uu4lU-h5ffw"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen=""></iframe>
+      </div>
+      <div class="Player_Content_Details">
+        <h3 class="Player_Content_Details_Title_Alt" id="Player_Content_Details_Title_Alt">
+          No video loaded
+        </h3>
+        <h1 class="Player_Content_Details_Title" id="Player_Content_Details_Title">
+          Click a video to play it.
+        </h1>
+        <p class="Player_Content_Details_Description" id="Player_Content_Details_Description">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+{
+    "Name": "Genshin Impact",
+    "Description": "Playthroughs of bosses and storyline quests",
+    "List": [
+        {
+            "Name": "Incandescent Ode of Resurrection | Part 1",
+            "Name_Alt": "Natlan Archon Quest Act 5",
+            "Description": "The dead shall rise not to haunt the living, but to bring them to salvation; to spare them from the same fate that the fallen had endured. For the sharp claws of the Abyss are relentless in its twisted quest to drag the souls of the innocent into the depths of endless darkness... or something like that. Also, I punched a giant frozen flower and its smoking hot sister, flaming flower with overheating issues.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_1.png",
+            "Video": "https://youtu.be/KDp9BgZ5rUo",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Incandescent Ode of Resurrection | Part 2",
+            "Name_Alt": "Natlan Archon Quest Act 5",
+            "Description": "After the rain, the sun peeks from behind the dark clouds. Its light far-reaching across the land, hope shines eternal. Until the final embers of the celestial ball of fire disappears, hope shall never disappear. For like the light of the sun, hope may be dimmed by the darkness of the clouds, but it will never be extinguished. Why would I upload this several months late? Who knows.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_IOR_2.png",
+            "Video": "https://youtu.be/HNII0V9_Uo4",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Foreign Descender harasses defenseless man for 10 minutes straight",
+            "Name_Alt": "Iniquitous Baptist",
+            "Description": "At peace and in solitude, a creature of the Abyss Order, who names itself as the Iniquitous Baptist, aims to cleanse the continent in which it stands on of its 'sins'. The guidance of the baptist towards the path of the Dark Paradise was a success... until a party, consisting of an infamous foreign entity, a singing idol nun, a cavalry captain with an eyepatch for a decorative eyepiece, and a desert temple leader with a knack of electrocuting his enemies came to shatter its plans (repeatedly). Wielding nothing but a pair of swords, a book, and a crackling bow, and the promise of a discount from Bubu Pharmacy, the four relentlessly attacked the creature for its precious Abyssal artifacts, because why not, a pharmacist with a snake for a pet requested for it. But one must now be asked - who was the sinner: the creature that leads the people deeper into the Abyss, or a party of four harassing said creature for a personal favor? Who's cleansing the sins of who? Is it really cleansing of sins if they're fighting in a place full of sand? Why sand? It's coarse and rough and irritating and it gets everywhere.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_BaptistHarassment.png",
+            "Video": "https://youtu.be/ydzLjJ-0dBE",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Astolabos: Beyond this World's Stars",
+            "Name_Alt": "Mona's Story Quest",
+            "Description": "Local foreigner gets roped into an astrologist's shady schemes all in the name of astrologisism!",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Astrolabos.png",
+            "Video": "https://youtu.be/jpi0x5jBwIM",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Inazuman detective throws fists with a smoking hot flower",
+            "Name_Alt": "Pyro Regisvine",
+            "Description": "What could the regisvine possibly have done to be cursed with the fiery pits of hell and caused it to fire all over the place? One foreign detective from Inazuma came to find out. Along with the singing nun and the eyepatch guy from Mondstadt, and the emo farmer from Natlan, said detective delved into the pits in which the regisvine is bound to stay forevermore. Frustrated by the fate that had fallen into the poor plant, the detective went in a rampage and punched and kicked the plant, the singing nun providing the soundtrack, the eyepatch guy trying to keep everyone from catching on fire, and the emo farmer trying to fit in with whatever's happening.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_PyroRegisvine.png",
+            "Video": "https://youtu.be/RI80hVPxbmo",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Ascension Quest 4",
+            "Name_Alt": "Ascension Quest 4",
+            "Description": "'Holy mother of pearl!' One friend exclaimed, for they have witnessed the harrowing sight in front of the monitor. Adventure Rank Level 45 - 251950 / 15500. He then rambled something about me having to step out of my comfort zone and level up like the rest. If I weren't short on primogems trying to get that damn jail warden home, I wouldn't even be thinking of leveling up. But the promise of 100 primogems lured me in, and the relentless persuasion from said friend was enough to get me to do the quest just to shut him up. Was it worth it? Maybe. Will I keep getting killed moving forward? Absolutely. ",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_AQ_4.png",
+            "Video": "https://youtu.be/DcXZOPXfMNg",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Throwing fists with Mr. Krabs",
+            "Name_Alt": "Emperor of Fire and Iron",
+            "Description": "'I told you that magician was sus', was the Sumerian electro-bow man's complaint as he sinks into the boiling hot sand. Fortunately, the singing nun and the cavalry captain was with him, somehow nullifying the burning effects of the sand. Next to them was the outlander, the cause of everything thus endured so far. It was all for the VIP seats at his next magic show. All for wooden seats slightly nearer to the stage. Seats that they could've taken by themselves anyway because what would the Chief of Justice do? Bring the Traveler to the ICC? Does Fontaine even have an ICC? Why would the magician even need crab claws for in his magic show? Resurrect Mr. Krabs?",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MrKrabs_1.png",
+            "Video": "https://youtu.be/Uu4lU-h5ffw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "The Cold never bothered them anyway",
+            "Name_Alt": "Cryo Regisvine",
+            "Description": "'The Cavalry Captain's sick and will be unable to get it himself. That or he's too drunk to leave his office.' That's what Katheryn said, allegedly. Apparently, Kaeya caught a cold from his own Cryo vision. Why the commission would be posted on the Guild's branches on Inazuma, Liyue, and Sumeru is beyond anyone, yet four foreigners (or four-reigners haha very funny ok uwi na tayo) came to fulfill the captain's dying wishes. After traveling across regions, Heizou, Baizhu, Yanfei, and Sethos joined together to throw fists with the Cryo Regisvine of Mondstadt, with the motivation of money and a reason to get violent on the side.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_CryoRegisvine.png",
+            "Video": "https://youtu.be/9_PlQnYArv8",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Gaslighting myself that I can throw fists with the Suanni",
+            "Name_Alt": "Solitary Suanni",
+            "Description": "Why is the Solitary Suanni solitary? Does it have COVID? Lyney's thoughts swirled in his mind as he guns the Suanni repeatedly. Short on money, he accepted the commission ahead of his magic show after the supposed budget from the Court of Fontaine pulled out. Several weeks ago, he was invited to the Court to perform a magic show to the Hydro 'Archon' and the Chief of Justice. Unfortunately for him, he wasn't able to anticipate Neuvilette's reaction when the cake he was eating disappeared in Lyney's hat and reappeared on Furina's plate. Nobody expected the 'Archon' to inhale the slice in a heartbeat. Neuvilette was allegedly extremely saddened by this and caused a massive flood within the city. ",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Suanni.png",
+            "Video": "https://youtu.be/Evle3gZbnPk",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Granting the people of Mondstadt the privilege of electricity",
+            "Name_Alt": "Electro Hypostasis",
+            "Description": "No one could have thought that the people of Teyvat would harness electricity itself. The invention of the electric light bulb sparked countless contraptions such as computers, who were capable of displaying information at break-neck efficiency. Connecting this curious mechanism towards the Akasha Terminal creates even more reactions, with the capability to play virtual games such as one people call 'Genshin Impact'. To keep the spirit of adventuring alive, however, the Adventurer's Guild had decided that those who are not able to pay their monthly dues for the use of electro energy in their homes would have to prove their worth by fighting the Electro Hypostasis not too far from Mondstadt.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_ElectroRegisvine.png",
+            "Video": "https://youtu.be/IF_ktSCElEU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Cavalry Captain throws hands with local Oceanid",
+            "Name_Alt": "Oceanid",
+            "Description": "In the spirit of disturbing the peace of the local area, the Cavalry Captain hailing from a neighboring nation decides to test his skills with the local Oceanid seeking refuge near the edge of Liyue. ",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Oceanid.png",
+            "Video": "https://youtu.be/a4tO65WZ170",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Historia Antiqua Act I: Sal Flore",
+            "Name_Alt": "Zhongli's Story Quest Act 1",
+            "Description": "What would one think when one finds out that the very god they revered were not killed by a higher god, but by the people that revered her in the first place? What would one think when one finds out that the very god they had thought to be a strong force, were simply a defenseless deity, nothing but a pillar of salt, easily destroyable by the forces of the waves? Such truth would be like salt into one's eyes, a simple but painful truth snapping one to a delusion one had decided to live in.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_1.png",
+            "Video": "https://youtu.be/LegP9F8NcYs",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Historia Antiqua Act II: No Mere Stone",
+            "Name_Alt": "Zhongli's Story Quest Act 2",
+            "Description": "Erosion erodes even the sturdiest rocks of Earth. Memories, in the same way, fades and becomes buried in the sands of time. But those who remember shall always keep a shard of the past, until they too, erode and return to the Earth. For the Earth is the place where memories are created, and memories are forgotten.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_HistoriaAntiqua_2.png",
+            "Video": "https://youtu.be/-B_MkIWO_tM",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Electrifying Regisvining Farming Materializing or Whatevering",
+            "Name_Alt": "Electro Regisvine",
+            "Description": "In the dense forests of Sumeru, just west of the mountains of Liyue lies the electric flower hellbent in sucking the electric energy around it, sucking the forest dry of electric creatures. As Lyney looks for more ways to make an electrifying surprise for his magic show, he challenges the Electro Regisvine in the hopes of unlocking its secrets, and how he can possibly use it for his shows.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_ElectroRegisvine.png",
+            "Video": "https://youtu.be/l65apg3s78k",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Alatus: Butterfly's Dream",
+            "Name_Alt": "Xiao's Story Quest",
+            "Description": "Millennia have passed, and though his duty demands utmost solitude, the need for companionship lingers. Carrying the burdens inflicted centuries ago, the short Yaksha remains steadfast in his protection of the land's people. Despite the pain he holds, the memories of ages past remain a motivator to fight and quell the demons that plague the land.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Alatus.png",
+            "Video": "https://youtu.be/WuKzuKLtpIA",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Mushroom Realm Mystery",
+            "Name_Alt": "Collective of Plenty Tribal Quest",
+            "Description": "",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_MRM.png",
+            "Video": "https://youtu.be/ZVWFBAYKpHU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Tournament of Glory in Bloom",
+            "Name_Alt": "Limited Event Quest",
+            "Description": "A doctor does his best to save his patient, even if the medicine is borne of tragedy and regret. For a loss of life plants seeds of a new painful past. Even from the afterlife, some wounds refuse to heal.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_TGB.png",
+            "Video": "https://youtu.be/p_2558Qdtks",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Shocking Experiment Generates Field Distortions",
+            "Name_Alt": "Experimental Field Generator",
+            "Description": "By the order of the Duke of Meropide, who had a strange fascination on the mechanical parts left at the Research Institute, Lyney et al. (2025) headed to where an old Field Generator had laid to rest - only to find out in horror that it was doing anything but rest. Upon the detection of their presence, the generator began to attack, carpet bombing and altering the gravity of the field. The heavy gravity of the situation was palpable, but the orders of the tea-loving prison administrator takes precedence from the danger of falling victim to the strange machine. ",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_FieldGenerator.png",
+            "Video": "https://youtu.be/hhHo8nrkq6k",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Inhaling harmful irritants from the Terrorshroom",
+            "Name_Alt": "Jadeplume Terrorshroom",
+            "Description": "To continue his study of foreign medicine, Baizhu put up a commission to arrange a 4-man party to collect samples from the Jadeplume Terroshroom located near Sumeru. Finding the perfect excuse to explore the forest side of Sumeru, Sethos took up the commission, along with Lyney and Heizou, who happened to be in the area.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Terrorshroom.png",
+            "Video": "https://youtu.be/ISD_JNOCJ4w",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Paralogism | Part 1",
+            "Name_Alt": "Interlude Chapter: Act 4",
+            "Description": "A festival meant to be fun had turned awry - the Captain of the Investigation Team becomes the one being investigated in suspicion of alleged murder. However, like steps in an alchemical equation, the truth slowly manifests from a myriad of clues and cluttered information. What does it mean to be truly human? The homunculus asked himself, a being who had journeyed to achieve true humanity.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Paralogism_1.png",
+            "Video": "https://youtu.be/YQHOR_krioc",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Paralogism | Part 2",
+            "Name_Alt": "Interlude Chapter: Act 4",
+            "Description": "",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Paralogism_2.png",
+            "Video": "https://youtu.be/wWyaecNC3xg",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Whirling Waltz | Part 1",
+            "Name_Alt": "Limited Event Quest",
+            "Description": "Bro this, bro that, bro everything! Is that all you can say?! I'm tried of all this bro talk! I'm sick of it, bro! W-wait... what...? Did I just- ",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_WW_1.png",
+            "Video": "https://youtu.be/SsL3mmSo_6w",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Whirling Waltz | Part 2",
+            "Name_Alt": "Limited Event Quest",
+            "Description": "",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_WW_2.png",
+            "Video": "https://youtu.be/VB-dD_pw814",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Sinae Unicornis: Sea of Clouds, Sea of People",
+            "Name_Alt": "Ganyu's Story Quest",
+            "Description": "",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_SinaeUnicornis.png",
+            "Video": "https://youtu.be/DSDffhN0xnU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Global Warming causes Lava Statue to become even hotter",
+            "Name_Alt": "Lava Dragon Statue",
+            "Description": "As if the land of Pyro wasn't obnoxiously hot already, a s-quad of adventurers decided it's a good idea to disturb a local dragon-like creature under one of Natlan's vast underground systems. As if it wasn't enough, the idea to make a literal lava dragon statue combust seems to be an idea mutually agreed upon the four adventurers. Who would have known that lava statues could overheat if you give it a bit more hell.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_LavaStatue.png",
+            "Video": "https://youtu.be/UGA4k7gZeSI",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Famed Saurian Hunter hunts down the greediest, biggest, twistiest saurian",
+            "Name_Alt": "Gluttonous Yumkausur Mountain King",
+            "Description": "For his latest courier delivery, Kinich was asked to bring a big yumkasaurus from the north. The problem is that the 'package' was too heavy, unliftable by his grappling watch. Bennett, who happened to be in the area (lost, presumably), suggested that the yumkasaurus be delivered in pieces so the one who ordered the commission can have the extra pleasure of assembling it like a jigsaw puzzle. 'That's dumb', Kinich reasoned, then continued, 'But it's worth a shot.'",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_Yumkausaur.png",
+            "Video": "https://youtu.be/NSj1l5ZD9gw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Step by step guide on how to trim the everything off a Dendro Hypostasis",
+            "Name_Alt": "Dendro Hypostasis",
+            "Description": "'Do we really have to?', Bennett hesitantly asked as he and the rest of the desert expedition crew entered the hypostasis' lair. Baizhu answered, 'We didn't cross the heat of the desert to back out now.' 'But it's creepy!', Bennett exclaimed, 'It's all green and floaty.' 'Didn't you already fight something like this in Mondstadt?' 'Well, yeah, but that's different. I'm used to getting zapped by electricity. But what's this gonna do? Plant me to the ground?' Lyney let out a tired sigh, muttering: 'We could've teleported here with my magic, now my water's out...' Sethos, their guide for the expedition, laughed heartily, patting Baizhu before pushing him towards the circle. 'Relax, it's harmless!' 'Nevertheless you can't just push a sickly man into a living Rubik's cube! Lyney, you're healthier, you go!' Baizhu coughed as he pulled Lyney with him. The latter yelped in surprise, before leading the charge towards the Dendro Hypostasis.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_DendroHypostasis.png",
+            "Video": "https://youtu.be/k8jKENF1OOQ",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "A Space and Time for You",
+            "Name_Alt": "Natlan Archon Quest Act 6",
+            "Description": "Fate is such a cruel thing, destiny intertwined across five centuries, the memories one holds unto slowly fading into the corrosion of time. Will hope ever blossom like those from the sea of flowers one dreams to step into? Or will it decay along with the world that doesn't seem to stop inflicting pain and severing the longing one feels for their family? <br> <br> No matter where our fate brings us, I will be waiting, saving a space and time just for you.",
+            "Thumbnail": "Assets/Images/Gallery/Genshin/Thumbnails/Thumbnail_ASpaceAndTimeForYou.png",
+            "Video": "https://youtu.be/JS-8XMnkKZ4",
+            "ViewableInSite": true
+        }
+    ]
+}
