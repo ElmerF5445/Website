@@ -36,6 +36,13 @@
                 "Chapter_Authors": ["ElmerF5445"],
                 "Chapter_PublishingDate": "1 December 2024",
                 "Chapter_File": "5"
+            },
+            {
+                "Chapter_Number": 6,
+                "Chapter_Title": "The Bookstore in a Sunny Place",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "30 March 2025",
+                "Chapter_File": "6"
             }
         ]
     }

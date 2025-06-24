@@ -1,0 +1,902 @@
+{
+  "Metadata": {
+    "Article_Banner": "",
+    "Article_Title": "The Bookstore in a Sunny Place",
+    "Article_Title_Height": "122px",
+    "Article_Author": "ElmerF5445",
+    "Article_Category": "6",
+    "Article_PublishingDate": "30 March 2025"
+  },
+  "Contents": [
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "How the hell do you keep winning?!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "???",
+      "Dialog": "I'm just that good.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "I'm older than you - how do I keep losing?!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "???",
+      "Dialog": "It's not my fault you're... incapable... of grasping the techniques of effective memory retainment.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Grrr! One more time, one more time, damn it!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "???",
+      "Dialog": "Sure.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Host (TV)",
+      "Dialog": "And now, the jackpot question worth 50,000 MTL: What is the officially recognized name of the central transportation hub located at the heart of Sentral <i>before</i> it was acquired by AETHER?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Maharlikan Transport Hub!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "???",
+      "Dialog": "Maharlika Transportation Center.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Player (TV)",
+      "Dialog": "Maharlika Transportation Center, final answer, FINAL ANSWER!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Host (TV)",
+      "Dialog": "Correct! Congratulations, you won the jackpot round! Oh my stars! Ahahahaha! Congratulations!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Player (TV)",
+      "Dialog": "I... won? I WON! Hahahahaha! I've waited hours for this - my life is complete!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The gameshow host and the player hugged each other and jumped around the stage, laughing as confetti rained down from above. The audience erupted into cheers, with some - presumably the player's friends, joining the group hug."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Audience member (TV)",
+      "Dialog": "Congrats! Hahahaha!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Player (TV)",
+      "Dialog": "Thanks! I won 50,000! ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Audience member (TV)",
+      "Dialog": "That's great! Because you still owe me 65,000 MTL.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The player froze, and the music stops abruptly. The eyes of everybody were trained to the player, who stared at the man for a minute before running out of the set. The man the player owed money to chased after him, leaving the audience and the host in awkward silence. After a few moments, the cheerful music played as the gameshow host cheerfully bid goodbye to their viewers as the program came to a close."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The TV cut to a jolly commercial of an old bread brand, and Anj groaned loudly from across the counter after another loss against Kenji. She stood up and gripped the TV remote tightly in frustration, stomping her feet on the floor."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Grrrr! Damn it, Kenji! Ugh, I hate playing bets with you.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "The pleasure is all mine.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kenji rested his elbow into the countertop and leaned back against his chair with a blank expression."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Now, about the wager...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj was about to answer when the glass door of the bookstore opened, revealing Ryo and Liam from the outside. Kenji's eyes locked into the strange fellow with the odd marks behind Ryo, curious of the boy's odd presence."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Yo.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Hey, Ryo! Hey, Liam!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-uhm, hello...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kenji raised an eyebrow at the familiarity between Anj and the stranger. He stood up from the creaking chair, crossing his arms, and spoke with a deadpan voice."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "You're late.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "It's literally 2 minutes past 9. Can't you cut me some slack?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "That's 2 minutes of my time that I have to do <i>your</i> work. Shameful. Utterly shameful. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Ryo simply huffed and scratched his head in annoyance as he walked towards the boss's office door. Anj chuckled as he passed by, amused by Kenji and Ryo's short and annoyed exchange."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "You know Kyoji wouldn't really mind him being late, right?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "It's about the principle, Anj. I'd appreciate it more if he showed up at least three hours early.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "She laughed at Kenji's deadpan response, earning a sigh of exasperation from him. Noting that she wouldn't really understand where he's coming from, Kenji decided to shift his attention towards Liam, who was fidgeting nearby."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "What's your name?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam tensed as Kenji's eyes landed on him. Stammering, he managed to respond to the boy."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-um... I'm Liam...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Yup! He's Liam alright. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj laughed as she slung an arm around Liam, making him flustered from the sudden attention. Kenji's expression (or lack thereof), however, didn't change at all. Shifting his position, he pressed further."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Care to elaborate?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "I- uh...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "This is the guy I was talking about in the group chat last night! Weren't you reading our conversation?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Sorry. I couldn't understand any of your keyboard gibberish.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "It's called <i>flair,</i> Kenji. Something you clearly lack,",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Whatever. You're an adult texting something so terrible it makes me want to throw my phone out.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "A-anyway... uh... so this is Liam, he saved Minato from Guiran last night.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Okay?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "What do you mean 'Okay'? You look like you don't believe what I said.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "No, I believe you. It's just that I feel you're someone suspicious...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kenji's eyes narrowed thoughtfully as he looked at Liam who was tugging the sleeve of his shirt with his fingers. The strange markings... saving Minato from a burly man like Guiran... something doesn't add up. He has a nose for trouble - and something about Liam made his instincts buzz.  Running a mini-investigation in his head, Kenji decided to question Liam a bit more."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "You're not a wanted criminal, are you? No-fly list? ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "A terrorist, perhaps? Part of the NLDC watch list?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "I-I'm not a terrorist! I don't even know how to... explode things... or whatever they do...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam stammered at Kenji's remarks, fidgeting under his suspicious gaze. Kenji tapped his fingers on the counter, his gaze never leaving Liam. The silence stretched, heavy and uncomfortable."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Hm. I see.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "An awkward silence followed afterwards, Kenji's stare piercing through Liam's soul. Sensing the underlying tension between the two, Anj decided to step in to try and shift the mood."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Aaaaanyways... since Ryo brought you here, it means Mr. Minato wanted you to stick around for a little while. Lucky!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "She patted Liam's shoulder, the latter's tenseness fading a bit from her cheerful tone. Kenji, however, was still wary of Liam, but chose to stand down for now considering Anj's attempt to lighten up the mood. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "For a... while...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Why, of course! You're free to stay, you know. If... that's what you want, of course.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Really...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Hm... as long as it's permitted, I guess it's alright. Though, I don't see any benefit in letting a stranger stick his nose where it's not supposed to.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Come on! He's not gonna stick his nose around. I mean, look at him. Does that look like a terrorist to you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj gestured at Liam. Kenji cocked an eyebrow, catching the edge in her tone. He replied, his eyes locked into the strange markings on Liam's skin."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Looks can be... deceiving.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Getting fed up from the constant questioning of Kenji and his natural wary behavior, she pushed a shushing finger against his lips, much to Kenji's evident annoyance."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Shhhhhhhhhhh. So, Liam, what do you say?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam spoke softly, as if speaking to himself rather than Anj in front of him."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "I... think I'd like that. It feels... safe here.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He answered, a small, faint sense of safety inside the bookstore. He wasn't sure what 'lucky' felt like - but maybe this was close. Anj triumphed, holding Liam's shoulders and shaking him as she cheered. Kenji sighed in defeat, returning to arranging the papers at the counter."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Yaaas! You're gonna like it here.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Meanwhile, in the quiet clutter of the boss's office, Ryo sat in front of Kyoji, his employer who was busy dealing with a messy pile of paperwork. The room was rather small and silent, save for the low rumble of the air conditioner and Anj's boisterous cheers outside. There were framed photos of Kyoji and people Ryo was not familiar with at a nearby table. Lining the opposing sides of the walls were shelves upon shelves of disorganized folders and binders, wooden drawers and rusting file cabinets. Kyoji was silently writing on papers before adding it to a nearly organized pile across the wooden desk. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "So?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The silence was broken by Ryo's slightly impatient voice. Kyoji looked up to him, pausing his writing with confusion etched on his face."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "So, what?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Aren't you gonna do anything?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "What does <i>all</i> of this look like to you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji gestured at the messy pile of paperwork strewn across the desk."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Hold on, why are you even in my office?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Ha? I thought you're gonna reprimand me, or something.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Reprimand you about what? Were you beating some kid senseless at the district school again or something?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "<i>*scoffs*</i> Pfft, no? I meant were you gonna reprimand me for being late?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji looked up at the clock hanging from the wall. 9:15. Getting more bewildered, he scratched his head."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "It's 9:15. Why would I scold you for being 15 minutes late?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Because- <i>*sighs*</i> whatever. I'm starting my shift.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The grumpy teen stood up from the creaking chair, scratching his head in exasperation at the time just wasted waiting there for absolutely nothing. Kyoji watched as Ryo made his way towards the door, adjusting his glasses a bit before returning back to his work."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Don't act like you've been here for months, Ryo.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Damn Kenji...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Ryo grumbled as he neared the door."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Oi, I heard that.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Doesn't matter.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "As Ryo turned the handle and opened the door, he was greeted by a foil-wrapped tray of pancit right up to his face. Startled, he instinctively raised his fists, almost going to punch Anj who was holding the food. Anj reflexively dodged the attack radius of the fist, laughing heartedly at his reaction."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Gah! Piece of shi- ugh, stop doing that.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Hahaha! It's funny, so I won't. Anyways, the food Kyoji ordered is here. Hey, Kyoji, lunch is here!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Ryo irritatingly scratched his head again, much to Kenji's silent amusement. Kenji was not facing Ryo, busy tending the counter. But Ryo's exasperated scoffs is one of Kenji's preferred \"orchestra to his ears\"."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Hearing the arrival of the pancit, Kyoji stopped (or gave up) his work and stood up, leaving the office  for the kitchen while Anj unwraps the food. Liam awkwardly stood nearby her, but his eyes betray his curiosity at the aromatic pancit."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj placed the tray of food into the counter, setting some of the receipts Kenji was organizing, causing him to roll his eyes."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Real respectful, Anj.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Food's more important than whatever that is. Would you mind getting some plates?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kenji sighed as he pulled a set of plates and utensils from under the counter and placed it beside the tray. Anj tilted her head in slight confusion while Ryo simply crossed his arms."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Do you always have those stashed under the counter?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "No? I had it ready when Kyoji said he's ordering lunch. Are you that dense?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Hey! I'm not-",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Shut it. Let's just eat the food.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Ryo cut off the bickering as he grabs a plate, placing a large amount of the noodles into it before sitting by a nearby window. Anji grumbled not being able to defend herself but let it slide for now. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Ugh, fine. Hey Liam, you could get some pancit if you want.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-uhm, thanks... I'll have some.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "She nodded before sitting near the counter with a plate of food. Liam steeled himself as he reached out for the remaining plate at the countertop. Before he can touch the chipped ceramic, it was snatched by Kenji's hand, with Liam flinching at his glare that followed afterwards."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "This is for the boss. Go get a plate from the kitchen at the back.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj gave Kenji a disapproving glare as she ate, with Ryo simply looking at them while chewing. Liam pulled his hand back, looking at the floor before speaking softly."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Sorry...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He looked up at the direction of Ryo and Anj, asking for help. The two silently pointed at a doorway leading to the kitchen, where Kyoji was in. Liam nodded slightly before slowly walking towards the room with the boss seeming to be rummaging through the fridge. He cautiously tapped Kyoji's shoulder, with Kyoji raising an eyebrow at the sight of a stranger in his kitchen."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um... excuse me...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Hm? Who the hell are you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "He's the kid I talked about in the group chat last night, boss.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Anj spoke up from outside the kitchen, her words punctuated by the occasional chewing of pancit. Kyoji hummed thoughtfully before answering."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Hm. I see. What do you need?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Can... can I have a plate...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Oh, sure. Get one from the rack over there.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Thanks...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji continued to rummage through the refrigerator as he carefully held a plate from the rack by the sink. Returning to the counter where the tray was, Liam used a fork to get some of the pancit into his plate. After a few scoops, he settled at a nearby corner and slowly ate his share."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The first bite was heavenly. The mix of vegetables, meat, and noodles tasted something Liam had never tasted before, and it kept getting better the more he ate. A soft smile grew on his face, a warmth on his soul."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Meanwhile, Kyoji returned with a kids' orange juice box, complete with a bendy straw and rainbow ornaments. Anj chuckled at the sight, which caught Ryo's attention before sighing himself."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Haha, what do you got there, boss?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "We're out of soda. Who the hell drank my last can?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "That would be Ryo, sir.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Ryo almost choked from the pancit he was eating, turning towards Kenji with an incredulous look. Beside him, Anj didn't even try to hide her laughs at Kenji's brazen snitching."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "HA? Why me?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Because it <i>is</i> you. I saw you drink the last can the other day.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Is that true, Ryo?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Yeah, it's true. But how the hell would I know it belongs to any of you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Not everything you see in the fridge is free for grabs. You don't own the place, <i>idiot.</i> Or perhaps the mindset of those thugs you casually beat up is starting to get to you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "What did you say?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He stood up and approached Kenji, but was promptly stopped by Kyoji's foot tapping against his knee. He looked at the man casually sipping the orange juice, before letting out a loud 'tsk' and sitting back down. Anj simply chuckled while Liam stopped eating his pancit."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "No beating each other up today, mkay?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "I wasn't <i>planning to.</i>",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "I too wasn't planning on indulging on a dragon's taste for violence.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Tch, will you stop calling me that?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Okay, stop. I can't deal with you two making a mess today.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Yeah, I just arranged the books on the shelves.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "They're not in the correct order.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Not my problem. I arranged them by vibe. Not letter. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji let out an exhausted sigh while Kenji scratched the back of his head, muttering incoherently as he shoved a mouthful of pancit sitting down. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "This is stupid.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Hey! You're stupid!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Calm down, you two. You're both stupid.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Finish all your damn lunches already. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He walked past the trio, stopping by Liam with the plate of pancit on his hand. His gaze bore through Liam, to the point that he can feel Kyoji staring at him from the back of his head. Flinching at the sensation, he snapped towards the boss with a nervous expression."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "See me at the office after you eat, kid.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um... o-okay...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji simply nodded before turning the knob of his office door."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "And Ryo, you'll wash the dishes since you were late.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "What?! Kenji does the dishes every-",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The door closed with finality, leaving Ryo looking oddly defeated. Kenji chuckled at the side, a smug smile on his face."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Justice is served.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "Tch, shut up.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Relax, Ryo. It's not like you'll die washing the dishes.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Ryo",
+      "Dialog": "It's not about washing the dishes, ate. It's washing the dishes for <i>someone else.</i>",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Use those powerful arms for something else than punching people.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The two continued to bicker as they ate the pancit, with Anj happily watching them from the sides. She glanced towards Liam, who was visibly shaken from Kyoji's piercing gaze earlier. With a smile, she scooted her chair closer and placed a reassuring hand unto Liam's shoulder."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Anj",
+      "Dialog": "Don't worry, Liam. He doesn't bite. And if he does, just let me know. I'll give that old man a good kicking. I'll lose, but at least he got kicked, right?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "R-Right...",
+      "Tags": ""
+    }
+  ]
+}
