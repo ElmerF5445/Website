@@ -1,193 +1,341 @@
 <html>
-  <head>
-    <base href="../" />
-    <title id="pageElement_Title">Content By ElmerF</title>
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
-    <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Projects_New.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="Assets/Icons/ContentByElmerF.png"
-      sizes="96x96"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1"
-    />
-  </head>
-  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
-  <script src="Scripts/CBE_Javascript.js"></script>
-  <script src="Scripts/CBE_Javascript_UI.js"></script>
-  <body
-    id="pageElement_Body"
-    onload="Load_Properties()"
-    UI_Overlay="Template_UI"
-    Color_Profile="Orange"
-    Header_AltPage_URL="Top"
-    Header_AltPage_Title="Projects"
-    CopyLink_HasAltLink="true"
-  >
-    <div class="LoadingScreen" NoMargins>
-      <!-- <img
+
+<head>
+  <base href="../" />
+  <title id="pageElement_Title">Content By ElmerF</title>
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_UI.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Projects.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Home3.css" />
+  <link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+<script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+<script src="Scripts/CBE_Javascript.js"></script>
+<script src="Scripts/CBE_Javascript_UI.js"></script>
+
+<body id="pageElement_Body" onload="Load_Properties()" UI_Overlay="Template_UI" Color_Profile="Orange"
+  Header_AltPage_URL="Top" Header_AltPage_Title="Projects" CopyLink_HasAltLink="true" Margin_Type="Branch">
+  <div class="LoadingScreen" NoMargins>
+    <!-- <img
         class="LoadingScreen_Logo"
         src="Assets/Icons/ContentByElmerF.png"
         draggable="false"
         loading="lazy"
       />
       <div class="LoadingScreen_Curtain"></div> -->
-    </div>
-    <div class="Branch_Banner" NoMargins>
+  </div>
+  <div class="Branch_Banner" NoMargins>
+    <span class="Branch_Banner_Decoration" Distance="3"></span>
+    <span class="Branch_Banner_Decoration" Distance="2"></span>
+    <span class="Branch_Banner_Decoration" Distance="1"></span>
+    <div class="Branch_Banner_Content">
+      <span class="Branch_Banner_Content_Diamond" Position="Left"></span>
+      <span class="Branch_Banner_Content_Diamond" Position="Right"></span>
       <h1 class="Branch_Banner_Title">
-        Projects
+        Web Works
       </h1>
       <h3 class="Branch_Banner_Description">
-        Different programming projects I made.
+        Different programming projects I am part of.
       </h3>
+
     </div>
-    <section>
-      <h1 class="General_Title">
-        Websites
-      </h1>
-      <div class="Projects_List">
-        <a href="Projects/CBE_Projects_Template.html">
-          <div class="Projects_List_Item">
-            <div class="Projects_List_Item_Background">
-              <img class='Projects_List_Item_Background_Image' src='https://sticm-english-society.github.io/Website/Assets/Images/Placeholder.png' draggable='false' loading='lazy'/>
-              <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/Website/Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
-            </div>
-            <div class="Projects_List_Item_Details">
-              <h2 class="Projects_List_Item_Details_Title">
-                Content By ElmerF
-              </h2>
-              <p class="Projects_List_Item_Details_Description">
-                Elmer's official website of his stuff and whatever.
-              </p>
-            </div>
-          </div>
-        </a>
-
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://sticm-english-society.github.io/Website/Assets/Images/Placeholder.png' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://sticm-english-society.github.io/Website/Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              English Society
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              The official website of STICM English Society.
-            </p>
-          </div>
-        </div>
-
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://sticm-english-society.github.io/Website/Assets/Images/Placeholder.png' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://bhimlex13.github.io/Student-Assistant-Portal/images/fav1.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              Student Assistant Portal
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              Reviewer quizzes for subjects in BSIT-C2-S2.
-            </p>
-          </div>
-        </div>
-
+    <span class="Branch_Banner_Decoration" Distance="1"></span>
+    <span class="Branch_Banner_Decoration" Distance="2"></span>
+    <span class="Branch_Banner_Decoration" Distance="3"></span>
+    <div class="Branch_Banner_Divider" Position="Top">
+      <span class="Branch_Banner_Divider_Diamond"></span>
+    </div>
+    <div class="Branch_Banner_Divider" Position="Bottom">
+      <span class="Branch_Banner_Divider_Diamond"></span>
+    </div>
+  </div>
+  <div class="Projects_List">
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
       </div>
-    </section>
-    
-    <section>
-      <h1 class="General_Title">
-        Programs
-      </h1>
-      <div class="Projects_List">
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://elmerf5445.github.io/Watch-List-Builder/Assets/Background/BG_SplashScreen.jpg' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/Watch-List-Builder/Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              Watch List Builder
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              Keep track of your series so you don't have to rely on memory.
-            </p>
-          </div>
-        </div>
-        
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://elmerf5445.github.io/Timely/Assets/Background/BG_SplashScreen.jpg' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/Timely/Assets/Icons/icon_schedules.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              Timely
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              A simple, customizable clock app that runs on the browser.
-            </p>
-          </div>
-        </div>
-
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://elmerf5445.github.io/Watermark-Applier/Assets/Background/BG_SplashScreen.jpg' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/Watermark-Applier/Assets/Icons/favicon_square.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              Watermark Applier
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              Easily apply watermarks to images in batches.
-            </p>
-          </div>
-        </div>
-        
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://elmerf5445.github.io/Doodle-Launcher/Assets/Background/default_darkmode.jpg' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/Doodle-Launcher/Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              Doodle Launcher
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              A link management system that acts as a glorified bookmark page.
-            </p>
-          </div>
-        </div>
-
-        <div class="Projects_List_Item">
-          <div class="Projects_List_Item_Background">
-            <img class='Projects_List_Item_Background_Image' src='https://elmerf5445.github.io/ERUMA-UI/Assets/Background/Splash.png' draggable='false' loading='lazy'/>
-            <img class='Projects_List_Item_Background_Icon' src='https://elmerf5445.github.io/ERUMA-UI/Assets/Icons/favicon_old.png' draggable='false' loading='lazy'/>
-          </div>
-          <div class="Projects_List_Item_Details">
-            <h2 class="Projects_List_Item_Details_Title">
-              ERUMA UI
-            </h2>
-            <p class="Projects_List_Item_Details_Description">
-              The base UI system and template for most of my web projects.
-            </p>
-          </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_ES.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
         </div>
       </div>
-    </section>
-    
-  </body>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          English Society Website
+        </h1>
+        <h4 class="Project_Detail_Description">
+          The official website of The English Society, a student organization in STI College Marikina.
+        </h4>
+        <button class="Project_Detail_Control" onclick="Page_ChangePage('https://sticm-english-society.github.io/Website/', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
+      </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_SAP.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+        </div>
+      </div>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          Student Assistant Portal
+        </h1>
+        <h4 class="Project_Detail_Description">
+          Quiz taking website for reviewing certain topics on the IT course.
+        </h4>
+        <button class="Project_Detail_Control" onclick="Page_ChangePage('https://bhimlex13.github.io/Student-Assistant-Portal/', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
+      </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_SL.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+        </div>
+      </div>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          Student Leveling
+        </h1>
+        <h4 class="Project_Detail_Description">
+          Quiz making and taking platform to create quizzes and more.
+        </h4>
+        <button class="Project_Detail_Control" onclick="Page_ChangePage('https://student-leveling.netlify.app/', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
+      </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_AB.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+        </div>
+      </div>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          Article Builder
+        </h1>
+        <h4 class="Project_Detail_Description">
+          Component-based article builder for websites that uses the .cbe_ab format.
+        </h4>
+        <button class="Project_Detail_Control"
+          onclick="Page_ChangePage('https://elmerf5445.github.io/Article-Builder', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
+      </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_WLB.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+        </div>
+      </div>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          Watch List Builder
+        </h1>
+        <h4 class="Project_Detail_Description">
+          A simple episode tracker for watching series, movies, etc.
+        </h4>
+        <button class="Project_Detail_Control"
+          onclick="Page_ChangePage('https://elmerf5445.github.io/Watch-List-Builder/', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="Project">
+      <div class="Project_Frame"></div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Short"></div>
+        <div class="Project_Decoration_Component" Length="Long"></div>
+      </div>
+      <div class="Project_Decorations">
+        <div class="Project_Decoration_Component" Length="Long"></div>
+        <div class="Project_Decoration_Component" Length="Short"></div>
+      </div>
+      <img src="Assets/Images/Projects/Project_SBP.jpeg" class="Project_Background" draggable="false" loading="lazy" />
+      <div style="overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; pointer-events: none;">
+        <div class="Home_Header_Background Project_Details_Background">
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+          <div class="Home_Header_Background_Component"></div>
+        </div>
+      </div>
+      <div class="Project_Details">
+        <h1 class="Project_Detail_Title">
+          Sound Board Plus
+        </h1>
+        <h4 class="Project_Detail_Description">
+          Web-based sound board for events.
+        </h4>
+        <button class="Project_Detail_Control"
+          onclick="Page_ChangePage('https://github.com/ElmerF5445/Sound-Board-Plus/releases', null, 'New')">
+          <div class="Project_Detail_Control_Content">
+            <h3 class="Project_Detail_Control_Content_Title">
+              Check it out
+            </h3>
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

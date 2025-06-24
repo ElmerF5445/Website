@@ -1,0 +1,287 @@
+.Projects_List{
+    /* background-color: gray; */
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.Projects_List_Item{
+    background-color: var(--ColorProfile-BGColor-Level3);
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Projects_List_Item:hover{
+    background-color: var(--ColorProfile-BGColor-Level4);
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: var(--Element-BoxShadow);
+}
+
+.Projects_List_Item_Icon{
+    width: 70px;
+    padding: 10px;
+}
+
+.Projects_List_Item_Title{
+    font-family: Raleway;
+    color: white;
+    user-select: none;
+    margin: 0;
+    font-size: 19;
+}
+
+.Projects_AppPage{
+    /* background-color: blue; */
+    /* margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right); */
+    z-index: 1;
+    margin-bottom: 300px;
+}
+
+.Projects_AppPage_Banner{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+.Projects_AppPage_Banner_Back{
+    position: absolute;
+    background-color: var(--ColorProfile-BGColor-Level1);
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 31px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px var(--ColorProfile-BGColor-Level2);
+    transition: var(--Element-Transition-Delay);
+}
+
+.Projects_AppPage_Banner_Back:hover{
+    width: 185px;
+    box-shadow: 15px 15px 0px 0px var(--ColorProfile-BGColor-Level2);
+}
+
+.Projects_AppPage_Banner_Back_Icon{
+    width: 30px;
+    padding-right: 10px;
+    /* padding-left: 0; */
+}
+
+.Projects_AppPage_Banner_Back_Text{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+}
+
+.Projects_AppPage_Banner_Image{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: absolute;
+    /* top: 0; */
+    font-size: 0;
+}
+
+.Projects_AppPage_Banner_Image#WatermarkApplier{
+    background-image: url("../Assets/Images/Projects/Banner/Banner_WatermarkApplier.jpg");
+}
+
+.Projects_AppPage_Banner_Fade{
+    background: linear-gradient(180deg, rgba(22,22,22,0) 50%, rgba(22,22,22,75) 100%);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    /* background-color: aliceblue; */
+    font-size: 0;
+}
+.Projects_AppPage_Main{
+    display: grid;
+    grid-template-columns: 350px minmax( 100px, 1fr);
+    grid-gap: 10px;
+    /* background-color: aliceblue; */
+    margin-left: var(--Element-Margin-Left);
+    margin-right: var(--Element-Margin-Right);
+    /* width: 100%; */
+    /* max-width: 75%; */
+    /* height: 100%;
+    overflow: auto; */
+}
+
+.Projects_AppPage_Main_Primary{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ColorProfile-BGColor-Level4);
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    
+}
+
+.Projects_AppPage_Main_Primary_Icon{
+    width: 100px;
+}
+
+.Projects_AppPage_Main_Primary_Title{
+    font-family: Raleway;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.Projects_AppPage_Main_Primary_DownloadButton{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    user-select: none;
+    padding: 10px;
+    width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--ColorProfile-BGColor-Level3);
+    border: solid var(--ColorProfile-BGColor-Level5);
+    border-bottom: 10px solid var(--ColorProfile-BGColor-Level5);
+    cursor: pointer;
+    transition: var(--Element-Transition-Delay);
+}
+
+.Projects_AppPage_Main_Primary_DownloadButton:hover{
+    background-color: var(--ColorProfile-BGColor-Level2);
+}
+
+.Projects_AppPage_Main_Primary_DownloadButton:active{
+    background-color: var(--ColorProfile-BGColor-Level2);
+    border-bottom: 3px solid var(--ColorProfile-BGColor-Level5);
+    transform: translateY(7px);
+    margin-bottom: 7px;
+}
+
+.Projects_AppPage_Main_Primary_RunMedium{
+    font-family: Roboto;
+    color: white;
+    font-size: small;
+}
+
+.Projects_AppPage_Main_Primary_Section{
+    margin-top: 10px;
+    border-top: solid var(--ColorProfile-BGColor-Level2);
+    /* padding-top: 10px; */
+    width: 100%;
+}
+
+.Projects_AppPage_Main_Primary_List{
+    font-family: Roboto;
+    color: white;
+    margin: 10px;
+}
+
+.Projects_AppPage_Main_Primary_List > li > a{
+    color: white;
+    text-decoration: dashed;
+    margin: 0;
+}
+
+
+.Projects_AppPage_Main_Secondary{
+    /* background-color: aqua; */
+    /* max-width: 60%; */
+}
+
+.Projects_AppPage_Main_Secondary_Section{
+    margin-bottom: 10px;
+    border-bottom: solid var(--ColorProfile-BGColor-Level2);
+    padding-bottom: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Paragraph{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
+.Projects_AppPage_Main_Secondary_Title{
+    font-family: Raleway;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots{
+    overflow: auto;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots_Item{
+    width: 200px;
+    margin: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Screenshots_Item:nth-child(1){
+    margin-left: 0;
+}
+
+.Projects_AppPage_Main_Secondary_List{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item:nth-child(1) > 
+.Projects_AppPage_Main_Secondary_Downloads_Item_Text{
+    font-weight: bold;
+}
+
+.Projects_AppPage_Main_Secondary_Downloads_Item_Text{
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+}
+
+@media only screen and (max-width: 750px){
+    .Projects_AppPage_Main{
+        grid-template-columns: minmax(100px, 1fr);
+        grid-template-rows: auto 1fr;
+        width: minmax(100px, 1fr);
+    }
+}
