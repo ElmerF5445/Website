@@ -33,15 +33,25 @@
       <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
       <div class="LoadingScreen_Curtain"></div> -->
     </div>
-    <div class="Subpage_Banner" NoMargins>
-        <a onclick="Page_ChangePage('Gallery/', Transition)">
-          <h1 class="Subpage_Banner_Branch">
-            Gallery
-          </h1>
-        </a>
-        <h1 class="Subpage_Banner_Title" id="Subpage_Banner_Title">
-          Gallery Title
-        </h1>
+    <div class="Gallery_Home_Header" id="Gallery_Home_Header" State="Active" NoMargins>
+      <button class="Gallery_Home_Header_Back" onclick="Page_ChangePage('Gallery/', Transition)">
+        Back
+        <div class="Gallery_Home_Header_Back_Arrow">
+          <div class="Arrow" Left>
+            <div class="Arrow_Container">
+              <span class="Arrow_Base_Dot"></span>
+              <span class="Arrow_Base"></span>
+              <span class="Arrow_Left"></span>
+              <span class="Arrow_Right"></span>
+            </div>
+          </div>
+      </button>
+      <h1 class="Gallery_Home_Header_Title" id="Subpage_Banner_Title">
+        Name
+      </h1>
+      <p class="Gallery_Home_Header_Description" id="Playlist_Description">
+        <!-- Description -->
+      </p>
     </div>
     <div class="Gallery_Album" id="Gallery_Album">
         

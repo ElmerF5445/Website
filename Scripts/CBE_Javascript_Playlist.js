@@ -67,3 +67,14 @@ function Playlist_Play(ID) {
 function Link_Transform(Link) {
     return `https://www.youtube.com/embed/${Link.split("/").pop()}?autoplay=1`;
 }
+
+function Playlist_Description_Toggle() {
+    if (Element_Attribute_Get("Player_Content_Toggle", "State") == "Active" || Element_Attribute_Get("Player_Content_Toggle", "State") == null) {
+        Element_Attribute_Set("Player_Content_Toggle", "State", "Inactive");
+        Element_Attribute_Set("Player_Content_Details_Description", "State", "Inactive");
+    } else {
+        Element_Attribute_Set("Player_Content_Toggle", "State", "Active");
+        Element_Attribute_Set("Player_Content_Details_Description", "State", "Active");
+    }
+    
+}
