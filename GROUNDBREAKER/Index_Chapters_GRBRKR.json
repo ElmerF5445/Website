@@ -43,6 +43,13 @@
                 "Chapter_Authors": ["ElmerF5445"],
                 "Chapter_PublishingDate": "30 March 2025",
                 "Chapter_File": "6"
+            },
+            {
+                "Chapter_Number": 7,
+                "Chapter_Title": "Welcome from the Welcoming Committee",
+                "Chapter_Authors": ["ElmerF5445"],
+                "Chapter_PublishingDate": "26 June 2025",
+                "Chapter_File": "7"
             }
         ]
     }
