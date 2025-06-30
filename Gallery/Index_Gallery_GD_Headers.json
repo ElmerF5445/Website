@@ -141,6 +141,73 @@
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S1_Finals.png",
                     "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S2_Prelims.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S2_Midterms.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S2_Prefinals.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/C3/C3_S2_Finals.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "My Header Designs and their References",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/1.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/2.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/3.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/4.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/5.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Headers/Inspirations/6.png",
+                    "Image_Full": "Same"
                 }
             ]
         }
