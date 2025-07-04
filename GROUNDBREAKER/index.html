@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Animations.css" />
   <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Reference.css" />
   <link rel="stylesheet" href="Scripts/CBE_Stylesheet_GROUNDBREAKER.css" />
+  <link rel="stylesheet" href="Scripts/CBE_Stylesheet_Home3.css" />
   <link rel="icon" type="image/png" href="Assets/Icons/ContentByElmerF.png" sizes="96x96" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,82 +23,115 @@
 <script src="Scripts/CBE_Javascript_GROUNDBREAKER.js"></script>
 <script src="Scripts/CBE_Javascript_UI.js"></script>
 
-<body id="pageElement_Body" onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json'); GRBRKR_Logo_Entrance()"
-  UI_Overlay="Template_UI"
-  Color_Profile="Violet"
-  Header_AltPage_URL="Top"
-  Header_AltPage_Title="GROUNDBREAKER"
-  CopyLink_HasAltLink="true"
-  Margin_Type="None">
+<body id="pageElement_Body"
+  onload="Load_Properties(); List_Generate('GROUNDBREAKER/Index_Chapters_GRBRKR.json'); GRBRKR_Logo_Entrance()"
+  UI_Overlay="Template_UI" Color_Profile="Violet" Header_AltPage_URL="Top" Header_AltPage_Title="GROUNDBREAKER"
+  CopyLink_HasAltLink="true" Margin_Type="None">
   <div class="LoadingScreen" NoMargins>
     <!-- <img class='LoadingScreen_Logo' src='Assets/Icons/ContentByElmerF.png' draggable='false' loading='lazy'/>
     <div class="LoadingScreen_Curtain"></div> -->
   </div>
   <div class="GRBRKR_Landing" NoMargins>
     <div class="GRBRKR_Title">
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_1.png" Type="Filled" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_2.png" Type="Filled"  loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_3.png" Type="Filled"  loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_1.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_2.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
-      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_3.png" Type="Outline" loading="lazy" draggable="false" class="GRBRKR_Title_Layer" NoPreview/>
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_1.png" Type="Filled" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_2.png" Type="Filled" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Filled_3.png" Type="Filled" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_1.png" Type="Outline" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_2.png" Type="Outline" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
+      <img src="Assets/Images/GROUNDBREAKER/Logo_Outline_3.png" Type="Outline" loading="lazy" draggable="false"
+        class="GRBRKR_Title_Layer" NoPreview />
     </div>
   </div>
-  <!-- <div class="Branch_Banner" NoMargins>
-    <span class="Branch_Banner_Decoration" Distance="3"></span>
-    <span class="Branch_Banner_Decoration" Distance="2"></span>
-    <span class="Branch_Banner_Decoration" Distance="1"></span>
-    <div class="Branch_Banner_Content">
-      <span class="Branch_Banner_Content_Diamond" Position="Left"></span>
-      <span class="Branch_Banner_Content_Diamond" Position="Right"></span>
-      <h1 class="Branch_Banner_Title">
-        GROUNDBREAKER
-      </h1>
+  <section class="GRBRKR_Latest" NoMargins>
+    <h3 class="GRBRKR_Latest_Chapter" id="GRBRKR_Latest_Chapter">
+      Chapter number
+    </h3>
+    <h2 class="GRBRKR_Latest_Title" id="GRBRKR_Latest_Title">
+      Chapter name
+    </h2>
+    <div class="GRBRKR_Banner_Controls">
+      <button class="GRBRKR_Banner_Control" id="GRBRKR_Latest_Control" Primary
+        onclick="Page_ChangePage('CURIOSITY', Transition)">
+        <div class="GRBRKR_Banner_Control_Content">
+          <h2 class="GRBRKR_Banner_Control_Content_Title">
+            Latest chapter
+          </h2>
+          <div class="GRBRKR_Banner_Control_Content_Arrow">
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="GRBRKR_Banner_Control" id="GRBRKR_Latest_Control" Primary
+        onclick="Page_ChangePage('GROUNDBREAKER/GRBRKR_Sequence.html', Transition)">
+        <div class="GRBRKR_Banner_Control_Content">
+          <h2 class="GRBRKR_Banner_Control_Content_Title">
+            View sequence
+          </h2>
+          <div class="GRBRKR_Banner_Control_Content_Arrow">
+            <div class="Arrow" Right>
+              <div class="Arrow_Container">
+                <span class="Arrow_Base_Dot"></span>
+                <span class="Arrow_Base"></span>
+                <span class="Arrow_Left"></span>
+                <span class="Arrow_Right"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
     </div>
-    <span class="Branch_Banner_Decoration" Distance="1"></span>
-    <span class="Branch_Banner_Decoration" Distance="2"></span>
-    <span class="Branch_Banner_Decoration" Distance="3"></span>
-    <div class="Branch_Banner_Divider" Position="Top">
-      <span class="Branch_Banner_Divider_Diamond"></span>
+    
+  </section>
+  <section class="GRBRKR_List">
+    <div class="GRBRKR_Search">
+      <input type="text" class="GRBRKR_Search_Input" placeholder="Search for titles, authors, or categories"
+        id="GRBRKR_Search_Input" oninput="Search_Query(this.value)" />
+      <button class="GRBRKR_Search_Button">
+        <img src="Assets/Icons/icon_search.png" class="GRBRKR_Search_Button_Icon"
+          onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)"
+          NoPreview />
+      </button>
     </div>
-    <div class="Branch_Banner_Divider" Position="Bottom">
-      <span class="Branch_Banner_Divider_Diamond"></span>
+    <div class="GRBRKR_Chapters" id="GRBRKR_Chapters">
+      <button class="GRBRKR_Chapters_Item">
+        <h2 class="GRBRKR_Chapters_Item_Title">
+          Title
+        </h2>
+        <p class="GRBRKR_Chapters_Item_Subtitle">
+          Arc
+        </p>
+      </button>
+      <button class="GRBRKR_Chapters_Item">
+        <h2 class="GRBRKR_Chapters_Item_Title">
+          Title
+        </h2>
+        <p class="GRBRKR_Chapters_Item_Subtitle">
+          Arc
+        </p>
+      </button>
+      <button class="GRBRKR_Chapters_Item">
+        <h2 class="GRBRKR_Chapters_Item_Title">
+          Title
+        </h2>
+        <p class="GRBRKR_Chapters_Item_Subtitle">
+          Arc
+        </p>
+      </button>
     </div>
-  </div> -->
-  <div class="GRBRKR_Search">
-    <input type="text" class="GRBRKR_Search_Input" placeholder="Search for titles, authors, or categories"
-      id="GRBRKR_Search_Input" oninput="Search_Query(this.value)" />
-    <button class="GRBRKR_Search_Button">
-      <img src="Assets/Icons/icon_search.png" class="GRBRKR_Search_Button_Icon"
-        onclick="BranchNavigation_Search_Articles(document.getElementById('BranchNavigation_Search_Query').value)" NoPreview />
-    </button>
-  </div>
-  <div class="GRBRKR_Chapters" id="GRBRKR_Chapters">
-    <button class="GRBRKR_Chapters_Item">
-      <h2 class="GRBRKR_Chapters_Item_Title">
-        Title
-      </h2>
-      <p class="GRBRKR_Chapters_Item_Subtitle">
-        Arc
-      </p>
-    </button>
-    <button class="GRBRKR_Chapters_Item">
-      <h2 class="GRBRKR_Chapters_Item_Title">
-        Title
-      </h2>
-      <p class="GRBRKR_Chapters_Item_Subtitle">
-        Arc
-      </p>
-    </button>
-    <button class="GRBRKR_Chapters_Item">
-      <h2 class="GRBRKR_Chapters_Item_Title">
-        Title
-      </h2>
-      <p class="GRBRKR_Chapters_Item_Subtitle">
-        Arc
-      </p>
-    </button>
-  </div>
+  </section>
+
 </body>
 
 </html>

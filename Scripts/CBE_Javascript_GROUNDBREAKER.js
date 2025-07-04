@@ -33,7 +33,7 @@ function List_Generate(FileURL){
         var Arc_Name = Arc.Arc_Name;
         console.log(Arc_Name);
         console.log(Arc.Arc_Contents.length);
-        for(b = 0; b < Arc.Arc_Contents.length; b++){
+        for (b = Arc.Arc_Contents.length - 1; b >= 0; b--){
             var Chapter = Arc.Arc_Contents[b];
             var Chapter_File = Chapter.Chapter_File;
             var Chapter_Title = Chapter.Chapter_Title;
@@ -56,7 +56,14 @@ function List_Generate(FileURL){
             document.getElementById("GRBRKR_Chapters").appendChild(Chapter_Button);
         }
     }
-    
+
+    var Latest_Arc = Button_Information[Button_Information.length - 1];
+    var Latest_Chapter = Latest_Arc.Arc_Contents[Latest_Arc.Arc_Contents.length - 1];
+    console.log(Latest_Arc);
+    console.log(Latest_Chapter);
+    Element_InnerHTML_Set("GRBRKR_Latest_Chapter", `Chapter ${Latest_Chapter.Chapter_Number}:`);
+    Element_InnerHTML_Set("GRBRKR_Latest_Title", `${Latest_Chapter.Chapter_Title}`);
+    Element_Attribute_Set("GRBRKR_Latest_Control", "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?Chapter=${Latest_Chapter.Chapter_File}&Arc=${Button_Information.indexOf(Latest_Arc.Arc_Name)}&Index=${Latest_Arc.Arc_Contents.indexOf(Latest_Chapter.Chapter_Number)}', Transition)`);
 }
 
 function Search_Query(Query){

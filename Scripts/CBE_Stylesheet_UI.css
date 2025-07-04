@@ -1552,6 +1552,7 @@ body > *[NoMargins_All]{
 	width: 100%;
 	height: -webkit-fill-available;
 	z-index: 501;
+	pointer-events: none;
 }
 
 .LoadingScreen_Loader{
@@ -1564,6 +1565,7 @@ body > *[NoMargins_All]{
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
+	pointer-events: none;
 }
 
 .LoadingScreen_Loader_Container[State = "Active"] > .LoadingScreen_Loader{

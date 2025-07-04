@@ -1,0 +1,76 @@
+[
+    {
+        "Arc_ID": "GRBRKR_MS",
+        "Arc_Name": "Tulayan's Visitor",
+        "Arc_Before": null,
+        "Arc_After": null,
+        "Arc_Type": "Main Story",
+        "Arc_Timeline": "Main",
+        "Arc_Prefix": "Chapter ",
+        "Arc_Contents": [
+            {
+                "Chapter_Number": 1,
+                "Chapter_Title": "Outlander",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "4 September 2024",
+                "Chapter_File": "GRBRKR_Chapter_1.cbe_sb"
+            },
+            {
+                "Chapter_Number": 2,
+                "Chapter_Title": "Neon Lights",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "29 September 2024",
+                "Chapter_File": "GRBRKR_Chapter_2.cbe_sb"
+            },
+            {
+                "Chapter_Number": 3,
+                "Chapter_Title": "Hospitable at Best",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "8 November 2024",
+                "Chapter_File": "GRBRKR_Chapter_3.cbe_sb"
+            },
+            {
+                "Chapter_Number": 4,
+                "Chapter_Title": "Mad World",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "20 November 2024",
+                "Chapter_File": "GRBRKR_Chapter_4.cbe_sb"
+            },
+            {
+                "Chapter_Number": 5,
+                "Chapter_Title": "Bridgeway",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "1 December 2024",
+                "Chapter_File": "GRBRKR_Chapter_5.cbe_sb"
+            },
+            {
+                "Chapter_Number": 6,
+                "Chapter_Title": "The Bookstore in a Sunny Place",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "30 March 2025",
+                "Chapter_File": "GRBRKR_Chapter_6.cbe_sb"
+            },
+            {
+                "Chapter_Number": 7,
+                "Chapter_Title": "Welcome from the Welcoming Committee",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "26 June 2026",
+                "Chapter_File": "GRBRKR_Chapter_7.cbe_sb"
+            }
+        ]
+    }
+]
