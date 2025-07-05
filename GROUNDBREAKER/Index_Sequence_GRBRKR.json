@@ -165,7 +165,7 @@
                 "Chapter_Authors": [
                     "ElmerF5445"
                 ],
-                "Chapter_PublishingDate": "26 June 2026",
+                "Chapter_PublishingDate": "26 June 2025",
                 "Chapter_Description": "Kyoji summons Liam into his cluttered office and, with a curt handshake, formally welcomes him to Pahinata, then sends him off to fill in for Anj by taming the book-laden shelves under Kenji’s watchful glare, as Manuel’s endless discount pleas and a stubborn, jam-happy printer whisper that even in this warm refuge, every task carries its own undercurrent of suspicion and fate.",
                 "Chapter_File": "GRBRKR_Chapter_7.cbe_sb",
                 "Chapter_Before": {
@@ -180,6 +180,31 @@
                     "Arc_Index": 0,
                     "Chapter_File": "GRBRKR_Chapter_8.cbe_sb",
                     "Chapter_Index": 8,
+                    "Active": true
+                },
+                "Chapter_Options": []
+            },
+            {
+                "Chapter_Number": 8,
+                "Chapter_Title": "Peace and Chaos",
+                "Chapter_Authors": [
+                    "ElmerF5445"
+                ],
+                "Chapter_PublishingDate": "1 July 2025",
+                "Chapter_Description": "Kyoji brings Liam outside to meet with Minato at the street food district, officiating the arrangements for his stay at Pahinata.",
+                "Chapter_File": "GRBRKR_Chapter_8.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_7.cbe_sb",
+                    "Chapter_Index": 7,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_9.cbe_sb",
+                    "Chapter_Index": 9,
                     "Active": false
                 },
                 "Chapter_Options": []

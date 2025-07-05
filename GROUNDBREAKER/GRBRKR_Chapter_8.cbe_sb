@@ -1,0 +1,968 @@
+{
+  "Metadata": {
+    "Article_Banner": "",
+    "Article_Title": "Peace and Chaos",
+    "Article_Title_Height": "122px",
+    "Article_Author": "ElmerF5445",
+    "Article_Category": "8",
+    "Article_PublishingDate": "1 July 2025"
+  },
+  "Contents": [
+    {
+      "Type": "Paragraph",
+      "Content": "The hustle and bustle of Tulayan District permeated the air, but it felt eerily silent as Liam follows Kyoji through the streets. His stomach fluttered nervously, not knowing what the boss has in mind for him to be pulled like this. "
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The lively air of Tulayan buzzed around them, but between Kyoji and Liam, it felt oddly silent—at least until they reached the street corner. Looking both ways, Kyoji walked forwards, guiding Liam with his arm."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-Um... Mr. Kyo-",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He was about to speak, to ask the boss when a motorcycle almost hit them. The rider, who seemed to be angry at being stopped, gripped on the brakes just in time. Kyoji pulled Liam behind him to shield the boy from the possible impact. When the motorcycle halted, his voice immediately flared out."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "<b>OI!</b> Watch where you're going you-",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Rider",
+      "Dialog": "Are you blind?! I'm driving here, you dumb fuck!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Ha??? Do you need me to poke your eyes for you?!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He gestured towards the crossing lines beneath his feet, but that doesn't seem to satisfy the pissed off rider."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Rider",
+      "Dialog": "You're still stupid for crossing when I was driving through, idiot!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The other vehicles around them continued to pass by, but instead of awe, their faces were filled with silent amusement. Most locals smirked approvingly; the rider, on the other hand, was oblivious to local customs and was obviously one of <i>those</i> outsiders."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "You know what you are? <i>Kamote!</i> <b><i>KA-MO-TE!</i> </b>Trying to hit a man with a kid!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Rider",
+      "Dialog": "Just get out of my way already, old man!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji's eyes twitched at the rider's words, his fingers clenching into a fist ready to hit the man. A passenger from a jeepney who slowed down by the crossing peered over the window and handed Kyoji a piece of sweet potato."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Passenger",
+      "Dialog": "Go get him, Kyoji!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The other passengers chanted Kyoji's name repeatedly before bursting into laughter as the jeepney left. Kyoji himself looked at the rough sweet potato in bewilderment before holding it tightly. The rough skin of sweet potato scratched against his palm as he raised it like a weapon."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "You want me to hit you with this, <b>HA?!</b>",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The sight of the threatening object made the rider feel a wave of reluctant fear. Not because his helmet was a fake of a fake and would likely crumble from the collision with the sweet potato, but the painful jab of his masculine pride and sheer embarrassment from being hit with such a strange projectile. His voice wavered, no longer having the same bite as it was before."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Rider",
+      "Dialog": "Y-You haven't seen the end of this, old man! Che!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He drove off quickly, trying to get away from the sweet potato more than he was trying to get away from Kyoji himself. Kyoji's eyes followed the man as he drove off, threatening to throw the sweet potato once again before sighing."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam watched the whole ordeal from behind Kyoji's form, his eyes glimmering in awe at how badass the boss was. Using a vegetable to strip a man off of his confidence was... unexpected, but it amazed the boy regardless. A part of him wished he could stand tall like that, cool and unshakeable."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji pulled Liam by the wrist as they finally crossed the street. He then turned around to look at Liam, letting go of his hand."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "You alright, kid?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Yes... I'm alright... thanks...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Sorry about that. I got carried away a bit there. Now I have this... sweet potato for some reason.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "N-No! Don't say sorry. You were... kind of cool...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam's voice became softer at that last part, unable to meet Kyoji's gaze. Kyoji stifled a laugh, which just made Liam blush in embarrassment more."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Pfft- you're way too corny, kid.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He continued walking with Liam trailing behind him. People pass by the duo, the boss casually holding the sweet potato with one hand. To an outsider, the sight would come off as unusual. The way Kyoji held the poor vegetable looked as if he just pulled it directly from the ground. Just... a single sweet potato... from the ground. However, such absurdities seem to be an everyday occurrence at Tulayan."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The walk was once again silent for the most part, only being interrupted by Kyoji greeting the local passersby every now and then. When the silence had stretched for too long, Liam steeled himself in speaking up, about to ask the question he was interrupted of asking earlier."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um... Mr. Kyoji...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "His voice was rather soft, but Kyoji picked it up from the back of his ear. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Hm?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Where are we going...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Oh, right, forgot to tell you.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He stopped his stride, turning around to face Liam."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "You know Minato, right?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Yes...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "We'll talk to him about what we're gonna do with you. You know, arrangements and stuff. Plus, I have something to pick up from him, and I could use the help.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Oh... right... okay...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The two continued their walk through the busy streets of the district, the air full of lively chatter. Eventually, the smell of food permeated the surroundings, signaling that they were nearing the popular Vicencio Street. It was packed with food carts on either side of the road, with hordes of people from various aspects of life eating and resting by the stalls."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "It was just yesterday when Liam first arrived here, but how time flows fast for him to feel different upon his return. Yesterday, he was just running from his captors and struggling to live; today, he steps into the street with bits of renewed hope that maybe life is not as cruel as he thought it would be."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji took note of Liam's soft gaze as they approached, before holding his hands as they pass through the people filling the packed street. After a while of searching, they eventually found Minato's stall, with the man himself busy cooking mami for his patrons by the nearby table."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Yo, Minato.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato looked up from his work, recognizing Kyoji's voice all too well. His gaze immediately landed to Liam, finally dressed in something less tattered than his old hoodie last night."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Liam! Oh, you look better now.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-Um... thanks...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Since you're here with Kyo, I assume you know about my little request?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Yes, he told me about it.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato smiled at Liam's soft answer, noticing a hint of a smile on the boy's face. He scooped a serving of mami into plastic bowls, handing it to Kyoji. Kyoji then handed it to the patrons at the table at Minato's signal before going back by the stall."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "So? You decide to stay for a while yet?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Yeah, he did. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato faced Kyoji with a smile."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Kyo?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Yeah?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "I was talking to him, hm? ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Right, right, sorry.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji scratched the back of his neck, averting his gaze from Minato's threatening smile. Liam watched their short exchange, before answering."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Y-yes, I want to stay.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "That's good. I have a feeling you needed it. Though I have to apologize you can't stay at our house. Ryo's not really appreciative of guests.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "No, no! It's okay...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji looked back and stared at Minato, as if he wanted to say something."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "What?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Can I talk now?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Oh, yeah, sure! ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He chuckled, which just made Minato sigh."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "I want to talk about the why's and how's here. I can't exactly pay for more expenses without any good reason.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "That's what you get for stocking up on thick books nobody bothers to read.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Hey! I know at least five people who's into those textbooks. Wait- stop changing the topic, damn it!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato laughed cheekily, his hands on his hips at riling up the boss. Kyoji scratched his hair, a loud \"tsk\" escaping his lips."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "So why are you asking me to adopt this kid again? Your letter's too vague.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "I'm not asking you to adopt him. I was just asking you to give him a place to stay for a while. Besides...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He looked at Liam, making the boy tense up at the attention."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "You don't have a place to stay, do you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um... no...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "See? Plus, did you see how terrible he looked like last night?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "No, you don't have a phone, so I didn't see any picture.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato's eyes twitched before he continued."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Just let him sleep at that vacant room up your bookstore. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "It's full of boxes.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "I'm sure you'll find a way to hide your unused and... unwanted stock.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Tch, shut up. I have to let you know he has to do chores and work at the bookstore.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Oh, I doubt he'll mind, right, Liam?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Yeah... I'll... I'll do my best.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato smiled and patted Liam's shoulder."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Listen. I don't need to know your story, but I do know you're brave and kind. Saving my life back there against Guiran? That's not something any kid can just <i>do.</i> Plus...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He ruffled Liam's hair, making the boy flinch at the sudden gesture."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "My guts never lie. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He returned behind the stall, preparing more bowls for the patrons."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Besides, I think you'll like being around my son and his friends at Pahinata. You'll fit right in. Uh, Kyo?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He handed the bowls to Kyoji, once again immediately handing it over to the customers near him."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Thank you... Mr. Minato.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "You're welcome, kid. Kyo! Not that one, the other table!",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Ugh, don't blame me. I thought the other one's from the other store.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um, Mr. Minato?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Drop the honorifics, Liam, I'm not that sophisticated.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "How can I repay you...?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "While Kyoji awkwardly takes the bowl of mami from the table and placing it to another, Minato faced Liam with a confused look on his face."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Repay? Repay what?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam looked down at the shirt he and Ryo bought earlier that day."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Oh, that. No, just keep it.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The boy looked back up with shock evident in his eyes."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Wait, no... you can't just-",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Kid. Just keep it. Take it like a... step for you to get started. Everything else, you'll have to work for. It's good to have a nice steppingstone, right?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "R-Right... thank you, Miste- um, Minato.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji returned, scratching his head from his mistake earlier."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "So, are we all goods with the arrangement? Liam's going to help out at the bookstore in exchange for the food and a place to stay in.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Sounds good enough. Right, kid?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Yeah... it's good.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam smiled softly, a warm feeling spreading from his chest at the prospect of finally finding a place for respite after months of being on the run."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji clapped loudly, closing the deal."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Alllrrright, that's settled then. Starting tomorrow, you'll have to start earning for that roof up your head.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "That's good to hear.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Now that's all done, where's my package?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "It's over there.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He pointed at a pair of worn-out boxes behind the stall. The creases on the surface indicate that the boxes were either old or were recycled. A label was present on the boxes, the words \"Found textbooks\" scribbled loosely in black marker."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "You owe me a drink for those. I have to practically beg for the scrapyardigans to hand over some of their old books.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He continued working on the stove as Kyoji approached the box, inspecting the books inside. The contents were more worn than the container, but as the boss skims through the pages of the books, a nod of approval signified that it was still in selling condition for his bookstore."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "The Scrapyard Sovereigns? Damn.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Well, they're the only ones that loves collecting random stuff. They sure don't like hearing your name in their turf.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Well, I do love my reputation around here.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Those scrapyardigans or whatever they're called just tensed up when I said you were looking for books to resell. Just don't forget to pay me with the drink you promised.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Yeah, yeah, I'll treat you next time. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Placing the books back to the boxes, Kyoji gestured at Liam to come over. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Help me out here, will you?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Without waiting for a response, the boss gave one box to Liam's hands, with the boy yelping at the sudden weight. Kyoji lifted the other, much heavier box, before going back to Minato. Liam followed closely, trying his best to carry the box and its cargo."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Well, I guess we should be off, then. Thanks again for the favor, Minato.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji extended his one hand to shake Minato's, while the other one carried the box with ease. Minato held the extended hand and shook it."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Whatever you need, Kyo. Oh, and one more thing...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "His grip tightened, his smile betraying a hint of threat behind the facade."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Stop overworking my son with pointless tasks, alright?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "God, geez, stop squeezing my hand.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Ho? You can take on an entire gang but can't take an old man's grip?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Nobody grips their enemy's hand like they're sealing a deal in a brawl, idiot.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Minato's eyes twitched for the second time, his vice-like grip tightening even more, causing Kyoji to wince. Liam watched in wonder at their dynamics, but the weight of the box made thinking about it difficult."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Just say you won't overwork my son at the bookstore. You know I can read Ryo, correct?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Good God! Fine! Just let go! Geez!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Satisfied at his answer, Minato let go of his hand, raising both of his with a smug smirk."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "Good! That wasn't so hard, was it?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji scoffed, rubbing his hand on his pants before carrying his box."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Ugh, you're insufferable. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Minato",
+      "Dialog": "That was a good show, wasn't it, Liam?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The boy was too focused trying to not drop the box that he suddenly perked up at the mention of his name."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Um, I didn't really...",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "See? The kid didn't see anything. Ok, bye!",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji quickly walked away, not wanting to indulge Minato's cheekiness in front of Liam. The boy took one last look at Minato before following the boss. The food cart owner waved the both of them goodbye before returning back to his work."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The walk back to the bookstore was a quicker one, many of the motorists stopping to make way for the boss as they crossed the crosswalks, not wanting to incur the wrath of the business owner with a heavy projectile such as the box of books. Liam struggled to keep up with Kyoji's large and quick strides."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Eventually, they returned back to the bookstore, just as the skies had reached twilight, the lampposts in the street already turning on to illuminate the darkness of the incoming nights."
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "As Kyoji kicked the door open with his feet, the sudden loud sound jolted Kenji awake, who was sleeping at the counter. He scratched his head, arranging the papers by the sleeping computer. Liam followed Kyoji as they both walked in, a box in their hands."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Ho? Sleeping on the job?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "No one came over since Manuel left earlier.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Really? Were you finished printing his paper?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "No. I said he should come back tomorrow to pick up the rest of the documents. The printer broke.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Ho?",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Kyoji dropped the box by the door of his office, giving Kenji an incredulous look. Meanwhile, Liam grunted as he slowly lowered the other box by the door, sighing as he took the weight off of him."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Why did the printer break of all things?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "It's been broken for ages, boss. This one's beyond saving already. Besides, Ryo's been slapping it every time it jams, so I believe that contributed to its... early death.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The boss scratched his head, now mulling over how he's supposed to fix the printer situation, given his tight budget nowadays."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "I swear, if Ryo's father weren't so goddamn menacing I would've landed a flick on that kid. Where is he?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kenji",
+      "Dialog": "Upstairs.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "What the hell is he doing upstairs this late? Liam, follow me.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam nodded as the two headed over to the second floor of the bookstore. The entrance to the staircase was narrow, one side of the wall lined with framed stock photos of flowers collecting dust. Upstairs, the hallway was as narrow as the entrance, the wooden passage providing a space for the 3 doors on the right, and another set of framed photos on the left. At the end of the hallway was another set of stairs. The doors were rather modest, each one having a different design. "
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "The door furthest from the entrance were ajar, light from the inside leaking out into the dark hallway. The two walked closer to the door."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Oi. What on earth are you doing in the stock-",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Before Kyoji can complete his sentence, Ryo came out of the room, hurriedly walking past the boss and Liam. Kyoji raised an eyebrow, bewildered at the gruff teen's sudden departure. Kyoji caught the faintest scowl on Ryo’s face as he passed. He pushed the door open - what was once a cluttered stock room full of boxes were now a more welcoming and cleaner area. He chuckled fondly."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Weirdo.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He turned around to Liam, who was peeking from behind him."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Well, this is gonna be your bedroom now. Looks like Ryo already tidied it up for you. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "It's...",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam's eyes wandered around the small but humble room. The boxes were still there, but it was now neatly arranged at one corner. A small window sat opposite of the door, providing a view of the street below. It was modest, but it was more than enough for a shy boy who hadn't felt the warmth of safety of home for years."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "...beautiful.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Pfft- seriously? You got severely low standards, kid. But hey, it's good enough, I think. ",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He patted Liam's shoulder."
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "I'll take the heavy-ass boxes out later. Should I... leave you here for a moment?",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "U-Uhm, okay, Mr. Kyoji.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Great. I'll be downstairs dealing with this sweet potato and the books. Oh, and thanks for helping out.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "Anything, sir. I'll make myself useful.",
+      "Tags": ""
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Kyoji",
+      "Dialog": "Good. I'll call you later when dinner's ready.",
+      "Tags": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Liam nodded as Kyoji left him in his new room. He stood still, taking in the silence and tranquility of the place. It felt like a sanctuary where he can finally sleep without being on edge from his captors and Yami's whispers. "
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "He wondered why Yami didn't really talk much for the entire day but appreciated the peace regardless. Breathing deeply, he smiled softly. "
+    },
+    {
+      "Type": "Dialog",
+      "Character": "Liam",
+      "Dialog": "<i>Home.</i>",
+      "Tags": ""
+    }
+  ]
+}
