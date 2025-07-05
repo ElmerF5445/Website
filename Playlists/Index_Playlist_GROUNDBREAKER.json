@@ -1,0 +1,342 @@
+{
+    "Name": "GROUNDBREAKER",
+    "Description": "Pahinata Crew's playlist",
+    "List": [
+        {
+            "Name": "Re:Make",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/9if2rlTRY-0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDwbbpsDAv_p2V0NxXqWZKBMJWdDQ",
+            "Video": "https://www.youtu.be/9if2rlTRY-0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Mighty Long Fall",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/DPD8kvSPPbs/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBk3tAJMw_RyVbtyQVx16NGJcmDXw",
+            "Video": "https://youtu.be/DPD8kvSPPbs",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Moth",
+            "Name_Alt": "sakanaction",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/-ydPxD2JxOE/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBirKzq-WkWyHb6oIt2U6bep9i7iw",
+            "Video": "https://youtu.be/-ydPxD2JxOE",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Abyss",
+            "Name_Alt": "YUNGBLUD",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/Ge4YBT2H8Vk/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCMyrExSH8_kwOQyENIPAojKjdjKA",
+            "Video": "https://youtu.be/Ge4YBT2H8Vk",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Bloody Power Fame",
+            "Name_Alt": "coldrain",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/eI6y3_BRqeg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDikrmLMVDbd-X_2SezIY23hhChIw",
+            "Video": "https://youtu.be/eI6y3_BRqeg",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Cry Out",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/IwoCT0Q5cZ8/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD_Le61IsEGhsiJ_annHMRfuv_qbA",
+            "Video": "https://youtu.be/IwoCT0Q5cZ8",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Dystopia",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/djkelGOcR-Q/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDc-t5VhiY4lEC3g97tDwwWBDUFkw",
+            "Video": "https://youtu.be/djkelGOcR-Q",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Bazinga",
+            "Name_Alt": "SB19",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/V8YgNnyr7NU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAhREqwVRBCThNy_pO3_EdYfY2sJQ",
+            "Video": "https://youtu.be/V8YgNnyr7NU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Mana",
+            "Name_Alt": "SB19",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/V8YgNnyr7NU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAhREqwVRBCThNy_pO3_EdYfY2sJQ",
+            "Video": "https://youtu.be/5RYA7tiSA7o",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Strings",
+            "Name_Alt": "BINI",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/8nj_sJhSQF0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBx8RM5KuCpq_8IQEt0ac01JbYXcA",
+            "Video": "https://youtu.be/8nj_sJhSQF0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Deeper Deeper",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/hKr5N6T-YiQ/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAYrKxC8hIdmZsWVfhtiqyWS5np8w",
+            "Video": "https://youtu.be/hKr5N6T-YiQ",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "MAYDAY (feat. Ryo)",
+            "Name_Alt": "coldrain",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/-MRaEwgpmEo/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCfDEfFPtD8BM97Iy719inHh2-Usw",
+            "Video": "https://youtu.be/-MRaEwgpmEo",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Shin Takarajima",
+            "Name_Alt": "sakanaction",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/0EuC4jUbITA/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDfLi0qMMT26rEPaWczdeW9v48T5g",
+            "Video": "https://youtu.be/0EuC4jUbITA",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Help Me Help You",
+            "Name_Alt": "coldrain",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/PbfECGoymY0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDb_LSQvmVzOpLv8LMaQ7-RUhQqNQ",
+            "Video": "https://youtu.be/PbfECGoymY0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Kaiju ",
+            "Name_Alt": "sakanaction",
+            "Description": "Kaiju",
+            "Thumbnail": "https://i.ytimg.com/vi/ukYEgbe2QPw/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBFE4bvCrMbyS7KB97O7WFLXKQzdQ",
+            "Video": "https://youtu.be/ukYEgbe2QPw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "C.U.R.I.O.S.I.T.Y. (feat. Paledusk and CHICO CARLITO)",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/Tw4ka-3mogU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkxs85T9SK-b2ke_DbJhkEs1b0HQ",
+            "Video": "https://youtu.be/Tw4ka-3mogU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Party's Over",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/Tw4ka-3mogU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkxs85T9SK-b2ke_DbJhkEs1b0HQ",
+            "Video": "https://youtu.be/9zaZMQ56Wfw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Eye of the Storm",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/xa8WkJZ_Zr0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA07QiK0QPlxTM3RtzPO7eojXTDfg",
+            "Video": "https://youtu.be/xa8WkJZ_Zr0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Puppets Can't Control You",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/bMTGGfQ0Vfs/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCAtj95cpqD-PXka27irzovWlsZeg",
+            "Video": "https://youtu.be/bMTGGfQ0Vfs",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Abracadabra",
+            "Name_Alt": "Lady Gaga",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/529VgRXlmuI/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCTVG9lxnfqFN0KNveT2cv67P18Fw",
+            "Video": "https://youtu.be/529VgRXlmuI",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Identity",
+            "Name_Alt": "sakanaction",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/NN1k0Uk_It0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDwhzwhe_4Dvy-6dj5Zubxvg9GHbw",
+            "Video": "https://youtu.be/NN1k0Uk_It0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "REMEMBER",
+            "Name_Alt": "Masato (coldrain)",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/FtRp6svwSY4/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCLNm9ff1qJO8dvV8ARzrsLqehbwg",
+            "Video": "https://youtu.be/FtRp6svwSY4",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Liar",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/UxON1FoWoDg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCCJopjIDL6KqkOLnjT18HasstWAg",
+            "Video": "https://youtu.be/UxON1FoWoDg",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Vandalize",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/SLxsw-G_9dw/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBIrd5YPARxyog4HIPOCmddjmOmGA",
+            "Video": "https://youtu.be/SLxsw-G_9dw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Wildfire",
+            "Name_Alt": "HOYO-MiX",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/SxlW79tDhCA/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBDUi5_7K9fsNZ7q15KDp-kknCxPQ",
+            "Video": "https://youtu.be/SxlW79tDhCA",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Zankyosanka",
+            "Name_Alt": "Aimer",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/d6NPs3OQIAU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCnZCpzqU8srmaBp1whrE3MOcOCeg",
+            "Video": "https://youtu.be/d6NPs3OQIAU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Hunter or Prey",
+            "Name_Alt": "NOISEMAKER",
+            "Description": "",
+            "Thumbnail": "https://i.ytimg.com/vi/ZjC6BguiOCY/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA3IPl3FFv9wpXbn_ca5eBA41TVcg",
+            "Video": "https://youtu.be/ZjC6BguiOCY",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "DUNGKA!",
+            "Name_Alt": "SB19",
+            "Description": "DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN! DUN!\r<br>DUN! DUN!\r<br>DUN! DUN!\r<br>DUN! DUN!\r<br>May kumatok sa pintuan kong naka-kandado\r<br>Parang hibang, nagpupumilit kahit 'di imbitado\r<br>Boy, halatadong desperado\r<br>Huli ka balbon! Balbon!\r<br>Galawang para sa kaning tutong!\r<br>'Wag nang magtangka pang sumalisi\r<br>Ohhhhh!!!\r<br>Daming patibong nag-aabang d'yan sa tabi\r<br>Pasensya ko'y medyo maigsi\r<br>Ohhhhh!!!\r<br>Naku! Naku!\r<br>Baka makita'ng hinahanap mo?\r<br>Yung ba'ng malupit!\r<br>Malupit humagupit!\r<br>Dito sa bahay ko\r<br>Ayokong magulo\r<br>Ang aabutin mo\r<br>PALO! PALO!\r<br>Pag 'di ka magtino\r<br>Pasang mala-tato\r<br>Kung 'di mo 'to gusto\r<br>Huy! Huy!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA!\r<br>KUNG 'DI MO 'TO GUSTO\r<br>HUY! HUY!\r<br>TUMABI KA D'YAN!\r<br>Dungka! Dungka!\r<br>Kase 'di 'to basta-basta\r<br>Pusta 'di mo kaya oy!\r<br>Oompa Loompa!\r<br>Paghitik sa bunga puno ng iba\r<br>Nagdadabog ka\r<br>Lapuk ka!\r<br>Tira na ba 'yan? 'Ya, supot pa\r<br>Kapag ako na nagpa-kawala\r<br>Baka ikaw pa'ng pag-hahanapin nila\r<br>'Yokong manakit\r<br>Manakit ng makulit!\r<br>Dito sa bahay ko\r<br>Ayokong magulo\r<br>Ang aabutin mo\r<br>PALO! PALO!\r<br>Pag 'di ka magtino\r<br>Pasang mala-tato\r<br>Kung 'di mo 'to gusto\r<br>Huy! Huy!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA!\r<br>KUNG 'DI MO TO GUSTO\r<br>HUY! HUY!\r<br>TUMABI KA D'YAN!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN HUY!!!\r<br>DUN KA NA! DUN!\r<br>DUN KA NA! DUN!\r<br>DUN KA NA! DUN KA NA! DUN!\r<br>DUN KA NA! DUN HUY!!!\r<br>HUY!\r<br>YEAH!\r<br>MAINGAY BA?!\r<br>DUNGKA NA! UWI!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA!\r<br>KUNG 'DI MO TO GUSTO\r<br>HUY! HUY!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA D'YAN!\r<br>DUN! DUN!\r<br>TUMABI KA!\r<br>KUNG 'DI MO TO GUSTO\r<br>HUY! HUY!\r<br>TUMABI KA D'YAN!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN!\r<br>DUN KA NA! DUN! DUN KA NA!\r<br>DUN!\r<br>HUY!",
+            "Thumbnail": "https://i.ytimg.com/vi/-cWRUka6rvc/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA9DSY-VLGUWsQuecf0PlNGyK38mw",
+            "Video": "https://youtu.be/-cWRUka6rvc",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Cherry On Top",
+            "Name_Alt": "BINI",
+            "Description": "My presence is a present (oh, oh, yeah)\r<br>Talkin' French, I'll keep you guessin' (oh, oh-la-la)\r<br>Know you got a little candy crush (crush)\r<br>Be careful 'cause you'll never get enough (enough)\r<br>\r<br>Every day\r<br>Celebrate, you're with me\r<br>Every day\r<br>It's your birthday on repeat, birthday on repeat-eat, yeah\r<br>\r<br>If you want it sweet, got that sugar on lock\r<br>If you want that spice, I can turn the heat up\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>Honey, you're a bee, got you buzzin' 'round me\r<br>Sticky, sticky, sweet, frosty as I can be\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>\r<br>Cherry, cherry, I'm so berry, rainbow, cotton candy\r<br>Glitzy glamour, drippin' drama, oh, I'm just so fancy\r<br>You can't deny, no, no, you can't deny (uh, uh)\r<br>I'm the cherry on top, cherry on top\r<br>I'm a sight for sorry eyes\r<br>One look, and you're paralyzed (uh-huh)\r<br>Dancin' in the disco lights\r<br>I can do this all my life (yeah, yeah)\r<br>Cinnamon swirl, I twirl (twirl)\r<br>Not your average girl (girl)\r<br>Got you clutching them pearls (pearls)\r<br>'Cause you know who run the world\r<br>\r<br>Every day \r<br>(every day)\r<br>Celebrate, you're with me\r<br> \r<br>(you're with me, yeah)\r<br>Every day (yeah)\r<br>It's your birthday on repeat, birthday on repeat-'eat, yeah\r<br>\r<br>If you want it sweet, got that sugar on lock\r<br>If you want that spice, I can turn the heat up\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>Honey, you're a bee, got you buzzin' 'round me\r<br>Sticky, sticky, sweet, frosty as I can be (uh-huh)\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>\r<br>C-H-E-R-R-Y\r<br>Good ingredients are hard to find\r<br>C-H-E-R-R-Y\r<br>There's no going back, no, once you try\r<br>\r<br>If you want it sweet, got that sugar on lock\r<br>If you want that spice, I can turn the heat up\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>Honey, you're a bee, got you buzzin' 'round me\r<br>Sticky, sticky, sweet, frosty as I can be\r<br>Baby, I'm the cake, better know what you got\r<br>I'm the cherry on top, cherry on top\r<br>\r<br>C-H-E-R-R-Y\r<br>Good ingredients are hard to find",
+            "Thumbnail": "https://i.ytimg.com/vi/cihYN4P4G7w/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDCSdJxnS7L1SnR9p6zO7rcs5HXjQ",
+            "Video": "https://youtu.be/cihYN4P4G7w",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "CHAINSAW BLOOD",
+            "Name_Alt": "Vaundy",
+            "Description": "急ぐ雑踏も軽くcrackな視点\r<br>居ても泣いても立てぬflatな視点\r<br>弾む鼓動は刻むclap無しで\r<br>忘れたいほど怒るchain回して\r<br>pre-chorus\r<br>(Hu-hu-hu-hu, hu-hu)\r<br>全てをかき消してengine音\r<br>(Hu-hu-hu-hu)\r<br>舌鳴らし今\r<br>錆び付け黒く\r<br>CHAINSAW BLOOD\r<br>\r<br>血がたぎってもう煮立ってもう\r<br>やめれない\r<br>砕ききっても穿っても止まぬ\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why\r<br>CHAINSAW BLOOD\r<br>血がたぎってもう煮立ってもう\r<br>止まれない\r<br>血を喰らうたび悪夢また\r<br>よぎる\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why you grinning?\r<br>\r<br>妄想に侵された\r<br>右脳操作不能機能の相殺法に\r<br>使った愛の手！\r<br>ハイッ ハイッ\r<br>笑かしたbadなschemeを食ってしまう紳士\r<br>フワァと立ちくらみ言葉を有し\r<br>「CHAINSAW is 使える愛の手」\r<br>『あ？なんだって？』\r<br>見える雑踏は軽くcrackな始点\r<br>居ても泣いても立てぬflatな始点\r<br>弾む鼓動は歪むclean toneで\r<br>忘れたいから早くchain回して\r<br>\r<br>(Hu-hu-hu-hu, hu-hu)\r<br>全てをかき消してengine音\r<br>(Hu-hu-hu-hu)\r<br>歯軋りで、ほら\r<br>焼き付く赤く\r<br>CHAINSAW BLOOD\r<br>\r<br>血がたぎってもう煮立ってもう\r<br>やめれない\r<br>砕ききっても穿っても止まぬ\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why\r<br>CHAINSAW BLOOD\r<br>血がたぎってもう煮立ってもう\r<br>止まれない\r<br>血を喰らうたび悪夢また\r<br>よぎる\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why\r<br>\r<br>轟いたbad news\r<br>平和目論む悪魔のpartyで\r<br>須くengineかき鳴らした\r<br>CHAINSAW BLOOD\r<br>\r<br>血がたぎってもう煮立ってもう\r<br>やめれない\r<br>砕ききっても穿っても止まぬ\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why\r<br>CHAINSAW BLOOD\r<br>血がたぎってもう煮立ってもう\r<br>止まれない\r<br>血を喰らうたび悪夢また\r<br>よぎる\r<br>(Hu, hu, hu, hu)\r<br>Tell me why cry?\r<br>Tell me why you grinning?",
+            "Thumbnail": "https://i.ytimg.com/vi/wiJO_OgsyPE/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBykLBBLnX0e1vxH1ZX3JXkWpaatQ",
+            "Video": "https://youtu.be/wiJO_OgsyPE",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Homunculus",
+            "Name_Alt": "Vaundy",
+            "Description": "Oh yeah, yeah, yeah\r<br>Oh yeah, yeah, yeah\r<br>Oh yeah, yeah, yeah, yeah\r<br>ホムンクルス\r<br>\r<br>「せっかくだからそうね 肩でも揉んでダーリン」\r<br>小さくても次第にグツグツ煮立って終いにゃ\r<br>それを鼓舞する\r<br>\r<br>イチ・ニー・サン 起爆上等 alright\r<br>ヨン で開幕 起爆 解放万歳\r<br>サン・ニー・イチ・ハイ！ 起爆 障壁崩壊\r<br>行くぜ喝采 気は満ちた\r<br>\r<br>あれはホムンクルス 目覚めたる不穏に\r<br>晴れ 濁す 不確かの到来\r<br>ホムンクルス 風の目の方に\r<br>歩き出す 脱 言念 且つ自暴論\r<br>\r<br>Oh-oh, oh-oh, oh-oh\r<br>Oh yeah, yeah, yeah, yeah\r<br>\r<br>ギリ奪取 いきりたつ 一時 run away\r<br>今肩でも揉むよダーリン\r<br>ニキビ flash 迷走→帰結 無事誤解のway\r<br>Feeling 脱線 but まだこんなんじゃ懲りない\r<br>\r<br>イチ・ニー・サン 起爆上等 alright\r<br>ヨン で開幕 起爆 解放万歳\r<br>サン・ニー・イチ・ハイ！ 起爆 障壁崩壊\r<br>行くぜ喝采 俺が来た\r<br>\r<br>これがホムンクルス 目覚めたる不穏に\r<br>晴れ 濁す 不確かの到来\r<br>ホムンクルス 風の目の方に\r<br>歩き出す 脱 言念 且つ自暴論\r<br>\r<br>どうして心満たして\r<br>振り払おうとしてるんだろう\r<br>ねぇ痛いでしょ\r<br>て 参ってしまうほど あなたを愛してしまったって\r<br>このままが美しいと 飾ったままで\r<br>言霊をもう一度\r<br>希望抱くほどの未来 そこに見たんだよ\r<br>\r<br>確かめ合うかより（大切で）\r<br>思い合えるより（温かくて）\r<br>振り剥がせるかより\r<br>愚かに 浸ってしまうほど\r<br>時に 歩み合うかより（大切で）\r<br>抱きしめ合えるより\r<br>温かく思う未来見たいんだよ\r<br>\r<br>Oh yeah, yeah, yeah\r<br>Oh yeah, yeah, yeah\r<br>Oh yeah, yeah, yeah, yeah\r<br>ホムンクルス",
+            "Thumbnail": "https://i.ytimg.com/vi/m1_Z_-2uAco/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBQtasp9Yp61_cKwVrdrrW3uxgCJg",
+            "Video": "https://youtu.be/m1_Z_-2uAco",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Renegades",
+            "Name_Alt": "ONE OK ROCK",
+            "Description": "Got a fire in my soul\r<br>I've lost my faith in this broken system\r<br>Got love for my home\r<br>But if we cry, is there anyone listening?\r<br>We're the forgotten generation\r<br>We want an open conversation\r<br>Follow me on this road\r<br>You know we gotta let go\r<br>\r<br>For all of the times that they said it's impossible\r<br>They built the hurdles, the walls, and the obstacles\r<br>When we're together, you know we're unstoppable now\r<br>\r<br>I'm not afraid\r<br>To tear it down and build it up again (Up again)\r<br>It's not our fate\r<br>We could be the renegades (Renegades)\r<br>I'm here for you, ooh\r<br>Are you here for me too?\r<br>Let's start again\r<br>We could be the renegades (Renegades)\r<br>\r<br>Woah, oh, woah, oh\r<br>\r<br>They've been holdin' us down\r<br>They've been tellin' us to change our voices\r<br>But we're not part of that crowd\r<br>We made our bed and we'll make our own choices\r<br>We may be underestimated\r<br>But I know one day we will make it\r<br>Time to say it out loud\r<br>We are young and we're proud\r<br>\r<br>For all of the lies and the burden they put on us\r<br>All of the times that they told us to, just because\r<br>We gotta fight for our rights and the things we love now\r<br>\r<br>I'm not afraid\r<br>To tear it down and build it up again (Up again)\r<br>It's not our fate\r<br>We could be the renegades (Renegades)\r<br>I'm here for you, ooh\r<br>Are you here for me too?\r<br>Let's start again\r<br>We could be the renegades (Renegades)\r<br>\r<br>Woah, oh, woah, oh\r<br>Woah, oh, woah, oh\r<br>We could be the renegades\r<br>\r<br>Take a deep breath, close your eyes and get ready\r<br>Take a deep breath, close your eyes and get ready\r<br>Take a deep breath, close your eyes and get ready to fly\r<br>\r<br>I'm not afraid\r<br>To tear it down and build it up again (Up again)\r<br>It's not our fate\r<br>We could be the renegades (Renegades)\r<br>I'm here for you, ooh\r<br>Are you here for me too?\r<br>Let's start again\r<br>We could be the renegades (We could be the renegades)\r<br>\r<br>Woah, oh, woah, oh\r<br>(We could be the, we could be the) We could be the renegades\r<br>\r<br>Woah, oh, woah, oh",
+            "Thumbnail": "https://i.ytimg.com/vi/YKh878q7H0I/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCSkt0spp0kRgWr-LwIkTPpBX_Edw",
+            "Video": "https://youtu.be/YKh878q7H0I",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "DETERMINADO",
+            "Name_Alt": "RADKIDZ",
+            "Description": "Layunin kong iligtas ang nilalaman ng isipan ko\r<br>Sasapat na nga bang lahat ng ito\r<br>Kung determinado nga\r<br>Pero 'di naman makabasag ng plato?\r<br>\r<br>Dami nagtanong, ba't 'to ang gusto?\r<br>Tahakin na landas, halika rito\r<br>Takbo ng utak ko ay malayo sa iyo\r<br>Maniobra palayo sa kakitirang 'yon\r<br>Kargado't napuno na rin ng galit 'to\r<br>Pero 'di ako magpapalunod sa lait niyo\r<br>Patuloy ang andar kahit na bali-baliko\r<br>Sa'king daanan, sumpang 'to ay mababali ko\r<br>Ano ba'ng sabi ko?\r<br>\r<br>Determinado\r<br>Walang makakapigil, 'di terminado\r<br>Aking sentido bumabasag ng mga bungo\r<br>Heto na'ng huling bersikulong maririnig mo\r<br>Galing sa'yong berdugo\r<br>\r<br>Katumbas ako ng dalawa na ipo\r<br>Bawat suntok ay may bigat na mala-hippo\r<br>Kahit si Aeolus, hindi ako mahipo\r<br>'Pag nag-dempsey roll, bira mo'y sa anino\r<br>Musika lang aking bisyo, ang natatanging ambisyon\r<br>Kahit anumang opinyon, hinding-hindi malilipol\r<br>Lahat isasakripisyo, hindi kailangang abiso\r<br>Ng kahit na sino, heto na'ng aking pagsibol\r<br>\r<br>Layunin kong iligtas ang nilalaman ng isipan ko\r<br>Sasapat na nga ba'ng lahat ng ito\r<br>Kung determinado nga\r<br>Pero 'di naman makabasag ng plato?\r<br>\r<br>'Di ako isang anito\r<br>Ako'y 'di hamak lang na isang mortal nga na bagito\r<br>Apoy ko'y imortal, 'di halintulad sa palito\r<br>Nagpapalit 'to ng anyo 'pag nakipagbasag-ulo, mga pabibo\r<br>Paniguradong matutusta, tyak sunog sa'kin\r<br>Ako ang Prometheus ng musika, tapos ka\r<br>Nagliliyab mga kutha, 'gad magigising ka\r<br>Kapag sinindihan ko pa, don't you drop the beat\r<br>Y'all can never take the heat\r<br>\r<br>Determinado\r<br>Walang makakapigil, 'di terminado\r<br>Aking sentido bumabasag ng mga bungo\r<br>Heto na'ng huling bersikulong maririnig mo\r<br>Galing sa'yong berdugo\r<br>\r<br>Balisa, 'lang humpay sa paghuhukay ng mga tula\r<br>Sa bahay ng saysay parang tarantulang nalulumbay\r<br>Kahihintay ng pusang galang magtatangkang hamakin ang aking buhay\r<br>'Di mo maide-deny aking taglay\r<br>Kahit pa umabot ang paglakad ko ay pasuray-suray\r<br>Habang buhay maglalakbay\r<br>Patungo sa'king pangarap na kailan pa man ay 'di mamamatay\r<br>\r<br>Hindi mamamatay, laging mananalaytay ang enerhiyang aking ibibigay\r<br>Baybay lang ang kayang silayan, 'pag ang puso't utak ay hindi magkaugnay\r<br>'Di ko kailangan ng lamay, akin na nga 'yang tinapay\r<br>Tigilan mo'ng kakahukay, lumayas ka sa'king bahay\r<br>Kung isip ko'y 'di rin tunay, 'lang saysay magbigay pugay\r<br>Matagal na 'kong patay kung 'di lang determinado (Ah-ah, oh)\r<br>\r<br>Ako ay determinado (Ako ay)\r<br>Ako ay determinado (Oh-oh)\r<br>Determinado\r<br>Ako ang iyong berdugo",
+            "Thumbnail": "https://i.ytimg.com/vi/dklcl0Mjlb0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDydGy_Tf7nvV8m05xRdydWSBE_sQ",
+            "Video": "https://youtu.be/dklcl0Mjlb0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Micha!",
+            "Name_Alt": "PABLO",
+            "Description": "Hakbang palabas sa kuna\r<br>Piglas sa akap ni Kuma\r<br>Gutom sa'yo'y humihila\r<br>Ikaw na mismo ang kukuha\r<br>Ngayong 'lam mo na kung ano lasa\r<br>Tumindig ka't simulan ang martsa\r<br>Desididong hininga'ng ipusta\r<br>Silaban mo na'ng mitsa\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)\r<br>Silaban mo na\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)\r<br>Sige na\r<br>\r<br>Hakbang palabas sa kuna\r<br>Piglas sa akap ni Kuma\r<br>Gutom sa'yo'y humihila\r<br>Ikaw na mismo ang kukuha\r<br>Ngayong 'lam mo na kung ano lasa\r<br>Tumindig ka't simulan ang martsa\r<br>Desididong hininga'ng ipusta\r<br>Silaban mo na'ng mitsa\r<br>\r<br>Nagsimulang patikim-tikim\r<br>Nagawa ko pang ikimkim\r<br>Ngunit pagod na 'tong mag-atabuling\r<br>Lumakad sa daang madilim\r<br>Na para bang nagpa-patintero\r<br>Sa sarili ko na negatibo\r<br>'Di ko kaya iwan bukas 'yung gripo\r<br>Sa baradong lababo, kaya naman\r<br>\r<br>Kayamanang binaon sa lupa\r<br>Huhukayin na hanggang makita\r<br>Kung malalim, 'di man alintana\r<br>'Di titigilang makuha\r<br>\r<br>Ang sabi ni inay, \"Nako po\r<br>Ikaw ba'y sigurado sa gagawin mo?\"\r<br>Ang sabi ni itay, \"Ano?\r<br>At paano na ang mga plano?\"\r<br>\r<br>Hakbang palabas sa kuna\r<br>Piglas sa akap ni Kuma\r<br>Gutom sa'yo'y humihila\r<br>Ikaw na mismo ang kukuha\r<br>Ngayong 'lam mo na kung ano lasa\r<br>Tumindig ka't simulan ang martsa\r<br>Desididong hininga'ng ipusta\r<br>Silaban mo na'ng mitsa\r<br>\r<br>Sa'n ka nga ba dadalhin ng 'yong mga paa?\r<br>Kung dala-dala mo'ng pagdududa\r<br>'Rap lang tingin, basta't gawin at darating din\r<br>'Di bale nang pagong kaysa matsing\r<br>Uulan ng kamalasan\r<br>At sasaluhin mo'ng lahat ng 'yan\r<br>Bago mo makuha'ng pinaka-inaasam\r<br>'Wag kang susuko, pagsubok lang 'yan\r<br>\r<br>'Pag ang puso na ang 'yong ikinasa\r<br>Wala nang katapusan ang bala\r<br>Sigurado pulbos ang pangamba\r<br>Sa sarili ika'y tiwala (Tiwala sa sarili)\r<br>Imposibleng mawalan ng gana\r<br>Kahit na pilitin ka pang ibaba\r<br>Tuso lamang ang takot sa karma\r<br>Hala, sige na, rumagasa\r<br>\r<br>Ang sabi ni inay, \"Nako po\r<br>Ikaw ba'y sigurado sa gagawin mo?\"\r<br>Ang sabi ni itay, \"Ano?\r<br>At paano na ang mga plano?\"\r<br>\r<br>Hakbang palabas sa kuna\r<br>Piglas sa akap ni Kuma\r<br>Gutom sa'yo'y humihila\r<br>Ikaw na mismo ang kukuha\r<br>Ngayong 'lam mo na kung ano lasa\r<br>Tumindig ka't simulan ang martsa\r<br>Desididong hininga'ng ipusta\r<br>Silaban mo na'ng mitsa\r<br>\r<br>Anong problema? Malamang pera\r<br>Pwede bang teka kalagan mo na kaluluwa mo sa bodega?\r<br>Ano ba'ng tema ng buhay mo, repa?\r<br>Dama at trahedya, 'di ba pwedeng maiba?\r<br>Hawak mo naman ang pluma (Yeah, haha, yah)\r<br>Alam kong kaya mo 'yan\r<br>'Wag mong titigilan\r<br>Sigehan mo pa\r<br>\r<br>Ang sabi ni inay, \"Nako po\r<br>Ikaw ba'y sigurado sa gagawin mo?\"\r<br>Ang sabi ni itay, \"Ano?\r<br>At paano na ang mga plano?\"\r<br>\r<br>Hakbang palabas sa kuna\r<br>Piglas sa akap ni Kuma\r<br>Gutom sa'yo'y humihila\r<br>Ikaw na mismo ang kukuha\r<br>Ngayong 'lam mo na kung ano lasa\r<br>Tumindig ka't simulan ang martsa\r<br>Desididong hininga'ng ipusta\r<br>Silaban mo na'ng mitsa\r<br>\r<br>Ano? Sige pa\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)\r<br>Ibuhos mo, ibuhos mo\r<br>Silaban mo na\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)\r<br>Silaban mo na'ng mitsa\r<br>Silaban mo na'ng mitsa\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)\r<br>Silaban mo na\r<br>(Oh-oh, oh-oh, oh-oh-oh-oh-oh)",
+            "Thumbnail": "https://i.ytimg.com/vi/tqTY792Ka5s/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBXgtvcFcTtMlfhQjESJ67LHICgGA",
+            "Video": "https://youtu.be/tqTY792Ka5s",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Flashback",
+            "Name_Alt": "MIYAVI",
+            "Description": "Coming in\r<br>Coming out\r<br>周り　見てみな\r<br>ノイズ　まみれで\r<br>You can’t see me but you hear me loud\r<br>Don’t that make you crazy now\r<br>Don’t that make you crazy now\r<br>目を凝らせ　この世界は\r<br>It’s all upside down\r<br>\r<br>Coming in\r<br>Coming out\r<br>周り　見てみな\r<br>ノイズ　まみれで\r<br>You can’t see me but you hear me loud\r<br>Don’t that make you crazy now\r<br>Don’t that make you crazy now\r<br>目を凝らせ　この世界は\r<br>It’s all upside down\r<br>\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa\r<br>\r<br>Don’t stop　戻れない　Flashback\r<br>Look up　気づけば　It’s all past\r<br>Too fast　引き裂かれそうさ sa",
+            "Thumbnail": "https://i.ytimg.com/vi/1n19mhKWoLk/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrOq_A8vj_ChnBB2c-l-jTflKZmg",
+            "Video": "https://youtu.be/1n19mhKWoLk",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Mouiiyo",
+            "Name_Alt": "Kocchi no Kento",
+            "Description": "閉じるまもなく kokorono door\r<br>(わたし照らして)\r<br>(わたし照らして) yeah\r<br>(わたし照らして)\r<br>(わたし照らして)\r<br>愛想振り撒いて\r<br>閉じる心にねえ\r<br>Tap, tap, tap, give me your clap, clap, clap\r<br>声をあげて堪えてんだ rat-a-tat-ta-rat, rat-a-tat-tat\r<br>学校仕事 you know? 無能になんのダーウィンどういうこと?\r<br>進化してもせんの? 前には進めんの?\r<br>僕ら知らずの皆様の見方が\r<br>少し怖いだけです\r<br>分かってんの\r<br>自分(きみ)の「どうしたい」も (どうしたいも)\r<br>でも笑ってんの\r<br>これがいいんですよ (いいんです)\r<br>踊りたいね自由な空の下で\r<br>きみは大抵あの名の下で\r<br>腫れぼったいな「もういいよ」\r<br>きみの尺・匙・価値観「もういいよ」\r<br>だから言ってしまいなよ「もういいよ」\r<br>わがままに\r<br>わがままに\r<br>あー tel mail 止めて\r<br>あの手この手で\r<br>誰かを気に留めて (わたし照らして)\r<br>あー tel mail 止めて\r<br>あの手この手で\r<br>誰がため 人のため (わたし照らして)\r<br>楽しいこと 本能 苦悩になるのね\r<br>「Good morning」と怖くなるんでしょ?\r<br>目が覚めちゃうの\r<br>僕ら知らずの皆様の見方が\r<br>少し怖いだけです (どうしたいの)\r<br>閉じるまもなく kokorono door\r<br>(わたし照らして)\r<br>(わたし照らして) yeah\r<br>(わたし照らして)\r<br>(わたし照らして)\r<br>腫れぼったいな「もういいよ」\r<br>君の尺・匙・価値観「もういいよ」\r<br>だから言ってしまいなよ「もういいよ」\r<br>わがままに\r<br>あー tel mail 止めて\r<br>あの手この手で\r<br>誰かを気に留めて (わたし照らして)\r<br>あーtel mail 止めて\r<br>あの手この手で\r<br>誰がため 人のため (わたし照らして)\r<br>あー tel mail 止めて\r<br>あの手この手で\r<br>「わたしらしく」魅せて (わたし照らして)\r<br>あー tel mail 止めて\r<br>あの手この手で\r<br>誰がため 人のため (わたし照らして)\r<br>(あーやいやいやいやい言いつけちゃえ\r<br>この世を敵にして)\r<br>(あーやいやいやいやい言いつけちゃえ\r<br>この世を敵にして)",
+            "Thumbnail": "https://i.ytimg.com/vi/8ApepsiQI20/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCPdT1Dh7wFva_21Wo0ZlenuR0Sqg",
+            "Video": "https://youtu.be/8ApepsiQI20",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Rerepeat",
+            "Name_Alt": "FREDERIC",
+            "Description": "繰り返してたびたび辛い思いする夜は\r<br>セツナバックビートかったるいと嘆いた夜は\r<br>繰り返してまた聴き直してまた繰り返せる世界で\r<br>僕はせっせとせっせとせっせとせっせとせっせとMUSIC\r<br>リピートして リピートステップして\r<br>リピートして また踏みだして\r<br>何度だって イヤフォンの中に潜む悪魔が\r<br>袖をひっぱって「まだ遊び足りない」って\r<br>リピートして リピートステップして\r<br>リピートして また駆け出して\r<br>何度だって スピーカーから漏れる愛の歌が\r<br>止まらないんだってコンセント刺さってないのに\r<br>繰り返してまたきた痛い思いする日々が\r<br>止まらないスコールばっくれるな逃げ腰ランナー\r<br>君の心のリュック重量オーバーでぱんぱんぱん ぱんぱんぱぱん\r<br>リセットして\r<br>リピートして リピートステップして\r<br>リピートして また踏みだして\r<br>何度だって イヤフォンの中に潜む悪魔が\r<br>袖をひっぱって「まだ遊び足りない」って\r<br>リピートして リピートステップして\r<br>リピートして また駆け出して\r<br>何度だって スピーカーから漏れる愛の歌が\r<br>止まらないんだってコンセント刺さってないのに\r<br>行ってきては 戻ってきては\r<br>リピートして 今までの関係も\r<br>全部リセットするわけないわ 全部背負ったまま\r<br>リピートして リピートステップして\r<br>リピートして また踏みだして\r<br>何度だって イヤフォンの中に潜む悪魔が\r<br>袖をひっぱって「まだ遊び足りない」って\r<br>リピートして リピートステップして\r<br>リピートして また駆け出して\r<br>何度だって スピーカーから漏れる愛の歌が\r<br>止まらないんだってコンセント刺さってないのに\r<br>音楽は止まない ずっと しょっちゅう しょっちゅう",
+            "Thumbnail": "https://i.ytimg.com/vi/aXwVuoWC-C0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBRnoZEFJDMS3vIum5u5LnRP6YKAw",
+            "Video": "https://youtu.be/aXwVuoWC-C0",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "TAKEDOWN (JEONGYOEN, JIHYO, CHAEYOUNG)",
+            "Name_Alt": "TWICE",
+            "Description": "Takedown, takedown<br>Takedown, down, down, down (HUNTR/X girls to the world)<br>Takedown, takedown<br>Takedown, down, down, down (It's a takedown)<br><br>So sweet, so easy on the eyes, but hideous on the inside<br>Whole life spreading lies, but you can't hide, baby, nice try<br>I'm 'bout to switch up these vibes, I finally opened my eyes<br>It's time to kick you straight back into the night<br><br>'Cause I see your real face and it's ugly as sin<br>Time to put you in your place 'cause you're rotten within<br>When your patterns start to show<br>It makes the hatred wanna grow outta my veins<br><br>I don't think you're ready for the takedown<br>Break you into pieces in a world of pain, 'cause you're all the same<br>Yeah, it's a takedown<br>A demon with no feelings, don't deserve to live, it's so obvious<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down<br>I'ma take it down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down (Take it down)<br><br>It's a takedown, I'ma take you out, you break down like, \"What?\"<br>It's a takedown, I'ma take you out and I ain't gonna stop<br>정신을 놓고 널 짓밟고 칼을 새겨놔<br>You'll be beggin' and cryin', all of you dyin', never miss my shot<br><br>When your patterns start to show<br>It makes the hatred wanna grow out of my veins<br><br>I don't think you're ready for the takedown<br>당당하게 어둠 앞에 다가서 다 무너뜨려<br>Yeah, it's a takedown<br>A demon with no feelings, don't deserve to live, it's so obvious<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down<br>I'ma take it down (Oh, watch me do it, yeah)<br>Da-da-da, down (Ooh)<br>It's a takedown (Oh)<br>Da-da-da, down (Ooh)<br><br>Oh, you're the master of illusion<br>나를 속이려 하지마<br>Look at all the masses that you're foolin'<br>But they'll turn on you soon, so how?<br>How can you sleep or live with yourself?<br>A broken soul trapped in a nastiest shell<br>영혼 없는 니 목숨을 끊으러 and watch you die<br>You can try but you can't hide<br><br>It's a takedown, I'ma take you out, you break down like, \"What?\"<br>It's a takedown, I'ma take you out and I ain't gonna stop<br>I'ma cut you open, lose control, then rip out your heart<br>You'll be beggin' and cryin', all of you dyin'<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down (Ah)<br>It's a takedown (Oh)<br>Da-da-da, down (Yeah-yeah, yeah-yeah, yeah)<br>I'ma take it down (Oh)<br>Da-da-da, down (Ooh)<br>It's a takedown (Oh)<br>Da-da-da, down (Watch me do it, yeah)<br><br>Take it down",
+            "Thumbnail": "https://i.ytimg.com/vi/7XRcflf_E0c/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2tGSxCYaIy9keZzdKoyAUAB4-1A",
+            "Video": "https://youtu.be/7XRcflf_E0c",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Golden",
+            "Name_Alt": "HUNTR/X",
+            "Description": "I was a ghost, I was alone, hah\r<br>In the darkness, hah, a pressured path (Ah)\r<br>Given the throne, I didn't know how to believe\r<br>I was the queen that I'm meant to be\r<br>I lived two lives, tried to play both sides\r<br>But I couldn't find my own place\r<br>Called a problem child 'cause I got too wild\r<br>But now that's how I'm getting paid, endlessly on stage\r<br>\r<br>I'm done hiding, now I'm shining like I'm born to be\r<br>We dreamed hard, we came so far, now I believe\r<br>\r<br>We're going up, up, up, it's our moment\r<br>You know together w\u0435're glowing\r<br>Gonna be, gonna be gold\u0435n\r<br>Oh, up, up, up with our voices\r<br>Unbreakable forever\r<br>Gonna be, gonna be golden\r<br>\r<br>Oh, I'm done hiding, now I'm shining like I'm born to be\r<br>Oh, our time, no fears, no lies\r<br>That's who we're born to be\r<br>\r<br>Waited so long to break these walls down\r<br>To wake up and feel like me\r<br>Put these patterns all in the past now\r<br>And finally live like the girl they all see\r<br>\r<br>No more hiding, I'll be shining like I'm born to be\r<br>'Cause we are hunters, voices strong, and I know I believe\r<br>\r<br>We're going up, up, up, it's our moment\r<br>You know together we're glowing\r<br>Gonna be, gonna be golden\r<br>Oh, up, up, up, with our voices\r<br>Unbreakable forever\r<br>Gonna be, gonna be golden\r<br>\r<br>Oh, I'm done hiding, now I'm shining like I'm born to be\r<br>Oh, our time, no fears, no lies\r<br>That's who we're born to be\r<br>\r<br>You know we're gonna be, gonna be golden\r<br>We're gonna be, gonna be\r<br>Born to be, born to be glowing\r<br>Shining brightly, we are\r<br>You know that it's our time, no fears, no lies\r<br>That's who we're born to be\r<br>",
+            "Thumbnail": "https://i.ytimg.com/vi/7XRcflf_E0c/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2tGSxCYaIy9keZzdKoyAUAB4-1A",
+            "Video": "https://youtu.be/TuzfXgUpboA",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Your Idol",
+            "Name_Alt": "Saja Boys",
+            "Description": "Pray for me now\r<br>Pray for me now (Dies irae)\r<br>Pray for me now (Illa)\r<br>Pray for me now (Vos solve in)\r<br>Pray for me now (Favilla)\r<br>Pray for me now (Maledictus)\r<br>Pray for me now (Erus)\r<br>Pray for me now (In flamas)\r<br>Pray for me now (Eternum)\r<br>I'll be your idol\r<br>\r<br>Keeping you in check (Uh), keeping you obsessed (Uh)\r<br>Play me on repeat, \uB05D\uC5C6\uC774 in your head\r<br>Anytime it hurts (Uh), play another verse (Uh)\r<br>I can be your sanctuary\r<br>Know I'm the only one right now (Now)\r<br>I will love you more when it all burns down\r<br>More than power, more than gold (Yeah)\r<br>Yeah, you gave me your heart, now I'm here for your soul\r<br>\r<br>I'm the only one who'll love your sins\r<br>Feel the way my voice gets underneath your skin\r<br>\r<br>Listen 'cause I'm preachin' to the choir\r<br>Can I get the mic a little higher?\r<br>Gimme your desire\r<br>I can be the star you rely on (You rely on)\r<br>\uB0B4 \uD669\uD640\uC758 \uCDE8\uD574, you can't look away (Hey)\r<br>Don't you know I'm here to save you\r<br>Now we runnin' wild\r<br>Yeah, I'm all you need, I'ma be your idol\r<br>\r<br>Uh\r<br>Uh\r<br>\r<br>Uh, \uBE5B\uC774\uB098\uB294 fame, \uACC4\uC18D \uC678\uCCD0, I'm your idol\r<br>Thank you for the pain 'cause it got me going viral\r<br>Uh, yeah, \uB0AB\uC9C0 \uC54A\uB294 fever, makin' you a believer\r<br>\uB098\uB97C \uC65C \uB10C \uC874\uC7AC\uD558\uB294 idol?\r<br>Don't let it show, keep it all inside\r<br>The pain and the shame, keep it outta sight\r<br>Your obsession feeds our connection\r<br>\uC774 \uC21C\uAC04 give me all your attention\r<br>\r<br>You know I'm the only one who'll love your sins\r<br>Feel the way my voice gets underneath your skin\r<br>\r<br>Listen 'cause I'm preachin' to the choir\r<br>Can I get the mic a little higher?\r<br>Gimme your desire\r<br>I can be the star you rely on (You rely on)\r<br>\uB0B4 \uD669\uD640\uC758 \uCDE8\uD574, you can't look away (Yeah)\r<br>Don't you know I'm here to save you\r<br>Now we runnin' wild\r<br>Yeah, I'm all you need, I'ma be your idol\r<br>\r<br>Be your idol\r<br>\r<br>Living in your mind now\r<br>Too late 'cause you're mine now\r<br>I will make you free\r<br>When you're all part of me\r<br>\r<br>(Listen 'cause I'm) Preaching to the choir\r<br>(Now) Can I get the mic a little higher?\r<br>Gimme your desire\r<br>Watch me set your world on fire\r<br>\uB0B4 \uD669\uD640\uC758 \uCDE8\uD574, you can't look away (Hey)\r<br>No one is coming to save you\r<br>Now we runnin' wild\r<br>You're down on your knees, I'ma be your idol",
+            "Thumbnail": "https://i.ytimg.com/vi/7XRcflf_E0c/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2tGSxCYaIy9keZzdKoyAUAB4-1A",
+            "Video": "https://youtu.be/TjsNkI4CTiw",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "What It Sounds Like",
+            "Name_Alt": "HUNTR/X",
+            "Description": "\r<br>Nothing but the truth now\r<br>Nothing but the proof of what I am\r<br>The worst of what I came from, patterns I'm ashamed of\r<br>Things that even I don't understand\r<br>I tried to fix it, I tried to fight it\r<br>My head was twisted, my heart divided\r<br>My lies all collided\r<br>I don't know why I didn't trust you to be on my side\r<br>\r<br>I broke into a million pieces, and I can't go back\r<br>But now I'm seeing all the beauty in the broken glass\r<br>The scars are part of me, darkness and harmony\r<br>My voice without the lies, this is what it sounds like\r<br>Why did I cover up the colors stuck inside my head?\r<br>I should've let the jagged edges meet the light instead\r<br>Show me what's underneath, I'll find your harmony\r<br>The song we couldn't write, this is what it sounds like\r<br>\r<br>We're shattering the silence, we're rising, defiant\r<br>Shouting in the quiet, \"You're not alone\"\r<br>We listened to the demons, we let them get between us\r<br>But none of us are out here on our own\r<br>So we were cowards, so we were liars\r<br>So we're not heroes, we're still survivors\r<br>The dreamers, the fighters, no lying, I'm tired\r<br>But dive in the fire, and I'll be right here by your side\r<br>\r<br>We broke into a million pieces, and we can't go back\r<br>But now we're seeing all the beauty in the broken glass\r<br>The scars are part of me, darkness and harmony\r<br>My voice without the lies, this is what it sounds like\r<br>Why did we cover up the colors stuck inside our head?\r<br>Get up and let the jagged edges meet the light instead\r<br>Show me what's underneath, I'll find your harmony\r<br>Fearless and undefined, this is what it sounds like\r<br>\r<br>(Oh, hey) This is what it sounds like\r<br>(Oh, oh, oh) Hey, hey\r<br>This is what it sounds like\r<br>(Oh, oh, oh) Hey, hey\r<br>This is what it sounds like\r<br>(Oh, oh, oh) Hey, hey\r<br>Oh, this is what it\u2014, this is what it\u2014\r<br>This is what it sounds like\r<br>\r<br>We broke into a million pieces, and we can't go back\r<br>But now I'm seeing all the beauty in the broken glass\r<br>The scars are part of me, darkness and harmony\r<br>My voice without the lies, this is what it sounds like\r<br>Why did we cover up the colors stuck inside our head?\r<br>Get up and let the jagged edges meet the light instead\r<br>Show me what's underneath, I'll find your harmony\r<br>Fearless and undefined, this is what it sounds like\r<br>\r<br>My voice without the lies, this is what it sounds like\r<br>Fearless and undefined, this is what it sounds like\r<br>Truth after all this time, our voices all combined\r<br>When darkness meets the light, this is what it sounds like",
+            "Thumbnail": "https://i.ytimg.com/vi/7XRcflf_E0c/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2tGSxCYaIy9keZzdKoyAUAB4-1A",
+            "Video": "https://youtu.be/4TZmNObLkAU",
+            "ViewableInSite": true
+        },
+        {
+            "Name": "Takedown",
+            "Name_Alt": "HUNTR/X",
+            "Description": "Takedown, takedown<br>Takedown, down, down, down (HUNTR/X girls to the world)<br>Takedown, takedown<br>Takedown, down, down, down (It's a takedown)<br><br>So sweet, so easy on the eyes, but hideous on the inside<br>Whole life spreading lies, but you can't hide, baby, nice try<br>I'm 'bout to switch up these vibes, I finally opened my eyes<br>It's time to kick you straight back into the night<br><br>'Cause I see your real face and it's ugly as sin<br>Time to put you in your place 'cause you're rotten within<br>When your patterns start to show<br>It makes the hatred wanna grow outta my veins<br><br>I don't think you're ready for the takedown<br>Break you into pieces in a world of pain, 'cause you're all the same<br>Yeah, it's a takedown<br>A demon with no feelings, don't deserve to live, it's so obvious<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down<br>I'ma take it down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down (Take it down)<br><br>It's a takedown, I'ma take you out, you break down like, \"What?\"<br>It's a takedown, I'ma take you out and I ain't gonna stop<br>정신을 놓고 널 짓밟고 칼을 새겨놔<br>You'll be beggin' and cryin', all of you dyin', never miss my shot<br><br>When your patterns start to show<br>It makes the hatred wanna grow out of my veins<br><br>I don't think you're ready for the takedown<br>당당하게 어둠 앞에 다가서 다 무너뜨려<br>Yeah, it's a takedown<br>A demon with no feelings, don't deserve to live, it's so obvious<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down<br>It's a takedown (Oh)<br>Da-da-da, down<br>I'ma take it down (Oh, watch me do it, yeah)<br>Da-da-da, down (Ooh)<br>It's a takedown (Oh)<br>Da-da-da, down (Ooh)<br><br>Oh, you're the master of illusion<br>나를 속이려 하지마<br>Look at all the masses that you're foolin'<br>But they'll turn on you soon, so how?<br>How can you sleep or live with yourself?<br>A broken soul trapped in a nastiest shell<br>영혼 없는 니 목숨을 끊으러 and watch you die<br>You can try but you can't hide<br><br>It's a takedown, I'ma take you out, you break down like, \"What?\"<br>It's a takedown, I'ma take you out and I ain't gonna stop<br>I'ma cut you open, lose control, then rip out your heart<br>You'll be beggin' and cryin', all of you dyin'<br><br>I'ma gear up and take you down (Oh)<br>Da-da-da, down (Ah)<br>It's a takedown (Oh)<br>Da-da-da, down (Yeah-yeah, yeah-yeah, yeah)<br>I'ma take it down (Oh)<br>Da-da-da, down (Ooh)<br>It's a takedown (Oh)<br>Da-da-da, down (Watch me do it, yeah)<br><br>Take it down",
+            "Thumbnail": "https://i.ytimg.com/vi/7XRcflf_E0c/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2tGSxCYaIy9keZzdKoyAUAB4-1A",
+            "Video": "https://youtu.be/jq-L70UXun8",
+            "ViewableInSite": true
+        }
+    ]
+}

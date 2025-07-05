@@ -3,12 +3,14 @@ window.onload = function () {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    Data = Data_Import_FromPath("GROUNDBREAKER/Index_Sequence_GRBRKR.json", "JSON");
-    Sequence_Load();
-    Map_Initialize();
+    if (Element_Get_ByID("Timeline_Main") != null) {
+        Data = Data_Import_FromPath("GROUNDBREAKER/Index_Sequence_GRBRKR.json", "JSON");
+        Sequence_Load();
+        Map_Initialize();
+    }
 })
 
-var Data = {};
+var Data;
 
 function Sequence_Load() {
     Element_Clear("Timeline_Main");
@@ -26,13 +28,13 @@ function Sequence_Load() {
             Arc_Element.innerHTML = Arc_InnerHTML;
             document.getElementById("Timeline_Main").appendChild(Arc_Element);
         }
-        for (b = 0; b < Arc.Arc_Contents.length; b++) {
+        for (b = 1; b < Arc.Arc_Contents.length; b++) {
             var Chapter = Arc.Arc_Contents[b];
             var Chapter_InnerHTML;
             if (b == Arc.Arc_Contents.length - 1) {
                 Chapter_InnerHTML = `
                     <div class="GRBRKR_Sequence_Arc_Item" id="Arc_${Arc.Arc_ID}_Chapter_${b}">
-                        <button class="GRBRKR_Sequence_Arc_Item_Button">
+                        <button class="GRBRKR_Sequence_Arc_Item_Button" onclick="Sequence_Open_Node('${Arc.Arc_ID}', ${b});">
                             <h1 class="GRBRKR_Sequence_Arc_Item_Button_Text">
                             ${Chapter.Chapter_Number}
                             </h1>
@@ -42,7 +44,7 @@ function Sequence_Load() {
             } else {
                 Chapter_InnerHTML = `
                     <div class="GRBRKR_Sequence_Arc_Item" id="Arc_${Arc.Arc_ID}_Chapter_${b}">
-                        <button class="GRBRKR_Sequence_Arc_Item_Button">
+                        <button class="GRBRKR_Sequence_Arc_Item_Button" onclick="Sequence_Open_Node('${Arc.Arc_ID}', ${b});">
                             <h1 class="GRBRKR_Sequence_Arc_Item_Button_Text">
                             ${Chapter.Chapter_Number}
                             </h1>
@@ -57,6 +59,22 @@ function Sequence_Load() {
             document.getElementById(Arc.Arc_ID).appendChild(Chapter_Element);
         }
 
+    }
+}
+
+function Sequence_Open_Node(Arc_ID, Chapter_Index) {
+    var Arc = Data.find(arc => arc.Arc_ID === Arc_ID);
+
+    if (Arc) {
+        if (Chapter_Index >= 0 && Chapter_Index < Arc.Arc_Contents.length) {
+            var Chapter = Arc.Arc_Contents[Chapter_Index];
+            Subwindows_Open('GRBRKR_Sequence_Window_Chapter');
+            Element_InnerHTML_Set('GRBRKR_Window_Chapter', `${Arc.Arc_Prefix} ${Chapter.Chapter_Number}:`);
+            Element_InnerHTML_Set('GRBRKR_Window_Title', Chapter.Chapter_Title);
+            Element_InnerHTML_Set('GRBRKR_Window_Arc', Arc.Arc_Name);
+            Element_InnerHTML_Set('GRBRKR_Window_Description', Chapter.Chapter_Description);
+            Element_Attribute_Set('GRBRKR_Window_Control_ViewChapter', "onclick", `Page_ChangePage('GROUNDBREAKER/GRBRKR_Story.html?F=${Chapter.Chapter_File}&A=${Data.indexOf(Arc)}&C=${Chapter_Index}', Transition);`);
+        }
     }
 }
 

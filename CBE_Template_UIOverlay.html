@@ -21,8 +21,48 @@
 
 <body>
 	<template id="Template_UI">
-		
 		<div class="UI_ElementContainer" id="pageElement_UI_ElementContainer" onload="Load_Overlay_Properties()">
+			<div class="UI_Subwindows" id="Subwindows" NoMargins>
+				<div class="UI_Subwindow" id="GRBRKR_Sequence_Window_Chapter">
+					<div class="UI_Subwindow_Decoration"></div>
+					<div class="UI_Subwindow_Wiper">
+						<div class="UI_Subwindow_Wiper_Component"></div>
+					</div>
+					
+					<div class="UI_Subwindow_Top" State="Inactive"></div>
+					<div class="UI_Subwindow_Center">
+						<div class="GRBRKR_Window_Header">
+							<h2 class="GRBRKR_Window_Chapter" id="GRBRKR_Window_Chapter">
+								Chapter 1:
+							</h2>
+							<h2 class="GRBRKR_Window_Title" id="GRBRKR_Window_Title">
+								Outlander
+							</h2>
+							<h4 class="GRBRKR_Window_Arc" id="GRBRKR_Window_Arc">
+								Tulayan's Visitor
+							</h4>
+						</div>
+						<div class="GRBRKR_Window_Content">
+							<p class="GRBRKR_Window_Description" id="GRBRKR_Window_Description">
+								Description
+							</p>
+						</div>
+					</div>
+					<div class="UI_Subwindow_Bottom">
+						<button class="UI_Subwindow_Bottom_Control" onclick="Subwindows_Close('GRBRKR_Sequence_Window_Chapter')">
+							<h3 class="UI_Subwindow_Bottom_Control_Text">
+								Close
+							</h3>
+						</button>
+						<button class="UI_Subwindow_Bottom_Control" id="GRBRKR_Window_Control_ViewChapter">
+							<h3 class="UI_Subwindow_Bottom_Control_Text">
+								View chapter
+							</h3>
+						</button>
+					</div>
+				</div>
+					
+			</div>
 			<div class="UI_ImagePreview" id="UI_ImagePreview" State="Inactive">
 				<div class="UI_ImagePreview_Image" onclick="Image_Preview_Close()">
 					<img src="Assets/Images/Loading.png" class="UI_ImagePreview_Image_Image" draggable="false" loading="lazy" id="UI_ImagePreview_Image_Image"/>

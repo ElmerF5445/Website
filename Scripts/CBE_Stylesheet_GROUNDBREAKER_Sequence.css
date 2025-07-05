@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 
-.GRBRKR_Sequence_Arc_Item_Button:active{
+.GRBRKR_Sequence_Arc_Item_Button:active {
     border-style: dotted;
 }
 
@@ -79,3 +79,42 @@
     width: 150px;
     height: 0px;
 }
+
+.GRBRKR_Window_Header {
+    border-bottom: solid var(--Theme-Dynamic-Level-L3) 2px;
+    padding: 20px;
+}
+
+.GRBRKR_Window_Chapter {
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+    margin: 0;
+}
+
+.GRBRKR_Window_Title {
+    font-family: var(--Text-Font-Title-Primary-Slim);
+    color: var(--Text-Color);
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 43px;
+}
+
+.GRBRKR_Window_Arc {
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+    margin: 0;
+    margin-top: 10px;
+}
+
+.GRBRKR_Window_Content{
+    padding: 20px;
+}
+
+.GRBRKR_Window_Description{
+    font-family: var(--Text-Font-Secondary);
+    color: var(--Text-Color);
+    margin: 0;
+}
+

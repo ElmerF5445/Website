@@ -44,6 +44,7 @@ function Playlist_Load() {
         Button_Element.setAttribute("onclick", "Playlist_Play(this.id)");
         Element_Append("Player_Playlist", Button_Element);
     }
+    document.getElementById(`Player_Playlist_Item_${Playlist_Data.List.length - 1}`).click();
 }
 
 function Playlist_Play(ID) {

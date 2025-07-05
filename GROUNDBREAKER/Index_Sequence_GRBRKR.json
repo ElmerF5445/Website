@@ -8,6 +8,7 @@
         "Arc_Timeline": "Main",
         "Arc_Prefix": "Chapter ",
         "Arc_Contents": [
+            {},
             {
                 "Chapter_Number": 1,
                 "Chapter_Title": "Outlander",
@@ -15,7 +16,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "4 September 2024",
-                "Chapter_File": "GRBRKR_Chapter_1.cbe_sb"
+                "Chapter_Description": "Haunted by flickers of a dark power, a starving escapee named Liam stumbles into the quiet riverside town of Tulayan and, driven by desperation, unthinkingly intervenes in a violent debt-collector’s ambush - shrouding his mysterious, glowing ability in shadows before vanishing into the rain, leaving a stunned young defender named Ryo to wonder who this outsider really is.",
+                "Chapter_File": "GRBRKR_Chapter_1.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": null,
+                    "Chapter_Index": 0,
+                    "Active": false
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_2.cbe_sb",
+                    "Chapter_Index": 1,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 2,
@@ -24,7 +41,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "29 September 2024",
-                "Chapter_File": "GRBRKR_Chapter_2.cbe_sb"
+                "Chapter_Description": "Still famished and lost, Liam Akiyama Ryu is found by Ryo, who insists Liam join his family for a meal at his father Minato's food stall. Despite Liam's deep-seated fear of re-capture and reluctance to trust, Ryo's persistent (and forceful) invitation leads him to a warm, if chaotic, dinner with Minato and Anj, a family friend. The genuine kindness and lively banter of his hosts offer Liam a rare moment of peace, even as Anj's probing questions about his origins make him anxious. Overcoming Ryo's initial disapproval, Minato offers Liam a place to stay for the night, providing the exhausted escapee with a safe, temporary haven—a stark contrast to his past torment.",
+                "Chapter_File": "GRBRKR_Chapter_2.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_1.cbe_sb",
+                    "Chapter_Index": 1,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_3.cbe_sb",
+                    "Chapter_Index": 3,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 3,
@@ -33,7 +66,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "8 November 2024",
-                "Chapter_File": "GRBRKR_Chapter_3.cbe_sb"
+                "Chapter_Description": "A wary Liam is led into Minato and Ryo’s modest home, where polite slippers and a pink blanket promise warmth, but Ryo’s sharp warnings and the silent plush bee guard his uneasy refuge, as Liam drifts into sleep haunted by the glow of his hidden curse and the fragile kindness that shelters him for now.",
+                "Chapter_File": "GRBRKR_Chapter_3.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_2.cbe_sb",
+                    "Chapter_Index": 2,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_4.cbe_sb",
+                    "Chapter_Index": 4,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 4,
@@ -42,7 +91,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "20 November 2024",
-                "Chapter_File": "GRBRKR_Chapter_4.cbe_sb"
+                "Chapter_Description": "Liam Akiyama Ryu is abruptly pulled from his sleep into a nightmarish, barren realm, the domain of Yami, the malevolent entity that has tormented him and resides within him. Yami, a dark and imposing figure, taunts Liam, reminding him of their inseparable connection and Liam's terrifying past act of violence against his captor, the doctor. Yami claims Liam desired the doctor's death, emphasizing the inherent, destructive power Liam wields and his inability to truly escape it. Despite Liam's fervent denial and resistance, Yami remains confident that Liam will eventually succumb and use his abilities, leaving Liam shaken as he wakes back in the safety of Minato's home, facing a curious Ryo.",
+                "Chapter_File": "GRBRKR_Chapter_4.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_3.cbe_sb",
+                    "Chapter_Index": 3,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_5.cbe_sb",
+                    "Chapter_Index": 5,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 5,
@@ -51,7 +116,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "1 December 2024",
-                "Chapter_File": "GRBRKR_Chapter_5.cbe_sb"
+                "Chapter_Description": "On a humid morning, Ryo drags Liam through Tulayan’s winding streets,fielding teasing from a college friend and gossiping shopkeepers, before forcing him into second-hand clothes and a long-overdue bath that strips away layers of dirt and concealment, revealing the dark, geometric scars on Liam’s skin; with fresh garments and exposed secrets, they set off toward Pahinata Books, where Ryo will stand guard and Liam must face a new kind of scrutiny.",
+                "Chapter_File": "GRBRKR_Chapter_5.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_4.cbe_sb",
+                    "Chapter_Index": 4,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_6.cbe_sb",
+                    "Chapter_Index": 6,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 6,
@@ -60,7 +141,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "30 March 2025",
-                "Chapter_File": "GRBRKR_Chapter_6.cbe_sb"
+                "Chapter_Description": "In the sunlit aisles of Pahinata Books, Liam is funneled into the shop’s lively rhythms—Anj’s teasing wagers, Kenji’s sharp suspicions, Ryo’s rough-edged protection, and Kyoji’s weighty gaze; all culminating in a shared tray of pancit that warms his spirit even as every knowing glance reminds him that his place here hangs by a thread.",
+                "Chapter_File": "GRBRKR_Chapter_6.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_5.cbe_sb",
+                    "Chapter_Index": 5,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_7.cbe_sb",
+                    "Chapter_Index": 7,
+                    "Active": true
+                },
+                "Chapter_Options": []
             },
             {
                 "Chapter_Number": 7,
@@ -69,7 +166,23 @@
                     "ElmerF5445"
                 ],
                 "Chapter_PublishingDate": "26 June 2026",
-                "Chapter_File": "GRBRKR_Chapter_7.cbe_sb"
+                "Chapter_Description": "Kyoji summons Liam into his cluttered office and, with a curt handshake, formally welcomes him to Pahinata, then sends him off to fill in for Anj by taming the book-laden shelves under Kenji’s watchful glare, as Manuel’s endless discount pleas and a stubborn, jam-happy printer whisper that even in this warm refuge, every task carries its own undercurrent of suspicion and fate.",
+                "Chapter_File": "GRBRKR_Chapter_7.cbe_sb",
+                "Chapter_Before": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_6.cbe_sb",
+                    "Chapter_Index": 6,
+                    "Active": true
+                },
+                "Chapter_After": {
+                    "Arc_ID": "GRBRKR_MS",
+                    "Arc_Index": 0,
+                    "Chapter_File": "GRBRKR_Chapter_8.cbe_sb",
+                    "Chapter_Index": 8,
+                    "Active": false
+                },
+                "Chapter_Options": []
             }
         ]
     }
