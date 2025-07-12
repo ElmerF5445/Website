@@ -113,8 +113,13 @@ function Search_Query(Query) {
     }
 }
 
-function Load_File() {
-    AB_Renderer_Article_Render(Data_Import_FromPath("GROUNDBREAKER/" + UF_Parameter_Get("F")));
+function Load_File(Setting) {
+    if (Setting == "Copy-Paste") {
+        AB_Renderer_Article_Render(Data_Import_FromPath("GROUNDBREAKER/" + UF_Parameter_Get("F")), "Copy-Paste");
+    } else {
+        AB_Renderer_Article_Render(Data_Import_FromPath("GROUNDBREAKER/" + UF_Parameter_Get("F")));
+    }
+    
     var Sequence = Data_Import_FromPath("GROUNDBREAKER/Index_Sequence_GRBRKR.json");
     var Chapter_Before = Sequence[UF_Parameter_Get("A")].Arc_Contents[UF_Parameter_Get("C")].Chapter_Before;
     console.log(Chapter_Before.Active);

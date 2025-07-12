@@ -262,6 +262,7 @@
     bottom: -2;
     display: flex;
     justify-content: right;
+    gap: 10px;
     width: -webkit-fill-available;
     padding-left: calc(var(--Element-Margin-Left) + 5%);
     padding-right: calc(var(--Element-Margin-Right) + 5%);

@@ -6,5 +6,9 @@
     {
         "Playlist_ID": "GROUNDBREAKER",
         "Playlist_File": "Index_Playlist_GROUNDBREAKER"
+    },
+    {
+        "Playlist_ID": "HSR",
+        "Playlist_File": "Index_Playlist_HSR"
     }
 ]

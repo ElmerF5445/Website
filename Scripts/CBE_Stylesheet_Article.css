@@ -270,6 +270,16 @@
     height: auto;
 }
 
+.AB_Renderer_Dialog[Mode="Copy-Paste"]{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    /* padding: 5px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
 .AB_Renderer_Dialog_Character{
     font-family: var(--Text-Font-Secondary);
     color: var(--Text-Color);

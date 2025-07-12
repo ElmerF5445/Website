@@ -1,8 +1,9 @@
-function AB_Renderer_Article_Render(Data){
+function AB_Renderer_Article_Render(Data, Mode){
     let Article_Data = Data;
     // Header
     // document.getElementById("AB_Renderer_Banner_Image").style.display = "block";
     // document.getElementById("AB_Renderer_Banner_Image").src = Article_Data.Metadata.Article_Banner;
+    Element_Clear("GRBRKR_Story_Content");
     document.getElementById("GRBRKR_Story_Header_Chapter").innerHTML = "Chapter " + Article_Data.Metadata.Article_Category + ":";
     document.getElementById("GRBRKR_Story_Footer_Current_Chapter").innerHTML = "Chapter " + Article_Data.Metadata.Article_Category + ":";
     document.getElementById("GRBRKR_Story_Header_Title").innerHTML = Article_Data.Metadata.Article_Title;
@@ -154,7 +155,7 @@ function AB_Renderer_Article_Render(Data){
             Element.innerHTML = Element_InnerHTML;
             document.getElementById("GRBRKR_Story_Content").appendChild(Element);
         }
-        if (Content_Data.Type == "Dialog"){
+        if (Content_Data.Type == "Dialog") {
             Element_InnerHTML = `
                 <div class="AB_Renderer_Dialog">
                     <p class="AB_Renderer_Dialog_Character">
@@ -168,6 +169,16 @@ function AB_Renderer_Article_Render(Data){
                     </p>
                 </div>
             `;
+            if (Mode == "Copy-Paste") {
+                Element_InnerHTML = `
+                <div class="AB_Renderer_Dialog" Mode="Copy-Paste">
+                    <p class="AB_Renderer_Dialog_Text">
+                        <b>${Content_Data.Character}:</b> "${Content_Data.Dialog}"
+                    </p>
+                </div>
+            `;
+            }
+            
             var Element = document.createElement('span');
             Element.innerHTML = Element_InnerHTML;
             document.getElementById("GRBRKR_Story_Content").appendChild(Element);
