@@ -9,6 +9,24 @@
             "Section_Mode": "Grid_Full_Gapless",
             "Section_Contents": [
                 {
+                    "Title": "Talent Search 2025",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Pubmats/Talent_Search_2025.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Buwan ng Wikang Pambansa 2025",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Pubmats/Buwan_Ng_Wika.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Register 2025",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Pubmats/Register_2025.png",
+                    "Image_Full": "Same"
+                },
+                {
                     "Title": "Easter Event 2025 Slice 1",
                     "Description": "",
                     "Image_Thumbnail": "Assets/Images/Gallery/Graphic_Design/Pubmats/Easter Event 2a.png",
