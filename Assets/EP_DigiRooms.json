@@ -1,0 +1,64 @@
+{
+    "Slideshow": [
+        {
+            "Source": "https://i.imgur.com/zAAm7WF.jpeg",
+            "Text": {
+                "Title": "Instant Availability Check",
+                "Description": "Stop scheduling conflicts! See which rooms are free on an interactive map for your chosen time and date."
+            }
+        },
+        {
+            "Source": "https://i.imgur.com/YO2jJUC.jpeg",
+            "Text": {
+                "Title": "Effortless Room Requests",
+                "Description": "Create, track, and manage all your facility reservation requests through a simple, guided process."
+            }
+        },
+        {
+            "Source": "https://i.imgur.com/Fbf9mYu.jpeg",
+            "Text": {
+                "Title": "Know before you go",
+                "Description": "Get room details: capacity, restrictions, and upcoming activities - just by clicking the marker on the map."
+            }
+        },
+        {
+            "Source": "https://elmerf5445.github.io/Website/Assets/Images/Gallery/Figures/Gojo_1.JPG",
+            "Text": {
+                "Title": "Instant conflict detection",
+                "Description": "Discover schedule conflicts before you set a reservation, and prevent a catastrophe brewing to happen."
+            }
+        },
+        {
+            "Source": "https://elmerf5445.github.io/Website/Assets/Images/Gallery/Figures/Gojo_1.JPG",
+            "Text": {
+                "Title": "Proactive resolution",
+                "Description": "Digi-Rooms doesn't just inform, it assists. With its intelligent recommendation engine, you don't have to waste brain power trying to figure out a better time and place for your reservation."
+            }
+        },
+        {
+            "Source": "https://i.imgur.com/FfeT7MK.jpeg",
+            "Text": {
+                "Title": "Print & Go Reports",
+                "Description": "Quickly generate printable documents like schedule timetables, room utilization reports, and detailed reservation slips."
+            }
+        },
+        {
+            "Source": "https://i.imgur.com/XCiWjMp.jpeg",
+            "Text": {
+                "Title": "Map Management at your fingertips",
+                "Description": "Administrators can easily upload floor plans and manage buildings, floors,and room markers with the Map Editor."
+            }
+        },
+        {
+            "Source": "https://i.imgur.com/cR89ChM.jpeg",
+            "Text": {
+                "Title": "Streamlines approval process",
+                "Description": "Requests are seamlessly routed through Staff for initial approval and then to the Administrator for final confirmation."
+            }
+        }
+    ],
+    "Marquee": {
+        "Upper": "/NSDAPS Digi-Rooms/",
+        "Lower": "/Felisilda, Borbe, Golimlim/"
+    }
+}
