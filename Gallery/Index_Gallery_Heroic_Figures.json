@@ -1,0 +1,141 @@
+{
+    "Album_Name": "Heroic Figures",
+    "Album_Description": "My 2026 countdown album, featuring figures from some of my favorite anime.",
+    "Album_Date": "May 2026",
+    "Album_Contents": [
+        {
+            "Section_Name": "Card size",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full_Gapless",
+            "Section_Contents": [
+                {
+                    "Title": "Satoru Gojo",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Gojo_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Naruto Uzumaki",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Naruto_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Tanjiro Kamado",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Tanjiro_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Bokuto Kotaro",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Bokuto_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Koichi Haimawari",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Koichi_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Hitoshi Shinsou",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Shinsou_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Katsuki Bakugou",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Bakugou_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Izuku Midoriya",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Midoriya_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Shoto Todoroki",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Todoroki_IG.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Keigo Takami",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/IG/Takami_IG.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        },
+        {
+            "Section_Name": "Banner size",
+            "Section_Description": "",
+            "Section_Mode": "Grid_Full",
+            "Section_Contents": [
+                {
+                    "Title": "Satoru Gojo",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Gojo_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Naruto Uzumaki",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Naruto_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Tanjiro Kamado",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Tanjiro_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Bokuto Kotaro",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Bokuto_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Koichi Haimawari",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Koichi_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Hitoshi Shinsou",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Shinsou_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Katsuki Bakugou",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Bakugou_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Izuku Midoriya",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Midoriya_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Shoto Todoroki",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Todoroki_Wide.png",
+                    "Image_Full": "Same"
+                },
+                {
+                    "Title": "Keigo Takami",
+                    "Description": "",
+                    "Image_Thumbnail": "Assets/Images/Gallery/Heroic_Figures/Banner/Hawks_Wide.png",
+                    "Image_Full": "Same"
+                }
+            ]
+        }
+    ]
+}
